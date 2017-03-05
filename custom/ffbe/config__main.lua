@@ -9,10 +9,11 @@
 --  Parameteres
 varCountWaitTillFound = 2  --  how many counts to check Form Waiting before restart checking
 folderLogBattleResult = "../debug/log_battle_results/"
+folderImgParams = "nox1/"
 
 --  dont change start  --
 folderffbescript = scriptPath().."../custom/ffbe/"
-folderffbeimage  = "../../custom/ffbe/image/"
+folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 dofile(folderffbescript.."config_vars.lua")         --  1st
 dofile(folderffbescript.."config_form.lua")         --  2nd
 dofile(folderffbescript.."config_form_arena.lua")
