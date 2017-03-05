@@ -35,3 +35,8 @@ Folder structure:
   * (other games maybe?)
 * main (don't change main program)
 
+Screenshot:
+* (http://i.imgur.com/VbicaTO.png)
+* (http://i.imgur.com/yxCQydA.png)
+
+
