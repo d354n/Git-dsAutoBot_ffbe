@@ -36,7 +36,7 @@ Folder structure:
 * main (don't change main program)
 
 Screenshot:
-* (http://i.imgur.com/VbicaTO.png)
-* (http://i.imgur.com/yxCQydA.png)
+* ![ss01](http://i.imgur.com/VbicaTO.png)
+* ![ss02](http://i.imgur.com/yxCQydA.png)
 
 
