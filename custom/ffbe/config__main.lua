@@ -139,7 +139,7 @@ for i=1, 3 do
     MultiAdd("Quests - Daily Claim")
     for i=1, 3 do
         MultiAdd("Arena - Colosseum - Top Level - Top Round")
-        MultiAdd("Dungeon Earth Shrine - Entrance (Battle 35x-Next, No Energy-wait 1500-Next)")
+        MultiAdd("Vortex - Operation MA Demolition Pro")
     end
     MultiAdd("Items - Sell Items")
 end

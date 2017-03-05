@@ -89,10 +89,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicPhantomShadow)  --itemtofind priority 1
-BattleNewRoundExecVar(picBtnBattleMagicPhantomShadow)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExecVar(picBtnBattleMagicBarrage)
-BattleNewRoundExecVar(picBtnBattleMagicBarrage)
+BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)  --itemtofind priority 1
+BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)  --itemtofind priority 2 if 1 maybe not found
+BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 

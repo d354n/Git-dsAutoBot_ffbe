@@ -83,7 +83,7 @@ locBattleParty5Down                             = Region(450, 675, 20, 20)
 locBattleParty6Down                             = Region(450, 775, 20, 20)
 
 picBtnBattleMagicBlizzaga       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_blizzaga.png"):similar(0.97)
-picBtnBattleMagicDualBlackMagic    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_dual_black_magic.png"):similar(0.97)
+picBtnBattleMagicDualBlackMagic    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_dual_black_magic.png"):similar(0.90)
 picBtnBattleMagicFiraga            		        = Pattern(folderffbeimage.."magic/btn_battle_magic_firaga.png"):similar(0.97)
 picBtnBattleMagicMeteor          		        = Pattern(folderffbeimage.."magic/btn_battle_magic_meteor.png"):similar(0.97)
 picBtnBattleMagicOsmose          		        = Pattern(folderffbeimage.."magic/btn_battle_magic_osmose.png"):similar(0.97)
@@ -113,6 +113,10 @@ picBtnBattleMagicBarrage         		        = Pattern(folderffbeimage.."magic/btn
 picBtnBattleMagicHayate            		        = Pattern(folderffbeimage.."magic/btn_battle_magic_hayate.png"):similar(0.97)
 picBtnBattleMagicPhantomShadow    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_phantom_shadow.png"):similar(0.97)
 
+picBtnBattleMagicGrapeShot        		        = Pattern(folderffbeimage.."magic/btn_battle_magic_grapeshot.png"):similar(0.97)
+picBtnBattleMagicMaimingShot      		        = Pattern(folderffbeimage.."magic/btn_battle_magic_maiming_shot.png"):similar(0.97)
+picBtnBattleMagicShatteringShot   		        = Pattern(folderffbeimage.."magic/btn_battle_magic_shattering_shot.png"):similar(0.97)
+picBtnBattleMagicTrueShot         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_true_shot.png"):similar(0.97)
 
 picBtnBattleCharCecil           	   	        = folderffbeimage.."chars/btn_battle_char_cecil.png"--
 picBtnBattleCharChizuru         	   	        = folderffbeimage.."chars/btn_battle_char_chizuru.png"--
