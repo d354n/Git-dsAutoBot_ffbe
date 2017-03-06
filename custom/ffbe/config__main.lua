@@ -38,13 +38,18 @@ dofile(folderffbescript.."config_battle.lua")       --  4th
 
 
 --  Exploration
-varActionName = "Exploration Earth Shrine"
-foldername = "../custom/ffbe/explorations/earth_shrine/"
+varActionName = "Exploration Aquatic Cove - Start from Select Level"
+foldername = "../custom/ffbe/explorations/aquatic_cove/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Exploration Dwarves Forge"
+varActionName = "Exploration Dwarves Forge - Start from Select Level"
 foldername = "../custom/ffbe/explorations/dwarves_forge/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Exploration Earth Shrine"
+foldername = "../custom/ffbe/explorations/earth_shrine/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 --  ]===]
@@ -140,11 +145,12 @@ for i=1, 3 do
     for i=1, 3 do
         MultiAdd("Arena - Colosseum - Top Level - Top Round")
         MultiAdd("Vortex - Operation MA Demolition Pro")
+        MultiAdd("Wait 2000")
     end
-    MultiAdd("Items - Sell Items")
+--    MultiAdd("Items - Sell Items")
 end
 MultiAdd("Arena - Battle")
---MultiAdd("Exploration Earth Shrine")
+MultiAdd("Exploration Earth Shrine")
 MultiAdd(varActionDoGotoAction1)
 
 
