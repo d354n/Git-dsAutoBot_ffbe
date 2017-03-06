@@ -12,6 +12,9 @@ picBtnBattleVortexSelectLevel    		= Pattern(varDirectoryCustomImage.."btn_selec
 picUnitsParty                           = picTxtMainBattleUnitPartyEvent
 
 ActionOnForm(varFormNameMainBattleEngagedWithNimbus)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__nimbus_")
 ActionExec(varActionExecuteDoSwipeLocation)
 ActionExecVar(locBattleParty1Center)
 ActionExecVar(locBattleParty1Down)
@@ -49,6 +52,17 @@ ActionOnForm(varFormNameMainBattleNimbusTalk2)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critBattleNimbusTalk2TopLeft)
 ActionExecWaitForm(varFormNameMainBattleNimbusTalk2)
+
+ActionOnForm(varFormNameMainBattleResultItemsObtain)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
+ActionExec(varActionExecuteDoClickRepeatButton)
+ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX
+ActionExecVar(1)  --  click delay
+ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
+ActionExecVar(picBtnMainBattleResultsItemsObtNext)
+ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")
