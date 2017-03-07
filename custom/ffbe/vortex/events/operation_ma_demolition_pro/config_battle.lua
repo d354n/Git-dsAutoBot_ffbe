@@ -68,7 +68,7 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 
 
@@ -121,7 +121,7 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 
 
@@ -174,7 +174,7 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 
 
@@ -227,7 +227,7 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 
 
@@ -280,7 +280,7 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 
 
@@ -333,6 +333,6 @@ BattleNewRoundExecVar(3)
 BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(8)
 
 

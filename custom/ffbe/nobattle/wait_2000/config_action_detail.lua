@@ -10,7 +10,7 @@ ActionOnForm(varFormNameMainHome)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 ActionExec(varActionExecuteDoWait)
-ActionExecVar(1500)
+ActionExecVar(2000)
 
 dofile(folderffbescript.."config_action_defs.lua")
 
