@@ -30,6 +30,20 @@ FormAddCriteria2Var(colBtnBattleEngagedRepeatOnR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnB)
 
+--  ##  Main Form Battle - Engaged In Action  ##
+FormCreate(varFormNameMainBattleEngagedInAction)
+FormAddCriteriaNot(critMainBottom)
+FormAddCriteriaNot(picBtnBattleEngagedBack)
+FormAddCriteriaNot(critBattleNimbusMid)
+FormAddCriteria(picBtnBattleEngagedAuto)
+FormAddCriteria(picBtnBattleEngagedRepeat)
+FormAddCriteria(picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaGetColorRGB)
+FormAddCriteria2Var(picBtnBattleEngagedRepeat)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffR)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffG)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
+
 --  ##  Main Form Battle - Engaged Choose Action  ##
 FormCreate(varFormNameMainBattleEngagedWithNimbus)
 FormAddCriteria(picBtnBattleEngagedAuto)

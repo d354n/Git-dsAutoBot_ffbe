@@ -1,8 +1,8 @@
 --
 -- Created by IntelliJ IDEA.
 -- User: denny
--- Date: 1/31/2017
--- Time: 1:39 AM
+-- Date: 1/29/2017
+-- Time: 10:46 PM
 -- To change this template use File | Settings | File Templates.
 --
 
@@ -22,6 +22,7 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 --dofile(scriptPath()..parentfolder.."config_exploration.lua")  --  path  --  no explore
 
 --  ## what battle config?
-dofile(scriptPath()..parentfolder.."config_battle.lua")
+--dofile(scriptPath()..parentfolder.."config_battle.lua")
+dofile(folderffbescript.."config_battle_dungeon_defs_auto.lua")
 
 

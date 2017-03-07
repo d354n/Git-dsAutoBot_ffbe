@@ -134,6 +134,11 @@ foldername = "../custom/ffbe/nobattle/wait_2000/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+--varActionName = "Reroll Script Start after logout fb"
+--foldername = "../custom/ffbe/others/reroll_script/"
+--parentfolder = foldername
+--dofile(scriptPath()..foldername.."config_action.lua")
+
 --  Standard Craft Hi-Potion Once a day - Check quest completed or not
 --  ]===]
 

@@ -65,6 +65,8 @@ critMapDirnadoTop                               = folderffbeimage.."maps/crit_ma
 varFormNameMapOlderion                          = "MapOlderion"
 critMapOlderionTop                              = folderffbeimage.."maps/crit_maps_olderion_top.png"
 
+varFormNameMapOlderionCtrAquaticCove            = "MapOlderionCtrAquaticCove"
+picBtnMapOlderionAquaticCove                    = folderffbeimage.."maps/btn_maps_olderion_aquatic_cove.png"
 
 --  Maps - Companion Change
 varFormNameMapCompanionUpdate                   = "MapCompanionUpdate"
@@ -179,7 +181,16 @@ FormCreate(varFormNameMapOlderion)
 FormAddCriteriaNot(critMainBottom)
 FormAddCriteria(critMapOlderionTop)
 
---  ##   Maps - Olderion  ##
+--  ##   Maps - Olderion - Center Aquatic Cove  ##
+FormCreate(varFormNameMapOlderionCtrAquaticCove)
+FormAddCriteriaNot(critMainBottom)
+FormAddCriteria(critMapOlderionTop)
+FormAddCriteria(picBtnMapOlderionAquaticCove)
+FormAddCriteria2Do(varCriteriaRegionExists)
+FormAddCriteria2Var(picBtnMapOlderionAquaticCove)
+FormAddCriteria2Var(Region(locMapTownCenterX1, locMapTownCenterY1, locMapTownCenterW1, locMapTownCenterY1))
+
+--  ##   Maps - Companion Update  ##
 FormCreate(varFormNameMapCompanionUpdate)
 FormAddCriteriaNot(critMainBottom)
 FormAddCriteria(critMapCompanionUpdateMid)

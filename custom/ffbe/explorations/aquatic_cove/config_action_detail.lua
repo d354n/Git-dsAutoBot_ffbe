@@ -10,7 +10,7 @@
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
 picUnitsParty                           = picTxtMainBattleUnitPartyLevel
 
-ActionOnForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionOnForm(varFormNameMainBattleSelectLevelAquaticCove)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
 ActionExecWaitForm(varFormNameMainBattleCompletion)
@@ -18,12 +18,12 @@ ActionExecWaitForm(varFormNameMainBattleCompletion)
 ActionOnForm(varFormNameMapMainOlderion)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapOlderion)
-ActionExecWaitForm(varFormNameMapOlderion)
+ActionExecWaitForm(varFormNameMapOlderionCtrAquaticCove)
 
 ActionOnForm(varFormNameMapMainDirnadoOlderion)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapOlderion)
-ActionExecWaitForm(varFormNameMapOlderion)
+ActionExecWaitForm(varFormNameMapOlderionCtrAquaticCove)
 
 ActionOnForm(varFormNameMapMainDirnadoGrandshelt)
 ActionExec(varActionExecuteDoSwipe)
@@ -42,6 +42,11 @@ ActionExec(varActionExecuteDoSwipe)
 ActionExecVar(locMapsCenter)
 ActionExecVar(locMapsRightMax)
 ActionExecWaitForm(varFormNameMapMainOlderion)
+
+ActionOnForm(varFormNameMapOlderionCtrAquaticCove)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMapOlderionAquaticCove)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelAquaticCove)
 
 
 

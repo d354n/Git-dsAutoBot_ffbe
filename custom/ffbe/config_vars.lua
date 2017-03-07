@@ -13,6 +13,8 @@ picBtnStdBack                        	        = folderffbeimage.."standard/btn_b
 picBtnStdDepart                       	        = folderffbeimage.."standard/btn_depart.png"
 picBtnStdNext                       	        = folderffbeimage.."standard/btn_next.png"
 picBtnStdOk                                     = folderffbeimage.."standard/btn_ok.png"
+picBtnStdXClose                                 = folderffbeimage.."standard/btn_xclose.png"
+picBtnStdSkip                                   = folderffbeimage.."standard/btn_skip.png"
 
 --  Main Home Farplane
 varFormNameMainFarplane                         = "MainFormFarplane"

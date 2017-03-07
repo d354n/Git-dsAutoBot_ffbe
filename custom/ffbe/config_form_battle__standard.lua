@@ -26,6 +26,7 @@ critMainBattleUnitsCompanion                    = folderffbeimage.."select_units
 critMainBattleUnitsItems                        = folderffbeimage.."select_units/crit_items_mid.png"
 picTxtMainBattleUnitPartyEvent                  = folderffbeimage.."select_units/text_party_event.png"
 picTxtMainBattleUnitPartyLevel                  = folderffbeimage.."select_units/text_party_level.png"
+picTxtMainBattleUnitPartyParty1                 = folderffbeimage.."select_units/text_party_party1.png"
 picTxtMainBattleUnitPartyTrust                  = folderffbeimage.."select_units/text_party_trust.png"
 locMainBattleSelectUnitSwipe01                  = Pattern(folderffbeimage.."select_units/pos_change_party.png"):targetOffset(0, 200)
 locMainBattleSelectUnitSwipe02                  = Pattern(folderffbeimage.."select_units/pos_change_party.png"):targetOffset(-100, 200)
