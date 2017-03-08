@@ -52,6 +52,12 @@ varActionName = "Exploration Earth Shrine"
 foldername = "../custom/ffbe/explorations/earth_shrine/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Exploration Lake Dorr - Start from Select Level"
+foldername = "../custom/ffbe/explorations/lake_dorr/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 --  ]===]
 
 
