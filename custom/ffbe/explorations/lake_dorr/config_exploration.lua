@@ -59,7 +59,7 @@ ExploreNewRoundDoClickLocation(locExplorationUpRight  , 0,  1)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   ,  750,  2)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax ,  750,  2)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000,  2)
-ExploreNewRoundDoClickLocation(locExplorationLeft     , 0,  1)
+ExploreNewRoundDoClickLocation(locExplorationUpLeft   , 0,  1)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationLeftMax     , 1500,  3)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000,  2)  --  ring 4
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax, 1000,  3)

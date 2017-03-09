@@ -38,22 +38,22 @@ dofile(folderffbescript.."config_battle.lua")       --  4th
 
 
 --  Exploration
-varActionName = "Exploration Aquatic Cove - Start from Select Level"
+varActionName = "Explore Aquatic Cove - Party LE VEL - Start from Select Level"
 foldername = "../custom/ffbe/explorations/aquatic_cove/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Exploration Dwarves Forge - Start from Select Level"
+varActionName = "Explore Dwarves Forge - Party LE VEL - Start from Select Level"
 foldername = "../custom/ffbe/explorations/dwarves_forge/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Exploration Earth Shrine"
+varActionName = "Explore Earth Shrine - Party TRUS T"
 foldername = "../custom/ffbe/explorations/earth_shrine/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Exploration Lake Dorr - Start from Select Level"
+varActionName = "Explore Lake Dorr - Party LE VEL - Start from Select Level"
 foldername = "../custom/ffbe/explorations/lake_dorr/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -63,17 +63,17 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Dungeons
-varActionName = "Dungeon Earth Shrine - Entrance"
+varActionName = "Dungeon Earth Shrine - Entrance - Party TRUS T"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Dungeon Earth Shrine - Entrance (Battle 35x-Next, No Energy-wait 1500-Next)"
+varActionName = "Dungeon Earth Shrine - Entrance - Party TRUS T (Battle 35x-Next, No Energy-wait 1500-Next)"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action_35.lua")
 
-varActionName = "Dungeon Earth Shrine - Exit"
+varActionName = "Dungeon Earth Shrine - Exit - Party TRUS T"
 foldername = "../custom/ffbe/dungeons/earth_shrine_exit/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -96,7 +96,7 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Vortex
-varActionName = "Vortex - Operation MA Demolition Pro"
+varActionName = "Vortex - Operation MA Demolition Pro - Party EVE NT"
 foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -155,13 +155,13 @@ for i=1, 3 do
     MultiAdd("Quests - Daily Claim")
     for i=1, 3 do
         MultiAdd("Arena - Colosseum - Top Level - Top Round")
-        MultiAdd("Dungeon Earth Shrine - Entrance")
+        MultiAdd("Dungeon Earth Shrine - Entrance - Party TRUS T (Battle 35x-Next, No Energy-wait 1500-Next)")
         MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items - Sell Items")
 end
 MultiAdd("Arena - Battle")
-MultiAdd("Exploration Earth Shrine")
+MultiAdd("Explore Earth Shrine - Party TRUS T")
 MultiAdd(varActionDoGotoAction1)
 
 
