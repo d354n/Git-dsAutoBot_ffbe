@@ -20,12 +20,11 @@ BattleEndRoundCriteria(critMainBattleResultsGil)
 BattleNewRound()
 BattleNewRoundExec(varActionExecuteDoIncBattleCount)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
+
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -33,10 +32,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -44,10 +42,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -55,11 +53,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -69,13 +68,13 @@ BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
 
+
+
 BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -83,10 +82,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -94,10 +92,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -105,13 +103,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -121,13 +118,13 @@ BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
 
+
+
 BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -135,10 +132,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -146,10 +142,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -157,13 +153,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -173,43 +168,13 @@ BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
-BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
-BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
-BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
-BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
-BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
-BattleNewRoundExecVar(0)  --delay between scroll
-BattleNewRoundExecVar(false)  --go top, search from top
-BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)  --itemtofind priority 1
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedAuto)
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
-BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
-BattleNewRoundExecVar("")
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
+
 
 BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -217,10 +182,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -228,10 +192,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicFiraga)
-BattleNewRoundExecVar(picBtnBattleMagicFiraga)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -239,13 +203,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicFiraga)
-BattleNewRoundExecVar(picBtnBattleMagicFiraga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -255,13 +218,13 @@ BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
 
+
+
 BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -269,10 +232,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -280,10 +242,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -291,13 +253,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExecVar(picBtnBattleMagicMeteor)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -306,16 +267,14 @@ BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off 
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(30)
+
+
 
 BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic01)
-BattleNewRoundExecVar(locBattleCharExdeathSwipeMagic02)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
@@ -323,10 +282,9 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -334,10 +292,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicOsmose)
-BattleNewRoundExecVar(picBtnBattleMagicOsmose)
-BattleNewRoundExec(varActionExecuteDoRegionFindAndClickWithScroll)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
@@ -345,13 +303,12 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
 BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
-BattleNewRoundExecVar(varRegionHalfBottomScreen)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
-BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleCharExdeath)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
@@ -360,56 +317,56 @@ BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off 
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(30)
+
+
 
 BattleNewRound()
+BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+BattleNewRoundExecVar(locBattleParty3Center)
+BattleNewRoundExecVar(locBattleParty3Right)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
+BattleNewRoundExecVar(0)  --delay between scroll
+BattleNewRoundExecVar(false)  --go top, search from top
+BattleNewRoundExecVar(5)  --max_scroll
+BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
+BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
+BattleNewRoundExecVar(0)
+BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
+BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
+BattleNewRoundExecVar(0)
+BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(5)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
+BattleNewRoundExec(varActionExecuteDoWait)
+BattleNewRoundExecVar(1)
+
 BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
+BattleNewRoundExecVar(3)
+BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
+BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(5)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(5)
 
