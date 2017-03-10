@@ -25,16 +25,16 @@ First Setup:
   * std01
     * Action1: Earth Shrine - Entrance
     * Action2: Wait 2000
-    * Action3: Repeat 1
+    * Action3: Goto 1
   * std02
     * Action1: Events
     * Action2: Wait 2000
-    * Action3: Repeat 1
+    * Action3: Goto 1
   * std03
     * Action1: Arena - Colosseum
-    * Action1: Events
-    * Action2: Wait 2000
-    * Action3: Repeat 1
+    * Action2: Events
+    * Action3: Wait 2000
+    * Action4: Goto 1
 
 Files description:
 * amain.luae (main program)
