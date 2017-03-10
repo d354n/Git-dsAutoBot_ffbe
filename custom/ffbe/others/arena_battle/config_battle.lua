@@ -23,7 +23,7 @@ BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --dn01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
-BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
+BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up02
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
@@ -175,10 +175,10 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicPhantomShadow)
-BattleNewRoundExecVar(picBtnBattleMagicPhantomShadow)
-BattleNewRoundExecVar(picBtnBattleMagicBarrage)
-BattleNewRoundExecVar(picBtnBattleMagicBarrage)
+BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)
+BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)
+BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 

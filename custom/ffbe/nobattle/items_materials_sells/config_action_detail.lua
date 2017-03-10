@@ -36,6 +36,10 @@ sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials
 sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_luminous_horn_199.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_esper_shard_199.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_esper_cryst_199.png"):similar(0.98)
+sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_raptor_feather_199.png"):similar(0.98)
+sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_demon_tail_199.png"):similar(0.98)
+sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_aqua_pearl_199.png"):similar(0.98)
+sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_golden_egg_199.png"):similar(0.98)
 ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)  --  position start down
 ActionExecVar(locXmidYthreeEights)  --  position end down

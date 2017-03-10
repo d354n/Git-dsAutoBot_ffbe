@@ -96,6 +96,11 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Vortex
+varActionName = "Vortex - Chamber of Crystals"
+foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Vortex - Operation MA Demolition Pro - Party EVE NT"
 foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
 parentfolder = foldername
@@ -104,6 +109,13 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Standard
+
+--  Craft Items - Get Potion
+--  Craft Items - Potion
+--  Earth with steal
+
+
+
 varActionName = "Friends - Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
@@ -149,13 +161,14 @@ dofile(scriptPath()..foldername.."config_action.lua")
 --  ]===]
 
 
+
 MultiCreate()
 for i=1, 3 do
     MultiAdd("Friends - Receive Send All")
     MultiAdd("Quests - Daily Claim")
     for i=1, 3 do
         MultiAdd("Arena - Colosseum - Top Level - Top Round")
-        MultiAdd("Dungeon Earth Shrine - Entrance - Party TRUS T (Battle 35x-Next, No Energy-wait 1500-Next)")
+        MultiAdd("Vortex - Chamber of Crystals")
         MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items - Sell Items")

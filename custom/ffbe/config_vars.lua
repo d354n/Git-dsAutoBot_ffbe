@@ -66,3 +66,12 @@ picBtnBattleMagicMaimingShot      		        = Pattern(folderffbeimage.."magic/bt
 picBtnBattleMagicShatteringShot   		        = Pattern(folderffbeimage.."magic/btn_battle_magic_shattering_shot.png"):similar(0.97)
 picBtnBattleMagicTrueShot         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_true_shot.png"):similar(0.97)
 
+picBtnBattleMagicJump             		        = Pattern(folderffbeimage.."magic/btn_battle_magic_jump.png"):similar(0.97)
+picBtnBattleMagicHyperDrive       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_hyper_drive.png"):similar(0.97)
+picBtnBattleMagicWhirlingLance    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_whirling_lance.png"):similar(0.97)
+picBtnBattleMagicCleanSweep       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_clean_sweep.png"):similar(0.97)
+
+picBtnBattleMagicSteal                          = Pattern(folderffbeimage.."magic/btn_battle_magic_steal.png"):similar(0.97)   --  left side
+picBtnBattleMagicSteal2                         = Pattern(folderffbeimage.."magic/btn_battle_magic_steal2.png"):similar(0.97)  --  right side
+
+

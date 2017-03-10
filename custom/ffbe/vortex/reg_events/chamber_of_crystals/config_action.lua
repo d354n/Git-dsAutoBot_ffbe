@@ -6,12 +6,12 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-varDirectoryCustomImage = "../"..parentfolder.."image/"
-
 --  ## New Form / Page?
-dofile(scriptPath()..foldername.."config_form.lua")
+varDirectoryCustomImage = "../"..parentfolder.."image/"
+--dofile(scriptPath()..foldername.."config_form.lua")
 
 --  ## Init Start
+varDirectoryCustomImage = "../"..parentfolder.."image/"
 MenuCreate(varActionName)
 ActionCreate(varActionName)
 
@@ -22,7 +22,7 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 --dofile(scriptPath()..parentfolder.."config_exploration.lua")  --  path  --  no explore
 
 --  ## what battle config?
-dofile(scriptPath()..parentfolder.."config_battle.lua")
-dofile(scriptPath()..parentfolder.."config_battle99.lua")
+dofile(folderffbescript.."config_battle_dungeon_defs_auto.lua")
+
 
 
