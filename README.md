@@ -21,6 +21,20 @@ First Setup:
 * set party name to "EVE NT" for Event
 * set party name to "LE VEL" for Exploration
 * set party name to "TRUS T" for farming
+* standard action setup:
+  * std01
+    * Action1: Earth Shrine - Entrance
+    * Action2: Wait 2000
+    * Action3: Repeat 1
+  * std02
+    * Action1: Events
+    * Action2: Wait 2000
+    * Action3: Repeat 1
+  * std03
+    * Action1: Arena - Colosseum
+    * Action1: Events
+    * Action2: Wait 2000
+    * Action3: Repeat 1
 
 Files description:
 * amain.luae (main program)
