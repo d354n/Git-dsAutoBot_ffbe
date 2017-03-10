@@ -11,6 +11,7 @@ Program Description:
 Emulator:
 * 15 Feb 2017 - tested in MEMU Resolution W 600 H 800 DPI 160 (not working really well, need to replace image)
 * tested in NOX Resolution W 600 H 800 DPI 160
+* set superuser notif Off
 
 Warning:
 * Dont forget to move PLAY button to TOP RIGHT of the screen
