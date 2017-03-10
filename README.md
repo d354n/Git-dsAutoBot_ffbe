@@ -17,6 +17,11 @@ Warning:
 * Dont forget to move PLAY button to TOP RIGHT of the screen
 * All Effects: Off
 
+First Setup:
+* set party name to "EVE NT" for Event
+* set party name to "LE VEL" for Exploration
+* set party name to "TRUS T" for farming
+
 Files description:
 * amain.luae (main program)
 * config_vars.lua (i put general variable here)
