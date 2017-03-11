@@ -30,6 +30,7 @@ critMainBottom                                  = folderffbeimage.."main/crit_bo
 varFormNameMainHome                             = "MainFormHome"
 picBtnMainHomeArena                             = folderffbeimage.."home/btn_arena.png"
 picBtnMainHomeArena2                            = folderffbeimage.."home/btn_arena2.png"
+picBtnMainHomeCraft                             = folderffbeimage.."home/btn_craft.png"
 picBtnMainHomeMessage                           = folderffbeimage.."home/btn_messages.png"
 picBtnMainHomeMenu   					        = folderffbeimage.."home/btn_menu.png"
 picBtnMainHomeVortex					        = folderffbeimage.."home/btn_vortex.png"

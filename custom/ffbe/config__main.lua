@@ -22,6 +22,7 @@ dofile(folderffbescript.."config_form_arena_pvp.lua")
 dofile(folderffbescript.."config_form_battle__standard.lua")
 dofile(folderffbescript.."config_form_battle_dungeon.lua")
 dofile(folderffbescript.."config_form_battle_exploration.lua")
+dofile(folderffbescript.."config_form_craft.lua")
 dofile(folderffbescript.."config_form_exploration.lua")
 dofile(folderffbescript.."config_form_friends.lua")
 dofile(folderffbescript.."config_form_home.lua")
@@ -109,12 +110,30 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Standard
+varActionName = "Craft - Get All Completed"
+foldername = "../custom/ffbe/nobattle/craft__get_all_completed/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 
---  Craft Items - Get Potion
---  Craft Items - Potion
---  Earth with steal
+varActionName = "Craft - Farm Abilities - White Magic - Cure"
+foldername = "../custom/ffbe/nobattle/craft_abilities_white_cure/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Craft - Farm Abilities - White Magic - Cura"
+foldername = "../custom/ffbe/nobattle/craft_abilities_white_cura/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Craft - Farm Equipment - Armor - Leather Shield"
+foldername = "../custom/ffbe/nobattle/craft_equipment_armor_leather_shield/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Craft - Farm Items - Recovery - Potion"
+foldername = "../custom/ffbe/nobattle/craft_items_recovery_potion/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 
 varActionName = "Friends - Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
@@ -157,7 +176,6 @@ dofile(scriptPath()..foldername.."config_action.lua")
 --parentfolder = foldername
 --dofile(scriptPath()..foldername.."config_action.lua")
 
---  Standard Craft Hi-Potion Once a day - Check quest completed or not
 --  ]===]
 
 
