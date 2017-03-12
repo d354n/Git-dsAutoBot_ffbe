@@ -20,7 +20,7 @@ Warning:
 First Setup:
 * set party name to "EVE NT" for Event
 * set party name to "LE VEL" for Exploration
-* set party name to "TRUS T" for farming
+* set party name to "TRUS T" for Dungeon
 * standard action after no energy is Next Action
 * standard action setup:
   * std01
