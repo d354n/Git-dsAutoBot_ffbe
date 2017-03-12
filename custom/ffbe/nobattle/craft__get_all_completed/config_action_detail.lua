@@ -19,12 +19,16 @@ ActionOnForm(varFormNameMainHomeCraftCompleted)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeCraftCompletedOk)
 
+ActionOnForm(varFormNameMainHomeCraftObtained)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeCraftObtainedOk)
+
 
 
 ActionOnForm(varFormNameMainHomeCraftEquipOnCompleted)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeCraftCompletedSlot)
-ActionExecWaitForm(varFormNameMainHomeCraftCompleted)
+ActionExecWaitForm(varFormNameMainHomeCraftEquipOnCompleted)
 
 ActionOnForm(varFormNameMainHomeCraftEquipOnNoCompleted)
 ActionExec(varActionExecuteDoClickButton)
@@ -36,7 +40,7 @@ ActionExecWaitForm(varFormNameMainHomeCraftAbilitiesOnCompleted)
 ActionOnForm(varFormNameMainHomeCraftAbilitiesOnCompleted)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeCraftCompletedSlot)
-ActionExecWaitForm(varFormNameMainHomeCraftCompleted)
+ActionExecWaitForm(varFormNameMainHomeCraftAbilitiesOnCompleted)
 
 ActionOnForm(varFormNameMainHomeCraftAbilitiesOnNoCompleted)
 ActionExec(varActionExecuteDoClickButton)
@@ -48,7 +52,7 @@ ActionExecWaitForm(varFormNameMainHomeCraftItemsOnCompleted)
 ActionOnForm(varFormNameMainHomeCraftItemsOnCompleted)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeCraftCompletedSlot)
-ActionExecWaitForm(varFormNameMainHomeCraftCompleted)
+ActionExecWaitForm(varFormNameMainHomeCraftItemsOnCompleted)
 
 ActionOnForm(varFormNameMainHomeCraftItemsOnNoCompleted)
 ActionExec(varActionExecuteDoClickButton)

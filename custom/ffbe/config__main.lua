@@ -184,9 +184,13 @@ MultiCreate()
 for i=1, 3 do
     MultiAdd("Friends - Receive Send All")
     MultiAdd("Quests - Daily Claim")
-    for i=1, 3 do
+    for i=1, 5 do
         MultiAdd("Arena - Colosseum - Top Level - Top Round")
         MultiAdd("Vortex - Chamber of Crystals")
+        MultiAdd("Craft - Get All Completed")
+        MultiAdd("Craft - Farm Abilities - White Magic - Cure")
+        MultiAdd("Craft - Farm Equipment - Armor - Leather Shield")
+        MultiAdd("Craft - Farm Items - Recovery - Potion")
         MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items - Sell Items")

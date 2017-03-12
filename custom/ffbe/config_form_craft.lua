@@ -74,6 +74,9 @@ critMainHomeCraftCompletedMid1                  = folderffbeimage.."craft/crit_h
 critMainHomeCraftCompletedMid2                  = folderffbeimage.."craft/crit_home_craft_completed_mid2.png"
 picBtnMainHomeCraftCompletedOk                  = folderffbeimage.."craft/btn_home_craft_completed_ok.png"
 
+varFormNameMainHomeCraftObtained                = "MainFormHomeCraftObtained"
+critMainHomeCraftObtainedMid1                   = folderffbeimage.."craft/crit_home_craft_obtained_mid1.png"
+picBtnMainHomeCraftObtainedOk                   = folderffbeimage.."craft/btn_home_craft_obtained_ok.png"
 
 
 FormCreate(varFormNameMainHomeCraftEquipOn)
@@ -234,6 +237,10 @@ FormAddCriteriaNot(critMainBottom)
 FormCreate(varFormNameMainHomeCraftCompleted)
 FormAddCriteria(critMainHomeCraftCompletedMid1)
 FormAddCriteria(critMainHomeCraftCompletedMid2)
+FormAddCriteriaNot(critMainBottom)
+
+FormCreate(varFormNameMainHomeCraftObtained)
+FormAddCriteria(critMainHomeCraftObtainedMid1)
 FormAddCriteriaNot(critMainBottom)
 
 
