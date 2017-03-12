@@ -29,8 +29,8 @@ picBtnMainFriendsSendSend                       = folderffbeimage.."friends/btn_
 
 --  ##  Main Form Friends  ##
 FormCreate(varFormNameMainFriends)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainFriends)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainFriends)
 FormAddGoto(varFormNameMainHome   , picBtnMainHome)
 FormAddGoto(varFormNameMainUnits  , picBtnMainUnits)
 FormAddGoto(varFormNameMainItems  , picBtnMainItems)
@@ -40,25 +40,25 @@ FormAddGoto(varFormNameMainFriends, picBtnMainFriends)
 
 --  ##  Main Form Friends Receive Empty  ##
 FormCreate(varFormNameMainFriendsReceiveEmpty)
-FormAddCriteriaNot(picBtnMainFriendsReceiveReceive)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainFriendsReceiveTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainFriendsReceiveReceive)
+FormAddCriteria2Do(varCriteriaExists, critMainFriendsReceiveTop)
 
 --  ##  Main Form Friends Receive Not Empty  ##
 FormCreate(varFormNameMainFriendsReceiveNotEmpty)
-FormAddCriteria(picBtnMainFriendsReceiveReceive)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainFriendsReceiveTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainFriendsReceiveReceive)
+FormAddCriteria2Do(varCriteriaExists, critMainFriendsReceiveTop)
 
 --  ##  Main Form Friends Send Empty  ##
 FormCreate(varFormNameMainFriendsSendEmpty)
-FormAddCriteriaNot(picBtnMainFriendsSendSend)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainFriendsSendTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainFriendsSendSend)
+FormAddCriteria2Do(varCriteriaExists, critMainFriendsSendTop)
 
 --  ##  Main Form Friends Send Not Empty  ##
 FormCreate(varFormNameMainFriendsSendNotEmpty)
-FormAddCriteria(picBtnMainFriendsSendSend)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainFriendsSendTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainFriendsSendSend)
+FormAddCriteria2Do(varCriteriaExists, critMainFriendsSendTop)
 

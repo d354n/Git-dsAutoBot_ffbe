@@ -41,6 +41,7 @@ ActionExecVar(false)  --  search from top?
 ActionExecVar(1)  --  how many scroll to bottom
 ActionExecVar(picBtnMainHomeCraftSyntRecoveryPotion)
 ActionExecVar(picBtnMainHomeCraftSyntRecoveryPotion)
+ActionExecVar(picBtnMainHomeCraftSortFilter)
 ActionExecWaitForm(varFormNameMainHomeCraftConf)
 
 ActionOnForm(varFormNameMainHomeCraftConf)
@@ -51,12 +52,6 @@ ActionExecWaitForm(varFormNameMainHomeCraftConfStart)
 ActionOnForm(varFormNameMainHomeCraftConfStart)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeCraftConfStartYes)
---ActionExec(varActionExecuteDoWait)
---ActionExecVar(1)
---ActionExec(varActionExecuteDoClickButton)
---ActionExecVar(picBtnStdBack)
---ActionExec(varActionExecuteDoSetActionNextAction)
---ActionExecVar("")
 ActionExecWaitForm(varFormNameMainHomeCraftItemsOnEmptySlot)
 
 ActionOnForm(varFormNameMainHomeCraftItemsOnNoEmptySlot)
@@ -64,6 +59,22 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnStdBack)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
+ActionExecWaitForm(varFormNameMainHome)
+
+ActionOnForm(varFormNameMainHomeCraftSortOn)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+ActionExecWaitForm(varFormNameMainHome)
 
 
 

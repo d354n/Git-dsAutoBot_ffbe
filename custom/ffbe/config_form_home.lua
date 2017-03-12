@@ -25,6 +25,7 @@ critMainHomeDailyQuestClaimObjective            = folderffbeimage.."home/crit_da
 critMainHomeDailyQuestClaimRewards              = folderffbeimage.."home/crit_daily_quest_claim_rewards.png"
 critMainHomeDailyQuestClaimRewards2             = folderffbeimage.."home/crit_reward.png"
 critMainHomeDailyQuestClaimComplete             = folderffbeimage.."home/crit_complete.png"
+picBtnMainHomeDailyQuestClaimAll                = folderffbeimage.."home/btn_claim_all.png"
 picBtnMainHomeDailyQuestClaimClaim              = folderffbeimage.."home/btn_claim.png"
 picBtnMainHomeDailyQuestClaimBack               = folderffbeimage.."home/btn_quest_claim_back.png"
 
@@ -41,43 +42,43 @@ critQuestDailyCompletedRewardClaimed            = folderffbeimage.."quest_daily/
 
 --  ##  Main Form Home Quest  ##
 FormCreate(varFormNameMainHomeQuest)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeQuestTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeQuestTop)
 
 --  ##  Main Form Home Daily Quest  ##
 FormCreate(varFormNameMainHomeDailyQuestReward)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeDailyQuestTop)
-FormAddCriteria(picBtnMainHomeDailyQuestReward)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeDailyQuestReward)
 
 --  ##  Main Form Home Daily Quest  ##
 FormCreate(varFormNameMainHomeDailyQuestNoReward)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeDailyQuestReward)
-FormAddCriteria(critMainHomeDailyQuestTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeDailyQuestReward)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestTop)
 
 --  ##  Main Form Home Daily Quest Claim Reward  ##
 FormCreate(varFormNameMainHomeDailyQuestClaimReward)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(critMainHomeDailyQuestClaimComplete)
-FormAddCriteria(critMainHomeDailyQuestClaimObjective)
-FormAddCriteria(critMainHomeDailyQuestClaimRewards)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeDailyQuestClaimComplete)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestClaimObjective)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestClaimRewards)
 
 --  ##  Main Form Home Daily Quest Claim Complete  ##
 FormCreate(varFormNameMainHomeDailyQuestClaimComplete)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeDailyQuestClaimObjective)
-FormAddCriteria(critMainHomeDailyQuestClaimRewards)
-FormAddCriteria(critMainHomeDailyQuestClaimComplete)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestClaimObjective)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestClaimRewards)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeDailyQuestClaimComplete)
 
 --  ##  Main Form Quest Completed  ##
 FormCreate(varFormNameMainDailyQuestCompleted)
-FormAddCriteriaNot(critQuestDailyCompletedRewardClaimed)
-FormAddCriteria(critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompletedRewardClaimed)
+FormAddCriteria2Do(varCriteriaExists, critQuestDailyCompleted)
 
 --  ##  Main Form Quest Completed Claimed  ##
 FormCreate(varFormNameMainDailyQuestCompletedClaimed)
-FormAddCriteria(critQuestDailyCompleted)
-FormAddCriteria(critQuestDailyCompletedRewardClaimed)
+FormAddCriteria2Do(varCriteriaExists, critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaExists, critQuestDailyCompletedRewardClaimed)
 
 

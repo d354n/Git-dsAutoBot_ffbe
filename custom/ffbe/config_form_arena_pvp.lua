@@ -57,73 +57,73 @@ picBtnMainArenaColosseumRechargeEnergyYes       = folderffbeimage.."colosseum/bt
 
 --  ##  Main Form Arena Rules Select Opponent  ##
 FormCreate(varFormNameMainArenaRulesSelectOpp)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(critMainHomeArenaRulesSelectOppConfMid)
-FormAddCriteria(critMainHomeArenaRulesSelectOppTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeArenaRulesSelectOppConfMid)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesSelectOppTop)
 
 --  ##  Main Form Arena Rules Select Opponent Confirmation  ##
 FormCreate(varFormNameMainArenaRulesSelectOppConf)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaRulesSelectOppConfTop)
-FormAddCriteria(critMainHomeArenaRulesSelectOppConfMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesSelectOppConfTop)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesSelectOppConfMid)
 
 --  ##  Main Form Arena Rules Select Opponent Confirmation  ##
 FormCreate(varFormNameMainArenaRulesSelectOppConfBegin)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaRulesSelectOppConfBeginVs)
-FormAddCriteria(picBtnMainHomeArenaRulesSelectOppConfBeginBegin)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesSelectOppConfBeginVs)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeArenaRulesSelectOppConfBeginBegin)
 
 --  ##  Main Form Battle Arena - Result - Won 1  ##
 FormCreate(varFormNameMainBattleResultArenaWon1)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnBattleResultArenaOk)
-FormAddCriteriaNot(critBattleResultArenaRewardsMid)
-FormAddCriteria(critBattleResultArenaWonTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleResultArenaOk)
+FormAddCriteria2Do(varCriteriaNotExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaWonTop)
 
 --  ##  Main Form Battle Arena - Result - Won 2  ##
 FormCreate(varFormNameMainBattleResultArenaWon2)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(critBattleResultArenaRewardsMid)
-FormAddCriteria(critBattleResultArenaWonTop)
-FormAddCriteria(picBtnBattleResultArenaOk)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaWonTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleResultArenaOk)
 
 --  ##  Main Form Battle Arena - Result - Lost 1  ##
 FormCreate(varFormNameMainBattleResultArenaLost1)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnBattleResultArenaOk)
-FormAddCriteriaNot(critBattleResultArenaRewardsMid)
-FormAddCriteria(critBattleResultArenaLostTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleResultArenaOk)
+FormAddCriteria2Do(varCriteriaNotExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaLostTop)
 
 --  ##  Main Form Battle Arena - Result - Lost 2  ##
 FormCreate(varFormNameMainBattleResultArenaLost2)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(critBattleResultArenaRewardsMid)
-FormAddCriteria(critBattleResultArenaLostTop)
-FormAddCriteria(picBtnBattleResultArenaOk)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaLostTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleResultArenaOk)
 
 --  ##  Main Form Battle Arena - Result - Won Rewards  ##
 FormCreate(varFormNameMainBattleResultArenaWonRewards)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleResultArenaWonTop)
-FormAddCriteria(critBattleResultArenaRewardsMid)
-FormAddCriteria(picBtnBattleResultArenaRewardsOk)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaWonTop)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleResultArenaRewardsOk)
 
 --  ##  Main Form Battle Arena - Result - Lost Rewards  ##
 FormCreate(varFormNameMainBattleResultArenaLostRewards)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleResultArenaLostTop)
-FormAddCriteria(critBattleResultArenaRewardsMid)
-FormAddCriteria(picBtnBattleResultArenaRewardsOk)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaLostTop)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaRewardsMid)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleResultArenaRewardsOk)
 
 --  ##  Main Form Battle Arena - Rank Up  ##
 FormCreate(varFormNameMainBattleResultArenaRankUp)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleResultArenaRankUpTop)
-FormAddCriteria(picBtnBattleResultArenaOk)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleResultArenaRankUpTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleResultArenaOk)
 
 --  ##  Main Form Arena Pvp Recharge Energy  ##
 FormCreate(varFormNameMainArenaPvpRechargeEnergy)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainArenaColosseumRechargeEnergyMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainArenaColosseumRechargeEnergyMid)
 
 

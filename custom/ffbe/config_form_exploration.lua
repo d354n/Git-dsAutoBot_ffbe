@@ -65,37 +65,37 @@ critExplorationWonTop                           = folderffbeimage.."exploration/
 
 --  ##  Main Form Exploration  ##
 FormCreate(varFormNameMainExploration)
-FormAddCriteriaNot(critExplorationAbandonTop)
-FormAddCriteriaNot(critExplorationContinueTop)
-FormAddCriteriaNot(critExplorationOnwardTop)
-FormAddCriteria(picBtnExplorationMap)
-FormAddCriteria(picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationAbandonTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationContinueTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationOnwardTop)
 
 --  ##  Main Form Exploration - Abandon  ##
 FormCreate(varFormNameMainExplorationAbandon)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(picBtnExplorationMap)
-FormAddCriteria(picBtnExplorationMenu)
-FormAddCriteria(critExplorationAbandonTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaExists, critExplorationAbandonTop)
 
 --  ##  Main Form Exploration - Continue  ##
 FormCreate(varFormNameMainExplorationContinue)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnExplorationMap)
-FormAddCriteriaNot(picBtnExplorationMenu)
-FormAddCriteria(critExplorationContinueTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaExists, critExplorationContinueTop)
 
 --  ##  Main Form Exploration - Continue  ##
 FormCreate(varFormNameMainExplorationOnward)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(picBtnExplorationMap)
-FormAddCriteria(picBtnExplorationMenu)
-FormAddCriteria(critExplorationOnwardTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaExists, critExplorationOnwardTop)
 
 --  ##  Main Form Exploration - Won  ##
 FormCreate(varFormNameMainExplorationWon)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnExplorationMap)
-FormAddCriteria(critExplorationWonTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaExists, critExplorationWonTop)
 
 

@@ -41,6 +41,7 @@ ActionExecVar(false)  --  search from top?
 ActionExecVar(3)  --  how many scroll to bottom
 ActionExecVar(picBtnMainHomeCraftAbilityWhiteCura)
 ActionExecVar(picBtnMainHomeCraftAbilityWhiteCura)
+ActionExecVar(picBtnMainHomeCraftSortFilter)
 ActionExecWaitForm(varFormNameMainHomeCraftConf)
 
 ActionOnForm(varFormNameMainHomeCraftConf)
@@ -58,6 +59,22 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnStdBack)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
+ActionExecWaitForm(varFormNameMainHome)
+
+ActionOnForm(varFormNameMainHomeCraftSortOn)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdBack)
+ActionExec(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+ActionExecWaitForm(varFormNameMainHome)
 
 
 

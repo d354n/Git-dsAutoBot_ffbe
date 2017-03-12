@@ -9,10 +9,11 @@
 
 ActionOnForm(varDefault)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(Pattern(picBtnStdBack):similar(0.70))
-ActionExecVar(Pattern(picBtnMainHome):similar(0.70))
-ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.70))
-ActionExecVar(Pattern(picBtnStdNext):similar(0.70))
+ActionExecVar(Pattern(picBtnStdBack):similar(0.75))
+ActionExecVar(Pattern(picBtnMainHome):similar(0.75))
+ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.75))
+ActionExecVar(Pattern(picBtnStdNext):similar(0.75))
+ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
 ActionExecWaitForm(varActionExecuteWaitFormWait003)
 
 

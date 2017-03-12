@@ -14,7 +14,7 @@ critMainBattleResultExplorationGilResultTop     = folderffbeimage.."battleresult
 
 --  ##  Battle Result Exploration Gil  ##
 FormCreate(varFormNameMainBattleResultExplorationGil)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleResultExplorationGilResultTop)
-FormAddCriteria(critMainBattleResultExplorationGilGil)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultExplorationGilResultTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultExplorationGilGil)
 

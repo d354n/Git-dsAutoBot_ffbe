@@ -14,6 +14,7 @@ picBtnStdDepart                       	        = folderffbeimage.."standard/btn_
 picBtnStdNext                       	        = folderffbeimage.."standard/btn_next.png"
 picBtnStdOk                                     = folderffbeimage.."standard/btn_ok.png"
 picBtnStdXClose                                 = folderffbeimage.."standard/btn_xclose.png"
+picBtnStdClose                                  = folderffbeimage.."standard/btn_close.png"
 picBtnStdSkip                                   = folderffbeimage.."standard/btn_skip.png"
 
 --  Main Home Farplane

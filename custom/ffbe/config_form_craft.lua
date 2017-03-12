@@ -19,6 +19,7 @@ picBtnMainHomeCraftEquipOn                      = folderffbeimage.."craft/btn_ho
 picBtnMainHomeCraftEquipOff                     = folderffbeimage.."craft/btn_home_craft_equip_off.png"
 picBtnMainHomeCraftItemsOn                      = folderffbeimage.."craft/btn_home_craft_items_on.png"
 picBtnMainHomeCraftItemsOff                     = folderffbeimage.."craft/btn_home_craft_items_off.png"
+picBtnMainHomeCraftSortFilter                   = folderffbeimage.."craft/btn_home_craft_sort_filter.png"
 
 varFormNameMainHomeCraftAbilitiesOnEmptySlot    = "MainFormHomeCraftAbilitiesOnEmptySlot"
 varFormNameMainHomeCraftAbilitiesOnNoEmptySlot  = "MainFormHomeCraftAbilitiesOnNoEmptySlot"
@@ -46,11 +47,15 @@ picBtnMainHomeCraftAbilityWhiteOff              = folderffbeimage.."craft/btn_ho
 picBtnMainHomeCraftAbilityWhiteCure             = Pattern(folderffbeimage.."craft/btn_home_craft_ability_white_cure.png"):similar(0.97)
 picBtnMainHomeCraftAbilityWhiteCura             = Pattern(folderffbeimage.."craft/btn_home_craft_ability_white_cura.png"):similar(0.97)
 
-varFormNameMainHomeCraftForgeArmorOn            = "MainFormHomeCraftForgeOn"
-varFormNameMainHomeCraftForgeArmorOff           = "MainFormHomeCraftForgeOff"
+varFormNameMainHomeCraftForgeArmorOn            = "MainFormHomeCraftForgeArmorOn"
+varFormNameMainHomeCraftForgeArmorOff           = "MainFormHomeCraftForgeArmorOff"
+varFormNameMainHomeCraftForgeAccessoryOn        = "MainFormHomeCraftForgeAccessoryOn"
+varFormNameMainHomeCraftForgeAccessoryOff       = "MainFormHomeCraftForgeAccessoryOff"
 critMainHomeCraftForgeTop                       = folderffbeimage.."craft/crit_home_craft_forge_top.png"
 picBtnMainHomeCraftForgeArmorOn                 = folderffbeimage.."craft/btn_home_craft_forge_armor_on.png"
 picBtnMainHomeCraftForgeArmorOff                = folderffbeimage.."craft/btn_home_craft_forge_armor_off.png"
+picBtnMainHomeCraftForgeAccessoryOn             = folderffbeimage.."craft/btn_home_craft_forge_accessory_on.png"
+picBtnMainHomeCraftForgeAccessoryOff            = folderffbeimage.."craft/btn_home_craft_forge_accessory_off.png"
 picBtnMainHomeCraftForgeArmorLeatherShield      = Pattern(folderffbeimage.."craft/btn_home_craft_forge_armor_leather_shield.png"):similar(0.97)
 
 varFormNameMainHomeCraftSyntRecoveryOn          = "MainFormHomeCraftSyntRecoveryOn"
@@ -59,6 +64,10 @@ critMainHomeCraftSyntTop                        = folderffbeimage.."craft/crit_h
 picBtnMainHomeCraftSyntRecoveryOn               = folderffbeimage.."craft/btn_home_craft_synt_recovery_on.png"
 picBtnMainHomeCraftSyntRecoveryOff              = folderffbeimage.."craft/btn_home_craft_synt_recovery_off.png"
 picBtnMainHomeCraftSyntRecoveryPotion           = Pattern(folderffbeimage.."craft/btn_home_craft_synt_recovery_potion.png"):similar(0.97)
+
+varFormNameMainHomeCraftSortOn                  = "MainFormHomeCraftSortOn"
+picBtnMainHomeCraftSortOn                       = folderffbeimage.."craft/btn_home_craft_sort_on.png"
+picBtnMainHomeCraftSortConfirm                  = folderffbeimage.."craft/btn_home_craft_sort_confirm.png"
 
 varFormNameMainHomeCraftConf                    = "MainFormHomeCraftConf"
 critMainHomeCraftConfMid1                       = folderffbeimage.."craft/crit_home_craft_conf_mid1.png"
@@ -80,167 +89,183 @@ picBtnMainHomeCraftObtainedOk                   = folderffbeimage.."craft/btn_ho
 
 
 FormCreate(varFormNameMainHomeCraftEquipOn)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
 
 FormCreate(varFormNameMainHomeCraftEquipOff)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOff)
 
 FormCreate(varFormNameMainHomeCraftEquipOnEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOn)
-FormAddCriteria(picBtnMainHomeCraftEmptySlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftEquipOnNoEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftEmptySlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftEquipOnCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOn)
-FormAddCriteria(picBtnMainHomeCraftCompletedSlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftCompletedSlot)
 
 FormCreate(varFormNameMainHomeCraftEquipOnNoCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftEquipOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
 
 
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOn)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOff)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOff)
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOnEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOn)
-FormAddCriteria(picBtnMainHomeCraftEmptySlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOnNoEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftEmptySlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOnCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOn)
-FormAddCriteria(picBtnMainHomeCraftCompletedSlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftCompletedSlot)
 
 FormCreate(varFormNameMainHomeCraftAbilitiesOnNoCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
 
 
 
 FormCreate(varFormNameMainHomeCraftItemsOn)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
 
 FormCreate(varFormNameMainHomeCraftItemsOff)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOff)
 
 FormCreate(varFormNameMainHomeCraftItemsOnEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOn)
-FormAddCriteria(picBtnMainHomeCraftEmptySlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftItemsOnNoEmptySlot)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftEmptySlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftEmptySlot)
 
 FormCreate(varFormNameMainHomeCraftItemsOnCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOn)
-FormAddCriteria(picBtnMainHomeCraftCompletedSlot)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftCompletedSlot)
 
 FormCreate(varFormNameMainHomeCraftItemsOnNoCompleted)
-FormAddCriteria(critMainHomeCraftTop)
-FormAddCriteria(picBtnMainHomeCraftItemsOn)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
 
 
 
 
 FormCreate(varFormNameMainHomeCraftAbilityWhiteOn)
-FormAddCriteria(critMainHomeCraftAbilityTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityWhiteOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftAbilityTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityWhiteOn)
 
 FormCreate(varFormNameMainHomeCraftAbilityWhiteOff)
-FormAddCriteria(critMainHomeCraftAbilityTop)
-FormAddCriteria(picBtnMainHomeCraftAbilityWhiteOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftAbilityTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityWhiteOff)
 
 
 
 FormCreate(varFormNameMainHomeCraftForgeArmorOn)
-FormAddCriteria(critMainHomeCraftForgeTop)
-FormAddCriteria(picBtnMainHomeCraftForgeArmorOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeArmorOn)
 
 FormCreate(varFormNameMainHomeCraftForgeArmorOff)
-FormAddCriteria(critMainHomeCraftForgeTop)
-FormAddCriteria(picBtnMainHomeCraftForgeArmorOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeArmorOff)
+
+FormCreate(varFormNameMainHomeCraftForgeAccessoryOn)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOn)
+
+FormCreate(varFormNameMainHomeCraftForgeAccessoryOff)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOff)
 
 
 
 FormCreate(varFormNameMainHomeCraftSyntRecoveryOn)
-FormAddCriteria(critMainHomeCraftSyntTop)
-FormAddCriteria(picBtnMainHomeCraftSyntRecoveryOn)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftSyntTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftSyntRecoveryOn)
 
 FormCreate(varFormNameMainHomeCraftSyntRecoveryOff)
-FormAddCriteria(critMainHomeCraftSyntTop)
-FormAddCriteria(picBtnMainHomeCraftSyntRecoveryOff)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftSyntTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftSyntRecoveryOff)
 
 
+
+FormCreate(varFormNameMainHomeCraftSortOn)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnStdBack)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftSortOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftSortConfirm)
 
 FormCreate(varFormNameMainHomeCraftConf)
-FormAddCriteria(critMainHomeCraftConfMid1)
-FormAddCriteria(critMainHomeCraftConfMid2)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftConfMid1)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftConfMid2)
 
 FormCreate(varFormNameMainHomeCraftConfStart)
-FormAddCriteria(critMainHomeCraftConfStartMid)
-FormAddCriteria(picBtnMainHomeCraftConfStartYes)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftConfStartMid)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftConfStartYes)
 
 FormCreate(varFormNameMainHomeCraftCompleted)
-FormAddCriteria(critMainHomeCraftCompletedMid1)
-FormAddCriteria(critMainHomeCraftCompletedMid2)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftCompletedMid1)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftCompletedMid2)
 
 FormCreate(varFormNameMainHomeCraftObtained)
-FormAddCriteria(critMainHomeCraftObtainedMid1)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftObtainedMid1)
 
 

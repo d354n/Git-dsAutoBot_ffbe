@@ -24,12 +24,12 @@ picBtnMainHomeArenaRulesOk                      = folderffbeimage.."arena/btn_ar
 
 --  ##  Main Form Arena  ##
 FormCreate(varFormNameMainArena)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArena)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArena)
 
 --  ##  Main Form Arena Rules  ##
 FormCreate(varFormNameMainArenaRules)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaRulesTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesTop)
 
 

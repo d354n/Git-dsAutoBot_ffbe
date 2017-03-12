@@ -35,13 +35,13 @@ coMainHomeMessagesRefreshOnB                    = 131
 
 --  ##  Main Form Main Messages - Delete all read messages - must before Messages  ##
 FormCreate(varFormNameMainHomeMessagesRefreshDelete)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeMessages)
-FormAddCriteria(critMainHomeMessagesRefreshDeleteAllReadMsg)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessages)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessagesRefreshDeleteAllReadMsg)
 
 FormCreate(varFormNameMainHomeMessagesWithClaimed)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeMessages)
-FormAddCriteria(critMainHomeMessagesClaimed)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessages)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessagesClaimed)
 
 

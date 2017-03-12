@@ -21,27 +21,27 @@ picBtnExplorationTouchItNo                      = varDirectoryCustomImage.."btn_
 
 --  ##  Main Form Battle - Select Level Earth Shrine ##
 FormCreate(varFormNameMainBattleSelectLevelLakeDorr)
-FormAddCriteria(varDirectoryCustomImage.."crit_select_level_top.png")
+FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_select_level_top.png")
 
 --  ##  Main Home Exploration - Touch It ##
 FormCreate(varFormNameMainExplorationTouchItOn)
-FormAddCriteria(critExplorationTouchItOnTop)
+FormAddCriteria2Do(varCriteriaExists, critExplorationTouchItOnTop)
 
 FormCreate(varFormNameMainExplorationTouchItOff)
-FormAddCriteria(critExplorationTouchItOffTop)
+FormAddCriteria2Do(varCriteriaExists, critExplorationTouchItOffTop)
 
 FormCreate(varFormNameMainExplorationTouchItOnReceding)
-FormAddCriteria(critExplorationTouchItOnReceding)
+FormAddCriteria2Do(varCriteriaExists, critExplorationTouchItOnReceding)
 
 --  ##  Main Form Exploration  ##
 FormCreate(varFormNameMainExploration)
-FormAddCriteriaNot(critExplorationAbandonTop)
-FormAddCriteriaNot(critExplorationContinueTop)
-FormAddCriteriaNot(critExplorationOnwardTop)
-FormAddCriteriaNot(critExplorationTouchItOnTop)
-FormAddCriteriaNot(critExplorationTouchItOffTop)
-FormAddCriteriaNot(critExplorationTouchItOnReceding)
-FormAddCriteria(picBtnExplorationMap)
-FormAddCriteria(picBtnExplorationMenu)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationAbandonTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationContinueTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationOnwardTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationTouchItOnTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationTouchItOffTop)
+FormAddCriteria2Do(varCriteriaNotExists, critExplorationTouchItOnReceding)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
+FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 
 

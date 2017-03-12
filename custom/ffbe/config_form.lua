@@ -8,6 +8,11 @@
 
 --  Variables
 
+--  must be here
+critQuestDailyCompleted                         = folderffbeimage.."quest_daily/crit_daily_completed.png"
+
+
+
 --  Apps Home
 varFormNameApps                                 = "AppsHome"
 picBtnAppsFFexvius  					        = folderffbeimage.."apps/btn_ffexvius.png"
@@ -97,10 +102,10 @@ locMainBattleSelectVortexSwipeScrollUp02       	= locMainBattleSelectVortexSwipe
 
 --  ##  Main Form Home  ##
 FormCreate(varFormNameMainHome)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(picBtnMainHomeVortex)
-FormAddCriteria(picBtnMainHomeQuestReport)
-FormAddCriteria(picBtnMainHomeMenu)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeVortex)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeQuestReport)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeMenu)
 FormAddGoto(varFormNameMainHome   , picBtnMainHome)
 FormAddGoto(varFormNameMainUnits  , picBtnMainUnits)
 FormAddGoto(varFormNameMainItems  , picBtnMainItems)
@@ -110,8 +115,8 @@ FormAddGoto(varFormNameMainFriends, picBtnMainFriends)
 
 --  ##  Main Form Shop  ##
 FormCreate(varFormNameMainShop)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainShop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainShop)
 FormAddGoto(varFormNameMainHome   , picBtnMainHome)
 FormAddGoto(varFormNameMainUnits  , picBtnMainUnits)
 FormAddGoto(varFormNameMainItems  , picBtnMainItems)
@@ -121,51 +126,51 @@ FormAddGoto(varFormNameMainFriends, picBtnMainFriends)
 
 --  ##  Main Form Connecting  ##
 FormCreate(varFormNameMainConnecting)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critConnectionConnecting)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critConnectionConnecting)
 
 --  ##  Main Form Recharge Energy  ##
 FormCreate(varFormNameMainRechargeEnergy)
-FormAddCriteria(critMainRechargeInsufficientEnergy)
-FormAddCriteria(picBtnMainRechargeEnergyBack)
+FormAddCriteria2Do(varCriteriaExists, critMainRechargeInsufficientEnergy)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainRechargeEnergyBack)
 
 --  ##  Main Form Connection Error  ##
 FormCreate(varFormNameMainConnectionError)
-FormAddCriteria(critConnectionErrorHasOccurred)
+FormAddCriteria2Do(varCriteriaExists, critConnectionErrorHasOccurred)
 
 --  ##  Main Form Info Auto Prot  ##
 FormCreate(varFormNameMainInfoAutomaticProtection)
-FormAddCriteria(critInfoAutomaticProtection)
+FormAddCriteria2Do(varCriteriaExists, critInfoAutomaticProtection)
 
 --  ##  Main Form Daily Rewards  ##
 FormCreate(varFormNameMainDailyRewards)
-FormAddCriteria(critDailyRewardsTop)
-FormAddCriteria(picBtnDailyRewardsClaim)
+FormAddCriteria2Do(varCriteriaExists, critDailyRewardsTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnDailyRewardsClaim)
 
 --  ##  Application FFBE Start  ##
 FormCreate(varFormNameAppsFFBEStart)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critFFBEStartTop)
-FormAddCriteria(critFFBEStartBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critFFBEStartTop)
+FormAddCriteria2Do(varCriteriaExists, critFFBEStartBottom)
 
 --  ##  Home Application  ##
 FormCreate(varFormNameApps)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(picBtnAppsFFexvius)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnAppsFFexvius)
 
 --  ##  New Data Exists  ##
 FormCreate(varFormNameNewDataExists)
-FormAddCriteria(critNewDataExistsMid)
-FormAddCriteria(picNewDataExistsOk)
+FormAddCriteria2Do(varCriteriaExists, critNewDataExistsMid)
+FormAddCriteria2Do(varCriteriaExists, picNewDataExistsOk)
 
 --  ##  Error Loading  ##
 FormCreate(varFormNameErrorLoading)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critErrorLoadingMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critErrorLoadingMid)
 
 --  ##  Main Form Vortex  ##
 FormCreate(varFormNameMainVortex)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainDimensionalVortex)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
 
 

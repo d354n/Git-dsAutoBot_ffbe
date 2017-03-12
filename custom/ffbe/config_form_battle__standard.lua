@@ -103,63 +103,61 @@ picBtnBattleRequestSend                         = folderffbeimage.."friend_reque
 
 --  ##  Main Form Battle - Select Companion  ##
 FormCreate(varFormNameMainBattleSelectCompanion)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleSelectCompanion)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleSelectCompanion)
 FormAddGoto(varFormNameMainBattleCompletion, picBtnStdBack)
 
 --  ##  Main Form Battle - Units  ##
 FormCreate(varFormNameMainBattleSelectUnit)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleUnitsCompanion)
-FormAddCriteria(critMainBattleUnitsItems)
-FormAddCriteria(picBtnStdDepart)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleUnitsCompanion)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleUnitsItems)
+FormAddCriteria2Do(varCriteriaExists, picBtnStdDepart)
 
 --  ##  Main Form Battle - Engaged Choose Action  ##
 FormCreate(varFormNameMainBattleEngaged)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnBattleEngagedBack)
-FormAddCriteria(picBtnBattleEngagedAuto)
-FormAddCriteria(picBtnBattleEngagedRepeat)
-FormAddCriteria(picBtnBattleEngagedReset)
-FormAddCriteria2Do(varCriteriaGetColorRGB)
-FormAddCriteria2Var(picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedAuto)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnB)
 
 --  ##  Main Form Battle - Engaged Do Action  ##
 FormCreate(varFormNameMainBattleEngagedDoAction)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(picBtnBattleEngagedAuto)
-FormAddCriteria(picBtnBattleEngagedBack)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedAuto)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedBack)
 
 --  ##  Main Form Battle - Engaged In Action  ##
 FormCreate(varFormNameMainBattleEngagedInAction)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(picBtnBattleEngagedBack)
-FormAddCriteria(picBtnBattleEngagedAuto)
-FormAddCriteria(picBtnBattleEngagedRepeat)
-FormAddCriteria(picBtnBattleEngagedReset)
-FormAddCriteria2Do(varCriteriaGetColorRGB)
-FormAddCriteria2Var(picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedAuto)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
 
 --  ##  Main Form Battle - Give Up  ##
 FormCreate(varFormNameMainBattleGiveUp)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleEngagedContinueGiveUp)
-FormAddCriteria(picBtnBattleEngagedContinueYes)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueGiveUp)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedContinueYes)
 
 --  ##  Main Form Battle - Revive All  ##
 FormCreate(varFormNameMainBattleReviveAll)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleEngagedContinueReviveAll)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueReviveAll)
 
 --  ##  Main Form Battle - Friend Request  ##
 FormCreate(varFormNameMainBattleRequest)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critBattleRequestMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critBattleRequestMid)
 
 

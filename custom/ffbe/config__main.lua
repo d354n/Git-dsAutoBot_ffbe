@@ -39,22 +39,22 @@ dofile(folderffbescript.."config_battle.lua")       --  4th
 
 
 --  Exploration
-varActionName = "Explore Aquatic Cove - Party LE VEL - Start from Select Level"
+varActionName = "Ex:Aquatic Cove/Start from Select Level"
 foldername = "../custom/ffbe/explorations/aquatic_cove/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Explore Dwarves Forge - Party LE VEL - Start from Select Level"
+varActionName = "Ex:Dwarves Forge/Start from Select Level"
 foldername = "../custom/ffbe/explorations/dwarves_forge/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Explore Earth Shrine - Party TRUS T"
+varActionName = "Ex:Earth Shrine/P:TRUS T"
 foldername = "../custom/ffbe/explorations/earth_shrine/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Explore Lake Dorr - Party LE VEL - Start from Select Level"
+varActionName = "Ex:Lake Dorr/Start from Select Level"
 foldername = "../custom/ffbe/explorations/lake_dorr/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -64,17 +64,17 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Dungeons
-varActionName = "Dungeon Earth Shrine - Entrance - Party TRUS T"
+varActionName = "Dg:Earth Shrine Entrance"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Dungeon Earth Shrine - Entrance - Party TRUS T (Battle 35x-Next, No Energy-wait 1500-Next)"
+varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action_35.lua")
 
-varActionName = "Dungeon Earth Shrine - Exit - Party TRUS T"
+varActionName = "Dg:Earth Shrine Exit"
 foldername = "../custom/ffbe/dungeons/earth_shrine_exit/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -83,12 +83,12 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Arena
-varActionName = "Arena - Colosseum - Top Level - Top Round"
+varActionName = "Ar:Colosseum/TopLevel/TopRound"
 foldername = "../custom/ffbe/others/arena_colosseum/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Arena - Battle"
+varActionName = "Ar:Battle"
 foldername = "../custom/ffbe/others/arena_battle/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -97,12 +97,12 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Vortex
-varActionName = "Vortex - Chamber of Crystals"
+varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
 foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Vortex - Operation MA Demolition Pro - Party EVE NT"
+varActionName = "Vx:Operation MA Demolition Pro"
 foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -110,58 +110,58 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Standard
-varActionName = "Craft - Get All Completed"
+varActionName = "Craft  Get All Completed"
 foldername = "../custom/ffbe/nobattle/craft__get_all_completed/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Craft - Farm Abilities - White Magic - Cure"
+varActionName = "Craft  Farm Abilities  White Magic  Cure"
 foldername = "../custom/ffbe/nobattle/craft_abilities_white_cure/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Craft - Farm Abilities - White Magic - Cura"
+varActionName = "Craft  Farm Abilities  White Magic  Cura"
 foldername = "../custom/ffbe/nobattle/craft_abilities_white_cura/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Craft - Farm Equipment - Armor - Leather Shield"
+varActionName = "Craft  Farm Equipment  Armor  Leather Shield"
 foldername = "../custom/ffbe/nobattle/craft_equipment_armor_leather_shield/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Craft - Farm Items - Recovery - Potion"
+varActionName = "Craft  Farm Items  Recovery  Potion"
 foldername = "../custom/ffbe/nobattle/craft_items_recovery_potion/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Friends - Receive Send All"
+varActionName = "Friends  Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Items - Sell Items"
+varActionName = "Items  Sell Items"
 foldername = "../custom/ffbe/nobattle/items_materials_sells/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Messages - Claim Items"
+varActionName = "Messages  Claim Items"
 foldername = "../custom/ffbe/nobattle/message_claim_items/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_form_messages.lua")   --  use custom message form
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Summon - Once a Day Limited Summon (250)"
+varActionName = "Summon  Once a Day Limited Summon (250)"
 foldername = "../custom/ffbe/nobattle/summon_250/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Units - Sell Gil Snapper"
+varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Quests - Daily Claim"
+varActionName = "Quests  Daily Claim"
 foldername = "../custom/ffbe/nobattle/quests_daily_claim/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -182,22 +182,21 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 MultiCreate()
 for i=1, 3 do
-    MultiAdd("Friends - Receive Send All")
-    MultiAdd("Quests - Daily Claim")
+    MultiAdd("Friends  Receive Send All")
+    MultiAdd("Quests  Daily Claim")
     for i=1, 5 do
-        MultiAdd("Arena - Colosseum - Top Level - Top Round")
-        MultiAdd("Vortex - Chamber of Crystals")
-        MultiAdd("Craft - Get All Completed")
-        MultiAdd("Craft - Farm Abilities - White Magic - Cure")
-        MultiAdd("Craft - Farm Equipment - Armor - Leather Shield")
-        MultiAdd("Craft - Farm Items - Recovery - Potion")
+        MultiAdd("Ar:Colosseum/TopLevel/TopRound")
+        MultiAdd("Vx:Operation MA Demolition Pro", "99")
+        MultiAdd("Craft  Get All Completed")
+        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
+        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
+        MultiAdd("Craft  Farm Items  Recovery  Potion")
         MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items - Sell Items")
 end
-MultiAdd("Arena - Battle")
-MultiAdd("Explore Earth Shrine - Party TRUS T")
+MultiAdd("Ar:Battle")
+MultiAdd("Ex:Earth Shrine/P:TRUS T")
 MultiAdd(varActionDoGotoAction1)
-
 
 

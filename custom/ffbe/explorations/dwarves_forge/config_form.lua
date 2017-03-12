@@ -11,4 +11,4 @@ varFormNameMainBattleSelectLevelDwarvesForge         = "MainBattleSelectLevelDwa
 
 --  ##  Main Form Battle - Select Level Earth Shrine ##
 FormCreate(varFormNameMainBattleSelectLevelDwarvesForge)
-FormAddCriteria(varDirectoryCustomImage.."crit_select_level_top.png")
+FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_select_level_top.png")

@@ -45,39 +45,39 @@ critMainBattleResultsItemsObtained   	        = folderffbeimage.."battleresults/
 
 --  ##  Main Form Battle - Select Level  ##
 FormCreate(varFormNameMainBattleSelectLevel)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleVortexSelectLevelTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
 FormAddGoto(varFormNameMainHome    , "")
 FormAddGoto(varFormNameMainWorld   , "")
 FormAddGoto(varFormNameMainVortex  , "")
 
 --  ##  Main Form Battle - Completion Reward  ##
 FormCreate(varFormNameMainBattleCompletion)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleCompletionAchi)
-FormAddCriteria(critMainBattleCompletionInit)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleCompletionAchi)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleCompletionInit)
 
 --  ##  Main Form Battle - Result - Gil  ##
 FormCreate(varFormNameMainBattleResultGil)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleResultsGil)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsGil)
 FormAddGoto(varFormNameMainBattleResultExp, picBtnMainBattleResultsGilNext)
 
 --  ##  Main Form Battle - Result - Exp  ##
 FormCreate(varFormNameMainBattleResultExp)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleResultsExp)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsExp)
 
 --  ##  Main Form Battle - Result - Items Obtained  ##
 FormCreate(varFormNameMainBattleResultItemsObtain)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleResultsItemsObtained)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsItemsObtained)
 FormAddGoto(varFormNameMainBattleSelectLevel, picBtnMainBattleResultsItemsObtNext)
 
 --  ##  Main Form Battle - Result - Units Obtained  ##
 FormCreate(varFormNameMainBattleResultUnitsObtain)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainBattleResultsUnitsObtained)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsUnitsObtained)
 FormAddGoto(varFormNameMainBattleSelectLevel, picBtnMainBattleResultsItemsObtNext)
 
 

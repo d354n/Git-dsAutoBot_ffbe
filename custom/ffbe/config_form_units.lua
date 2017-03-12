@@ -35,38 +35,37 @@ picBtnMainUnitsSellDetailConfFinOk              = folderffbeimage.."units/btn_un
 
 
 
---  ##  Main Form Units  ##
 FormCreate(varFormNameMainUnits)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainUnitsTop)
---  ##  Main Form Units - View  ##
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsTop)
+
 FormCreate(varFormNameMainUnitsView)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainUnitsViewTop)
---  ##  Main Form Units - Sell Zero  ##
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsViewTop)
+
 FormCreate(varFormNameMainUnitsSellZero)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainUnitsSellTop)
-FormAddCriteria(critMainUnitsSellZero)
-FormAddCriteriaNot(critMainUnitsSellDetailConfFinMid)
---  ##  Main Form Units - Sell Not Zero  ##
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellTop)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellZero)
+FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellDetailConfFinMid)
+
 FormCreate(varFormNameMainUnitsSellNotZero)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainUnitsSellTop)
-FormAddCriteriaNot(critMainUnitsSellDetailConfFinMid)
-FormAddCriteriaNot(critMainUnitsSellZero)
---  ##  Main Form Units - Sell Detail  ##
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellDetailConfFinMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellZero)
+
 FormCreate(varFormNameMainUnitsSellDetail)
-FormAddCriteria(critMainUnitsSellDetailTop)
-FormAddCriteriaNot(critMainBottom)
---  ##  Main Form Units - Sell Detail Conf  ##
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellDetailTop)
+
 FormCreate(varFormNameMainUnitsSellDetailConf)
-FormAddCriteria(critMainUnitsSellDetailConfTop)
-FormAddCriteriaNot(critMainBottom)
---  ##  Main Form Units - Sell Detail Conf Finish  ##
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellDetailConfTop)
+
 FormCreate(varFormNameMainUnitsSellDetailConfFinish)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainUnitsSellTop)
-FormAddCriteria(critMainUnitsSellDetailConfFinMid)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellTop)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellDetailConfFinMid)
 
 

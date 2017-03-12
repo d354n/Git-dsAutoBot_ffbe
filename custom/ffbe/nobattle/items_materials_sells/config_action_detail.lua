@@ -28,8 +28,8 @@ ActionExecWaitForm(varFormNameMainItemsMaterialsSellMulti)
 
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOff)
 local sData = {}
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_life_orb_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_thickened_hide_199.png"):similar(0.98)
+--sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_life_orb_199.png"):similar(0.98)
+--sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_thickened_hide_199.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_beast_meat_199.png"):similar(0.98)
 --sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_litrock_199.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_seed_of_life_199.png"):similar(0.98)

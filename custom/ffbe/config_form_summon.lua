@@ -12,8 +12,8 @@ critMainSummon						            = folderffbeimage.."summon/crit_summon_top.png"
 
 --  ##  Main Form Summon  ##
 FormCreate(varFormNameMainSummon)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainSummon)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummon)
 FormAddGoto(varFormNameMainHome   , picBtnMainHome)
 FormAddGoto(varFormNameMainUnits  , picBtnMainUnits)
 FormAddGoto(varFormNameMainItems  , picBtnMainItems)

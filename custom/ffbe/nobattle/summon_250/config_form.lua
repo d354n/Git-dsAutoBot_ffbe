@@ -25,26 +25,26 @@ critMainSummonOnceTapTopLeft	                = varDirectoryCustomImage.."crit_ta
 
 --  ##  Main Form Summon Once  ##
 FormCreate(varFormNameMainSummonOnce)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainSummonOnceTop)
-FormAddCriteriaNot(critMainSummonOnceConfMid)
-FormAddCriteriaNot(critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainSummonOnceConfMid)
+FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
 
 --  ##  Main Form Summon Once Conf1  ##
 FormCreate(varFormNameMainSummonOnceConf1)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainSummonOnceTop)
-FormAddCriteria(critMainSummonOnceConfMid)
-FormAddCriteria(critMainSummonOnceConf11LeftMid)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTop)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceConfMid)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceConf11LeftMid)
 
 --  ##  Main Form Summon Once Conf0  ##
 FormCreate(varFormNameMainSummonOnceConf0)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainSummonOnceTop)
-FormAddCriteria(critMainSummonOnceConfMid)
-FormAddCriteriaNot(critMainSummonOnceConf11LeftMid)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTop)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceConfMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainSummonOnceConf11LeftMid)
 
 --  ##  Main Form Summon Once  ##
 FormCreate(varFormNameMainSummonOnceTap)
-FormAddCriteria(critMainSummonOnceTapTopLeft)
-FormAddCriteriaNot(critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTapTopLeft)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

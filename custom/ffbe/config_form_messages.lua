@@ -26,14 +26,14 @@ critMainHomeMessagesDetailTopLeft               = folderffbeimage.."messages/cri
 
 --  ##  Main Form Main Messages  ##
 FormCreate(varFormNameMainHomeMessages)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeMessages)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessages)
 
 --  ##  Main Form Main Messages Detail  ##
 FormCreate(varFormNameMainHomeMessagesDetail)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeMessagesDetailBottomLeft)
-FormAddCriteria(critMainHomeMessagesDetailBottomRight)
-FormAddCriteria(critMainHomeMessagesDetailTopLeft)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessagesDetailBottomLeft)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessagesDetailBottomRight)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeMessagesDetailTopLeft)
 
 

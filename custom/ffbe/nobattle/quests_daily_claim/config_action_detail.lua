@@ -18,7 +18,7 @@ ActionExecWaitForm(varFormNameMainHomeDailyQuest)
 
 ActionOnForm(varFormNameMainHomeDailyQuestReward)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeDailyQuestReward)
+ActionExecVar(picBtnMainHomeDailyQuestReward)  --  picBtnMainHomeDailyQuestClaimAll
 ActionExecWaitForm(varFormNameMainHomeDailyQuestClaim)
 
 ActionOnForm(varFormNameMainHomeDailyQuestClaimReward)

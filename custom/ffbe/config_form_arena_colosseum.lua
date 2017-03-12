@@ -67,63 +67,63 @@ picBtnMainArenaColosseumRechargeEnergyYes       = folderffbeimage.."colosseum/bt
 
 --  ##  Main Form Arena Colosseum  ##
 FormCreate(varFormNameMainArenaColosseum)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseum)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseum)
 
 --  ##  Main Form Arena Colosseum Bgn  ##
 FormCreate(varFormNameMainArenaColosseumBgn)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(picBtnMainHomeArenaColosseumBgnChangeGrade)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeArenaColosseumBgnChangeGrade)
 
 --  ##  Main Form Arena Colosseum Bgn Round  ##
 FormCreate(varFormNameMainArenaColosseumBgnRnd)
-FormAddCriteriaNot(critQuestDailyCompleted)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(picBtnMainHomeArenaColosseumBgnRndChangeRank)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeArenaColosseumBgnRndChangeRank)
+FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
 
 --  ##  Main Form Arena Colosseum Bgn Round Fight  ##
 FormCreate(varFormNameMainArenaColosseumBgnRndFight)
-FormAddCriteriaNot(critMainArenaColosseumRechargeEnergyMid)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseumBgnRndFightVs)
-FormAddCriteria(picBtnMainHomeArenaColosseumBgnRndFightMngParty)
-FormAddCriteria(picBtnMainHomeArenaColosseumBgnRndFightFight)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainArenaColosseumRechargeEnergyMid)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBgnRndFightVs)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeArenaColosseumBgnRndFightMngParty)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeArenaColosseumBgnRndFightFight)
 
 --  ##  Main Form Arena Colosseum Battle Results  ##
 FormCreate(varFormNameMainArenaColosseumBattleResults)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteriaNot(critMainHomeArenaColosseumGradeMid)
-FormAddCriteriaNot(critMainHomeArenaColosseumRankMid)
-FormAddCriteriaNot(critMainHomeArenaColosseumRoundMid)
-FormAddCriteria(critMainHomeArenaColosseumBattleResults)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeArenaColosseumGradeMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeArenaColosseumRankMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeArenaColosseumRoundMid)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
 
 --  ##  Main Form Arena Colosseum Battle Results Grade Clear Rewards  ##
 FormCreate(varFormNameMainArenaColosseumGrade)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseumBattleResults)
-FormAddCriteria(critMainHomeArenaColosseumGradeMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumGradeMid)
 
 --  ##  Main Form Arena Colosseum Battle Results Rank Clear Rewards  ##
 FormCreate(varFormNameMainArenaColosseumGrade)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseumBattleResults)
-FormAddCriteria(critMainHomeArenaColosseumRankMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumRankMid)
 
 --  ##  Main Form Arena Colosseum Battle Results Round Clear Rewards  ##
 FormCreate(varFormNameMainArenaColosseumRound)
-FormAddCriteriaNot(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseumBattleResults)
-FormAddCriteria(critMainHomeArenaColosseumRoundMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumRoundMid)
 
 --  ##  Main Form Arena Colosseum Select Grade  ##
 FormCreate(varFormNameMainArenaColosseumSelectGrade)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainHomeArenaColosseumSelectGradeTop)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumSelectGradeTop)
 
 --  ##  Main Form Arena Colosseum Recharge Energy  ##
 FormCreate(varFormNameMainArenaColosseumRechargeEnergy)
-FormAddCriteria(critMainBottom)
-FormAddCriteria(critMainArenaColosseumRechargeEnergyMid)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainArenaColosseumRechargeEnergyMid)
 
 
 
