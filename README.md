@@ -2,7 +2,7 @@
 Welcome to the dsAutoBot wiki!
 
 Program Description:
-* This project works using [Ankalua](http://ankulua.boards.net/thread/307/dsautobot-ffbe-similar-games)
+* This project works using [Ankulua](http://ankulua.boards.net/thread/307/dsautobot-ffbe-similar-games)
 * Bot for Final Fantasy Brave Exvius (FFBE) or other similar games should work too. 
 * You can customize the config file for your own preferences.
 * I do this on my spare time. If you find it useful, feel free to donate:
