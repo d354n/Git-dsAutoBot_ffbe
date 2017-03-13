@@ -43,6 +43,10 @@ ActionExecVar(picBtnBattleCompletionNext)
 ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 
 ActionOnForm(varFormNameMainBattleResultGil)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsGil)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsGil)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsGil)  -- click this until exists XXX
 ActionExecVar(1)  --  click delay
@@ -58,9 +62,15 @@ ActionExec(varActionExecuteDoSaveStatistic)
 ActionExecVar("")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critMainBattleResultsExp)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsExp)
 ActionExecWaitForm(varFormNameMainBattleResultItemsObtain)
 
 ActionOnForm(varFormNameMainBattleResultItemsObtain)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsItemsObtained)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsItemsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX
 ActionExecVar(1)  --  click delay
@@ -69,6 +79,10 @@ ActionExecVar(picBtnMainBattleResultsItemsObtNext)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
 ActionOnForm(varFormNameMainBattleResultUnitsObtain)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsUnitsObtained)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critMainBattleResultsUnitsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsUnitsObtained)  -- click this until exists XXX
 ActionExecVar(1)  --  click delay

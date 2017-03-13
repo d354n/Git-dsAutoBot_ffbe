@@ -188,8 +188,8 @@ for i=1, 3 do
         MultiAdd("Ar:Colosseum/TopLevel/TopRound")
         MultiAdd("Vx:Operation MA Demolition Pro", "99")
         MultiAdd("Craft  Get All Completed")
-        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
+        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
         MultiAdd("Wait 2000")
     end
