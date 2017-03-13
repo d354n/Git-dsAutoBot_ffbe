@@ -121,6 +121,8 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid1)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
 
 
 
@@ -157,6 +159,8 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityOn)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid1)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
 
 
 
@@ -193,6 +197,8 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftItemsOn)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid1)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
 
 
 
