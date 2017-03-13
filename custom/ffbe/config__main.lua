@@ -6,6 +6,8 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+Settings:set("MinSimilarity", 0.90)
+
 --  Parameteres
 varCountWaitTillFound = 2  --  how many counts to check Form Waiting before restart checking
 folderLogBattleResult = "../debug/log_battle_results/"
