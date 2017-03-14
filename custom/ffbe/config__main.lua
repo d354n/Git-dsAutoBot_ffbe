@@ -6,10 +6,9 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-Settings:set("MinSimilarity", 0.90)
-
 --  Parameteres
-varCountWaitTillFound = 2  --  how many counts to check Form Waiting before restart checking
+Settings:set("MinSimilarity", 0.90)
+varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
 folderLogBattleResult = "../debug/log_battle_results/"
 folderImgParams = "nox1/"
 
@@ -38,6 +37,9 @@ dofile(folderffbescript.."config_action.lua")       --  3rd
 dofile(folderffbescript.."config_battle.lua")       --  4th
 --  dont change end  --
 
+--  Menu: varActionDoCheck Start
+varFormToCheck = varFormNameMainFriendsReceiveNotEmpty
+--  Menu: varActionDoCheck End
 
 
 --  Exploration
@@ -70,6 +72,11 @@ varActionName = "Dg:Earth Shrine Entrance"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
+foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action_35.lua")
 
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
@@ -168,6 +175,11 @@ foldername = "../custom/ffbe/nobattle/quests_daily_claim/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Wait 600"
+foldername = "../custom/ffbe/nobattle/wait_600/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Wait 2000"
 foldername = "../custom/ffbe/nobattle/wait_2000/"
 parentfolder = foldername
@@ -183,10 +195,10 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 3 do
+for i=1, 1 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for i=1, 5 do
+    for i=1, 2 do
         MultiAdd("Ar:Colosseum/TopLevel/TopRound")
         MultiAdd("Vx:Operation MA Demolition Pro", "99")
         MultiAdd("Craft  Get All Completed")
