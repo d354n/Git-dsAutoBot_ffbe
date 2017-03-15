@@ -31,7 +31,7 @@ ActionExecWaitForm(varFormNameMainArenaColosseumBgnRnd)
 
 ActionOnForm(varFormNameMainArenaColosseumBgnRnd)
 ActionExec(varActionExecuteDoClickLocation)
-ActionExecVar(locMainHomeArenaColosseumBgnRankRnd01)
+ActionExecVar(locMainHomeArenaColosseumBgnRankRnd02)
 ActionExecWaitForm(varFormNameMainArenaColosseumBgnRndFight)
 
 ActionOnForm(varFormNameMainArenaColosseumBgnRndFight)
@@ -56,5 +56,6 @@ ActionExecWaitForm(varFormNameMainArenaColosseumBgn)
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_arena.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")
+
 
 

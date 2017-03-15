@@ -97,6 +97,21 @@ foldername = "../custom/ffbe/others/arena_colosseum/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Ar:Colosseum/TopLevel/2ndRound"
+foldername = "../custom/ffbe/others/arena_colosseum_toplevel_secondround/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Ar:Colosseum/TopLevel/3rdRound"
+foldername = "../custom/ffbe/others/arena_colosseum_toplevel_thirdround/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Ar:Colosseum/TopLevel/4thRound"
+foldername = "../custom/ffbe/others/arena_colosseum_toplevel_fourthround/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Ar:Battle"
 foldername = "../custom/ffbe/others/arena_battle/"
 parentfolder = foldername
@@ -199,12 +214,13 @@ for i=1, 1 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for i=1, 2 do
-        MultiAdd("Ar:Colosseum/TopLevel/TopRound")
+        MultiAdd("Ar:Colosseum/TopLevel/2ndRound")
         MultiAdd("Vx:Operation MA Demolition Pro", "99")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
+        MultiAdd("Friends  Receive Send All")
         MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items - Sell Items")

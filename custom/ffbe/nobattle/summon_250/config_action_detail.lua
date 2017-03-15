@@ -15,22 +15,25 @@ ActionExecWaitForm(varFormNameMainSummon)
 
 ActionOnForm(varFormNameMainSummon)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
+ActionExecVar(picSelectLevelDo)
 ActionExecWaitForm(varFormNameMainSummonOnce)
 
 ActionOnForm(varFormNameMainSummonOnce)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonOnceSummon)  --itemtofind priority 1
+ActionExecVar(picBtnMainSummonOnceSummon)
 ActionExecWaitForm(varFormNameMainSummonOnceConf1)
 
 ActionOnForm(varFormNameMainSummonOnceConf1)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonOnceSummon)  --itemtofind priority 1
+ActionExecVar(picBtnMainSummonOnceSummon)
 ActionExecWaitForm(varFormNameMainSummonOnceConf0)
 
 ActionOnForm(varFormNameMainSummonOnceTap)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__summon_")
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(critMainSummonOnceTapTopLeft)
+ActionExecVar(critMainSummonOnceTapTopBottom)
 ActionExecWaitForm(varFormNameMainSummonOnceTap)
 
 ActionOnForm(varFormNameMainSummonOnceConf0)

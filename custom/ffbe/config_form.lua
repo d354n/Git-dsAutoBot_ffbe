@@ -7,8 +7,7 @@
 --
 
 --  Variables
-
---  must be here
+    --  must be here
 critQuestDailyCompleted                         = folderffbeimage.."quest_daily/crit_daily_completed.png"
 
 
@@ -123,6 +122,7 @@ FormAddGoto(varFormNameMainItems  , picBtnMainItems)
 FormAddGoto(varFormNameMainShop   , picBtnMainShop)
 FormAddGoto(varFormNameMainSummon , picBtnMainSummon)
 FormAddGoto(varFormNameMainFriends, picBtnMainFriends)
+FormAddGotoIfStuck(varFormNameMainHome)
 
 --  ##  Main Form Connecting  ##
 FormCreate(varFormNameMainConnecting)

@@ -104,7 +104,7 @@ FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumGradeMid)
 
 --  ##  Main Form Arena Colosseum Battle Results Rank Clear Rewards  ##
-FormCreate(varFormNameMainArenaColosseumGrade)
+FormCreate(varFormNameMainArenaColosseumRank)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumBattleResults)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaColosseumRankMid)

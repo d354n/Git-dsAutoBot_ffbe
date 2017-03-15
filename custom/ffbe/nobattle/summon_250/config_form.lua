@@ -19,7 +19,7 @@ critMainSummonOnceConf11LeftMid                 = varDirectoryCustomImage.."crit
 
 --  ##  Main Form Summon Once Tap Screen  ##
 varFormNameMainSummonOnceTap                    = "MainFormSummonOnceConfTap"
-critMainSummonOnceTapTopLeft	                = varDirectoryCustomImage.."crit_tap_top_left.png"
+critMainSummonOnceTapTopBottom                  = varDirectoryCustomImage.."crit_tap_top_bottom.png"
 
 
 
@@ -46,5 +46,5 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainSummonOnceConf11LeftMid)
 
 --  ##  Main Form Summon Once  ##
 FormCreate(varFormNameMainSummonOnceTap)
-FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTapTopLeft)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonOnceTapTopBottom)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
