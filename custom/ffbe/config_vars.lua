@@ -75,4 +75,5 @@ picBtnBattleMagicCleanSweep       		        = Pattern(folderffbeimage.."magic/bt
 picBtnBattleMagicSteal                          = Pattern(folderffbeimage.."magic/btn_battle_magic_steal.png"):similar(0.97)   --  left side
 picBtnBattleMagicSteal2                         = Pattern(folderffbeimage.."magic/btn_battle_magic_steal2.png"):similar(0.97)  --  right side
 
+picBtnBattleMagicCheer                          = Pattern(folderffbeimage.."magic/btn_battle_magic_cheer.png"):similar(0.97)   --  left side
 

@@ -215,7 +215,7 @@ for i=1, 1 do
     MultiAdd("Quests  Daily Claim")
     for i=1, 2 do
         MultiAdd("Ar:Colosseum/TopLevel/2ndRound")
-        MultiAdd("Vx:Operation MA Demolition Pro", "99")
+        MultiAdd("Vx:Operation MA Demolition Pro", "98")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
