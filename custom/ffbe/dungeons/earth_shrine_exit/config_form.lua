@@ -7,8 +7,8 @@
 --
 
 --  Variables
-varFormNameMainBattleSelectLevelEarthShrine         = "MainBattleSelectLevelEarthShrine"
+varFormNameMainBattleSelectLevelEarthShrineExt     = "MainBattleSelectLevelEarthShrineExt"
 
 --  ##  Main Form Battle - Select Level Earth Shrine ##
-FormCreate(varFormNameMainBattleSelectLevelEarthShrine)
+FormCreate(varFormNameMainBattleSelectLevelEarthShrineExt)
 FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_select_level_top.png")

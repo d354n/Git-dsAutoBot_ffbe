@@ -588,302 +588,450 @@ return {
    {586},
    {587},
    {588},
+   {589},
+   {590},
+   {591},
+   {592},
+   {593},
+   {594},
+   {595},
+   {596},
+   {597},
+   {598},
+   {599},
+   {600},
+   {601},
+   {602},
+   {603},
+   {604},
+   {605},
+   {606},
+   {607},
+   {608},
+   {609},
+   {610},
+   {611},
+   {612},
+   {613},
+   {614},
+   {615},
+   {616},
+   {617},
+   {618},
+   {619},
+   {620},
+   {621},
+   {622},
+   {623},
+   {624},
+   {625},
+   {626},
+   {627},
+   {628},
+   {629},
+   {630},
+   {631},
+   {632},
+   {633},
+   {634},
+   {635},
+   {636},
+   {637},
+   {638},
+   {639},
+   {640},
+   {641},
+   {642},
+   {643},
+   {644},
+   {645},
+   {646},
+   {647},
+   {648},
+   {649},
+   {650},
+   {651},
+   {652},
+   {653},
+   {654},
+   {655},
+   {656},
+   {657},
+   {658},
+   {659},
+   {660},
+   {661},
+   {662},
+   {663},
+   {664},
+   {665},
+   {666},
+   {667},
+   {668},
+   {669},
+   {670},
+   {671},
+   {672},
+   {673},
+   {674},
+   {675},
+   {676},
+   {677},
+   {678},
+   {679},
+   {680},
+   {681},
+   {682},
+   {683},
+   {684},
+   {685},
+   {686},
+   {687},
+   {688},
+   {689},
+   {690},
+   {691},
+   {692},
+   {693},
+   {694},
+   {695},
+   {696},
+   {697},
+   {698},
+   {699},
+   {700},
+   {701},
+   {702},
+   {703},
+   {704},
+   {705},
+   {706},
+   {707},
+   {708},
+   {709},
+   {710},
+   {711},
+   {712},
+   {713},
+   {714},
+   {715},
+   {716},
+   {717},
+   {718},
+   {719},
+   {720},
+   {721},
+   {722},
+   {723},
+   {724},
+   {725},
+   {726},
+   {727},
+   {728},
+   {729},
+   {730},
+   {731},
+   {732},
+   {733},
+   {734},
+   {735},
+   {736},
 },
 -- Table: {2}
 {
-   ["inp"]={589},
-   ["res"]={590},
-   ["rescnt"]=25,
+   ["inp"]={737},
+   ["res"]={738},
+   ["rescnt"]=35,
 },
 -- Table: {3}
 {
-   ["inp"]={591},
-   ["res"]={592},
-   ["rescnt"]=25,
+   ["inp"]={739},
+   ["res"]={740},
+   ["rescnt"]=35,
 },
 -- Table: {4}
 {
-   ["inp"]={593},
-   ["res"]={594},
-   ["rescnt"]=26,
+   ["inp"]={741},
+   ["res"]={742},
+   ["rescnt"]=36,
 },
 -- Table: {5}
 {
-   ["inp"]={595},
-   ["res"]={596},
-   ["rescnt"]=26,
+   ["inp"]={743},
+   ["res"]={744},
+   ["rescnt"]=34,
 },
 -- Table: {6}
 {
-   ["inp"]={597},
-   ["res"]={598},
+   ["inp"]={745},
+   ["res"]={746},
    ["rescnt"]=71,
 },
 -- Table: {7}
 {
-   ["inp"]={599},
-   ["res"]={600},
+   ["inp"]={747},
+   ["res"]={748},
    ["rescnt"]=39,
 },
 -- Table: {8}
 {
-   ["inp"]={601},
-   ["res"]={602},
+   ["inp"]={749},
+   ["res"]={750},
    ["rescnt"]=39,
 },
 -- Table: {9}
 {
-   ["inp"]={603},
-   ["res"]={604},
+   ["inp"]={751},
+   ["res"]={752},
    ["rescnt"]=38,
 },
 -- Table: {10}
 {
-   ["inp"]={605},
-   ["res"]={606},
+   ["inp"]={753},
+   ["res"]={754},
    ["rescnt"]=2,
 },
 -- Table: {11}
 {
-   ["inp"]={607},
-   ["res"]={608},
+   ["inp"]={755},
+   ["res"]={756},
    ["rescnt"]=1,
 },
 -- Table: {12}
 {
-   ["inp"]={609},
-   ["res"]={610},
+   ["inp"]={757},
+   ["res"]={758},
    ["rescnt"]=4,
 },
 -- Table: {13}
 {
-   ["inp"]={611},
-   ["res"]={612},
+   ["inp"]={759},
+   ["res"]={760},
    ["rescnt"]=2,
 },
 -- Table: {14}
 {
-   ["inp"]={613},
-   ["res"]={614},
+   ["inp"]={761},
+   ["res"]={762},
    ["rescnt"]=0,
 },
 -- Table: {15}
 {
-   ["inp"]={615},
-   ["res"]={616},
+   ["inp"]={763},
+   ["res"]={764},
    ["rescnt"]=1,
 },
 -- Table: {16}
 {
-   ["inp"]={617},
-   ["res"]={618},
+   ["inp"]={765},
+   ["res"]={766},
    ["rescnt"]=2,
 },
 -- Table: {17}
 {
-   ["inp"]={619},
-   ["res"]={620},
-   ["rescnt"]=25,
+   ["inp"]={767},
+   ["res"]={768},
+   ["rescnt"]=36,
 },
 -- Table: {18}
 {
-   ["inp"]={621},
-   ["res"]={622},
-   ["rescnt"]=24,
+   ["inp"]={769},
+   ["res"]={770},
+   ["rescnt"]=34,
 },
 -- Table: {19}
 {
-   ["inp"]={623},
-   ["res"]={624},
-   ["rescnt"]=16,
+   ["inp"]={771},
+   ["res"]={772},
+   ["rescnt"]=23,
 },
 -- Table: {20}
 {
-   ["inp"]={625},
-   ["res"]={626},
-   ["rescnt"]=28,
+   ["inp"]={773},
+   ["res"]={774},
+   ["rescnt"]=41,
 },
 -- Table: {21}
 {
-   ["inp"]={627},
-   ["res"]={628},
-   ["rescnt"]=57,
+   ["inp"]={775},
+   ["res"]={776},
+   ["rescnt"]=72,
 },
 -- Table: {22}
 {
-   ["inp"]={629},
-   ["res"]={630},
-   ["rescnt"]=56,
+   ["inp"]={777},
+   ["res"]={778},
+   ["rescnt"]=71,
 },
 -- Table: {23}
 {
-   ["inp"]={631},
-   ["res"]={632},
-   ["rescnt"]=55,
+   ["inp"]={779},
+   ["res"]={780},
+   ["rescnt"]=70,
 },
 -- Table: {24}
 {
-   ["inp"]={633},
-   ["res"]={634},
-   ["rescnt"]=55,
+   ["inp"]={781},
+   ["res"]={782},
+   ["rescnt"]=70,
 },
 -- Table: {25}
 {
-   ["inp"]={635},
-   ["res"]={636},
-   ["rescnt"]=55,
+   ["inp"]={783},
+   ["res"]={784},
+   ["rescnt"]=69,
 },
 -- Table: {26}
 {
-   ["inp"]={637},
-   ["res"]={638},
-   ["rescnt"]=55,
+   ["inp"]={785},
+   ["res"]={786},
+   ["rescnt"]=69,
 },
 -- Table: {27}
 {
-   ["inp"]={639},
-   ["res"]={640},
-   ["rescnt"]=22,
+   ["inp"]={787},
+   ["res"]={788},
+   ["rescnt"]=32,
 },
 -- Table: {28}
 {
-   ["inp"]={641},
-   ["res"]={642},
+   ["inp"]={789},
+   ["res"]={790},
    ["rescnt"]=99,
 },
 -- Table: {29}
 {
-   ["inp"]={643},
-   ["res"]={644},
-   ["rescnt"]=51,
+   ["inp"]={791},
+   ["res"]={792},
+   ["rescnt"]=60,
 },
 -- Table: {30}
 {
-   ["inp"]={645},
-   ["res"]={646},
-   ["rescnt"]=54,
+   ["inp"]={793},
+   ["res"]={794},
+   ["rescnt"]=63,
 },
 -- Table: {31}
 {
 },
 -- Table: {32}
 {
-   ["inp"]={647},
-   ["res"]={648},
+   ["inp"]={795},
+   ["res"]={796},
    ["rescnt"]=1,
 },
 -- Table: {33}
 {
-   ["inp"]={649},
-   ["res"]={650},
+   ["inp"]={797},
+   ["res"]={798},
    ["rescnt"]=33,
 },
 -- Table: {34}
 {
-   ["inp"]={651},
-   ["res"]={652},
+   ["inp"]={799},
+   ["res"]={800},
    ["rescnt"]=37,
 },
 -- Table: {35}
 {
-   ["inp"]={653},
-   ["res"]={654},
+   ["inp"]={801},
+   ["res"]={802},
    ["rescnt"]=18,
 },
 -- Table: {36}
 {
-   ["inp"]={655},
-   ["res"]={656},
-   ["rescnt"]=56,
+   ["inp"]={803},
+   ["res"]={804},
+   ["rescnt"]=60,
 },
 -- Table: {37}
 {
-   ["inp"]={657},
-   ["res"]={658},
-   ["rescnt"]=4,
+   ["inp"]={805},
+   ["res"]={806},
+   ["rescnt"]=5,
 },
 -- Table: {38}
 {
-   ["inp"]={659},
-   ["res"]={660},
-   ["rescnt"]=4,
+   ["inp"]={807},
+   ["res"]={808},
+   ["rescnt"]=5,
 },
 -- Table: {39}
 {
-   ["inp"]={661},
-   ["res"]={662},
+   ["inp"]={809},
+   ["res"]={810},
    ["rescnt"]=0,
 },
 -- Table: {40}
 {
-   ["inp"]={663},
-   ["res"]={664},
+   ["inp"]={811},
+   ["res"]={812},
    ["rescnt"]=99,
 },
 -- Table: {41}
 {
-   ["inp"]={665},
-   ["res"]={666},
+   ["inp"]={813},
+   ["res"]={814},
    ["rescnt"]=99,
 },
 -- Table: {42}
 {
-   ["inp"]={667},
-   ["res"]={668},
+   ["inp"]={815},
+   ["res"]={816},
    ["rescnt"]=99,
 },
 -- Table: {43}
 {
-   ["inp"]={669},
-   ["res"]={670},
+   ["inp"]={817},
+   ["res"]={818},
    ["rescnt"]=99,
 },
 -- Table: {44}
 {
-   ["inp"]={671},
-   ["res"]={672},
+   ["inp"]={819},
+   ["res"]={820},
    ["rescnt"]=2,
 },
 -- Table: {45}
 {
-   ["inp"]={673},
-   ["res"]={674},
+   ["inp"]={821},
+   ["res"]={822},
    ["rescnt"]=99,
 },
 -- Table: {46}
 {
-   ["inp"]={675},
-   ["res"]={676},
+   ["inp"]={823},
+   ["res"]={824},
    ["rescnt"]=2,
 },
 -- Table: {47}
 {
-   ["inp"]={677},
-   ["res"]={678},
-   ["rescnt"]=49,
+   ["inp"]={825},
+   ["res"]={826},
+   ["rescnt"]=54,
 },
 -- Table: {48}
 {
-   ["inp"]={679},
-   ["res"]={680},
-   ["rescnt"]=49,
+   ["inp"]={827},
+   ["res"]={828},
+   ["rescnt"]=54,
 },
 -- Table: {49}
 {
-   ["inp"]={681},
-   ["res"]={682},
-   ["rescnt"]=49,
+   ["inp"]={829},
+   ["res"]={830},
+   ["rescnt"]=58,
 },
 -- Table: {50}
 {
-   ["inp"]={683},
-   ["res"]={684},
-   ["rescnt"]=49,
+   ["inp"]={831},
+   ["res"]={832},
+   ["rescnt"]=58,
 },
 -- Table: {51}
 {
-   ["inp"]={685},
-   ["res"]={686},
+   ["inp"]={833},
+   ["res"]={834},
    ["rescnt"]=24,
 },
 -- Table: {52}
@@ -894,204 +1042,204 @@ return {
 },
 -- Table: {54}
 {
-   ["inp"]={687},
-   ["res"]={688},
-   ["rescnt"]=54,
+   ["inp"]={835},
+   ["res"]={836},
+   ["rescnt"]=70,
 },
 -- Table: {55}
 {
-   ["inp"]={689},
-   ["res"]={690},
-   ["rescnt"]=54,
+   ["inp"]={837},
+   ["res"]={838},
+   ["rescnt"]=62,
 },
 -- Table: {56}
 {
-   ["inp"]={691},
-   ["res"]={692},
-   ["rescnt"]=5,
+   ["inp"]={839},
+   ["res"]={840},
+   ["rescnt"]=10,
 },
 -- Table: {57}
 {
-   ["inp"]={693},
-   ["res"]={694},
-   ["rescnt"]=86,
+   ["inp"]={841},
+   ["res"]={842},
+   ["rescnt"]=99,
 },
 -- Table: {58}
 {
-   ["inp"]={695},
-   ["res"]={696},
-   ["rescnt"]=47,
+   ["inp"]={843},
+   ["res"]={844},
+   ["rescnt"]=61,
 },
 -- Table: {59}
 {
-   ["inp"]={697},
-   ["res"]={698},
-   ["rescnt"]=47,
+   ["inp"]={845},
+   ["res"]={846},
+   ["rescnt"]=61,
 },
 -- Table: {60}
 {
-   ["inp"]={699},
-   ["res"]={700},
-   ["rescnt"]=44,
+   ["inp"]={847},
+   ["res"]={848},
+   ["rescnt"]=39,
 },
 -- Table: {61}
 {
-   ["inp"]={701},
-   ["res"]={702},
-   ["rescnt"]=5,
+   ["inp"]={849},
+   ["res"]={850},
+   ["rescnt"]=10,
 },
 -- Table: {62}
 {
-   ["inp"]={703},
-   ["res"]={704},
-   ["rescnt"]=15,
+   ["inp"]={851},
+   ["res"]={852},
+   ["rescnt"]=26,
 },
 -- Table: {63}
 {
-   ["inp"]={705},
-   ["res"]={706},
-   ["rescnt"]=56,
+   ["inp"]={853},
+   ["res"]={854},
+   ["rescnt"]=67,
 },
 -- Table: {64}
 {
-   ["inp"]={707},
-   ["res"]={708},
-   ["rescnt"]=52,
+   ["inp"]={855},
+   ["res"]={856},
+   ["rescnt"]=63,
 },
 -- Table: {65}
 {
-   ["inp"]={709},
-   ["res"]={710},
-   ["rescnt"]=17,
+   ["inp"]={857},
+   ["res"]={858},
+   ["rescnt"]=20,
 },
 -- Table: {66}
 {
-   ["inp"]={711},
-   ["res"]={712},
+   ["inp"]={859},
+   ["res"]={860},
    ["rescnt"]=99,
 },
 -- Table: {67}
 {
-   ["inp"]={713},
-   ["res"]={714},
+   ["inp"]={861},
+   ["res"]={862},
    ["rescnt"]=99,
 },
 -- Table: {68}
 {
-   ["inp"]={715},
-   ["res"]={716},
-   ["rescnt"]=18,
+   ["inp"]={863},
+   ["res"]={864},
+   ["rescnt"]=21,
 },
 -- Table: {69}
 {
-   ["inp"]={717},
-   ["res"]={718},
+   ["inp"]={865},
+   ["res"]={866},
    ["rescnt"]=0,
 },
 -- Table: {70}
 {
-   ["inp"]={719},
-   ["res"]={720},
+   ["inp"]={867},
+   ["res"]={868},
    ["rescnt"]=2,
 },
 -- Table: {71}
 {
-   ["inp"]={721},
-   ["res"]={722},
-   ["rescnt"]=0,
+   ["inp"]={869},
+   ["res"]={870},
+   ["rescnt"]=1,
 },
 -- Table: {72}
 {
-   ["inp"]={723},
-   ["res"]={724},
+   ["inp"]={871},
+   ["res"]={872},
    ["rescnt"]=0,
 },
 -- Table: {73}
 {
-   ["inp"]={725},
-   ["res"]={726},
-   ["rescnt"]=10,
+   ["inp"]={873},
+   ["res"]={874},
+   ["rescnt"]=12,
 },
 -- Table: {74}
 {
-   ["inp"]={727},
-   ["res"]={728},
-   ["rescnt"]=10,
+   ["inp"]={875},
+   ["res"]={876},
+   ["rescnt"]=12,
 },
 -- Table: {75}
 {
-   ["inp"]={729},
-   ["res"]={730},
-   ["rescnt"]=10,
+   ["inp"]={877},
+   ["res"]={878},
+   ["rescnt"]=12,
 },
 -- Table: {76}
 {
-   ["inp"]={731},
-   ["res"]={732},
+   ["inp"]={879},
+   ["res"]={880},
    ["rescnt"]=49,
 },
 -- Table: {77}
 {
-   ["inp"]={733},
-   ["res"]={734},
-   ["rescnt"]=47,
+   ["inp"]={881},
+   ["res"]={882},
+   ["rescnt"]=56,
 },
 -- Table: {78}
 {
-   ["inp"]={735},
-   ["res"]={736},
+   ["inp"]={883},
+   ["res"]={884},
    ["rescnt"]=10,
 },
 -- Table: {79}
 {
-   ["inp"]={737},
-   ["res"]={738},
+   ["inp"]={885},
+   ["res"]={886},
    ["rescnt"]=99,
 },
 -- Table: {80}
 {
-   ["inp"]={739},
-   ["res"]={740},
-   ["rescnt"]=2,
+   ["inp"]={887},
+   ["res"]={888},
+   ["rescnt"]=3,
 },
 -- Table: {81}
 {
-   ["inp"]={741},
-   ["res"]={742},
-   ["rescnt"]=85,
+   ["inp"]={889},
+   ["res"]={890},
+   ["rescnt"]=80,
 },
 -- Table: {82}
 {
-   ["inp"]={743},
-   ["res"]={744},
-   ["rescnt"]=15,
+   ["inp"]={891},
+   ["res"]={892},
+   ["rescnt"]=19,
 },
 -- Table: {83}
 {
-   ["inp"]={745},
-   ["res"]={746},
-   ["rescnt"]=14,
+   ["inp"]={893},
+   ["res"]={894},
+   ["rescnt"]=18,
 },
 -- Table: {84}
 {
-   ["inp"]={747},
-   ["res"]={748},
-   ["rescnt"]=17,
+   ["inp"]={895},
+   ["res"]={896},
+   ["rescnt"]=20,
 },
 -- Table: {85}
 {
 },
 -- Table: {86}
 {
-   ["inp"]={749},
-   ["res"]={750},
-   ["rescnt"]=9,
+   ["inp"]={897},
+   ["res"]={898},
+   ["rescnt"]=12,
 },
 -- Table: {87}
 {
-   ["inp"]={751},
-   ["res"]={752},
-   ["rescnt"]=2,
+   ["inp"]={899},
+   ["res"]={900},
+   ["rescnt"]=4,
 },
 -- Table: {88}
 {
@@ -1104,41 +1252,41 @@ return {
 },
 -- Table: {91}
 {
-   ["inp"]={753},
-   ["res"]={754},
-   ["rescnt"]=19,
+   ["inp"]={901},
+   ["res"]={902},
+   ["rescnt"]=22,
 },
 -- Table: {92}
 {
-   ["inp"]={755},
-   ["res"]={756},
-   ["rescnt"]=47,
+   ["inp"]={903},
+   ["res"]={904},
+   ["rescnt"]=57,
 },
 -- Table: {93}
 {
-   ["inp"]={757},
-   ["res"]={758},
-   ["rescnt"]=2,
+   ["inp"]={905},
+   ["res"]={906},
+   ["rescnt"]=5,
 },
 -- Table: {94}
 {
-   ["inp"]={759},
-   ["res"]={760},
-   ["rescnt"]=11,
+   ["inp"]={907},
+   ["res"]={908},
+   ["rescnt"]=12,
 },
 -- Table: {95}
 {
 },
 -- Table: {96}
 {
-   ["inp"]={761},
-   ["res"]={762},
+   ["inp"]={909},
+   ["res"]={910},
    ["rescnt"]=99,
 },
 -- Table: {97}
 {
-   ["inp"]={763},
-   ["res"]={764},
+   ["inp"]={911},
+   ["res"]={912},
    ["rescnt"]=1,
 },
 -- Table: {98}
@@ -1146,15 +1294,15 @@ return {
 },
 -- Table: {99}
 {
-   ["inp"]={765},
-   ["res"]={766},
-   ["rescnt"]=18,
+   ["inp"]={913},
+   ["res"]={914},
+   ["rescnt"]=21,
 },
 -- Table: {100}
 {
-   ["inp"]={767},
-   ["res"]={768},
-   ["rescnt"]=19,
+   ["inp"]={915},
+   ["res"]={916},
+   ["rescnt"]=22,
 },
 -- Table: {101}
 {
@@ -1173,8 +1321,8 @@ return {
 },
 -- Table: {106}
 {
-   ["inp"]={769},
-   ["res"]={770},
+   ["inp"]={917},
+   ["res"]={918},
    ["rescnt"]=1,
 },
 -- Table: {107}
@@ -1209,50 +1357,50 @@ return {
 },
 -- Table: {117}
 {
-   ["inp"]={771},
-   ["res"]={772},
+   ["inp"]={919},
+   ["res"]={920},
    ["rescnt"]=1,
 },
 -- Table: {118}
 {
-   ["inp"]={773},
-   ["res"]={774},
+   ["inp"]={921},
+   ["res"]={922},
    ["rescnt"]=1,
 },
 -- Table: {119}
 {
-   ["inp"]={775},
-   ["res"]={776},
+   ["inp"]={923},
+   ["res"]={924},
    ["rescnt"]=1,
 },
 -- Table: {120}
 {
-   ["inp"]={777},
-   ["res"]={778},
+   ["inp"]={925},
+   ["res"]={926},
    ["rescnt"]=1,
 },
 -- Table: {121}
 {
-   ["inp"]={779},
-   ["res"]={780},
-   ["rescnt"]=1,
+   ["inp"]={927},
+   ["res"]={928},
+   ["rescnt"]=0,
 },
 -- Table: {122}
 {
-   ["inp"]={781},
-   ["res"]={782},
-   ["rescnt"]=1,
+   ["inp"]={929},
+   ["res"]={930},
+   ["rescnt"]=0,
 },
 -- Table: {123}
 {
-   ["inp"]={783},
-   ["res"]={784},
+   ["inp"]={931},
+   ["res"]={932},
    ["rescnt"]=99,
 },
 -- Table: {124}
 {
-   ["inp"]={785},
-   ["res"]={786},
+   ["inp"]={933},
+   ["res"]={934},
    ["rescnt"]=0,
 },
 -- Table: {125}
@@ -1296,9 +1444,9 @@ return {
 },
 -- Table: {138}
 {
-   ["inp"]={787},
-   ["res"]={788},
-   ["rescnt"]=9,
+   ["inp"]={935},
+   ["res"]={936},
+   ["rescnt"]=10,
 },
 -- Table: {139}
 {
@@ -1422,8 +1570,8 @@ return {
 },
 -- Table: {179}
 {
-   ["inp"]={789},
-   ["res"]={790},
+   ["inp"]={937},
+   ["res"]={938},
    ["rescnt"]=2,
 },
 -- Table: {180}
@@ -1461,8 +1609,8 @@ return {
 },
 -- Table: {191}
 {
-   ["inp"]={791},
-   ["res"]={792},
+   ["inp"]={939},
+   ["res"]={940},
    ["rescnt"]=1,
 },
 -- Table: {192}
@@ -1497,8 +1645,8 @@ return {
 },
 -- Table: {202}
 {
-   ["inp"]={793},
-   ["res"]={794},
+   ["inp"]={941},
+   ["res"]={942},
    ["rescnt"]=2,
 },
 -- Table: {203}
@@ -1596,104 +1744,104 @@ return {
 },
 -- Table: {234}
 {
-   ["inp"]={795},
-   ["res"]={796},
-   ["rescnt"]=3,
+   ["inp"]={943},
+   ["res"]={944},
+   ["rescnt"]=5,
 },
 -- Table: {235}
 {
-   ["inp"]={797},
-   ["res"]={798},
-   ["rescnt"]=4,
+   ["inp"]={945},
+   ["res"]={946},
+   ["rescnt"]=6,
 },
 -- Table: {236}
 {
-   ["inp"]={799},
-   ["res"]={800},
-   ["rescnt"]=4,
+   ["inp"]={947},
+   ["res"]={948},
+   ["rescnt"]=6,
 },
 -- Table: {237}
 {
-   ["inp"]={801},
-   ["res"]={802},
+   ["inp"]={949},
+   ["res"]={950},
    ["rescnt"]=2,
 },
 -- Table: {238}
 {
-   ["inp"]={803},
-   ["res"]={804},
+   ["inp"]={951},
+   ["res"]={952},
    ["rescnt"]=2,
 },
 -- Table: {239}
 {
-   ["inp"]={805},
-   ["res"]={806},
+   ["inp"]={953},
+   ["res"]={954},
    ["rescnt"]=3,
 },
 -- Table: {240}
 {
-   ["inp"]={807},
-   ["res"]={808},
+   ["inp"]={955},
+   ["res"]={956},
    ["rescnt"]=1,
 },
 -- Table: {241}
 {
-   ["inp"]={809},
-   ["res"]={810},
+   ["inp"]={957},
+   ["res"]={958},
    ["rescnt"]=3,
 },
 -- Table: {242}
 {
-   ["inp"]={811},
-   ["res"]={812},
+   ["inp"]={959},
+   ["res"]={960},
    ["rescnt"]=2,
 },
 -- Table: {243}
 {
-   ["inp"]={813},
-   ["res"]={814},
+   ["inp"]={961},
+   ["res"]={962},
    ["rescnt"]=2,
 },
 -- Table: {244}
 {
-   ["inp"]={815},
-   ["res"]={816},
-   ["rescnt"]=2,
+   ["inp"]={963},
+   ["res"]={964},
+   ["rescnt"]=4,
 },
 -- Table: {245}
 {
-   ["inp"]={817},
-   ["res"]={818},
+   ["inp"]={965},
+   ["res"]={966},
    ["rescnt"]=1,
 },
 -- Table: {246}
 {
-   ["inp"]={819},
-   ["res"]={820},
+   ["inp"]={967},
+   ["res"]={968},
    ["rescnt"]=1,
 },
 -- Table: {247}
 {
-   ["inp"]={821},
-   ["res"]={822},
+   ["inp"]={969},
+   ["res"]={970},
    ["rescnt"]=1,
 },
 -- Table: {248}
 {
-   ["inp"]={823},
-   ["res"]={824},
+   ["inp"]={971},
+   ["res"]={972},
    ["rescnt"]=1,
 },
 -- Table: {249}
 {
-   ["inp"]={825},
-   ["res"]={826},
+   ["inp"]={973},
+   ["res"]={974},
    ["rescnt"]=1,
 },
 -- Table: {250}
 {
-   ["inp"]={827},
-   ["res"]={828},
+   ["inp"]={975},
+   ["res"]={976},
    ["rescnt"]=1,
 },
 -- Table: {251}
@@ -1755,14 +1903,14 @@ return {
 },
 -- Table: {270}
 {
-   ["inp"]={829},
-   ["res"]={830},
+   ["inp"]={977},
+   ["res"]={978},
    ["rescnt"]=37,
 },
 -- Table: {271}
 {
-   ["inp"]={831},
-   ["res"]={832},
+   ["inp"]={979},
+   ["res"]={980},
    ["rescnt"]=40,
 },
 -- Table: {272}
@@ -1842,8 +1990,8 @@ return {
 },
 -- Table: {297}
 {
-   ["inp"]={833},
-   ["res"]={834},
+   ["inp"]={981},
+   ["res"]={982},
    ["rescnt"]=1,
 },
 -- Table: {298}
@@ -1938,8 +2086,8 @@ return {
 },
 -- Table: {328}
 {
-   ["inp"]={835},
-   ["res"]={836},
+   ["inp"]={983},
+   ["res"]={984},
    ["rescnt"]=6,
 },
 -- Table: {329}
@@ -1995,8 +2143,8 @@ return {
 },
 -- Table: {346}
 {
-   ["inp"]={837},
-   ["res"]={838},
+   ["inp"]={985},
+   ["res"]={986},
    ["rescnt"]=1,
 },
 -- Table: {347}
@@ -2013,14 +2161,14 @@ return {
 },
 -- Table: {351}
 {
-   ["inp"]={839},
-   ["res"]={840},
-   ["rescnt"]=1,
+   ["inp"]={987},
+   ["res"]={988},
+   ["rescnt"]=2,
 },
 -- Table: {352}
 {
-   ["inp"]={841},
-   ["res"]={842},
+   ["inp"]={989},
+   ["res"]={990},
    ["rescnt"]=0,
 },
 -- Table: {353}
@@ -2157,8 +2305,8 @@ return {
 },
 -- Table: {397}
 {
-   ["inp"]={843},
-   ["res"]={844},
+   ["inp"]={991},
+   ["res"]={992},
    ["rescnt"]=1,
 },
 -- Table: {398}
@@ -2202,8 +2350,8 @@ return {
 },
 -- Table: {411}
 {
-   ["inp"]={845},
-   ["res"]={846},
+   ["inp"]={993},
+   ["res"]={994},
    ["rescnt"]=2,
 },
 -- Table: {412}
@@ -2232,32 +2380,32 @@ return {
 },
 -- Table: {420}
 {
-   ["inp"]={847},
-   ["res"]={848},
+   ["inp"]={995},
+   ["res"]={996},
    ["rescnt"]=2,
 },
 -- Table: {421}
 {
-   ["inp"]={849},
-   ["res"]={850},
+   ["inp"]={997},
+   ["res"]={998},
    ["rescnt"]=2,
 },
 -- Table: {422}
 {
-   ["inp"]={851},
-   ["res"]={852},
+   ["inp"]={999},
+   ["res"]={1000},
    ["rescnt"]=1,
 },
 -- Table: {423}
 {
-   ["inp"]={853},
-   ["res"]={854},
+   ["inp"]={1001},
+   ["res"]={1002},
    ["rescnt"]=1,
 },
 -- Table: {424}
 {
-   ["inp"]={855},
-   ["res"]={856},
+   ["inp"]={1003},
+   ["res"]={1004},
    ["rescnt"]=1,
 },
 -- Table: {425}
@@ -2271,50 +2419,50 @@ return {
 },
 -- Table: {428}
 {
-   ["inp"]={857},
-   ["res"]={858},
-   ["rescnt"]=22,
+   ["inp"]={1005},
+   ["res"]={1006},
+   ["rescnt"]=27,
 },
 -- Table: {429}
 {
-   ["inp"]={859},
-   ["res"]={860},
-   ["rescnt"]=19,
+   ["inp"]={1007},
+   ["res"]={1008},
+   ["rescnt"]=20,
 },
 -- Table: {430}
 {
-   ["inp"]={861},
-   ["res"]={862},
-   ["rescnt"]=19,
+   ["inp"]={1009},
+   ["res"]={1010},
+   ["rescnt"]=20,
 },
 -- Table: {431}
 {
-   ["inp"]={863},
-   ["res"]={864},
-   ["rescnt"]=29,
+   ["inp"]={1011},
+   ["res"]={1012},
+   ["rescnt"]=32,
 },
 -- Table: {432}
 {
-   ["inp"]={865},
-   ["res"]={866},
-   ["rescnt"]=38,
+   ["inp"]={1013},
+   ["res"]={1014},
+   ["rescnt"]=42,
 },
 -- Table: {433}
 {
-   ["inp"]={867},
-   ["res"]={868},
-   ["rescnt"]=19,
+   ["inp"]={1015},
+   ["res"]={1016},
+   ["rescnt"]=21,
 },
 -- Table: {434}
 {
-   ["inp"]={869},
-   ["res"]={870},
-   ["rescnt"]=19,
+   ["inp"]={1017},
+   ["res"]={1018},
+   ["rescnt"]=20,
 },
 -- Table: {435}
 {
-   ["inp"]={871},
-   ["res"]={872},
+   ["inp"]={1019},
+   ["res"]={1020},
    ["rescnt"]=1,
 },
 -- Table: {436}
@@ -2340,65 +2488,65 @@ return {
 },
 -- Table: {443}
 {
-   ["inp"]={873},
-   ["res"]={874},
-   ["rescnt"]=1,
+   ["inp"]={1021},
+   ["res"]={1022},
+   ["rescnt"]=5,
 },
 -- Table: {444}
 {
-   ["inp"]={875},
-   ["res"]={876},
-   ["rescnt"]=1,
+   ["inp"]={1023},
+   ["res"]={1024},
+   ["rescnt"]=4,
 },
 -- Table: {445}
 {
-   ["inp"]={877},
-   ["res"]={878},
-   ["rescnt"]=2,
+   ["inp"]={1025},
+   ["res"]={1026},
+   ["rescnt"]=6,
 },
 -- Table: {446}
 {
-   ["inp"]={879},
-   ["res"]={880},
-   ["rescnt"]=1,
+   ["inp"]={1027},
+   ["res"]={1028},
+   ["rescnt"]=2,
 },
 -- Table: {447}
 {
-   ["inp"]={881},
-   ["res"]={882},
-   ["rescnt"]=1,
+   ["inp"]={1029},
+   ["res"]={1030},
+   ["rescnt"]=2,
 },
 -- Table: {448}
 {
-   ["inp"]={883},
-   ["res"]={884},
-   ["rescnt"]=1,
+   ["inp"]={1031},
+   ["res"]={1032},
+   ["rescnt"]=2,
 },
 -- Table: {449}
 {
-   ["inp"]={885},
-   ["res"]={886},
-   ["rescnt"]=1,
+   ["inp"]={1033},
+   ["res"]={1034},
+   ["rescnt"]=2,
 },
 -- Table: {450}
 {
-   ["inp"]={887},
-   ["res"]={888},
-   ["rescnt"]=1,
+   ["inp"]={1035},
+   ["res"]={1036},
+   ["rescnt"]=4,
 },
 -- Table: {451}
 {
-   ["inp"]={889},
-   ["res"]={890},
-   ["rescnt"]=1,
+   ["inp"]={1037},
+   ["res"]={1038},
+   ["rescnt"]=4,
 },
 -- Table: {452}
 {
 },
 -- Table: {453}
 {
-   ["inp"]={891},
-   ["res"]={892},
+   ["inp"]={1039},
+   ["res"]={1040},
    ["rescnt"]=1,
 },
 -- Table: {454}
@@ -2520,9 +2668,9 @@ return {
 },
 -- Table: {493}
 {
-   ["inp"]={893},
-   ["res"]={894},
-   ["rescnt"]=1,
+   ["inp"]={1041},
+   ["res"]={1042},
+   ["rescnt"]=2,
 },
 -- Table: {494}
 {
@@ -2811,2144 +2959,3746 @@ return {
 },
 -- Table: {589}
 {
+},
+-- Table: {590}
+{
+},
+-- Table: {591}
+{
+   ["inp"]={1043},
+   ["res"]={1044},
+   ["rescnt"]=1,
+},
+-- Table: {592}
+{
+},
+-- Table: {593}
+{
+},
+-- Table: {594}
+{
+   ["inp"]={1045},
+   ["res"]={1046},
+   ["rescnt"]=1,
+},
+-- Table: {595}
+{
+   ["inp"]={1047},
+   ["res"]={1048},
+   ["rescnt"]=1,
+},
+-- Table: {596}
+{
+   ["inp"]={1049},
+   ["res"]={1050},
+   ["rescnt"]=1,
+},
+-- Table: {597}
+{
+},
+-- Table: {598}
+{
+},
+-- Table: {599}
+{
+},
+-- Table: {600}
+{
+},
+-- Table: {601}
+{
+},
+-- Table: {602}
+{
+},
+-- Table: {603}
+{
+},
+-- Table: {604}
+{
+   ["inp"]={1051},
+   ["res"]={1052},
+   ["rescnt"]=1,
+},
+-- Table: {605}
+{
+   ["inp"]={1053},
+   ["res"]={1054},
+   ["rescnt"]=1,
+},
+-- Table: {606}
+{
+   ["inp"]={1055},
+   ["res"]={1056},
+   ["rescnt"]=49,
+},
+-- Table: {607}
+{
+   ["inp"]={1057},
+   ["res"]={1058},
+   ["rescnt"]=49,
+},
+-- Table: {608}
+{
+   ["inp"]={1059},
+   ["res"]={1060},
+   ["rescnt"]=50,
+},
+-- Table: {609}
+{
+   ["inp"]={1061},
+   ["res"]={1062},
+   ["rescnt"]=96,
+},
+-- Table: {610}
+{
+   ["inp"]={1063},
+   ["res"]={1064},
+   ["rescnt"]=0,
+},
+-- Table: {611}
+{
+   ["inp"]={1065},
+   ["res"]={1066},
+   ["rescnt"]=96,
+},
+-- Table: {612}
+{
+   ["inp"]={1067},
+   ["res"]={1068},
+   ["rescnt"]=1,
+},
+-- Table: {613}
+{
+   ["inp"]={1069},
+   ["res"]={1070},
+   ["rescnt"]=72,
+},
+-- Table: {614}
+{
+   ["inp"]={1071},
+   ["res"]={1072},
+   ["rescnt"]=0,
+},
+-- Table: {615}
+{
+   ["inp"]={1073},
+   ["res"]={1074},
+   ["rescnt"]=1,
+},
+-- Table: {616}
+{
+   ["inp"]={1075},
+   ["res"]={1076},
+   ["rescnt"]=4,
+},
+-- Table: {617}
+{
+   ["inp"]={1077},
+   ["res"]={1078},
+   ["rescnt"]=8,
+},
+-- Table: {618}
+{
+   ["inp"]={1079},
+   ["res"]={1080},
+   ["rescnt"]=5,
+},
+-- Table: {619}
+{
+},
+-- Table: {620}
+{
+},
+-- Table: {621}
+{
+},
+-- Table: {622}
+{
+},
+-- Table: {623}
+{
+},
+-- Table: {624}
+{
+},
+-- Table: {625}
+{
+},
+-- Table: {626}
+{
+},
+-- Table: {627}
+{
+},
+-- Table: {628}
+{
+},
+-- Table: {629}
+{
+},
+-- Table: {630}
+{
+},
+-- Table: {631}
+{
+},
+-- Table: {632}
+{
+},
+-- Table: {633}
+{
+},
+-- Table: {634}
+{
+},
+-- Table: {635}
+{
+},
+-- Table: {636}
+{
+},
+-- Table: {637}
+{
+},
+-- Table: {638}
+{
+},
+-- Table: {639}
+{
+},
+-- Table: {640}
+{
+},
+-- Table: {641}
+{
+},
+-- Table: {642}
+{
+},
+-- Table: {643}
+{
+},
+-- Table: {644}
+{
+},
+-- Table: {645}
+{
+},
+-- Table: {646}
+{
+},
+-- Table: {647}
+{
+},
+-- Table: {648}
+{
+},
+-- Table: {649}
+{
+},
+-- Table: {650}
+{
+},
+-- Table: {651}
+{
+},
+-- Table: {652}
+{
+},
+-- Table: {653}
+{
+},
+-- Table: {654}
+{
+},
+-- Table: {655}
+{
+},
+-- Table: {656}
+{
+},
+-- Table: {657}
+{
+},
+-- Table: {658}
+{
+},
+-- Table: {659}
+{
+},
+-- Table: {660}
+{
+},
+-- Table: {661}
+{
+},
+-- Table: {662}
+{
+},
+-- Table: {663}
+{
+},
+-- Table: {664}
+{
+},
+-- Table: {665}
+{
+},
+-- Table: {666}
+{
+},
+-- Table: {667}
+{
+},
+-- Table: {668}
+{
+},
+-- Table: {669}
+{
+},
+-- Table: {670}
+{
+},
+-- Table: {671}
+{
+},
+-- Table: {672}
+{
+},
+-- Table: {673}
+{
+},
+-- Table: {674}
+{
+},
+-- Table: {675}
+{
+},
+-- Table: {676}
+{
+},
+-- Table: {677}
+{
+},
+-- Table: {678}
+{
+},
+-- Table: {679}
+{
+},
+-- Table: {680}
+{
+},
+-- Table: {681}
+{
+},
+-- Table: {682}
+{
+},
+-- Table: {683}
+{
+},
+-- Table: {684}
+{
+},
+-- Table: {685}
+{
+},
+-- Table: {686}
+{
+},
+-- Table: {687}
+{
+},
+-- Table: {688}
+{
+},
+-- Table: {689}
+{
+   ["inp"]={1081},
+   ["res"]={1082},
+   ["rescnt"]=1,
+},
+-- Table: {690}
+{
+},
+-- Table: {691}
+{
+   ["inp"]={1083},
+   ["res"]={1084},
+   ["rescnt"]=1,
+},
+-- Table: {692}
+{
+   ["inp"]={1085},
+   ["res"]={1086},
+   ["rescnt"]=1,
+},
+-- Table: {693}
+{
+   ["inp"]={1087},
+   ["res"]={1088},
+   ["rescnt"]=2,
+},
+-- Table: {694}
+{
+   ["inp"]={1089},
+   ["res"]={1090},
+   ["rescnt"]=2,
+},
+-- Table: {695}
+{
+   ["inp"]={1091},
+   ["res"]={1092},
+   ["rescnt"]=0,
+},
+-- Table: {696}
+{
+   ["inp"]={1093},
+   ["res"]={1094},
+   ["rescnt"]=0,
+},
+-- Table: {697}
+{
+},
+-- Table: {698}
+{
+},
+-- Table: {699}
+{
+   ["inp"]={1095},
+   ["res"]={1096},
+   ["rescnt"]=1,
+},
+-- Table: {700}
+{
+   ["inp"]={1097},
+   ["res"]={1098},
+   ["rescnt"]=1,
+},
+-- Table: {701}
+{
+   ["inp"]={1099},
+   ["res"]={1100},
+   ["rescnt"]=1,
+},
+-- Table: {702}
+{
+   ["inp"]={1101},
+   ["res"]={1102},
+   ["rescnt"]=1,
+},
+-- Table: {703}
+{
+   ["inp"]={1103},
+   ["res"]={1104},
+   ["rescnt"]=1,
+},
+-- Table: {704}
+{
+},
+-- Table: {705}
+{
+   ["inp"]={1105},
+   ["res"]={1106},
+   ["rescnt"]=0,
+},
+-- Table: {706}
+{
+   ["inp"]={1107},
+   ["res"]={1108},
+   ["rescnt"]=3,
+},
+-- Table: {707}
+{
+   ["inp"]={1109},
+   ["res"]={1110},
+   ["rescnt"]=0,
+},
+-- Table: {708}
+{
+   ["inp"]={1111},
+   ["res"]={1112},
+   ["rescnt"]=0,
+},
+-- Table: {709}
+{
+   ["inp"]={1113},
+   ["res"]={1114},
+   ["rescnt"]=0,
+},
+-- Table: {710}
+{
+   ["inp"]={1115},
+   ["res"]={1116},
+   ["rescnt"]=0,
+},
+-- Table: {711}
+{
+   ["inp"]={1117},
+   ["res"]={1118},
+   ["rescnt"]=0,
+},
+-- Table: {712}
+{
+   ["inp"]={1119},
+   ["res"]={1120},
+   ["rescnt"]=0,
+},
+-- Table: {713}
+{
+   ["inp"]={1121},
+   ["res"]={1122},
+   ["rescnt"]=0,
+},
+-- Table: {714}
+{
+   ["inp"]={1123},
+   ["res"]={1124},
+   ["rescnt"]=3,
+},
+-- Table: {715}
+{
+   ["inp"]={1125},
+   ["res"]={1126},
+   ["rescnt"]=0,
+},
+-- Table: {716}
+{
+   ["inp"]={1127},
+   ["res"]={1128},
+   ["rescnt"]=1,
+},
+-- Table: {717}
+{
+   ["inp"]={1129},
+   ["res"]={1130},
+   ["rescnt"]=5,
+},
+-- Table: {718}
+{
+   ["inp"]={1131},
+   ["res"]={1132},
+   ["rescnt"]=0,
+},
+-- Table: {719}
+{
+   ["inp"]={1133},
+   ["res"]={1134},
+   ["rescnt"]=0,
+},
+-- Table: {720}
+{
+   ["inp"]={1135},
+   ["res"]={1136},
+   ["rescnt"]=3,
+},
+-- Table: {721}
+{
+   ["inp"]={1137},
+   ["res"]={1138},
+   ["rescnt"]=0,
+},
+-- Table: {722}
+{
+   ["inp"]={1139},
+   ["res"]={1140},
+   ["rescnt"]=1,
+},
+-- Table: {723}
+{
+   ["inp"]={1141},
+   ["res"]={1142},
+   ["rescnt"]=1,
+},
+-- Table: {724}
+{
+   ["inp"]={1143},
+   ["res"]={1144},
+   ["rescnt"]=0,
+},
+-- Table: {725}
+{
+   ["inp"]={1145},
+   ["res"]={1146},
+   ["rescnt"]=0,
+},
+-- Table: {726}
+{
+   ["inp"]={1147},
+   ["res"]={1148},
+   ["rescnt"]=1,
+},
+-- Table: {727}
+{
+   ["inp"]={1149},
+   ["res"]={1150},
+   ["rescnt"]=1,
+},
+-- Table: {728}
+{
+   ["inp"]={1151},
+   ["res"]={1152},
+   ["rescnt"]=4,
+},
+-- Table: {729}
+{
+   ["inp"]={1153},
+   ["res"]={1154},
+   ["rescnt"]=4,
+},
+-- Table: {730}
+{
+   ["inp"]={1155},
+   ["res"]={1156},
+   ["rescnt"]=1,
+},
+-- Table: {731}
+{
+   ["inp"]={1157},
+   ["res"]={1158},
+   ["rescnt"]=3,
+},
+-- Table: {732}
+{
+   ["inp"]={1159},
+   ["res"]={1160},
+   ["rescnt"]=3,
+},
+-- Table: {733}
+{
+   ["inp"]={1161},
+   ["res"]={1162},
+   ["rescnt"]=6,
+},
+-- Table: {734}
+{
+   ["inp"]={1163},
+   ["res"]={1164},
+   ["rescnt"]=3,
+},
+-- Table: {735}
+{
+   ["inp"]={1165},
+   ["res"]={1166},
+   ["rescnt"]=1,
+},
+-- Table: {736}
+{
+   ["inp"]={1167},
+   ["res"]={1168},
+   ["rescnt"]=1,
+},
+-- Table: {737}
+{
    "Friends  Receive Send All",
    "MainFormFriendsSendEmpty",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_home.png",
 },
--- Table: {590}
+-- Table: {738}
 {
    18,
    724,
    70,
    73,
 },
--- Table: {591}
+-- Table: {739}
 {
    "Quests  Daily Claim",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_quest_report.png",
 },
--- Table: {592}
+-- Table: {740}
 {
    39,
    104,
    136,
    24,
 },
--- Table: {593}
+-- Table: {741}
 {
    "Quests  Daily Claim",
    "MainFormHomeQuest",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_daily_quests.png",
 },
--- Table: {594}
+-- Table: {742}
 {
    344,
    54,
    124,
    34,
 },
--- Table: {595}
+-- Table: {743}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestNoReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_quest_close.png",
 },
--- Table: {596}
+-- Table: {744}
 {
    243,
    708,
    110,
    37,
 },
--- Table: {597}
+-- Table: {745}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_arena.png",
 },
--- Table: {598}
+-- Table: {746}
 {
    53,
    556,
    129,
    57,
 },
--- Table: {599}
+-- Table: {747}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArena",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_colosseum.png",
 },
--- Table: {600}
+-- Table: {748}
 {
    508,
    102,
    80,
    68,
 },
--- Table: {601}
+-- Table: {749}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArenaColosseum",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_arena_colosseum_enter.png",
 },
--- Table: {602}
+-- Table: {750}
 {
    122,
    562,
    365,
    91,
 },
--- Table: {603}
+-- Table: {751}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArenaColosseumRecharge",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_insufficient_colosseum_orbs_no.png",
 },
--- Table: {604}
+-- Table: {752}
 {
    100,
    437,
    162,
    50,
 },
--- Table: {605}
+-- Table: {753}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_vortex.png",
 },
--- Table: {606}
+-- Table: {754}
 {
    113,
    477,
    128,
    29,
 },
--- Table: {607}
+-- Table: {755}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormBattleCompletion",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_next.png",
 },
--- Table: {608}
+-- Table: {756}
 {
    238,
    720,
    121,
    52,
 },
--- Table: {609}
+-- Table: {757}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {610}
+-- Table: {758}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {611}
+-- Table: {759}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormBattleResultGil",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_gil_mid.png",
 },
--- Table: {612}
+-- Table: {760}
 {
    147,
    319,
    139,
    40,
 },
--- Table: {613}
+-- Table: {761}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormBattleResultExp",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_exp_top.png",
 },
--- Table: {614}
+-- Table: {762}
 {
    154,
    82,
    130,
    29,
 },
--- Table: {615}
+-- Table: {763}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormBattleResultItemsObtain",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/btn_items_obtained_next.png",
 },
--- Table: {616}
+-- Table: {764}
 {
    239,
    720,
    123,
    53,
 },
--- Table: {617}
+-- Table: {765}
 {
    "Vx:Operation MA Demolition Pro",
    "MainFormRechargeEnergy",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/select_level/btn_energy_back.png",
 },
--- Table: {618}
+-- Table: {766}
 {
    240,
    474,
    128,
    41,
 },
--- Table: {619}
+-- Table: {767}
 {
    "Friends  Receive Send All",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_friends.png",
 },
--- Table: {620}
+-- Table: {768}
 {
    503,
    744,
    90,
    53,
 },
--- Table: {621}
+-- Table: {769}
 {
    "Friends  Receive Send All",
    "MainFormFriends",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/friends/btn_send_gifts.png",
 },
--- Table: {622}
+-- Table: {770}
 {
    332,
    321,
    200,
    63,
 },
--- Table: {623}
+-- Table: {771}
 {
    "Friends  Receive Send All",
    "MainFormFriendsReceiveNotEmtpy",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/friends/btn_receive_all.png",
 },
--- Table: {624}
+-- Table: {772}
 {
    297,
    139,
    82,
    25,
 },
--- Table: {625}
+-- Table: {773}
 {
    "Friends  Receive Send All",
    "MainFormFriendsReceiveEmpty",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/friends/btn_top_send.png",
 },
--- Table: {626}
+-- Table: {774}
 {
    423,
    135,
    130,
    28,
 },
--- Table: {627}
+-- Table: {775}
 {
    "Craft  Get All Completed",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_craft.png",
 },
--- Table: {628}
+-- Table: {776}
 {
    439,
    562,
    84,
    82,
 },
--- Table: {629}
+-- Table: {777}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftEquipOnNoCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_abilities_off.png",
 },
--- Table: {630}
+-- Table: {778}
 {
    214,
    186,
    175,
    58,
 },
--- Table: {631}
+-- Table: {779}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftAbilitiesOnNoCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_items_off.png",
 },
--- Table: {632}
+-- Table: {780}
 {
    412,
    186,
    174,
    56,
 },
--- Table: {633}
+-- Table: {781}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftItemsOnNoCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {634}
+-- Table: {782}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {635}
+-- Table: {783}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_craft.png",
 },
--- Table: {636}
+-- Table: {784}
 {
    439,
    562,
    84,
    82,
 },
--- Table: {637}
+-- Table: {785}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_equip_off.png",
 },
--- Table: {638}
+-- Table: {786}
 {
    17,
    188,
    167,
    50,
 },
--- Table: {639}
+-- Table: {787}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftEquipOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {640}
+-- Table: {788}
 {
    25,
    392,
    549,
    120,
 },
--- Table: {641}
+-- Table: {789}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftForgeArmorOff",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_forge_armor_off.png",
 },
--- Table: {642}
+-- Table: {790}
 {
    208,
    184,
    183,
    59,
 },
--- Table: {643}
+-- Table: {791}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {644}
+-- Table: {792}
 {
    34,
    30,
    63,
    27,
 },
--- Table: {645}
+-- Table: {793}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {646}
+-- Table: {794}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {647}
+-- Table: {795}
 {
    "Friends  Receive Send All",
    "MainFormInfoAutomaticProtection",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/others/btn_info_auto_prot_no.png",
 },
--- Table: {648}
+-- Table: {796}
 {
    112,
    592,
    133,
    40,
 },
--- Table: {649}
+-- Table: {797}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArenaColosseumBgnRndFight",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_bgn_rnd_fight_fight.png",
 },
--- Table: {650}
+-- Table: {798}
 {
    216,
    586,
    164,
    59,
 },
--- Table: {651}
+-- Table: {799}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {652}
+-- Table: {800}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {653}
+-- Table: {801}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArenaColosseumBattleResults",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/crit_arena_battleresults_top.png",
 },
--- Table: {654}
+-- Table: {802}
 {
    105,
    132,
    176,
    31,
 },
--- Table: {655}
+-- Table: {803}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_world.png",
 },
--- Table: {656}
+-- Table: {804}
 {
    221,
    538,
    155,
    122,
 },
--- Table: {657}
+-- Table: {805}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapMainDirnadoGrandshelt",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt.png",
 },
--- Table: {658}
+-- Table: {806}
 {
    511,
    405,
    73,
    17,
 },
--- Table: {659}
+-- Table: {807}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandshelt",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles.png",
 },
--- Table: {660}
+-- Table: {808}
 {
    360,
    397,
    172,
    26,
 },
--- Table: {661}
+-- Table: {809}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {662}
+-- Table: {810}
 {
    16,
    501,
    207,
    24,
 },
--- Table: {663}
+-- Table: {811}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainBattleSelectLevelEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/dungeons/earth_shrine_entrance/image/btn_select_level_do.png",
 },
--- Table: {664}
+-- Table: {812}
 {
    30,
    520,
    533,
    44,
 },
--- Table: {665}
+-- Table: {813}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleCompletion",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_next.png",
 },
--- Table: {666}
+-- Table: {814}
 {
    238,
    720,
    121,
    52,
 },
--- Table: {667}
+-- Table: {815}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {668}
+-- Table: {816}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {669}
+-- Table: {817}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleResultGil",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_gil_mid.png",
 },
--- Table: {670}
+-- Table: {818}
 {
    147,
    319,
    139,
    40,
 },
--- Table: {671}
+-- Table: {819}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleResultExp",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_exp_top.png",
 },
--- Table: {672}
+-- Table: {820}
 {
    154,
    82,
    130,
    29,
 },
--- Table: {673}
+-- Table: {821}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleResultItemsObtain",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_items_obtained_top.png",
 },
--- Table: {674}
+-- Table: {822}
 {
    199,
    82,
    197,
    30,
 },
--- Table: {675}
+-- Table: {823}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormDailyQuestCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
 },
--- Table: {676}
+-- Table: {824}
 {
    90,
    535,
    131,
    43,
 },
--- Table: {677}
+-- Table: {825}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleCompletion",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle_completion/btn_home.png",
 },
--- Table: {678}
+-- Table: {826}
 {
    522,
    102,
    61,
    58,
 },
--- Table: {679}
+-- Table: {827}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormBattleCompletion",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_shop.png",
 },
--- Table: {680}
+-- Table: {828}
 {
    308,
    726,
    84,
    74,
 },
--- Table: {681}
+-- Table: {829}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftConf",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_craft.png",
 },
--- Table: {682}
+-- Table: {830}
 {
    383,
    623,
    87,
    33,
 },
--- Table: {683}
+-- Table: {831}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftConfStart",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_start_yes.png",
 },
--- Table: {684}
+-- Table: {832}
 {
    378,
    416,
    86,
    40,
 },
--- Table: {685}
+-- Table: {833}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftEquipOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {686}
+-- Table: {834}
 {
    25,
    525,
    549,
    120,
 },
--- Table: {687}
+-- Table: {835}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_craft.png",
 },
--- Table: {688}
+-- Table: {836}
 {
    439,
    562,
    84,
    82,
 },
--- Table: {689}
+-- Table: {837}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_abilities_off.png",
 },
--- Table: {690}
+-- Table: {838}
 {
    214,
    186,
    175,
    58,
 },
--- Table: {691}
+-- Table: {839}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftAbilitiesOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {692}
+-- Table: {840}
 {
    25,
    392,
    549,
    120,
 },
--- Table: {693}
+-- Table: {841}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftAbilityWhiteOff",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_ability_white_off.png",
 },
--- Table: {694}
+-- Table: {842}
 {
    152,
    182,
    139,
    60,
 },
--- Table: {695}
+-- Table: {843}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftConf",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_craft.png",
 },
--- Table: {696}
+-- Table: {844}
 {
    383,
    623,
    87,
    33,
 },
--- Table: {697}
+-- Table: {845}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftConfStart",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_start_yes.png",
 },
--- Table: {698}
+-- Table: {846}
 {
    378,
    416,
    86,
    40,
 },
--- Table: {699}
+-- Table: {847}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftAbilitiesOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {700}
+-- Table: {848}
 {
    25,
    525,
    549,
    120,
 },
--- Table: {701}
+-- Table: {849}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftAbilitiesOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {702}
+-- Table: {850}
 {
    25,
    259,
    549,
    120,
 },
--- Table: {703}
+-- Table: {851}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftAbilitiesOnNoEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {704}
+-- Table: {852}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {705}
+-- Table: {853}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_craft.png",
 },
--- Table: {706}
+-- Table: {854}
 {
    439,
    562,
    84,
    82,
 },
--- Table: {707}
+-- Table: {855}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_items_off.png",
 },
--- Table: {708}
+-- Table: {856}
 {
    412,
    186,
    174,
    56,
 },
--- Table: {709}
+-- Table: {857}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftItemsOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {710}
+-- Table: {858}
 {
    25,
    392,
    549,
    120,
 },
--- Table: {711}
+-- Table: {859}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftConf",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_craft.png",
 },
--- Table: {712}
+-- Table: {860}
 {
    383,
    623,
    87,
    33,
 },
--- Table: {713}
+-- Table: {861}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftConfStart",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_conf_start_yes.png",
 },
--- Table: {714}
+-- Table: {862}
 {
    378,
    416,
    86,
    40,
 },
--- Table: {715}
+-- Table: {863}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftItemsOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {716}
+-- Table: {864}
 {
    25,
    525,
    549,
    120,
 },
--- Table: {717}
+-- Table: {865}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {718}
+-- Table: {866}
 {
    34,
    30,
    63,
    27,
 },
--- Table: {719}
+-- Table: {867}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {720}
+-- Table: {868}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {721}
+-- Table: {869}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_reward.png",
 },
--- Table: {722}
+-- Table: {870}
 {
    430,
    477,
    112,
    28,
 },
--- Table: {723}
+-- Table: {871}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_reward.png",
 },
--- Table: {724}
+-- Table: {872}
 {
    439,
    232,
    112,
    28,
 },
--- Table: {725}
+-- Table: {873}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestClaimReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_claim.png",
 },
--- Table: {726}
+-- Table: {874}
 {
    396,
    656,
    101,
    34,
 },
--- Table: {727}
+-- Table: {875}
 {
    "Quests  Daily Claim",
    "MainFormDailyQuestCompletedClaimed",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_ok.png",
 },
--- Table: {728}
+-- Table: {876}
 {
    242,
    504,
    116,
    35,
 },
--- Table: {729}
+-- Table: {877}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestClaimComplete",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_quest_claim_back.png",
 },
--- Table: {730}
+-- Table: {878}
 {
    235,
    659,
    122,
    29,
 },
--- Table: {731}
+-- Table: {879}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {732}
+-- Table: {880}
 {
    200,
    443,
    207,
    24,
 },
--- Table: {733}
+-- Table: {881}
 {
    "Craft  Get All Completed",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_equip_off.png",
 },
--- Table: {734}
+-- Table: {882}
 {
    17,
    188,
    167,
    50,
 },
--- Table: {735}
+-- Table: {883}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftEquipOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {736}
+-- Table: {884}
 {
    431,
    393,
    140,
    20,
 },
--- Table: {737}
+-- Table: {885}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_completed_ok.png",
 },
--- Table: {738}
+-- Table: {886}
 {
    268,
    524,
    67,
    37,
 },
--- Table: {739}
+-- Table: {887}
 {
    "Craft  Get All Completed",
    "MainFormDailyQuestCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
 },
--- Table: {740}
+-- Table: {888}
 {
    90,
    535,
    131,
    43,
 },
--- Table: {741}
+-- Table: {889}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftAbilitiesOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {742}
+-- Table: {890}
 {
    431,
    260,
    140,
    20,
 },
--- Table: {743}
+-- Table: {891}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftAbilitiesOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {744}
+-- Table: {892}
 {
    431,
    393,
    140,
    20,
 },
--- Table: {745}
+-- Table: {893}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftAbilitiesOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {746}
+-- Table: {894}
 {
    431,
    527,
    140,
    20,
 },
--- Table: {747}
+-- Table: {895}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftItemsOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {748}
+-- Table: {896}
 {
    431,
    393,
    140,
    20,
 },
--- Table: {749}
+-- Table: {897}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftEquipOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {750}
+-- Table: {898}
 {
    25,
    259,
    549,
    120,
 },
--- Table: {751}
+-- Table: {899}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormHomeCraftEquipOnNoEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {752}
+-- Table: {900}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {753}
+-- Table: {901}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftItemsOnEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_empty.png",
 },
--- Table: {754}
+-- Table: {902}
 {
    25,
    259,
    549,
    120,
 },
--- Table: {755}
+-- Table: {903}
 {
    "Craft  Farm Items  Recovery  Potion",
    "MainFormHomeCraftItemsOnNoEmptySlot",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {756}
+-- Table: {904}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {757}
+-- Table: {905}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftEquipOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {758}
+-- Table: {906}
 {
    431,
    260,
    140,
    20,
 },
--- Table: {759}
+-- Table: {907}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftEquipOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {760}
+-- Table: {908}
 {
    431,
    527,
    140,
    20,
 },
--- Table: {761}
+-- Table: {909}
 {
    "Craft  Get All Completed",
    "AppsHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/apps/btn_ffexvius.png",
 },
--- Table: {762}
+-- Table: {910}
 {
    388,
    545,
    61,
    75,
 },
--- Table: {763}
+-- Table: {911}
 {
    "Craft  Get All Completed",
    "AppsFFBEStart",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/start/crit_start_top.png",
 },
--- Table: {764}
+-- Table: {912}
 {
    131,
    66,
    351,
    179,
 },
--- Table: {765}
+-- Table: {913}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftItemsOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {766}
+-- Table: {914}
 {
    431,
    260,
    140,
    20,
 },
--- Table: {767}
+-- Table: {915}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftItemsOnCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_complete.png",
 },
--- Table: {768}
+-- Table: {916}
 {
    431,
    527,
    140,
    20,
 },
--- Table: {769}
+-- Table: {917}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {770}
+-- Table: {918}
 {
    83,
    526,
    207,
    24,
 },
--- Table: {771}
+-- Table: {919}
 {
    "Items  Sell Items",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_items.png",
 },
--- Table: {772}
+-- Table: {920}
 {
    213,
    728,
    75,
    70,
 },
--- Table: {773}
+-- Table: {921}
 {
    "Items  Sell Items",
    "MainFormItems",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/items/btn_items_materials.png",
 },
--- Table: {774}
+-- Table: {922}
 {
    407,
    504,
    155,
    42,
 },
--- Table: {775}
+-- Table: {923}
 {
    "Items  Sell Items",
    "MainFormItemsMaterials",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/items/btn_items_materials_sell.png",
 },
--- Table: {776}
+-- Table: {924}
 {
    499,
    146,
    87,
    30,
 },
--- Table: {777}
+-- Table: {925}
 {
    "Items  Sell Items",
    "MainFormItemsMaterialsSellOne",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/items/btn_items_materials_sell_multi.png",
 },
--- Table: {778}
+-- Table: {926}
 {
    504,
    140,
    82,
    39,
 },
--- Table: {779}
+-- Table: {927}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_reward.png",
 },
--- Table: {780}
+-- Table: {928}
 {
    430,
    157,
    112,
    28,
 },
--- Table: {781}
+-- Table: {929}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_reward.png",
 },
--- Table: {782}
+-- Table: {930}
 {
    430,
    264,
    112,
    28,
 },
--- Table: {783}
+-- Table: {931}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "AppsHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/apps/btn_ffexvius.png",
 },
--- Table: {784}
+-- Table: {932}
 {
    388,
    545,
    61,
    75,
 },
--- Table: {785}
+-- Table: {933}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "AppsFFBEStart",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/start/crit_start_top.png",
 },
--- Table: {786}
+-- Table: {934}
 {
    131,
    66,
    351,
    179,
 },
--- Table: {787}
+-- Table: {935}
 {
    "Craft  Get All Completed",
    "MainFormHomeCraftObtained",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/craft/btn_home_craft_obtained_ok.png",
 },
--- Table: {788}
+-- Table: {936}
 {
    268,
    524,
    78,
    34,
 },
--- Table: {789}
+-- Table: {937}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormBattleEngageDoAction",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_back.png",
 },
--- Table: {790}
+-- Table: {938}
 {
    487,
    725,
    80,
    60,
 },
--- Table: {791}
+-- Table: {939}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormConnectionError",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/btn_connection_error_has_occurred_ok.png",
 },
--- Table: {792}
+-- Table: {940}
 {
    209,
    426,
    183,
    66,
 },
--- Table: {793}
+-- Table: {941}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormArenaColosseumRoundClearRewards",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_arena_battleresults_grade_clear_rewards_ok.png",
 },
--- Table: {794}
+-- Table: {942}
 {
    236,
    504,
    125,
    37,
 },
--- Table: {795}
+-- Table: {943}
 {
    "Ar:Battle",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_arena.png",
 },
--- Table: {796}
+-- Table: {944}
 {
    53,
    556,
    129,
    57,
 },
--- Table: {797}
+-- Table: {945}
 {
    "Ar:Battle",
    "MainFormArena",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_setup.png",
 },
--- Table: {798}
+-- Table: {946}
 {
    232,
    727,
    137,
    43,
 },
--- Table: {799}
+-- Table: {947}
 {
    "Ar:Battle",
    "MainFormArenaRules",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_arena_rules_ok.png",
 },
--- Table: {800}
+-- Table: {948}
 {
    228,
    726,
    291,
    72,
 },
--- Table: {801}
+-- Table: {949}
 {
    "Ar:Battle",
    "MainFormArenaRulesSelectOppConf",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_arena_rules_conf_yes.png",
 },
--- Table: {802}
+-- Table: {950}
 {
    332,
    416,
    175,
    63,
 },
--- Table: {803}
+-- Table: {951}
 {
    "Ar:Battle",
    "MainFormArenaRulesSelectOppConfBegin",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_arena_conf_begin.png",
 },
--- Table: {804}
+-- Table: {952}
 {
    237,
    661,
    127,
    44,
 },
--- Table: {805}
+-- Table: {953}
 {
    "Ar:Battle",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {806}
+-- Table: {954}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {807}
+-- Table: {955}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaWon1",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/crit_arena_battle_you_won.png",
 },
--- Table: {808}
+-- Table: {956}
 {
    88,
    83,
    430,
    72,
 },
--- Table: {809}
+-- Table: {957}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaWon2",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_ok.png",
 },
--- Table: {810}
+-- Table: {958}
 {
    221,
    688,
    152,
    51,
 },
--- Table: {811}
+-- Table: {959}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaRankUp",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_ok.png",
 },
--- Table: {812}
+-- Table: {960}
 {
    220,
    711,
    152,
    51,
 },
--- Table: {813}
+-- Table: {961}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaWonRewards",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_battle_result_arena_rewards_ok.png",
 },
--- Table: {814}
+-- Table: {962}
 {
    232,
    499,
    135,
    47,
 },
--- Table: {815}
+-- Table: {963}
 {
    "Ar:Battle",
    "MainFormArenaPvpRecharge",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_insufficient_colosseum_orbs_no.png",
 },
--- Table: {816}
+-- Table: {964}
 {
    100,
    437,
    162,
    50,
 },
--- Table: {817}
+-- Table: {965}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_world.png",
 },
--- Table: {818}
+-- Table: {966}
 {
    221,
    538,
    155,
    122,
 },
--- Table: {819}
+-- Table: {967}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {820}
+-- Table: {968}
 {
    200,
    443,
    207,
    24,
 },
--- Table: {821}
+-- Table: {969}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MainBattleSelectLevelEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/explorations/earth_shrine/image/btn_select_level_do.png",
 },
--- Table: {822}
+-- Table: {970}
 {
    27,
    239,
    335,
    38,
 },
--- Table: {823}
+-- Table: {971}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MainFormBattleCompletion",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_next.png",
 },
--- Table: {824}
+-- Table: {972}
 {
    238,
    720,
    121,
    52,
 },
--- Table: {825}
+-- Table: {973}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {826}
+-- Table: {974}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {827}
+-- Table: {975}
 {
    "Ex:Earth Shrine/P:TRUS T",
    "MainFormBattleResultExplorationGil",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battleresults/crit_gil_mid2.png",
 },
--- Table: {828}
+-- Table: {976}
 {
    148,
    273,
    109,
    37,
 },
--- Table: {829}
+-- Table: {977}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {830}
+-- Table: {978}
 {
    34,
    30,
    63,
    27,
 },
--- Table: {831}
+-- Table: {979}
 {
    "Craft  Farm Abilities  White Magic  Cure",
    "MainFormHomeCraftSortOn",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_back.png",
 },
--- Table: {832}
+-- Table: {980}
 {
    34,
    120,
    63,
    27,
 },
--- Table: {833}
+-- Table: {981}
 {
    "Craft  Get All Completed",
    "MainFormInfoAutomaticProtection",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/others/btn_info_auto_prot_no.png",
 },
--- Table: {834}
+-- Table: {982}
 {
    112,
    592,
    133,
    40,
 },
--- Table: {835}
+-- Table: {983}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MainFormRechargeEnergy",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/select_level/btn_energy_back.png",
 },
--- Table: {836}
+-- Table: {984}
 {
    240,
    474,
    128,
    41,
 },
--- Table: {837}
+-- Table: {985}
 {
    "Craft  Farm Equipment  Armor  Leather Shield",
    "MainFormDailyRewards",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/btn_daily_rewards_claim.png",
 },
--- Table: {838}
+-- Table: {986}
 {
    214,
    681,
    171,
    54,
 },
--- Table: {839}
+-- Table: {987}
 {
    "Friends  Receive Send All",
    "MainFormFriendsSendNotEmpty",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/friends/btn_send_all.png",
 },
--- Table: {840}
+-- Table: {988}
 {
    295,
    138,
    78,
    25,
 },
--- Table: {841}
+-- Table: {989}
 {
    "Quests  Daily Claim",
    "MainFormHomeDailyQuestReward",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_reward.png",
 },
--- Table: {842}
+-- Table: {990}
 {
    430,
    371,
    112,
    28,
 },
--- Table: {843}
+-- Table: {991}
 {
    "Ar:Colosseum/TopLevel/2ndRound",
    "MainFormDailyQuestCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
 },
--- Table: {844}
+-- Table: {992}
 {
    90,
    535,
    131,
    43,
 },
--- Table: {845}
+-- Table: {993}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapCompanionUpdate",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_companion_has_updated_ok.png",
 },
--- Table: {846}
+-- Table: {994}
 {
    240,
    438,
    124,
    41,
 },
--- Table: {847}
+-- Table: {995}
 {
    "Ar:Battle",
    "MainFormBattleEngageDoAction",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_back.png",
 },
--- Table: {848}
+-- Table: {996}
 {
    487,
    725,
    80,
    60,
 },
--- Table: {849}
+-- Table: {997}
 {
    "Ar:Battle",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_repeat.png",
 },
--- Table: {850}
+-- Table: {998}
 {
    159,
    748,
    128,
    45,
 },
--- Table: {851}
+-- Table: {999}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaLost1",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/crit_arena_battle_you_lost.png",
 },
--- Table: {852}
+-- Table: {1000}
 {
    140,
    73,
    346,
    59,
 },
--- Table: {853}
+-- Table: {1001}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaLost2",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/standard/btn_ok.png",
 },
--- Table: {854}
+-- Table: {1002}
 {
    221,
    688,
    152,
    51,
 },
--- Table: {855}
+-- Table: {1003}
 {
    "Ar:Battle",
    "MainFormBattleResultArenaLostRewards",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_battle_result_arena_rewards_ok.png",
 },
--- Table: {856}
+-- Table: {1004}
 {
    232,
    499,
    135,
    47,
 },
--- Table: {857}
+-- Table: {1005}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/home/btn_arena.png",
 },
--- Table: {858}
+-- Table: {1006}
 {
    53,
    556,
    129,
    57,
 },
--- Table: {859}
+-- Table: {1007}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArena",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/arena/btn_colosseum.png",
 },
--- Table: {860}
+-- Table: {1008}
 {
    508,
    102,
    80,
    68,
 },
--- Table: {861}
+-- Table: {1009}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArenaColosseum",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_arena_colosseum_enter.png",
 },
--- Table: {862}
+-- Table: {1010}
 {
    122,
    562,
    365,
    91,
 },
--- Table: {863}
+-- Table: {1011}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArenaColosseumBgnRndFight",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_bgn_rnd_fight_fight.png",
 },
--- Table: {864}
+-- Table: {1012}
 {
    216,
    586,
    164,
    59,
 },
--- Table: {865}
+-- Table: {1013}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormBattleEngaged",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/battle/btn_auto.png",
 },
--- Table: {866}
+-- Table: {1014}
 {
    9,
    746,
    129,
    45,
 },
--- Table: {867}
+-- Table: {1015}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArenaColosseumBattleResults",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/crit_arena_battleresults_top.png",
 },
--- Table: {868}
+-- Table: {1016}
 {
    105,
    132,
    176,
    31,
 },
--- Table: {869}
+-- Table: {1017}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArenaColosseumRecharge",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_insufficient_colosseum_orbs_no.png",
 },
--- Table: {870}
+-- Table: {1018}
 {
    100,
    437,
    162,
    50,
 },
--- Table: {871}
+-- Table: {1019}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {872}
+-- Table: {1020}
 {
    18,
    500,
    207,
    24,
 },
--- Table: {873}
+-- Table: {1021}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormHome",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_summon.png",
 },
--- Table: {874}
+-- Table: {1022}
 {
    403,
    741,
    95,
    57,
 },
--- Table: {875}
+-- Table: {1023}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummon",
    "DoClickButton::exists",
    "../../custom/ffbe/nobattle/summon_250/image/btn_select_level_do.png",
 },
--- Table: {876}
+-- Table: {1024}
 {
    19,
    195,
    562,
    100,
 },
--- Table: {877}
+-- Table: {1025}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummonOnce",
    "DoClickButton::exists",
    "../../custom/ffbe/nobattle/summon_250/image/btn_once_summon.png",
 },
--- Table: {878}
+-- Table: {1026}
 {
    212,
    507,
    177,
    61,
 },
--- Table: {879}
+-- Table: {1027}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummonOnceConf1",
    "DoClickButton::exists",
    "../../custom/ffbe/nobattle/summon_250/image/btn_once_summon.png",
 },
--- Table: {880}
+-- Table: {1028}
 {
    213,
    450,
    177,
    61,
 },
--- Table: {881}
+-- Table: {1029}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummonOnceConfTap",
    "DoClickButton::exists",
    "../../custom/ffbe/nobattle/summon_250/image/crit_tap_top.png",
 },
--- Table: {882}
+-- Table: {1030}
 {
    0,
    0,
    102,
    353,
 },
--- Table: {883}
+-- Table: {1031}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummonOnceChar",
    "DoClickButton::exists",
    "../../custom/ffbe/nobattle/summon_250/image/crit_char_bottom.png",
 },
--- Table: {884}
+-- Table: {1032}
 {
    0,
    712,
    600,
    87,
 },
--- Table: {885}
+-- Table: {1033}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormDailyQuestCompleted",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
 },
--- Table: {886}
+-- Table: {1034}
 {
    90,
    535,
    131,
    43,
 },
--- Table: {887}
+-- Table: {1035}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormSummonOnceConf0",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_friends.png",
 },
--- Table: {888}
+-- Table: {1036}
 {
    503,
    744,
    90,
    53,
 },
--- Table: {889}
+-- Table: {1037}
 {
    "Summon  Once a Day Limited Summon (250)",
    "MainFormFriends",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/main/btn_home.png",
 },
--- Table: {890}
+-- Table: {1038}
 {
    18,
    724,
    70,
    73,
 },
--- Table: {891}
+-- Table: {1039}
 {
    "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
    "MapGrandsheltGrandsheltIslesAroundEarthShrine",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
 },
--- Table: {892}
+-- Table: {1040}
 {
    80,
    528,
    207,
    24,
 },
--- Table: {893}
+-- Table: {1041}
 {
    "Ar:Colosseum/TopLevel/3rdRound",
    "MainFormArenaColosseumRoundClearRewards",
    "DoClickButton::exists",
    "../../custom/ffbe/image/nox1/colosseum/btn_arena_battleresults_grade_clear_rewards_ok.png",
 },
--- Table: {894}
+-- Table: {1042}
 {
    236,
    504,
    125,
    37,
+},
+-- Table: {1043}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MapGrandsheltGrandsheltIslesAroundEarthShrine",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
+},
+-- Table: {1044}
+{
+   88,
+   525,
+   207,
+   24,
+},
+-- Table: {1045}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MapGrandsheltGrandsheltIslesAroundEarthShrine",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
+},
+-- Table: {1046}
+{
+   24,
+   498,
+   207,
+   24,
+},
+-- Table: {1047}
+{
+   "Craft  Get All Completed",
+   "MainFormDailyRewards",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/btn_daily_rewards_claim.png",
+},
+-- Table: {1048}
+{
+   214,
+   681,
+   171,
+   54,
+},
+-- Table: {1049}
+{
+   "Quests  Daily Claim",
+   "MainFormDailyQuestCompleted",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
+},
+-- Table: {1050}
+{
+   90,
+   535,
+   131,
+   43,
+},
+-- Table: {1051}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormHome",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/home/btn_world.png",
+},
+-- Table: {1052}
+{
+   221,
+   538,
+   155,
+   122,
+},
+-- Table: {1053}
+{
+   "Dg:Earth Shrine Entrance",
+   "MapGrandsheltGrandsheltIslesAroundEarthShrine",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png",
+},
+-- Table: {1054}
+{
+   200,
+   443,
+   207,
+   24,
+},
+-- Table: {1055}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainBattleSelectLevelEarthShrine",
+   "DoClickButton::exists",
+   "../../custom/ffbe/dungeons/earth_shrine_entrance/image/btn_select_level_do.png",
+},
+-- Table: {1056}
+{
+   30,
+   520,
+   533,
+   44,
+},
+-- Table: {1057}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormBattleCompletion",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/standard/btn_next.png",
+},
+-- Table: {1058}
+{
+   238,
+   720,
+   121,
+   52,
+},
+-- Table: {1059}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormBattleEngaged",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battle/btn_auto.png",
+},
+-- Table: {1060}
+{
+   9,
+   746,
+   129,
+   45,
+},
+-- Table: {1061}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormBattleResultGil",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/crit_gil_mid.png",
+},
+-- Table: {1062}
+{
+   147,
+   319,
+   139,
+   40,
+},
+-- Table: {1063}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormBattleResultExp",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/crit_exp_top.png",
+},
+-- Table: {1064}
+{
+   154,
+   82,
+   130,
+   29,
+},
+-- Table: {1065}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormBattleResultItemsObtain",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/crit_items_obtained_top.png",
+},
+-- Table: {1066}
+{
+   199,
+   82,
+   197,
+   30,
+},
+-- Table: {1067}
+{
+   "Dg:Earth Shrine Entrance",
+   "MapCompanionUpdate",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/maps/btn_maps_companion_has_updated_ok.png",
+},
+-- Table: {1068}
+{
+   240,
+   438,
+   124,
+   41,
+},
+-- Table: {1069}
+{
+   "Dg:Earth Shrine Entrance",
+   "AppsHome",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/apps/btn_ffexvius.png",
+},
+-- Table: {1070}
+{
+   388,
+   545,
+   61,
+   75,
+},
+-- Table: {1071}
+{
+   "Dg:Earth Shrine Entrance",
+   "AppsFFBEStart",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/start/crit_start_top.png",
+},
+-- Table: {1072}
+{
+   131,
+   66,
+   351,
+   179,
+},
+-- Table: {1073}
+{
+   "Dg:Earth Shrine Entrance",
+   "MainFormConnectionError",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/btn_connection_error_has_occurred_ok.png",
+},
+-- Table: {1074}
+{
+   209,
+   426,
+   183,
+   66,
+},
+-- Table: {1075}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormHome",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/home/btn_vortex.png",
+},
+-- Table: {1076}
+{
+   113,
+   477,
+   128,
+   29,
+},
+-- Table: {1077}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battle/btn_auto.png",
+},
+-- Table: {1078}
+{
+   9,
+   746,
+   129,
+   45,
+},
+-- Table: {1079}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleCompletion",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/standard/btn_next.png",
+},
+-- Table: {1080}
+{
+   238,
+   720,
+   121,
+   52,
+},
+-- Table: {1081}
+{
+   "Quests  Daily Claim",
+   "MainFormHomeDailyQuestReward",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/home/btn_reward.png",
+},
+-- Table: {1082}
+{
+   430,
+   584,
+   112,
+   28,
+},
+-- Table: {1083}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngageDoAction",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battle/btn_back.png",
+},
+-- Table: {1084}
+{
+   487,
+   725,
+   80,
+   60,
+},
+-- Table: {1085}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/battle/btn_back.png",
+},
+-- Table: {1086}
+{
+   1,
+   0,
+   0,
+   487,
+   725,
+   80,
+   60,
+},
+-- Table: {1087}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_barfira.png",
+},
+-- Table: {1088}
+{
+   1,
+   0,
+   0,
+   159,
+   748,
+   128,
+   45,
+},
+-- Table: {1089}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_embolden.png",
+},
+-- Table: {1090}
+{
+   1,
+   2,
+   0,
+   159,
+   748,
+   128,
+   45,
+},
+-- Table: {1091}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_shattering_shot.png",
+},
+-- Table: {1092}
+{
+   1,
+   1,
+   0,
+   97,
+   483,
+   185,
+   71,
+},
+-- Table: {1093}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1094}
+{
+   1,
+   5,
+   1,
+   18,
+   630,
+   72,
+   37,
+},
+-- Table: {1095}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_true_shot.png",
+},
+-- Table: {1096}
+{
+   1,
+   1,
+   0,
+   386,
+   659,
+   154,
+   52,
+},
+-- Table: {1097}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_barfira.png",
+},
+-- Table: {1098}
+{
+   1,
+   0,
+   0,
+   385,
+   536,
+   176,
+   55,
+},
+-- Table: {1099}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_embolden.png",
+},
+-- Table: {1100}
+{
+   1,
+   2,
+   0,
+   385,
+   531,
+   167,
+   59,
+},
+-- Table: {1101}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_shattering_shot.png",
+},
+-- Table: {1102}
+{
+   1,
+   2,
+   0,
+   97,
+   442,
+   185,
+   71,
+},
+-- Table: {1103}
+{
+   "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1104}
+{
+   1,
+   2,
+   0,
+   309,
+   480,
+   72,
+   37,
+},
+-- Table: {1105}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_barfira.png",
+},
+-- Table: {1106}
+{
+   1,
+   0,
+   0,
+   385,
+   536,
+   176,
+   55,
+},
+-- Table: {1107}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_embolden.png",
+},
+-- Table: {1108}
+{
+   1,
+   2,
+   0,
+   385,
+   531,
+   167,
+   59,
+},
+-- Table: {1109}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_shattering_shot.png",
+},
+-- Table: {1110}
+{
+   1,
+   1,
+   0,
+   97,
+   477,
+   185,
+   71,
+},
+-- Table: {1111}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1112}
+{
+   1,
+   5,
+   1,
+   18,
+   630,
+   72,
+   37,
+},
+-- Table: {1113}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1114}
+{
+   1,
+   1,
+   0,
+   309,
+   520,
+   72,
+   37,
+},
+-- Table: {1115}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_true_shot.png",
+},
+-- Table: {1116}
+{
+   1,
+   1,
+   0,
+   386,
+   661,
+   154,
+   52,
+},
+-- Table: {1117}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1118}
+{
+   1,
+   5,
+   1,
+   18,
+   625,
+   72,
+   37,
+},
+-- Table: {1119}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1120}
+{
+   1,
+   1,
+   0,
+   309,
+   521,
+   72,
+   37,
+},
+-- Table: {1121}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_true_shot.png",
+},
+-- Table: {1122}
+{
+   1,
+   1,
+   0,
+   386,
+   655,
+   154,
+   52,
+},
+-- Table: {1123}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_barfira.png",
+},
+-- Table: {1124}
+{
+   1,
+   2,
+   0,
+   385,
+   531,
+   176,
+   55,
+},
+-- Table: {1125}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleResultExp",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/crit_exp_top.png",
+},
+-- Table: {1126}
+{
+   154,
+   82,
+   130,
+   29,
+},
+-- Table: {1127}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleResultItemsObtain",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/btn_items_obtained_next.png",
+},
+-- Table: {1128}
+{
+   239,
+   720,
+   123,
+   53,
+},
+-- Table: {1129}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/battle/btn_back.png",
+},
+-- Table: {1130}
+{
+   1,
+   0,
+   0,
+   487,
+   725,
+   80,
+   60,
+},
+-- Table: {1131}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_shattering_shot.png",
+},
+-- Table: {1132}
+{
+   1,
+   1,
+   0,
+   97,
+   483,
+   185,
+   71,
+},
+-- Table: {1133}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1134}
+{
+   1,
+   1,
+   0,
+   309,
+   512,
+   72,
+   37,
+},
+-- Table: {1135}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_true_shot.png",
+},
+-- Table: {1136}
+{
+   1,
+   2,
+   0,
+   386,
+   625,
+   154,
+   52,
+},
+-- Table: {1137}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1138}
+{
+   1,
+   2,
+   0,
+   309,
+   480,
+   72,
+   37,
+},
+-- Table: {1139}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleResultGil",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battleresults/crit_gil_mid.png",
+},
+-- Table: {1140}
+{
+   147,
+   319,
+   139,
+   40,
+},
+-- Table: {1141}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_shattering_shot.png",
+},
+-- Table: {1142}
+{
+   1,
+   2,
+   0,
+   97,
+   442,
+   185,
+   71,
+},
+-- Table: {1143}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1144}
+{
+   1,
+   1,
+   0,
+   309,
+   486,
+   75,
+   72,
+},
+-- Table: {1145}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1146}
+{
+   1,
+   5,
+   1,
+   18,
+   591,
+   75,
+   72,
+},
+-- Table: {1147}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormBattleEngaged",
+   "varActionExecuteDoBoxFindAndClickWithScroll::scrollandexists",
+   "../../custom/ffbe/image/nox1/magic/btn_battle_magic_curaja.png",
+},
+-- Table: {1148}
+{
+   1,
+   2,
+   0,
+   309,
+   447,
+   75,
+   72,
+},
+-- Table: {1149}
+{
+   "Vx:March on Ifrit Pro",
+   "MainFormRechargeEnergyRaid",
+   "DoClickButton::exists",
+   "../../custom/ffbe/vortex/events/raid_march_on_ifrit_pro/image/btn_energy_no.png",
+},
+-- Table: {1150}
+{
+   138,
+   438,
+   110,
+   42,
+},
+-- Table: {1151}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormHome",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/home/btn_arena.png",
+},
+-- Table: {1152}
+{
+   53,
+   556,
+   129,
+   57,
+},
+-- Table: {1153}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormArena",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/arena/btn_colosseum.png",
+},
+-- Table: {1154}
+{
+   508,
+   102,
+   80,
+   68,
+},
+-- Table: {1155}
+{
+   "Friends  Receive Send All",
+   "MainFormFriends",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/standard/btn_back.png",
+},
+-- Table: {1156}
+{
+   33,
+   121,
+   63,
+   27,
+},
+-- Table: {1157}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormArenaColosseum",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/colosseum/btn_arena_colosseum_enter.png",
+},
+-- Table: {1158}
+{
+   122,
+   562,
+   365,
+   91,
+},
+-- Table: {1159}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormArenaColosseumBgnRndFight",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/colosseum/btn_bgn_rnd_fight_fight.png",
+},
+-- Table: {1160}
+{
+   216,
+   586,
+   164,
+   59,
+},
+-- Table: {1161}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormBattleEngaged",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/battle/btn_auto.png",
+},
+-- Table: {1162}
+{
+   9,
+   746,
+   129,
+   45,
+},
+-- Table: {1163}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormArenaColosseumBattleResults",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/colosseum/crit_arena_battleresults_top.png",
+},
+-- Table: {1164}
+{
+   105,
+   132,
+   176,
+   31,
+},
+-- Table: {1165}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormDailyQuestCompleted",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/quest_daily/btn_daily_completed_close.png",
+},
+-- Table: {1166}
+{
+   90,
+   535,
+   131,
+   43,
+},
+-- Table: {1167}
+{
+   "Ar:Colosseum/TopLevel/4thRound",
+   "MainFormArenaColosseumRecharge",
+   "DoClickButton::exists",
+   "../../custom/ffbe/image/nox1/colosseum/btn_insufficient_colosseum_orbs_no.png",
+},
+-- Table: {1168}
+{
+   100,
+   437,
+   162,
+   50,
 },
 }

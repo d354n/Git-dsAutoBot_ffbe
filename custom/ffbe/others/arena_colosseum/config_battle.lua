@@ -23,7 +23,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
-BattleNewRoundExecVar(false)  --go top, search from top
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)  --max_scroll
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
@@ -33,7 +33,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
-BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  when failed click this
@@ -45,7 +45,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
-BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)    --  when failed click this
@@ -76,7 +76,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --dn02
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --up01
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
-BattleNewRoundExecVar(false)  --go top, search from top
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)  --max_scroll
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
@@ -86,7 +86,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
-BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  when failed click this
@@ -98,7 +98,7 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)
 BattleNewRoundExecVar(0)
-BattleNewRoundExecVar(false)
+BattleNewRoundExecVar(true)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)    --  when failed click this

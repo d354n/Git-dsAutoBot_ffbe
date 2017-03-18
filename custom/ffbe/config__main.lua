@@ -128,10 +128,15 @@ foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Vx:Operation MA Demolition Pro"
-foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
+varActionName = "Vx:March on Ifrit Pro"
+foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_pro/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+--varActionName = "Vx:Operation MA Demolition Pro"
+--foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
+--parentfolder = foldername
+--dofile(scriptPath()..foldername.."config_action.lua")
 
 
 
@@ -216,17 +221,19 @@ for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for i=1, 3 do
-        MultiAdd("Ar:Colosseum/TopLevel/3rdRound")
-        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
-        MultiAdd("Craft  Get All Completed")
-        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
-        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
-        MultiAdd("Craft  Farm Items  Recovery  Potion")
+--        MultiAdd("Ar:Battle")
+        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
+        MultiAdd("Vx:March on Ifrit Pro")
+        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
 --        MultiAdd("Wait 2000")
     end
+    MultiAdd("Craft  Get All Completed")
+    MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
+    MultiAdd("Craft  Farm Abilities  White Magic  Cure")
+    MultiAdd("Craft  Farm Items  Recovery  Potion")
 --    MultiAdd("Items  Sell Items")
 end
-MultiAdd("Ar:Battle")
+--MultiAdd("Ar:Battle")
 --MultiAdd("Ex:Earth Shrine/P:TRUS T")
 MultiAdd(varActionDoGotoAction1)
 

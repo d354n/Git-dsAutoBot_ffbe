@@ -35,6 +35,8 @@ ActionExecVar(false)  --  search from top?
 ActionExecVar(3)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleVortexSelectLevel)  --itemtofind priority 1
 ActionExecVar(picBtnBattleVortexSelectLevel)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 ActionOnForm(varFormNameMainBattleSelectCompanion)
@@ -47,7 +49,6 @@ ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
 ActionExecVar(10)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionBonusStd)  --itemtofind priority 1
---ActionExecVar(picBtnBattleSelectCompanionExdeathSixMax)  --itemtofind priority 2
 ActionExecVar(picBtnBattleSelectCompanionStdFriend)  --itemtofind priority 3
 ActionExecVar(picBtnBattleSelectCompanionStdOther)  --itemtofind priority 4
 ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)  --itemtofind priority 5

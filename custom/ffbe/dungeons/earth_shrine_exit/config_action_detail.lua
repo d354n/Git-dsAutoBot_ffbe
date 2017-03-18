@@ -10,11 +10,7 @@
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
 picUnitsParty                           = picTxtMainBattleUnitPartyTrust
 
-dofile(folderffbescript.."config_action_defs.lua")
-dofile(folderffbescript.."config_action_defs_battle.lua")
-dofile(folderffbescript.."config_action_defs_dungeon.lua")
-
-ActionOnForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionOnForm(varFormNameMainBattleSelectLevelEarthShrineExt)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
 ActionExecWaitForm(varFormNameMainBattleCompletion)
@@ -71,12 +67,12 @@ ActionExecWaitForm(varFormNameMapGrandGrandArdEarthShrine)
 ActionOnForm(varFormNameMapGrandGrandArdEarthShrine)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapGrandGrandIslesEarthShrine)
-ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrineExt)
 
 ActionOnForm(varFormNameMapGrandGrandCtrEarthShrine)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapGrandGrandIslesEarthShrine)
-ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrineExt)
 
 ActionOnForm(varFormNameMapGrandGrandNoEarthOrdol)
 ActionExec(varActionExecuteDoSwipe)
@@ -92,5 +88,11 @@ ActionExec(varActionExecuteDoSwipe)
 ActionExecVar(locMapsCenter)
 ActionExecVar(locMapsRightMax)
 ActionExecWaitForm(varFormNameMapGrandGrandArdOrdolPort)
+
+
+
+dofile(folderffbescript.."config_action_defs.lua")
+dofile(folderffbescript.."config_action_defs_battle.lua")
+dofile(folderffbescript.."config_action_defs_dungeon.lua")
 
 

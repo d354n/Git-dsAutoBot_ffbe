@@ -30,50 +30,56 @@ critMainUnitsUnitMenu			                = folderffbeimage.."crit_main_units_unit
 
 
 --  ##  Magic  ##
+--picBtnBattleMagicCuraja     --  LEFT SIDE
+--picBtnBattleMagicCuraja2    --  RIGHT SIDE
 
-picBtnBattleMagicBlizzaga       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_blizzaga.png"):similar(0.97)
-picBtnBattleMagicDualBlackMagic    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_dual_black_magic.png"):similar(0.90)
-picBtnBattleMagicFiraga            		        = Pattern(folderffbeimage.."magic/btn_battle_magic_firaga.png"):similar(0.97)
-picBtnBattleMagicMeteor          		        = Pattern(folderffbeimage.."magic/btn_battle_magic_meteor.png"):similar(0.97)
-picBtnBattleMagicOsmose          		        = Pattern(folderffbeimage.."magic/btn_battle_magic_osmose.png"):similar(0.97)
-picBtnBattleMagicThundaga          		        = Pattern(folderffbeimage.."magic/btn_battle_magic_thundaga.png"):similar(0.97)
-picBtnBattleMagicWickedLight       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_wicked_light.png"):similar(0.97)
+picBtnBattleMagicBarfira        		        = folderffbeimage.."magic/btn_battle_magic_barfira.png"
+picBtnBattleMagicBladeBash      		        = folderffbeimage.."magic/btn_battle_magic_blade_bash.png"
 
-picBtnBattleMagicCura           		        = Pattern(folderffbeimage.."magic/btn_battle_magic_cura.png"):similar(0.97)
-picBtnBattleMagicCuraja         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_curaja.png"):similar(0.97)
-picBtnBattleMagicFocus             		        = Pattern(folderffbeimage.."magic/btn_battle_magic_focus.png"):similar(0.97)
+picBtnBattleMagicBlizzaga       		        = folderffbeimage.."magic/btn_battle_magic_blizzaga.png"
+picBtnBattleMagicDualBlackMagic    		        = folderffbeimage.."magic/btn_battle_magic_dual_black_magic.png"
+picBtnBattleMagicFiraga            		        = folderffbeimage.."magic/btn_battle_magic_firaga.png"
+picBtnBattleMagicMeteor          		        = folderffbeimage.."magic/btn_battle_magic_meteor.png"
+picBtnBattleMagicOsmose          		        = folderffbeimage.."magic/btn_battle_magic_osmose.png"
+picBtnBattleMagicThundaga          		        = folderffbeimage.."magic/btn_battle_magic_thundaga.png"
+picBtnBattleMagicWickedLight       		        = folderffbeimage.."magic/btn_battle_magic_wicked_light.png"
 
-picBtnBattleMagicAeroga         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_aeroga.png"):similar(0.97)
-picBtnBattleMagicAerora         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_aerora.png"):similar(0.97)
-picBtnBattleMagicBringItOn      		        = Pattern(folderffbeimage.."magic/btn_battle_magic_bring_it_on.png"):similar(0.97)
-picBtnBattleMagicGaleBlast         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_gale_blast.png"):similar(0.97)
-picBtnBattleMagicGlacialWave       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_glacial_wave.png"):similar(0.97)
-picBtnBattleMagicSteel             		        = Pattern(folderffbeimage.."magic/btn_battle_magic_steel.png"):similar(0.97)
+picBtnBattleMagicCura           		        = folderffbeimage.."magic/btn_battle_magic_cura.png"
+picBtnBattleMagicCuraja         		        = folderffbeimage.."magic/btn_battle_magic_curaja.png"
+picBtnBattleMagicCuraja2        		        = folderffbeimage.."magic/btn_battle_magic_curaja2.png"
+picBtnBattleMagicFocus             		        = folderffbeimage.."magic/btn_battle_magic_focus.png"
 
-picBtnBattleMagicEmbolden                       = Pattern(folderffbeimage.."magic/btn_battle_magic_embolden.png"):similar(0.97)
+picBtnBattleMagicAeroga         		        = folderffbeimage.."magic/btn_battle_magic_aeroga.png"
+picBtnBattleMagicAerora         		        = folderffbeimage.."magic/btn_battle_magic_aerora.png"
+picBtnBattleMagicBringItOn      		        = folderffbeimage.."magic/btn_battle_magic_bring_it_on.png"
+picBtnBattleMagicGaleBlast         		        = folderffbeimage.."magic/btn_battle_magic_gale_blast.png"
+picBtnBattleMagicGlacialWave       		        = folderffbeimage.."magic/btn_battle_magic_glacial_wave.png"
+picBtnBattleMagicSteel             		        = folderffbeimage.."magic/btn_battle_magic_steel.png"
 
-picBtnBattleMagicDeepBlue       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_deep_blue.png"):similar(0.97)
-picBtnBattleMagicPriestessMiracle  		        = Pattern(folderffbeimage.."magic/btn_battle_magic_priestess_miracle.png"):similar(0.97)
-picBtnBattleMagicRegenerate                     = Pattern(folderffbeimage.."magic/btn_battle_magic_regenerate.png"):similar(0.97)
-picBtnBattleMagicWaterBarrier      		        = Pattern(folderffbeimage.."magic/btn_battle_magic_water_barrier.png"):similar(0.97)
-picBtnBattleMagicWaterGodsBreath   		        = Pattern(folderffbeimage.."magic/btn_battle_magic_water_gods_breath.png"):similar(0.97)
+picBtnBattleMagicEmbolden                       = folderffbeimage.."magic/btn_battle_magic_embolden.png"
 
-picBtnBattleMagicBarrage         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_barrage.png"):similar(0.97)
-picBtnBattleMagicHayate            		        = Pattern(folderffbeimage.."magic/btn_battle_magic_hayate.png"):similar(0.97)
-picBtnBattleMagicPhantomShadow    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_phantom_shadow.png"):similar(0.97)
+picBtnBattleMagicDeepBlue       		        = folderffbeimage.."magic/btn_battle_magic_deep_blue.png"
+picBtnBattleMagicPriestessMiracle  		        = folderffbeimage.."magic/btn_battle_magic_priestess_miracle.png"
+picBtnBattleMagicRegenerate                     = folderffbeimage.."magic/btn_battle_magic_regenerate.png"
+picBtnBattleMagicWaterBarrier      		        = folderffbeimage.."magic/btn_battle_magic_water_barrier.png"
+picBtnBattleMagicWaterGodsBreath   		        = folderffbeimage.."magic/btn_battle_magic_water_gods_breath.png"
 
-picBtnBattleMagicGrapeShot        		        = Pattern(folderffbeimage.."magic/btn_battle_magic_grapeshot.png"):similar(0.97)
-picBtnBattleMagicMaimingShot      		        = Pattern(folderffbeimage.."magic/btn_battle_magic_maiming_shot.png"):similar(0.97)
-picBtnBattleMagicShatteringShot   		        = Pattern(folderffbeimage.."magic/btn_battle_magic_shattering_shot.png"):similar(0.97)
-picBtnBattleMagicTrueShot         		        = Pattern(folderffbeimage.."magic/btn_battle_magic_true_shot.png"):similar(0.97)
+picBtnBattleMagicBarrage         		        = folderffbeimage.."magic/btn_battle_magic_barrage.png"
+picBtnBattleMagicHayate            		        = folderffbeimage.."magic/btn_battle_magic_hayate.png"
+picBtnBattleMagicPhantomShadow    		        = folderffbeimage.."magic/btn_battle_magic_phantom_shadow.png"
 
-picBtnBattleMagicJump             		        = Pattern(folderffbeimage.."magic/btn_battle_magic_jump.png"):similar(0.97)
-picBtnBattleMagicHyperDrive       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_hyper_drive.png"):similar(0.97)
-picBtnBattleMagicWhirlingLance    		        = Pattern(folderffbeimage.."magic/btn_battle_magic_whirling_lance.png"):similar(0.97)
-picBtnBattleMagicCleanSweep       		        = Pattern(folderffbeimage.."magic/btn_battle_magic_clean_sweep.png"):similar(0.97)
+picBtnBattleMagicGrapeShot        		        = folderffbeimage.."magic/btn_battle_magic_grapeshot.png"
+picBtnBattleMagicMaimingShot      		        = folderffbeimage.."magic/btn_battle_magic_maiming_shot.png"
+picBtnBattleMagicShatteringShot   		        = folderffbeimage.."magic/btn_battle_magic_shattering_shot.png"
+picBtnBattleMagicTrueShot         		        = folderffbeimage.."magic/btn_battle_magic_true_shot.png"
 
-picBtnBattleMagicSteal                          = Pattern(folderffbeimage.."magic/btn_battle_magic_steal.png"):similar(0.97)   --  left side
-picBtnBattleMagicSteal2                         = Pattern(folderffbeimage.."magic/btn_battle_magic_steal2.png"):similar(0.97)  --  right side
+picBtnBattleMagicJump             		        = folderffbeimage.."magic/btn_battle_magic_jump.png"
+picBtnBattleMagicHyperDrive       		        = folderffbeimage.."magic/btn_battle_magic_hyper_drive.png"
+picBtnBattleMagicWhirlingLance    		        = folderffbeimage.."magic/btn_battle_magic_whirling_lance.png"
+picBtnBattleMagicCleanSweep       		        = folderffbeimage.."magic/btn_battle_magic_clean_sweep.png"
 
-picBtnBattleMagicCheer                          = Pattern(folderffbeimage.."magic/btn_battle_magic_cheer.png"):similar(0.97)   --  left side
+picBtnBattleMagicSteal                          = folderffbeimage.."magic/btn_battle_magic_steal.png"   --  left side
+picBtnBattleMagicSteal2                         = folderffbeimage.."magic/btn_battle_magic_steal2.png"  --  right side
+
+picBtnBattleMagicCheer                          = folderffbeimage.."magic/btn_battle_magic_cheer.png"   --  left side
 

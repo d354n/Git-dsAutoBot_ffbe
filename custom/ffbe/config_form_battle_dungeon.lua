@@ -10,7 +10,7 @@
 
 --  Battle Select Level Vortex
 varFormNameMainBattleSelectLevel                = "MainFormBattleSelectLevel"
-critMainBattleVortexSelectLevelTop	            = folderffbeimage.."crit_main_battle_vortex_select_level_top.png"
+critMainBattleVortexSelectLevelTop	            = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_top.png"
 locMainBattleSelectLevelSwipeScrollDn01       	= Pattern(critMainBattleVortexSelectLevelTop):targetOffset(0, 400)
 locMainBattleSelectLevelSwipeScrollDn02       	= Pattern(critMainBattleVortexSelectLevelTop):targetOffset(0, 100)
 locMainBattleSelectLevelSwipeScrollUp01       	= locMainBattleSelectLevelSwipeScrollDn02

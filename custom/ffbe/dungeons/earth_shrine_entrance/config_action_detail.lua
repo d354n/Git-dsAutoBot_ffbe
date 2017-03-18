@@ -10,7 +10,7 @@
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
 picUnitsParty                           = picTxtMainBattleUnitPartyTrust
 
-ActionOnForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionOnForm(varFormNameMainBattleSelectLevelEarthShrineEnt)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
 ActionExecWaitForm(varFormNameMainBattleCompletion)
@@ -72,12 +72,12 @@ ActionExecWaitForm(varFormNameMapGrandGrandArdEarthShrine)
 ActionOnForm(varFormNameMapGrandGrandArdEarthShrine)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapGrandGrandIslesEarthShrine)
-ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrineEnt)
 
 ActionOnForm(varFormNameMapGrandGrandCtrEarthShrine)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapGrandGrandIslesEarthShrine)
-ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrine)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelEarthShrineEnt)
 
 ActionOnForm(varFormNameMapGrandGrandNoEarthOrdol)
 ActionExec(varActionExecuteDoSwipe)

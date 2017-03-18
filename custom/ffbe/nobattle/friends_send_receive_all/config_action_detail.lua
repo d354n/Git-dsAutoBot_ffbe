@@ -14,6 +14,7 @@ ActionExecWaitForm(varFormNameMainFriends)
 ActionOnForm(varFormNameMainFriends)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainFriendsSendGifts)
+ActionExecVar(picBtnStdBack)
 ActionExecWaitForm(varFormNameMainFriends)
 
 ActionOnForm(varFormNameMainFriendsReceiveNotEmpty)

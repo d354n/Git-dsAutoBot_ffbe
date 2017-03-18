@@ -30,6 +30,7 @@ BattleNewRoundExecVar(5)  --max_scroll
 BattleNewRoundExecVar(picBtnBattleMagicFocus)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicFocus)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExecVar(picBtnBattleMagicCuraja)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 BattleNewRoundExec(varActionExecuteDoClickLocation)
@@ -53,6 +54,7 @@ BattleNewRoundExecVar(5)  --max_scroll
 BattleNewRoundExecVar(picBtnBattleMagicEmbolden)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicEmbolden)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExecVar(picBtnBattleMagicCuraja)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoClickLocation)
 BattleNewRoundExecVar(locBattleParty5Center)
 BattleNewRoundExec(varActionExecuteDoClickLocation)
@@ -75,6 +77,7 @@ BattleNewRoundExecVar(picBtnBattleMagicAeroga)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicAeroga)  --itemtofind priority 2  if 1 maybe not found
 BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
 BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 
@@ -93,6 +96,7 @@ BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
 BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 
@@ -131,6 +135,7 @@ BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 
@@ -161,6 +166,7 @@ BattleNewRoundExecVar(picBtnBattleMagicAeroga)  --itemtofind priority 1
 BattleNewRoundExecVar(picBtnBattleMagicAeroga)  --itemtofind priority 2  if 1 maybe not found
 BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
 BattleNewRoundExecVar(picBtnBattleMagicBlizzaga)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 
@@ -179,6 +185,7 @@ BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)
 BattleNewRoundExecVar(picBtnBattleMagicGrapeShot)
 BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
 BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 
@@ -217,6 +224,7 @@ BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
+BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
 

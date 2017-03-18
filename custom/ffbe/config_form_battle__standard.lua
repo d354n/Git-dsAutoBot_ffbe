@@ -52,6 +52,7 @@ locBattleMagicSwipeSrollDn01         	        = locXmidMin8YsevenEights
 locBattleMagicSwipeSrollDn02         	        = locXmidMin8YfiveEights
 locBattleMagicSwipeSrollUp01         	        = locBattleMagicSwipeSrollDn02
 locBattleMagicSwipeSrollUp02         	        = locBattleMagicSwipeSrollDn01
+boxBattleMagic                                  = varRegionX0YfiveEightsWmaxHthreeEights
 locBattleParty1Left                             = Region( 50, 575, 20, 20)
 locBattleParty2Left                             = Region( 50, 575, 20, 20)
 locBattleParty3Left                             = Region( 50, 675, 20, 20)
