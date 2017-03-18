@@ -6,19 +6,20 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+varFormNameMainRechargeEnergyRaid               = "MainFormRechargeEnergyRaid"
+critMainRechargeEnergyRaidMid                   = varDirectoryCustomImage.."crit_insufficient_energy.png"
+picBtnMainRechargeEnergyRaidNo                  = varDirectoryCustomImage.."btn_energy_no.png"
+
 FormCreate(varFormNameMainBattleSelectLevel)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeEnergyRaidMid)
 FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_main_battle_vortex_select_level_top.png")
 FormAddGoto(varFormNameMainHome    , "")
 FormAddGoto(varFormNameMainWorld   , "")
 FormAddGoto(varFormNameMainVortex  , "")
 
-varFormNameMainRechargeEnergyRaid               = "MainFormRechargeEnergyRaid"
-picBtnMainRechargeEnergyRaidNo                  = varDirectoryCustomImage.."btn_energy_no.png"
-
 FormCreate(varFormNameMainRechargeEnergyRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_insufficient_energy.png")
-FormAddCriteria2Do(varCriteriaExists, picBtnMainRechargeEnergyRaidNo)
+FormAddCriteria2Do(varCriteriaExists, critMainRechargeEnergyRaidMid)
 
 
