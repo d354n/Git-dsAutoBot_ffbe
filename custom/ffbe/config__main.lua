@@ -9,10 +9,12 @@
 --  Parameteres
 Settings:set("MinSimilarity", 0.90)
 varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
-folderLogBattleResult = "../debug/log_battle_results/"
 folderImgParams = "nox1/"
 
 --  dont change start  --
+expFilename             = scriptPath().."../custom/ffbe/experience_data/".."exp_data.txt"
+folderLogBattleResult = "../debug/log_battle_results/"
+
 folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 dofile(folderffbescript.."config_vars.lua")         --  1st
@@ -76,7 +78,7 @@ dofile(scriptPath()..foldername.."config_action.lua")
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action_35.lua")
+dofile(scriptPath()..foldername.."config_action_10.lua")
 
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
@@ -210,23 +212,22 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 1 do
+for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for i=1, 2 do
-        MultiAdd("Ar:Colosseum/TopLevel/2ndRound")
-        MultiAdd("Vx:Operation MA Demolition Pro", "98")
+    for i=1, 3 do
+        MultiAdd("Ar:Colosseum/TopLevel/3rdRound")
+        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
-        MultiAdd("Friends  Receive Send All")
-        MultiAdd("Wait 2000")
+--        MultiAdd("Wait 2000")
     end
---    MultiAdd("Items - Sell Items")
+--    MultiAdd("Items  Sell Items")
 end
 MultiAdd("Ar:Battle")
-MultiAdd("Ex:Earth Shrine/P:TRUS T")
+--MultiAdd("Ex:Earth Shrine/P:TRUS T")
 MultiAdd(varActionDoGotoAction1)
 
 

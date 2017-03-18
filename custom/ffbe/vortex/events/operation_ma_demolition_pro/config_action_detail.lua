@@ -54,13 +54,15 @@ ActionExecVar(critBattleNimbusTalk2TopLeft)
 ActionExecWaitForm(varFormNameMainBattleNimbusTalk2)
 
 ActionOnForm(varFormNameMainBattleResultItemsObtain)
-ActionExec(varActionExecuteDoSaveSnapshot)
-ActionExecVar(dateNowYYMMDDHM)
-ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX
 ActionExecVar(1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
+ActionExecVar(critMainBattleResultsItemsObtained)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
+ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
