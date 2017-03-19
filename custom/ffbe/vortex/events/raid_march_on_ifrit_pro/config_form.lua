@@ -10,13 +10,10 @@ varFormNameMainRechargeEnergyRaid               = "MainFormRechargeEnergyRaid"
 critMainRechargeEnergyRaidMid                   = varDirectoryCustomImage.."crit_insufficient_energy.png"
 picBtnMainRechargeEnergyRaidNo                  = varDirectoryCustomImage.."btn_energy_no.png"
 
-varFormNameMainBattleResultRaidGil              = "MainFormBattleResultRaidGil"
-critMainBattleResultsRaidGilMid             	= varDirectoryCustomImage.."crit_gil_mid.png"
-picBtnMainBattleResultsRaidGilNext         	    = varDirectoryCustomImage.."btn_gil_next.png"
+varFormNameMainBattleResultRaid                 = "MainFormBattleResultRaid"
+critMainBattleResultsRaidMid                	= varDirectoryCustomImage.."crit_raid_mid.png"
+picBtnMainBattleResultsRaidNext         	    = varDirectoryCustomImage.."btn_raid_next.png"
 
-varFormNameMainBattleResultRaidDamage           = "MainFormBattleResultRaidDamage"
-critMainBattleResultsRaidDmgMid             	= varDirectoryCustomImage.."crit_dmg_mid.png"
-picBtnMainBattleResultsRaidDmgNext         	    = picBtnMainBattleResultsRaidGilNext
 
 
 FormCreate(varFormNameMainBattleSelectLevel)
@@ -31,14 +28,9 @@ FormCreate(varFormNameMainRechargeEnergyRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainRechargeEnergyRaidMid)
 
-FormCreate(varFormNameMainBattleResultRaidGil)
+FormCreate(varFormNameMainBattleResultRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidGilMid)
-FormAddGoto(varFormNameMainBattleResultExp, picBtnMainBattleResultsRaidGilNext)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidMid)
 
-FormCreate(varFormNameMainBattleResultRaidDamage)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidDmgMid)
-FormAddGoto(varFormNameMainBattleResultExp, picBtnMainBattleResultsRaidDmgNext)
 
 

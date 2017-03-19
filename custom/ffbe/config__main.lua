@@ -228,7 +228,7 @@ for i=1, 3 do
     for i=1, 3 do
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound")
---        MultiAdd("Vx:March on Ifrit Pro")
+        MultiAdd("Vx:March on Ifrit Pro")
         MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
         MultiAdd("Craft  Get All Completed")
@@ -241,6 +241,7 @@ for i=1, 3 do
 end
 --MultiAdd("Ar:Battle")
 --MultiAdd("Ex:Earth Shrine/P:TRUS T")
+MultiAdd("Summon  Once a Day Limited Summon (250)")
 MultiAdd(varActionDoGotoAction1)
 
 
