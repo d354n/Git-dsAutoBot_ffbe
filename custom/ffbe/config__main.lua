@@ -128,6 +128,11 @@ foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
+foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_adv/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Vx:March on Ifrit Pro"
 foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_pro/"
 parentfolder = foldername
@@ -223,14 +228,15 @@ for i=1, 3 do
     for i=1, 3 do
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound")
-        MultiAdd("Vx:March on Ifrit Pro")
-        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
+--        MultiAdd("Vx:March on Ifrit Pro")
+        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
+        MultiAdd("Craft  Get All Completed")
+        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
+        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
+        MultiAdd("Craft  Farm Items  Recovery  Potion")
 --        MultiAdd("Wait 2000")
     end
-    MultiAdd("Craft  Get All Completed")
-    MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
-    MultiAdd("Craft  Farm Abilities  White Magic  Cure")
-    MultiAdd("Craft  Farm Items  Recovery  Potion")
 --    MultiAdd("Items  Sell Items")
 end
 --MultiAdd("Ar:Battle")
