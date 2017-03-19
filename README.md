@@ -36,6 +36,14 @@ First Setup:
     * Action2: Events
     * Action3: Wait 2000
     * Action4: Goto 1
+* standard battle config for Arena Colosseum:
+  * Party Setup in Options
+  * Exdeath in Position 3 (middle)
+    * Cast Dual Magic (Meteor + Meteor)
+  * Other AUTO
+* standard config for TMR:
+  * Party name "TRUS T"
+  * Battle AUTO
 
 Files description:
 * amain.luae (main program)
