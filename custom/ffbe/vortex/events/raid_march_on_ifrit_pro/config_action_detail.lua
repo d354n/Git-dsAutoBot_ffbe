@@ -32,7 +32,7 @@ ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
-ActionExecVar(10)  --  how many scroll to bottom
+ActionExecVar(1)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionStdFriend)
 ActionExecVar(picBtnBattleSelectCompanionStdOther)
 ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)
@@ -53,6 +53,8 @@ ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsRaidGilMid)
 ActionExecVar(1)
 ActionExecVar(picBtnMainBattleResultsRaidGilNext)
+ActionExecVar(critMainBattleResultsRaidGilMid)
+ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsRaidGilNext)
 ActionExecWaitForm(varFormNameMainBattleResultRaidDamage)
 
@@ -65,6 +67,8 @@ ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsRaidDmgMid)
 ActionExecVar(1)
 ActionExecVar(picBtnMainBattleResultsRaidDmgNext)
+ActionExecVar(critMainBattleResultsRaidDmgMid)
+ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsRaidDmgNext)
 ActionExecWaitForm(varFormNameMainBattleResultExp)
 
