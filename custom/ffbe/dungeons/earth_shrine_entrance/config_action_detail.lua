@@ -94,6 +94,8 @@ ActionExecVar(locMapsCenter)
 ActionExecVar(locMapsRightMax)
 ActionExecWaitForm(varFormNameMapGrandGrandArdOrdolPort)
 
+
+
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")
 dofile(folderffbescript.."config_action_defs_dungeon.lua")

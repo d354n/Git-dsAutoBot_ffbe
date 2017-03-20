@@ -14,6 +14,7 @@ ActionExecVar(Pattern(picBtnMainHome):similar(0.75))
 ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.75))
 ActionExecVar(Pattern(picBtnStdNext):similar(0.75))
 ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
+ActionExecVar(Pattern(picBtnStdOk):similar(0.75))
 ActionExecWaitForm(varActionExecuteWaitFormWait003)
 
 

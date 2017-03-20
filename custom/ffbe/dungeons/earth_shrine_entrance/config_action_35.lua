@@ -37,19 +37,15 @@ ActionExecVar(varActionExecuteDoClickButton)    --  if counter
 ActionExecVar(picBtnBattleCompletionHome)       --  if counter
 ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
 ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-ActionExecVar(varActionExecuteDoWait)           --  if counter
-ActionExecVar(2)                                --  if counter
+ActionExecVar(varActionExecuteDoCounterReset)
+ActionExecVar(1)
 ActionExecVar("")                               --  if not counter
 ActionExecVar("")                               --  if not counter
-ActionExecVar(varActionExecuteDoClickButton)    --  if counter
-ActionExecVar(picBtnMainShop)                   --  if counter
+ActionExecVar(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
 ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 
-ActionOnForm(varFormNameMainShop)
-ActionExec(varActionExecuteDoCounterReset)
-ActionExecVar(1)
-ActionExec(varActionExecuteDoSetActionNextAction)
-ActionExecVar("")
+
 
 dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 

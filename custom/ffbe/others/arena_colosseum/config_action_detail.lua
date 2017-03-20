@@ -9,10 +9,10 @@
 ActionOnForm(varFormNameMainArenaColosseumRechargeEnergy)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainArenaColosseumRechargeEnergyNo)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHome)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
---ActionExec(varActionExecuteDoWait)
---ActionExecVar(2500)
 
 ActionOnForm(varFormNameMainArena)
 ActionExec(varActionExecuteDoClickButton)

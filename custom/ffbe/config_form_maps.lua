@@ -79,17 +79,17 @@ critMapCompanionUpdateMid                       = folderffbeimage.."maps/crit_ma
 --  ##   Maps Main Olderion  ##
 FormCreate(varFormNameMapMainOlderion)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapDirnado)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandshelt)
-FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapOlderion)
 
 --  ##   Maps Main Dirnado Olderion  ##
 FormCreate(varFormNameMapMainDirnadoOlderion)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandshelt)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandshelt)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapDirnado)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapOlderion)
@@ -97,17 +97,17 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMapOlderion)
 --  ##   Maps Main Dirnado  ##
 FormCreate(varFormNameMapMainDirnado)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandshelt)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapOlderion)
-FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapDirnado)
 
 --  ##   Maps Main Dirnado Grandshelt  ##
 FormCreate(varFormNameMapMainDirnadoGrandshelt)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaNotExists, picBtnMapOlderion)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMapOlderion)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapDirnado)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapGrandshelt)
@@ -115,9 +115,9 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMapGrandshelt)
 --  ##   Maps Main Grandshelt  ##
 FormCreate(varFormNameMapMainGrandshelt)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapOlderion)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapDirnado)
-FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapGrandshelt)
 
@@ -167,9 +167,9 @@ FormAddCriteria2Var(Region(locMapTownCenterX1, locMapTownCenterY1, locMapTownCen
 --  ##   Maps - Grandshelt - Grandshelt Isles - No Earth Ordol   ##
 FormCreate(varFormNameMapGrandGrandNoEarthOrdol)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapGrandGrandIslesTop)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandGrandIslesEarthShrine)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandGrandIslesOrdolPort)
-FormAddCriteria2Do(varCriteriaExists, critMapGrandGrandIslesTop)
 
 --  ##   Maps - Dirnado  ##
 FormCreate(varFormNameMapDirnado)

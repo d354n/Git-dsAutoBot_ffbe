@@ -49,7 +49,7 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critMainBattleResultsGil)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsGil)  -- click this until exists XXX
-ActionExecVar(1)  --  click delay
+ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsGilNext)  -- XXX = repeat until exists this
 ActionExecVar(picBtnMainBattleResultsGilNext)
 ActionExecWaitForm(varFormNameMainBattleResultExp)
@@ -73,7 +73,7 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critMainBattleResultsItemsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX
-ActionExecVar(1)  --  click delay
+ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
@@ -85,7 +85,7 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critMainBattleResultsUnitsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsUnitsObtained)  -- click this until exists XXX
-ActionExecVar(1)  --  click delay
+ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)
 ActionExecWaitForm(varFormNameMainBattleResultItemsObtain)
