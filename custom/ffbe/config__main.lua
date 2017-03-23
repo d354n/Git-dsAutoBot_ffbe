@@ -239,7 +239,7 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 1 do
+for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for i=1, 2 do
@@ -257,10 +257,10 @@ for i=1, 1 do
 --        MultiAdd("Wait 2000")
     end
 --    MultiAdd("Items  Sell Items")
+    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")
 --MultiAdd("Ex:Earth Shrine/P:TRUS T")
-MultiAdd("Summon  Once a Day Limited Summon (250)")
 MultiAdd(varActionDoGotoAction1)
 
 
