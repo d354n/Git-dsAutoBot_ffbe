@@ -15,12 +15,13 @@ Emulator:
 
 Warning:
 * Dont forget to move PLAY button to TOP RIGHT of the screen
-* All Effects: Off
 
 First Setup:
-* set party name to "EVE NT" for Event, Vortex
-* set party name to "LE VEL" for Exploration
-* set party name to "TRUS T" for Dungeon
+* set All Effects OFF
+* set party name to:
+  * "EVE NT" for Event, Vortex
+  * "LE VEL" for Exploration
+  * "TRUS T" for Dungeon
 * standard action after no energy is Next Action
 * standard action setup:
   * std01
@@ -36,14 +37,32 @@ First Setup:
     * Action2: Events
     * Action3: Wait 2000
     * Action4: Goto 1
-* standard battle config for Arena Colosseum:
-  * Party Setup in Options
-  * Exdeath in Position 3 (middle)
-    * Cast Dual Magic (Meteor + Meteor)
-  * Other AUTO
-* standard config for TMR:
-  * Party name "TRUS T"
-  * Battle AUTO
+* standard battle config:
+  * Position: Char1 Char2 Char3 Char4 Char5 (in units)
+  * Arena Colosseum:
+    * Party Setup in Options
+    * Char 3 - ExDeath - Cast Dual Magic (Meteor + Meteor)
+    * Other Battle AUTO
+  * TMR:
+    * Party name "TRUS T"
+    * Battle AUTO
+    * Battle 99 (Blazing Fast): 
+      * Char1 Attack 
+      * Char3 Attack 
+  * Arena PVP:
+    * Char 1 - White Knight Noel - Aeroga / Blizzaga 
+    * Char 2 - Olive - GrapeShot / TrueShot 
+    * Char 3 - ExDeath - Dual Magic - Meteor - Meteor
+    * Char 4 - Cecil - Focus / Curaja 
+    * Char 5 - Refia - Embolden / Curaja 
+  * Ifrit Adv:
+    * Party name "EVE NT"
+    * Battle AUTO
+  * Ifrit Pro:
+    * Party name "EVE NT"
+    * Char 2 - Olive - GrapeShot / TrueShot
+    * Char 4 - Cecil - Focus / Curaja
+    * Char 5 - Refia - Embolden / Curaja
 
 Files description:
 * amain.luae (main program)
