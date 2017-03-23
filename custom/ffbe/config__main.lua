@@ -17,7 +17,12 @@ folderLogBattleResult = "../debug/log_battle_results/"
 
 folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
+
 dofile(folderffbescript.."config_vars.lua")         --  1st
+dofile(folderffbescript.."config_vars_form_arena.lua")
+dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
+dofile(folderffbescript.."config_vars_form_home.lua")
+
 dofile(folderffbescript.."config_form.lua")         --  2nd
 dofile(folderffbescript.."config_form_arena.lua")
 dofile(folderffbescript.."config_form_arena_colosseum.lua")
@@ -35,7 +40,9 @@ dofile(folderffbescript.."config_form_messages.lua")
 dofile(folderffbescript.."config_form_quests_daily.lua")
 dofile(folderffbescript.."config_form_summon.lua")
 dofile(folderffbescript.."config_form_units.lua")
+
 dofile(folderffbescript.."config_action.lua")       --  3rd
+
 dofile(folderffbescript.."config_battle.lua")       --  4th
 --  dont change end  --
 
@@ -89,6 +96,11 @@ varActionName = "Dg:Earth Shrine Exit"
 foldername = "../custom/ffbe/dungeons/earth_shrine_exit/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
+foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action_35_use_lapis.lua")
 --  ]===]
 
 
@@ -227,10 +239,11 @@ for i=1, 3 do
     MultiAdd("Quests  Daily Claim")
     for i=1, 3 do
 --        MultiAdd("Ar:Battle")
-        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
+        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
         MultiAdd("Vx:March on Ifrit Pro")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
         MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")

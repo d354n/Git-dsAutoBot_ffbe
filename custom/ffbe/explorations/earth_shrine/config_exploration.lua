@@ -36,9 +36,16 @@ ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationLeftMax   
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 2000, 2)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 2000, 2)  --  Enemy Presence. Onwards?
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax , 1000, 2)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 2)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 2)  --  Abandon
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpMax       , 2000,10)  --  Extra
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)  --  Abandon
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)  --  Extra
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
 
 
 

@@ -10,10 +10,11 @@
 ActionOnForm(varDefault)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(Pattern(picBtnStdBack):similar(0.75))
+ActionExecVar(Pattern(picBtnStdXClose):similar(0.75))
+ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
 ActionExecVar(Pattern(picBtnMainHome):similar(0.75))
 ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.75))
 ActionExecVar(Pattern(picBtnStdNext):similar(0.75))
-ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
 ActionExecVar(Pattern(picBtnStdOk):similar(0.75))
 ActionExecWaitForm(varActionExecuteWaitFormWait003)
 
@@ -73,6 +74,10 @@ ActionExecVar(picBtnAppsFFexvius)
 ActionOnForm(varFormNameAppsFFBEStart)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critFFBEStartTop)
+
+ActionOnForm(varFormNameAppsFFBEStopped)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnFFBEStoppedOk)
 --  Android Apps End
 --  Android Apps End
 --  Android Apps End

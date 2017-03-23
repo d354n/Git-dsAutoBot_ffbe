@@ -21,7 +21,7 @@ ActionExecWaitForm(varFormNameMainExploration)
 ActionOnForm(varFormNameMainBattleEngaged)
 ActionExec(varActionExecuteDoBattleEngage)
 ActionExecVar(varActionName)
-ActionExecWaitForm(varFormNameMainBattleEngaged)
+ActionExecWaitForm(varFormNameMainBattleEngagedInAction)
 
 ActionOnForm(varFormNameMainExplorationWon)
 ActionExec(varActionExecuteDoClickButton)

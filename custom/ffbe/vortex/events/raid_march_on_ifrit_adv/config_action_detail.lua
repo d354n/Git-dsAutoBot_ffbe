@@ -14,9 +14,10 @@ picUnitsParty                           = picTxtMainBattleUnitPartyEvent
 ActionOnForm(varFormNameMainBattleResultItemsObtain)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX
-ActionExecVar(1)  --  click delay
+ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
 ActionExecVar(critMainBattleResultsItemsObtained)
+ActionExecVar(7)  --  start with how many click?
 ActionExec(varActionExecuteDoSaveSnapshot)
 ActionExecVar(dateNowYYMMDDHM)
 ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
@@ -55,9 +56,10 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critMainBattleResultsRaidMid)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsRaidMid)
-ActionExecVar(1)
+ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsRaidNext)
 ActionExecVar(critMainBattleResultsRaidMid)
+ActionExecVar(7)  --  start with how many click?
 ActionExec(varActionExecuteDoSaveSnapshot)
 ActionExecVar(dateNowYYMMDDHM)
 ActionExecVar(folderLogBattleResult.."log__ifrit_")
