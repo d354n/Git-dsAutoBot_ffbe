@@ -54,5 +54,6 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 
 --  ## what battle config?
 dofile(folderffbescript.."config_battle_dungeon_defs_auto.lua")
+dofile(scriptPath()..parentfolder.."config_battle_99.lua")
 
 

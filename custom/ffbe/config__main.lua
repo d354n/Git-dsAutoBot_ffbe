@@ -101,6 +101,11 @@ varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
 foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action_35_use_lapis.lua")
+
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
+foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action_100_use_lapis.lua")
 --  ]===]
 
 
@@ -234,16 +239,17 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 3 do
+for i=1, 1 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for i=1, 3 do
+    for i=1, 2 do
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
         MultiAdd("Vx:March on Ifrit Pro")
---        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next")
-        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next", "99")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
