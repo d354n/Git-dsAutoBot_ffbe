@@ -49,11 +49,16 @@ ActionExecVar(picBtnBattleCompletionHome)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 
+ActionOnForm(varFormNameMainBattleResultGil)
+ActionExec(varActionExecuteDoClickRepeatButton)
+ActionExecVar(critMainBattleResultsGil)
+ActionExecVar(0.1)  --  click delay
+ActionExecVar(critMainBattleResultsGil)
+ActionExecVar(critMainBattleResultsGil)
+ActionExecVar(7)  --  start with how many click?
+ActionExecWaitForm(varFormNameMainBattleResultRaid)
+
 ActionOnForm(varFormNameMainBattleResultRaid)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(critMainBattleResultsRaidMid)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(critMainBattleResultsRaidMid)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsRaidMid)
 ActionExecVar(0.1)  --  click delay

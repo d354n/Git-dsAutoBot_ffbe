@@ -83,3 +83,13 @@ picBtnBattleMagicSteal2                         = folderffbeimage.."magic/btn_ba
 
 picBtnBattleMagicCheer                          = folderffbeimage.."magic/btn_battle_magic_cheer.png"   --  left side
 
+picBtnBattleMagicAeroBlitz                      = folderffbeimage.."magic/btn_battle_magic_aero_blitz.png"
+picBtnBattleMagicAreaBlast                      = folderffbeimage.."magic/btn_battle_magic_area_blast.png"
+picBtnBattleMagicCrushingBlow                   = folderffbeimage.."magic/btn_battle_magic_crushing_blow.png"
+picBtnBattleMagicElectricBlitz                  = folderffbeimage.."magic/btn_battle_magic_electric_blitz.png"
+picBtnBattleMagicHeatBlitz                      = folderffbeimage.."magic/btn_battle_magic_heat_blitz.png"
+picBtnBattleMagicIceBlitz                       = folderffbeimage.."magic/btn_battle_magic_ice_blitz.png"
+picBtnBattleMagicStarfall                       = folderffbeimage.."magic/btn_battle_magic_starfall.png"
+picBtnBattleMagicTimeStopper                    = folderffbeimage.."magic/btn_battle_magic_time_stopper.png"
+
+

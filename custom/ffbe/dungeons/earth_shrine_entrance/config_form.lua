@@ -6,9 +6,7 @@
 -- To change this template use File | Settings | File Templates.
 --
 
---  Variables
 varFormNameMainBattleSelectLevelEarthShrineEnt   = "MainBattleSelectLevelEarthShrineEnt"
 
---  ##  Main Form Battle - Select Level Earth Shrine ##
 FormCreate(varFormNameMainBattleSelectLevelEarthShrineEnt)
 FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_select_level_top.png")
