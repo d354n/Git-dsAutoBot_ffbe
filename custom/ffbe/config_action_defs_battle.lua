@@ -14,13 +14,10 @@ ActionExecVar("")
 --ActionExec(varActionExecuteDoWait)
 --ActionExecVar(2000)
 
-ActionOnForm(varFormNameMainBattleReviveAll)
+ActionOnForm(varFormNameMainBattleCompletion)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnBattleContinueNo)
-
-ActionOnForm(varFormNameMainBattleGiveUp)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnBattleContinueYes)
+ActionExecVar(picBtnBattleCompletionNext)
+ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 
 ActionOnForm(varFormNameMainBattleEngaged)
 ActionExec(varActionExecuteDoBattleEngage)
@@ -37,10 +34,13 @@ ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleEngaged)
 
-ActionOnForm(varFormNameMainBattleCompletion)
+ActionOnForm(varFormNameMainBattleReviveAll)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnBattleCompletionNext)
-ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
+ActionExecVar(picBtnBattleContinueNo)
+
+ActionOnForm(varFormNameMainBattleGiveUp)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnBattleContinueYes)
 
 ActionOnForm(varFormNameMainBattleResultGil)
 ActionExec(varActionExecuteDoClickButton)
@@ -96,6 +96,5 @@ ActionExecWaitForm(varFormNameMainBattleResultItemsObtain)
 ActionOnForm(varFormNameMainBattleRequest)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleRequestDont)
-
 
 
