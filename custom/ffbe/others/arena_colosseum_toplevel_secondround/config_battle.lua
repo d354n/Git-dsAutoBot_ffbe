@@ -25,8 +25,8 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 1
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
@@ -50,7 +50,7 @@ BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)    --  when failed click this
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)  --  when failed click this
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)  --  when failed click this
+BattleNewRoundExecVar(picBtnBattleAbilityWickedLight)  --  when failed click this
 BattleNewRoundExecVar(picBtnBattleEngagedBack)  --  when failed click this
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
@@ -78,8 +78,8 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 1
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
@@ -103,7 +103,7 @@ BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)  --  click this
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)    --  when failed click this
 BattleNewRoundExecVar(picBtnBattleMagicThundaga)  --  when failed click this
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)  --  when failed click this
+BattleNewRoundExecVar(picBtnBattleAbilityWickedLight)  --  when failed click this
 BattleNewRoundExecVar(picBtnBattleEngagedBack)  --  when failed click this
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)

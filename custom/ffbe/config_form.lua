@@ -85,6 +85,9 @@ locMainBattleSelectVortexSwipeScrollDn02       	= Pattern(critMainDimensionalVor
 locMainBattleSelectVortexSwipeScrollUp01       	= locMainBattleSelectVortexSwipeScrollDn02
 locMainBattleSelectVortexSwipeScrollUp02       	= locMainBattleSelectVortexSwipeScrollDn01
 
+varFormNameUnitCapacityReached                  = "FormUnitCapacityReached"
+critUnitCapacityReachedMid                      = folderffbeimage.."crit_unit_capacity_reached_mid.png"
+
 
 
 FormCreate(varFormNameMainHome)
@@ -152,5 +155,8 @@ FormAddCriteria2Do(varCriteriaExists, critErrorLoadingMid)
 FormCreate(varFormNameMainVortex)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+
+FormCreate(varFormNameUnitCapacityReached)
+FormAddCriteria2Do(varCriteriaExists, critUnitCapacityReachedMid)
 
 

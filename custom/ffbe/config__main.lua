@@ -145,6 +145,11 @@ foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+varActionName = "Vx:Catuar Dunes/P:TRUS T"
+foldername = "../custom/ffbe/vortex/reg_events/cactuar_dunes_uncharted_zone/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
 foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_adv/"
 parentfolder = foldername

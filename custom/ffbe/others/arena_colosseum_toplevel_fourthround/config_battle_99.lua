@@ -87,8 +87,8 @@ BattleNewRoundExecVar(5)  --7.max_scroll
 BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
 BattleNewRoundExecVar(boxBattleMagic)  --9.box
 BattleNewRoundExecVar(0.97)
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01

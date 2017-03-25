@@ -111,8 +111,8 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 1
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 1
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)  --itemtofind priority 2 if 1 maybe not found
 BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
@@ -134,7 +134,7 @@ BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
+BattleNewRoundExecVar(picBtnBattleAbilityWickedLight)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
@@ -200,8 +200,8 @@ BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --up025
 BattleNewRoundExecVar(0)  --delay between scroll
 BattleNewRoundExecVar(false)  --go top, search from top
 BattleNewRoundExecVar(5)  --max_scroll
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)
-BattleNewRoundExecVar(picBtnBattleMagicDualBlackMagic)
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
+BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
 BattleNewRoundExec(varActionExecuteDoFindAndClickWithScroll)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)
 BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)
@@ -223,7 +223,7 @@ BattleNewRoundExecVar(false)
 BattleNewRoundExecVar(5)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
 BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-BattleNewRoundExecVar(picBtnBattleMagicWickedLight)
+BattleNewRoundExecVar(picBtnBattleAbilityWickedLight)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)

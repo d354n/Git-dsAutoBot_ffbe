@@ -26,8 +26,8 @@ picBtnBattleCompletionHome                      = folderffbeimage.."battle_compl
 picBtnBattleCompletionNext                      = picBtnStdNext
 
 varFormNameMainBattleResultGil                  = "MainFormBattleResultGil"
-picBtnMainBattleResultsGilNext         	        = folderffbeimage.."battleresults/btn_gil_next.png"
 critMainBattleResultsGil             	        = folderffbeimage.."battleresults/crit_gil_mid.png"
+picBtnMainBattleResultsGilNext         	        = folderffbeimage.."battleresults/btn_gil_next.png"
 
 varFormNameMainBattleResultExp                  = "MainFormBattleResultExp"
 critMainBattleResultsExp             	        = folderffbeimage.."battleresults/crit_exp_top.png"
@@ -44,7 +44,9 @@ critMainBattleResultsItemsObtained   	        = folderffbeimage.."battleresults/
 FormCreate(varFormNameMainBattleSelectLevel)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleCompletionHome)
 FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientEnergy)
+FormAddCriteria2Do(varCriteriaNotExists, critUnitCapacityReachedMid)
 
 FormCreate(varFormNameMainBattleSelectLevelRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
