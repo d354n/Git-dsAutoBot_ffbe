@@ -34,7 +34,7 @@ colBtnMainItemsMaterialsSellMultiSellOnG        =  171
 colBtnMainItemsMaterialsSellMultiSellOnB        =  193
 colBtnMainItemsMaterialsSellMultiSellOffR       =  64
 colBtnMainItemsMaterialsSellMultiSellOffG       =  67
-colBtnMainItemsMaterialsSellMultiSellOffB       =  76
+colBtnMainItemsMaterialsSellMultiSellOffB       =  75
 
 varFormNameMainItemsMaterialsSellDetail         = "MainFormItemsMaterialsSellDetail"
 critMainItemsMaterialsSellDetailHeld            = folderffbeimage.."items/crit_items_materials_sell_detail_held.png"
@@ -48,7 +48,6 @@ picBtnMainItemsMaterialsSellDetailConfYes       = folderffbeimage.."items/btn_it
 
 
 
---  ##  Main Form Items  ##
 FormCreate(varFormNameMainItems)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsTop)
@@ -59,18 +58,15 @@ FormAddGoto(varFormNameMainShop   , picBtnMainShop)
 FormAddGoto(varFormNameMainSummon , picBtnMainSummon)
 FormAddGoto(varFormNameMainFriends, picBtnMainFriends)
 
---  ##  Main Form Items - Materials  ##
 FormCreate(varFormNameMainItemsMaterials)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsTop)
 
---  ##  Main Form Items - Materials Sell One  ##
 FormCreate(varFormNameMainItemsMaterialsSellOne)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainItemsMaterialsSellMulti)
 
---  ##  Main Form Items - Materials Sell Multi Off  ##
 FormCreate(varFormNameMainItemsMaterialsSellMultiSellOff)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellTop)
@@ -80,7 +76,6 @@ FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffR)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffG)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffB)
 
---  ##  Main Form Items - Materials Sell Multi On  ##
 FormCreate(varFormNameMainItemsMaterialsSellMultiSellOn)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellTop)
@@ -90,14 +85,12 @@ FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOnR)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOnG)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOnB)
 
---  ##  Main Form Items - Materials Sell Detail  ##
 FormCreate(varFormNameMainItemsMaterialsSellDetail)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellDetailHeld)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellDetailSliderMax)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellDetailItems99)
 
---  ##  Main Form Items - Materials Sell Detail Conf  ##
 FormCreate(varFormNameMainItemsMaterialsSellDetailConf)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainItemsMaterialsSellDetailConfMid)
