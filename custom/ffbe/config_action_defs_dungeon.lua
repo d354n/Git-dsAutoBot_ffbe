@@ -12,6 +12,12 @@ ActionExecVar(picBtnMainHomeWorld)
 ActionExecVar(picBtnMainHomeWorld2)
 ActionExecWaitForm(varFormNameMapMainOlderion)
 
+ActionOnForm(varFormNameMainBattleSelectLevel)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picSelectLevelDo)
+ActionExecVar(picBtnBattleCompletionHome)
+ActionExecWaitForm(varFormNameMainBattleCompletion)
+
 ActionOnForm(varFormNameMainBattleSelectCompanion)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down

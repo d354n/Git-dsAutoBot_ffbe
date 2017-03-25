@@ -10,12 +10,6 @@
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
 picUnitsParty                           = picTxtMainBattleUnitPartyTrust
 
-ActionOnForm(varFormNameMainBattleSelectLevel)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
-ActionExecVar(picBtnBattleCompletionHome)
-ActionExecWaitForm(varFormNameMainBattleCompletion)
-
 ActionOnForm(varFormNameMapMainOlderion)
 ActionExec(varActionExecuteDoSwipe)
 ActionExecVar(locMapsCenter)

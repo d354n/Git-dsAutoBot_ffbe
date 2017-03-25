@@ -12,7 +12,7 @@ picUnitsParty                           = picTxtMainBattleUnitPartyLimit
 picBtnBattleVortexSelectVortex          = Pattern(varDirectoryCustomImage.."btn_select_vortex.png")
 picBtnBattleVortexSelectLevel    		= Pattern(varDirectoryCustomImage.."btn_select_level.png")
 
-ActionOnForm(varFormNameMainBattleSelectLevel)
+ActionOnForm(varFormNameMainBattleSelectLevelVortex)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleVortexSelectLevel)  --itemtofind priority 1
 ActionExecVar(picBtnBattleCompletionHome)
@@ -62,7 +62,7 @@ ActionExecVar(dateNowYYMMDDHM)
 ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)
-ActionExecWaitForm(varFormNameMainBattleSelectLevel)
+ActionExecWaitForm(varFormNameMainBattleSelectLevelVortex)
 
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")

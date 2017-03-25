@@ -12,11 +12,6 @@ picUnitsParty                           = picTxtMainBattleUnitPartyLevel
 
 dofile(folderffbescript.."config_action_defs_explorations.lua")
 
-ActionOnForm(varFormNameMainBattleSelectLevel)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picSelectLevelDo)  --itemtofind priority 1
-ActionExecVar(picBtnBattleCompletionHome)
-ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")

@@ -24,7 +24,7 @@ ActionExecVar(2)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleVortexSelectVortex)  --itemtofind priority 1
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
-ActionOnForm(varFormNameMainBattleSelectLevel)
+ActionOnForm(varFormNameMainBattleSelectLevelVortex)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectLevelSwipeScrollDn01)  --  position start down
 ActionExecVar(locMainBattleSelectLevelSwipeScrollDn02)  --  position end down
