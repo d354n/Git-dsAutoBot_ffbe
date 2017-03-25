@@ -40,6 +40,22 @@ ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
+ActionOnForm(varFormNameMainBattleSelectLevelRaid)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
+ActionExecVar(locMainBattleSelectLevelSwipeScrollDn01)  --  position start down
+ActionExecVar(locMainBattleSelectLevelSwipeScrollDn02)  --  position end down
+ActionExecVar(locMainBattleSelectLevelSwipeScrollUp01)
+ActionExecVar(locMainBattleSelectLevelSwipeScrollUp02)
+ActionExecVar(0)  --  delay between scroll
+ActionExecVar(false)  --  search from top?
+ActionExecVar(3)  --  how many scroll to bottom
+ActionExecVar(picBtnBattleVortexSelectLevel)  --itemtofind priority 1
+ActionExecVar(picBtnBattleVortexSelectLevel)
+ActionExecVar(picBtnBattleCompletionHome)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExecWaitForm(varFormNameMainBattleCompletion)
+
 ActionOnForm(varFormNameMainBattleSelectCompanion)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down

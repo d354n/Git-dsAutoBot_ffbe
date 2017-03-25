@@ -9,7 +9,9 @@
 --  Variables
 
 varFormNameMainBattleSelectLevel                = "MainFormBattleSelectLevel"
+varFormNameMainBattleSelectLevelRaid            = "MainFormBattleSelectLevelRaid"
 critMainBattleVortexSelectLevelTop	            = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_top.png"
+critMainBattleVortexSelectLevelRaidTop	        = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_raid_top.png"
 locMainBattleSelectLevelSwipeScrollDn01       	= Pattern(critMainBattleVortexSelectLevelTop):targetOffset(0, 400)
 locMainBattleSelectLevelSwipeScrollDn02       	= Pattern(critMainBattleVortexSelectLevelTop):targetOffset(0, 100)
 locMainBattleSelectLevelSwipeScrollUp01       	= locMainBattleSelectLevelSwipeScrollDn02
@@ -41,6 +43,13 @@ FormCreate(varFormNameMainBattleSelectLevel)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
 FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientEnergy)
+FormAddGoto(varFormNameMainHome    , "")
+FormAddGoto(varFormNameMainWorld   , "")
+FormAddGoto(varFormNameMainVortex  , "")
+
+FormCreate(varFormNameMainBattleSelectLevelRaid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelRaidTop)
 FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientRaidOrb)
 FormAddGoto(varFormNameMainHome    , "")
 FormAddGoto(varFormNameMainWorld   , "")
