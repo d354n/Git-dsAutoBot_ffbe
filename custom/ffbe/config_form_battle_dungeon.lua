@@ -40,6 +40,8 @@ critMainBattleResultsItemsObtained   	        = folderffbeimage.."battleresults/
 FormCreate(varFormNameMainBattleSelectLevel)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientEnergy)
+FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientRaidOrb)
 FormAddGoto(varFormNameMainHome    , "")
 FormAddGoto(varFormNameMainWorld   , "")
 FormAddGoto(varFormNameMainVortex  , "")

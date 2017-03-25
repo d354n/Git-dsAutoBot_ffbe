@@ -35,6 +35,7 @@ ActionExecVar(false)  --  search from top?
 ActionExecVar(3)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleVortexSelectLevel)  --itemtofind priority 1
 ActionExecVar(picBtnBattleVortexSelectLevel)
+ActionExecVar(picBtnBattleCompletionHome)
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)

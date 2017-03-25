@@ -16,14 +16,6 @@ picBtnMainBattleResultsRaidNext         	    = varDirectoryCustomImage.."btn_rai
 
 
 
-FormCreate(varFormNameMainBattleSelectLevel)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeEnergyRaidMid)
-FormAddCriteria2Do(varCriteriaExists, varDirectoryCustomImage.."crit_main_battle_vortex_select_level_top.png")
-FormAddGoto(varFormNameMainHome    , "")
-FormAddGoto(varFormNameMainWorld   , "")
-FormAddGoto(varFormNameMainVortex  , "")
-
 FormCreate(varFormNameMainRechargeEnergyRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainRechargeEnergyRaidMid)

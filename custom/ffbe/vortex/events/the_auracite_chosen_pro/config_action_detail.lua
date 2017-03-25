@@ -7,13 +7,15 @@
 --
 
 -- Variable
-picBtnBattleVortexSelectVortex          = Pattern(varDirectoryCustomImage.."btn_select_vortex.png")
-picBtnBattleVortexSelectLevel    		= Pattern(varDirectoryCustomImage.."btn_select_level.png")
 picUnitsParty                           = picTxtMainBattleUnitPartyLimit
 
-ActionOnForm(varFormNameMainBattleSelectLevelAuracite)
+picBtnBattleVortexSelectVortex          = Pattern(varDirectoryCustomImage.."btn_select_vortex.png")
+picBtnBattleVortexSelectLevel    		= Pattern(varDirectoryCustomImage.."btn_select_level.png")
+
+ActionOnForm(varFormNameMainBattleSelectLevel)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleVortexSelectLevel)  --itemtofind priority 1
+ActionExecVar(picBtnBattleCompletionHome)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 ActionOnForm(varFormNameMainBattleEngagedWithChocobo)

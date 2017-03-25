@@ -53,6 +53,7 @@ picBtnMainRechargeEnergyYes	  		            = folderffbeimage.."select_level/btn
 picBtnMainRechargeEnergyUseLapis                = folderffbeimage.."select_level/btn_energy_use_lapis.png"
 picBtnMainRechargeEnergyBack                    = folderffbeimage.."select_level/btn_energy_back.png"
 critMainRechargeInsufficientEnergy              = folderffbeimage.."select_level/crit_insufficient_energy.png"
+critMainRechargeInsufficientRaidOrb             = folderffbeimage.."select_level/crit_insufficient_raid_orb.png"
 
 varFormNameMainConnectionError                  = "MainFormConnectionError"
 critConnectionErrorHasOccurred                  = folderffbeimage.."crit_connection_error_has_occurred.png"

@@ -45,7 +45,7 @@ BattleNewRoundExec(varActionExecuteDoClickButton)
 BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(2)
-BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
+BattleNewRoundExec(varActionExecuteDoClickLastButton)
 BattleNewRoundExecVar("")
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(2)

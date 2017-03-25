@@ -6,7 +6,6 @@
 -- To change this template use File | Settings | File Templates.
 --
 
---  Battle Select Companion
 varFormNameMainBattleSelectCompanion            = "MainFormBattleSelectCompanion"
 critMainBattleSelectCompanion                   = folderffbeimage.."select_companion/crit_select_companion_top.png"
 picBtnBattleSelectCompanionBonusStd          	= folderffbeimage.."select_companion/btn_bonus__std.png"
@@ -19,7 +18,6 @@ locMainBattleSelectCompanionSwipeScrollDn02     = Pattern(critMainBattleSelectCo
 locMainBattleSelectCompanionSwipeScrollUp01     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 100)
 locMainBattleSelectCompanionSwipeScrollUp02     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 400)
 
---  Battle Select Unit
 varFormNameMainBattleSelectUnit					= "MainFormBattleSelectUnit"
 critMainBattleUnitsSelectUnits                  = folderffbeimage.."select_units/crit_select_units_top.png"
 critMainBattleUnitsCompanion                    = folderffbeimage.."select_units/crit_companion_mid.png"
@@ -32,7 +30,6 @@ picTxtMainBattleUnitPartyTrust                  = folderffbeimage.."select_units
 locMainBattleSelectUnitSwipe01                  = Pattern(folderffbeimage.."select_units/pos_change_party.png"):targetOffset(0, 200)
 locMainBattleSelectUnitSwipe02                  = Pattern(folderffbeimage.."select_units/pos_change_party.png"):targetOffset(-100, 200)
 
---  Battle Engaged
 varFormNameMainBattleEngaged					= "MainFormBattleEngaged"
 varFormNameMainBattleEngagedDoAction            = "MainFormBattleEngageDoAction"
 varFormNameMainBattleEngagedInAction            = "MainFormBattleEngageInAction"
@@ -85,17 +82,14 @@ locBattleParty4Down                             = Region(450, 575, 20, 20)
 locBattleParty5Down                             = Region(450, 675, 20, 20)
 locBattleParty6Down                             = Region(450, 775, 20, 20)
 
---  Battle Give Up
 varFormNameMainBattleGiveUp         			= "MainFormBattleGiveUp"
 critBattleEngagedContinueGiveUp		            = folderffbeimage.."battle/crit_continue_give_up.png"
 picBtnBattleEngagedContinueYes			        = folderffbeimage.."battle/btn_continue_yes.png"
 
---  Battle Revive All
 varFormNameMainBattleReviveAll      			= "MainFormBattleRevivedAll"
 critBattleEngagedContinueReviveAll		        = folderffbeimage.."battle/crit_continue_revive_all.png"
 picBtnBattleEngagedContinueNo			        = folderffbeimage.."battle/btn_continue_no.png"
 
---  Battle Friend Request
 varFormNameMainBattleRequest        			= "MainFormBattleFriendRequest"
 critBattleRequestMid                            = folderffbeimage.."friend_request/crit_request_mid.png"
 picBtnBattleRequestDont                         = folderffbeimage.."friend_request/btn_request_dont.png"
@@ -103,47 +97,43 @@ picBtnBattleRequestSend                         = folderffbeimage.."friend_reque
 
 
 
---  ##  Main Form Battle - Select Companion  ##
 FormCreate(varFormNameMainBattleSelectCompanion)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleSelectCompanion)
 FormAddGoto(varFormNameMainBattleCompletion, picBtnStdBack)
 
---  ##  Main Form Battle - Units  ##
 FormCreate(varFormNameMainBattleSelectUnit)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleUnitsCompanion)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleUnitsItems)
 FormAddCriteria2Do(varCriteriaExists, picBtnStdDepart)
 
---  ##  Main Form Battle - Engaged Choose Action  ##
 FormCreate(varFormNameMainBattleEngaged)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
-FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedAuto)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedAuto)
 FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOnB)
 
---  ##  Main Form Battle - Engaged Do Action  ##
 FormCreate(varFormNameMainBattleEngagedDoAction)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedBack)
 
---  ##  Main Form Battle - Engaged In Action  ##
 FormCreate(varFormNameMainBattleEngagedInAction)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
 FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
 
---  ##  Main Form Battle - Give Up  ##
 FormCreate(varFormNameMainBattleGiveUp)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueGiveUp)
