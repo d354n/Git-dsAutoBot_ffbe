@@ -250,8 +250,8 @@ for i=1, 3 do
     for i=1, 2 do
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("Vx:March on Ifrit Pro")
         MultiAdd("Vx:The Auracite Chosen Pro", "99")
+        MultiAdd("Vx:March on Ifrit Pro")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next", "99")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")

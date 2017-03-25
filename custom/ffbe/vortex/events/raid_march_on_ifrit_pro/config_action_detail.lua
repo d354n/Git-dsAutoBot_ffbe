@@ -53,7 +53,7 @@ ActionOnForm(varFormNameMainBattleResultGil)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsGil)
 ActionExecVar(0.1)  --  click delay
-ActionExecVar(critMainBattleResultsGil)
+ActionExecVar("")
 ActionExecVar(critMainBattleResultsGil)
 ActionExecVar(7)  --  start with how many click?
 ActionExecWaitForm(varFormNameMainBattleResultRaid)
