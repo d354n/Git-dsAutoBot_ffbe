@@ -52,6 +52,9 @@ ActionExecVar(picBtnMapCompanionUpdateOk)
 --  FFBE General Form Start
 --  FFBE General Form Start
 ActionOnForm(varFormNameMainDailyRewards)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__daily_")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnDailyRewardsClaim)
 

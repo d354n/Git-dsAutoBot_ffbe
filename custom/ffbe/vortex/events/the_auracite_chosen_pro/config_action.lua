@@ -9,7 +9,7 @@
 varDirectoryCustomImage = "../"..parentfolder.."image/"
 
 --  ## New Form / Page?
-dofile(scriptPath()..foldername.."config_form.lua")
+--dofile(scriptPath()..foldername.."config_form.lua")
 
 --  ## Init Start
 MenuCreate(varActionName)

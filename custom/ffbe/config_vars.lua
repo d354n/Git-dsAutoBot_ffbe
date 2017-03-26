@@ -36,7 +36,6 @@ critMainUnitsUnitMenu			                = folderffbeimage.."crit_main_units_unit
 picBtnBattleMagicBarfira        		        = folderffbeimage.."magic/btn_battle_magic_barfira.png"
 
 picBtnBattleMagicBladeBash      		        = folderffbeimage.."magic/btn_battle_magic_blade_bash.png"
-picBtnBattleMagicFinBriar                       = folderffbeimage.."magic/btn_battle_magic_fin_briar.png"
 
 picBtnBattleMagicBlizzaga       		        = folderffbeimage.."magic/btn_battle_magic_blizzaga.png"
 picBtnBattleMagicFiraga            		        = folderffbeimage.."magic/btn_battle_magic_firaga.png"
@@ -93,6 +92,8 @@ picBtnBattleMagicStarfall                       = folderffbeimage.."magic/btn_ba
 picBtnBattleMagicTimeStopper                    = folderffbeimage.."magic/btn_battle_magic_time_stopper.png"
 
 picBtnBattleAbilityAssaultOrder                 = folderffbeimage.."magic/btn_battle_ability_assault_order.png"
+picBtnBattleAbilityCallToAttack                 = folderffbeimage.."magic/btn_battle_ability_call_to_attack.png"
+picBtnBattleAbilityFinBriar                     = folderffbeimage.."magic/btn_battle_ability_fin_briar.png"
 picBtnBattleAbilityFlameGuard                   = folderffbeimage.."magic/btn_battle_ability_flame_guard.png"
 picBtnBattleAbilityDualBlackMagic    		    = folderffbeimage.."magic/btn_battle_ability_dual_black_magic.png"
 picBtnBattleMagicDualBlackMagic    		        = picBtnBattleAbilityDualBlackMagic
