@@ -140,6 +140,11 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Vortex
+--varActionName = "Vx:Operation MA Demolition Pro"
+--foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
+--parentfolder = foldername
+--dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
 foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 parentfolder = foldername
@@ -165,10 +170,10 @@ foldername = "../custom/ffbe/vortex/events/the_auracite_chosen_pro/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
---varActionName = "Vx:Operation MA Demolition Pro"
---foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
---parentfolder = foldername
---dofile(scriptPath()..foldername.."config_action.lua")
+varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
+foldername = "../custom/ffbe/vortex/events/the_auracite_chosen_elt/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 
 
 
@@ -252,14 +257,14 @@ MultiCreate()
 for i=1, 2 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for i=1, 2 do
+    for j=1, 2 do
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
---        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
+        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
         MultiAdd("Vx:March on Ifrit Pro")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")

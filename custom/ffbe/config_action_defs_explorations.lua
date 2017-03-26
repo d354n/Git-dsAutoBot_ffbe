@@ -6,6 +6,12 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+ActionOnForm(varFormNameMainBattleSelectLevel)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picSelectLevelDo)
+ActionExecVar(picBtnBattleCompletionHome)
+ActionExecWaitForm(varFormNameMainBattleCompletion)
+
 ActionOnForm(varFormNameMainExploration)
 ActionExec(varActionExecuteDoResetRoundExecute)
 ActionExecVar("")

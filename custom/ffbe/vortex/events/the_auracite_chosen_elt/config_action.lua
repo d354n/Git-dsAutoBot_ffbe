@@ -23,7 +23,6 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 
 --  ## what battle config?
 dofile(scriptPath()..parentfolder.."config_battle.lua")
-dofile(scriptPath()..parentfolder.."config_battle_81.lua")
 dofile(scriptPath()..parentfolder.."config_battle_99.lua")
 
 

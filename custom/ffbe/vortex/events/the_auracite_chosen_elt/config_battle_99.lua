@@ -14,12 +14,38 @@ BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critMainBattleResultsGil)
 
 
-for i=1, 9 do
-    BattleNewRound()
+for i=1, 3 do
+    BattleNewRound()  --  round 1, 4, 7
     if i == 1 then
         BattleNewRoundExec(varActionExecuteDoIncBattleCount)
         BattleNewRoundExecVar(1)
     end
+
+    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+    BattleNewRoundExecVar(locBattleParty3Center)
+    BattleNewRoundExecVar(locBattleParty3Right)
+    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
+    BattleNewRoundExecVar(0)  --5.delay between scroll
+    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
+    BattleNewRoundExecVar(5)  --7.max_scroll
+    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
+    BattleNewRoundExecVar(boxBattleMagic)  --9.box
+    BattleNewRoundExecVar(0.97)  --10.similarity
+    BattleNewRoundExecVar(picBtnBattleAbilityCallToAttack)
+    BattleNewRoundExecVar(picBtnBattleAbilityCallToAttack)
+    BattleNewRoundExecVar(picBtnBattleEngagedBack)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(1)
+    BattleNewRoundExec(varActionExecuteDoClickLocation)
+    BattleNewRoundExecVar(locBattleParty3Center)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(1)
+    BattleNewRoundExec(varActionExecuteDoClickLocation)
+    BattleNewRoundExecVar(locBattleParty3Center)
 
     BattleNewRoundExec(varActionExecuteDoSwipeLocation)
     BattleNewRoundExecVar(locBattleParty2Center)
@@ -35,9 +61,9 @@ for i=1, 9 do
     BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
-    BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
-    BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
     BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
+    BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
+    BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(1)
@@ -52,6 +78,7 @@ for i=1, 9 do
     BattleNewRoundExecVar("")
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(2)
+
 end
 
 
