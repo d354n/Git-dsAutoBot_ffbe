@@ -27,33 +27,39 @@ ActionExecVar(picBtnMainItemsMaterialsSellMulti)
 ActionExecWaitForm(varFormNameMainItemsMaterialsSellMulti)
 
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOff)
+ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 local sData = {}
---sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_life_orb_199.png"):similar(0.98)
---sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_thickened_hide_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_beast_meat_199.png"):similar(0.98)
---sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_litrock_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_seed_of_life_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_luminous_horn_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_esper_shard_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_esper_cryst_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_raptor_feather_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_demon_tail_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_aqua_pearl_199.png"):similar(0.98)
-sData[table.getn(sData)+1] = Pattern(folderffbeimage.."items/btn_items_materials_golden_egg_199.png"):similar(0.98)
-ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
-ActionExecVar(locXmidYfiveEights)  --  position start down
-ActionExecVar(locXmidYthreeEights)  --  position end down
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_aqua_pearl_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_demon_tail_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_cryst_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_golden_egg_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_life_orb_199.png"
+--sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_litrock_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_luminous_horn_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_raptor_feather_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199.png"
+ActionExecVar(locXmidYfiveEights)
+ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYfiveEights)
-ActionExecVar(0)  --  delay between scroll
-ActionExecVar(false)  --  search from top?
-ActionExecVar(20)  --  how many scroll to bottom
+ActionExecVar(0)
+ActionExecVar(false)
+ActionExecVar(30)
+ActionExecVar(varFormNameMainItemsMaterialsSellMultiSellOff)
+ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
+ActionExecVar(0.98)
+ActionExecVar(picBtnMainFriends)  --  if last not found then click here
 for iData, vData in pairs(sData) do
     ActionExecVar(vData)
-    if iData == table.getn(sData) then
-        ActionExecVar(picBtnMainFriends)
-    end
 end
+for iData, vData in pairs(sData) do
+    sData[iData] = nil
+end
+sData = nil
 ActionExecWaitForm(varFormNameMainItemsMaterialsSellMultiSellOff)
 
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOn)

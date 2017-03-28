@@ -1,8 +1,8 @@
 --
 -- Created by IntelliJ IDEA.
 -- User: denny
--- Date: 2/26/2017
--- Time: 3:38 PM
+-- Date: 3/27/2017
+-- Time: 11:52 AM
 -- To change this template use File | Settings | File Templates.
 --
 
@@ -18,29 +18,28 @@ ActionCreate(varActionName)
 -- add this before config_action_defs.lua then it will do this Action, not the default action
 ActionOnForm(varFormNameMainRechargeEnergy)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainRechargeEnergyBack)
-ActionExec(varActionExecuteDoCounterReset)
-ActionExecVar(1)
-ActionExec(varActionExecuteDoSetActionNextAction)
-ActionExecVar("")
+ActionExecVar(picBtnMainRechargeEnergyUseLapis)
 ActionExec(varActionExecuteDoWait)
-ActionExecVar(1500)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainRechargeEnergyYes)
+
 
 ActionOnForm(varFormNameMainBattleCompletion)
 ActionExec(varActionExecuteDoCounterInc)
 ActionExecVar(1)  --  Counter Number
 ActionExec(varActionExecuteDoIsCounterDo)
 ActionExecVar(1)  --  Check Counter Number
-ActionExecVar(10)  --  Number Is
+ActionExecVar(60)  --  Number Is
 ActionExecVar(varActionExecuteDoClickButton)    --  if counter
-ActionExecVar(picBtnBattleCompletionHome)
+ActionExecVar(picBtnBattleCompletionHome)       --  if counter
 ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-ActionExecVar(picBtnBattleCompletionNext)
-ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
+ActionExecVar(varActionExecuteDoCounterReset)
 ActionExecVar(1)
 ActionExecVar("")                               --  if not counter
-ActionExecVar("")
-ActionExecVar(varActionExecuteDoSetActionNextAction)  --  if counter
+ActionExecVar("")                               --  if not counter
+ActionExecVar(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 

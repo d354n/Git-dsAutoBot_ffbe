@@ -19,6 +19,7 @@ folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 
 dofile(folderffbescript.."config_vars.lua")         --  1st
+dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
 dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
 dofile(folderffbescript.."config_vars_form_home.lua")
@@ -83,29 +84,20 @@ parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
-foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
-parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action_10.lua")
-
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
-foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
-parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action_35.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
+dofile(scriptPath()..foldername.."config_action_35_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next"
+dofile(scriptPath()..foldername.."config_action_60_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
+dofile(scriptPath()..foldername.."config_action_100_use_lapis.lua")
 
 varActionName = "Dg:Earth Shrine Exit"
 foldername = "../custom/ffbe/dungeons/earth_shrine_exit/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
-foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action_35_use_lapis.lua")
-
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
-foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action_100_use_lapis.lua")
 --  ]===]
 
 
@@ -140,40 +132,52 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 --  Vortex
---varActionName = "Vx:Operation MA Demolition Pro"
---foldername = "../custom/ffbe/vortex/events/operation_ma_demolition_pro/"
+--  Vortex  Raid  --
+parentfolder = "../custom/ffbe/vortex/raid/"
+--  Vortex  Raid  March on Ifrit  Start  --
+eventfolder  = "march_on_ifrit/"
+--
+varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
+selectlevel  = "btn_select_level_adv.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "Vx:March on Ifrit Pro - Battle AUTO"
+selectlevel  = "btn_select_level_pro.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+--    End    --
+
+--  Vortex  Dungeon  --
+parentfolder = "../custom/ffbe/vortex/dungeon/"
+--  Vortex  Dungeon  The Auracite Chosen  Start  --
+eventfolder  = "eve_20170325_the_auracite_chosen/"
+--
+varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
+selectlevel  = "btn_select_level_pro.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
+selectlevel  = "btn_select_level_elt.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+--    End    --
+--  Vortex  Dungeon  Cactuar Dunes  Start  --
+eventfolder  = "reg_cactuar_dunes/"
+varActionName = "Vx:Catuar Dunes/P:TRUS T"
+selectlevel  = "btn_select_level.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+--    End    --
+--  Vortex  Dungeon  Chamber Of Crystals  Start  --
+eventfolder  = "reg_chamber_of_crystals/"
+varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
+selectlevel  = "btn_select_level.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+--    End    --
+
+--varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
+--foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
 --parentfolder = foldername
 --dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
-foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:Catuar Dunes/P:TRUS T"
-foldername = "../custom/ffbe/vortex/reg_events/cactuar_dunes_uncharted_zone/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
-foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_adv/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:March on Ifrit Pro"
-foldername = "../custom/ffbe/vortex/events/raid_march_on_ifrit_pro/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
-foldername = "../custom/ffbe/vortex/events/the_auracite_chosen_pro/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
-foldername = "../custom/ffbe/vortex/events/the_auracite_chosen_elt/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
+--varActionName = "Vx:Catuar Dunes/P:TRUS T"
+--foldername = "../custom/ffbe/vortex/reg_events/cactuar_dunes_uncharted_zone/"
+--parentfolder = foldername
+--dofile(scriptPath()..foldername.."config_action.lua")
 
 
 
@@ -208,7 +212,7 @@ foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
-varActionName = "Items  Sell Items"
+varActionName = "Items  Materials  Sell Items"
 foldername = "../custom/ffbe/nobattle/items_materials_sells/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
@@ -223,6 +227,10 @@ varActionName = "Summon  Once a Day Limited Summon (250)"
 foldername = "../custom/ffbe/nobattle/summon_250/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Summon  Standard/5x"
+parentfolder = "../custom/ffbe/nobattle/summon_standard/"
+dofile(scriptPath()..parentfolder.."config_action_5.lua")
 
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
@@ -254,28 +262,32 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 2 do
+for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 2 do
+        MultiAdd("Vx:March on Ifrit Pro - Battle AUTO", "99")
 --        MultiAdd("Ar:Battle")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
---        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
-        MultiAdd("Vx:March on Ifrit Pro")
+        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next", "99")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+        MultiAdd("Vx:March on Ifrit Pro - Battle AUTO", "99")
+        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+        MultiAdd("Items  Materials  Sell Items")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
+        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
-    MultiAdd("Items  Sell Items")
     MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")
-MultiAdd("Ex:Earth Shrine/P:TRUS T")
+--MultiAdd("Ex:Earth Shrine/P:TRUS T")
 MultiAdd(varActionDoGotoAction1)
 
 

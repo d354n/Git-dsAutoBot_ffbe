@@ -104,6 +104,4 @@ BattleNewRound()
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(3)
 
---BattleNewRound()
---BattleNewRoundExec(varActionExecuteDoResetRoundExecute)
---BattleNewRoundExecVar(0)
+

@@ -30,27 +30,48 @@ ActionExecVar(picBtnMainHomeMessage)
 ActionExecWaitForm(varFormNameMainHomeMessages)
 
 ActionOnForm(varFormNameMainHomeMessages)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_lapis.png"):similar(0.97))          --
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_elixir.png"):similar(0.97))         --  if not exists LAPIS then choose ELIXIR
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_ether.png"):similar(0.97))          --  if not exists ELIXIR then choose ETHER
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_holy_crystal.png"):similar(0.97))   --  and so on ...
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_magic_key.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_phoenix_down.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_potion.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_star_quartz.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_musical_note.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_gil.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_brilliant_ray.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_violet_megacite.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_screamroot.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_rare_summon_ticket.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_calamity_gem.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_calamity_writ.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_fairies_writ.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_prismatic_horn.png"):similar(0.97))
-ActionExecVar(Pattern(varDirectoryCustomImage.."btn_items_rainbow_bloom.png"):similar(0.97))
-ActionExecVar(picBtnMainFriends)
+ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
+local sData = {}
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_brilliant_ray.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_calamity_gem.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_calamity_writ.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_divine_crystal.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_elixir.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_ether.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_fairies_writ.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_gil.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_holy_crystal.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_lapis.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_magic_key.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_musical_note.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_phoenix_down.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_potion.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_prismatic_horn.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_red_orb.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_screamroot.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_star_quartz.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_rainbow_bloom.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_rare_summon_ticket.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_violet_megacite.png"
+sData[table.getn(sData)+1] = varDirectoryCustomImage.."btn_items_yellow_megacite.png"
+ActionExecVar(locXmidYfiveEights)
+ActionExecVar(locXmidYthreeEights)
+ActionExecVar(locXmidYthreeEights)
+ActionExecVar(locXmidYfiveEights)
+ActionExecVar(0)
+ActionExecVar(false)
+ActionExecVar(10)
+ActionExecVar(varFormNameMainHomeMessages)
+ActionExecVar(varRegionX0YtwoEightsWmaxHfiveEights)
+ActionExecVar(0.98)
+ActionExecVar(picBtnMainFriends)  --  if last not found then click here
+for iData, vData in pairs(sData) do
+    ActionExecVar(vData)
+end
+for iData, vData in pairs(sData) do
+    sData[iData] = nil
+end
+sData = nil
 ActionExecWaitForm(varFormNameMainHomeMessagesDetail)
 
 ActionOnForm(varFormNameMainHomeMessagesDetail)

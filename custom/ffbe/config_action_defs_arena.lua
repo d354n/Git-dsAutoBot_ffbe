@@ -12,14 +12,4 @@ ActionExecVar(picBtnMainHomeArena)
 ActionExecVar(picBtnMainHomeArena2)
 ActionExecWaitForm(varFormNameMainArena)
 
-ActionOnForm(varFormNameMainArenaColosseumGrade)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeArenaColosseumGradeOk)
-ActionExecWaitForm(varFormNameMainArena)
-
-ActionOnForm(varFormNameMainArenaColosseumRound)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeArenaColosseumGradeOk)
-ActionExecWaitForm(varFormNameMainArena)
-
 
