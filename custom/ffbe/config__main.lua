@@ -135,10 +135,10 @@ dofile(scriptPath()..foldername.."config_action.lua")
 parentfolder = "../custom/ffbe/vortex/raid/"
 
 eventfolder  = "march_on_ifrit/"
-varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
+varActionName = "Vx:March on Ifrit Adv/Battle AUTO"
 selectlevel  = "btn_select_level_adv.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:March on Ifrit Pro - Battle AUTO"
+varActionName = "Vx:March on Ifrit Pro/Battle AUTO"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
@@ -159,14 +159,17 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
 
 eventfolder  = "cactuar_dunes/"
-varActionName = "Vx:Catuar Dunes/P:TRUS T - Battle AUTO"
+varActionName = "Vx:Catuar Dunes/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "chamber_of_crystals/"
-varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T - Battle AUTO"
+varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS T/Battle AUTO"
+selectlevel  = "btn_select_level.png"
+dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
 --    End    --
 
 
@@ -257,7 +260,7 @@ for i=1, 3 do
     MultiAdd("Quests  Daily Claim")
     for j=1, 2 do
 --        MultiAdd("Ar:Battle")
-        MultiAdd("Vx:Chamber Of Crystals Adv/P:TRUS T - Battle AUTO")
+        MultiAdd("LapisWarning Vx:Chamber Of Crystals Adv/NE:Lapis/B10:Next/P:TRUS T/Battle AUTO")
 --        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
 --        MultiAdd("Vx:The Auracite Chosen Elt/P:L IMIT", "98")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
