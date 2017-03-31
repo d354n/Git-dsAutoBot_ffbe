@@ -20,9 +20,9 @@ ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)  -- XXX = repeat until exists this
 ActionExecVar(critMainBattleResultsItemsObtained)
 ActionExecVar(7)  --  start with how many click?
-ActionExec(varActionExecuteDoSaveSnapshot)
-ActionExecVar(dateNowYYMMDDHM)
-ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
+--ActionExec(varActionExecuteDoSaveSnapshot)
+--ActionExecVar(dateNowYYMMDDHM)
+--ActionExecVar(folderLogBattleResult.."log__itemsObtain_")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsItemsObtNext)
 ActionExecWaitForm(varFormNameMainBattleSelectLevelVortex)
