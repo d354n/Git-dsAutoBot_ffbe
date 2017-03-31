@@ -55,14 +55,12 @@ First Setup:
     * Char 3 - ExDeath - Dual Magic - Meteor - Meteor
     * Char 4 - Cecil - Focus / Curaja 
     * Char 5 - Refia - Embolden / Curaja 
-  * Ifrit Adv:
+  * Vortex Event
     * Party name "EVE NT"
+    * Battle Char 3 - ExDeath - Dual Magic - Meteor - Meteor
+  * Vortex Regular
+    * Party name "TRUS T"
     * Battle AUTO
-  * Ifrit Pro:
-    * Party name "EVE NT"
-    * Char 2 - Olive - GrapeShot / TrueShot
-    * Char 4 - Cecil - Focus / Curaja
-    * Char 5 - Refia - Embolden / Curaja
 
 Files description:
 * amain.luae (main program)
