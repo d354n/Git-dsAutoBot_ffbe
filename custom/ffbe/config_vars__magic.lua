@@ -76,8 +76,12 @@ picBtnBattleAbilityCallToAttack                 = folderffbeimage.."magic/btn_ba
 picBtnBattleAbilityDualBlackMagic    		    = folderffbeimage.."magic/btn_battle_ability_dual_black_magic.png"
 picBtnBattleMagicDualBlackMagic    		        = picBtnBattleAbilityDualBlackMagic
 picBtnBattleAbilityFinBriar                     = folderffbeimage.."magic/btn_battle_ability_fin_briar.png"
-picBtnBattleAbilityFlameGuard                   = folderffbeimage.."magic/btn_battle_ability_flame_guard.png"
+picBtnBattleAbilityFlameGuard1                  = folderffbeimage.."magic/btn_battle_ability_flame_guard1.png"
+picBtnBattleAbilityFlameGuard2                  = folderffbeimage.."magic/btn_battle_ability_flame_guard2.png"
+picBtnBattleAbilityFrozenGuard2                 = folderffbeimage.."magic/btn_battle_ability_frozen_guard2.png"
 picBtnBattleAbilityFlashOfBrilliance            = folderffbeimage.."magic/btn_battle_ability_flash_of_brilliance.png"
+picBtnBattleAbilitySchwertDance1                = folderffbeimage.."magic/btn_battle_ability_schwert_dance1.png"
+picBtnBattleAbilityStaticGuard1                 = folderffbeimage.."magic/btn_battle_ability_static_guard1.png"
 picBtnBattleAbilityWickedLight       		    = folderffbeimage.."magic/btn_battle_ability_wicked_light.png"
 picBtnBattleMagicWickedLight       		        = picBtnBattleAbilityWickedLight
 

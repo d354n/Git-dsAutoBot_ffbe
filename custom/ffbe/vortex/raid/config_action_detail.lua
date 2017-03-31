@@ -69,7 +69,7 @@ ActionExecVar(critMainBattleResultsRaidMid)
 ActionExecVar(7)  --  start with how many click?
 ActionExec(varActionExecuteDoSaveSnapshot)
 ActionExecVar(dateNowYYMMDDHM)
-ActionExecVar(folderLogBattleResult.."log__ifrit_")
+ActionExecVar(folderLogBattleResult.."log__raid_")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainBattleResultsRaidNext)
 ActionExecWaitForm(varFormNameMainBattleResultExp)

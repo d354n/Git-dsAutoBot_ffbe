@@ -9,6 +9,8 @@ main/debug/lo*.*
 main/debug/st*.*
 main/temp/*.*
 .idea/*.*
+.sync/
+
 
 #################
 ## Eclipse

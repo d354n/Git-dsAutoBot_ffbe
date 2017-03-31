@@ -23,6 +23,7 @@ dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
 dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
 dofile(folderffbescript.."config_vars_form_home.lua")
+dofile(folderffbescript.."config_vars_form_maps.lua")
 
 dofile(folderffbescript.."config_form.lua")         --  2nd
 dofile(folderffbescript.."config_form_arena.lua")
@@ -130,26 +131,22 @@ dofile(scriptPath()..foldername.."config_action.lua")
 --  ]===]
 
 
-
---  Vortex
---  Vortex  Raid  --
+--[===[ Vortex  Raid  --
 parentfolder = "../custom/ffbe/vortex/raid/"
---  Vortex  Raid  March on Ifrit  Start  --
+
 eventfolder  = "march_on_ifrit/"
---
 varActionName = "Vx:March on Ifrit Adv - Battle AUTO"
 selectlevel  = "btn_select_level_adv.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 varActionName = "Vx:March on Ifrit Pro - Battle AUTO"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
---    End    --
+--    End    --]===]
 
---  Vortex  Dungeon  --
-parentfolder = "../custom/ffbe/vortex/dungeon/"
---  Vortex  Dungeon  The Auracite Chosen  Start  --
-eventfolder  = "eve_20170325_the_auracite_chosen/"
---
+--  Vortex  Dungeon  Events  --
+parentfolder = "../custom/ffbe/vortex/dungeon_eve/"
+
+eventfolder  = "20170325_the_auracite_chosen/"
 varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
@@ -157,27 +154,20 @@ varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
 selectlevel  = "btn_select_level_elt.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --
---  Vortex  Dungeon  Cactuar Dunes  Start  --
-eventfolder  = "reg_cactuar_dunes/"
-varActionName = "Vx:Catuar Dunes/P:TRUS T"
-selectlevel  = "btn_select_level.png"
-dofile(scriptPath()..parentfolder.."config_action.lua")
---    End    --
---  Vortex  Dungeon  Chamber Of Crystals  Start  --
-eventfolder  = "reg_chamber_of_crystals/"
-varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
-selectlevel  = "btn_select_level.png"
-dofile(scriptPath()..parentfolder.."config_action.lua")
---    End    --
 
---varActionName = "Vx:Chamber Of Crystals/P:TRUS T"
---foldername = "../custom/ffbe/vortex/reg_events/chamber_of_crystals/"
---parentfolder = foldername
---dofile(scriptPath()..foldername.."config_action.lua")
---varActionName = "Vx:Catuar Dunes/P:TRUS T"
---foldername = "../custom/ffbe/vortex/reg_events/cactuar_dunes_uncharted_zone/"
---parentfolder = foldername
---dofile(scriptPath()..foldername.."config_action.lua")
+--  Vortex  Dungeon  Regular  --
+parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
+
+eventfolder  = "cactuar_dunes/"
+varActionName = "Vx:Catuar Dunes/P:TRUS T - Battle AUTO"
+selectlevel  = "btn_select_level.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "chamber_of_crystals/"
+varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T - Battle AUTO"
+selectlevel  = "btn_select_level.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+--    End    --
 
 
 
@@ -266,22 +256,24 @@ for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 2 do
-        MultiAdd("Vx:March on Ifrit Pro - Battle AUTO", "99")
 --        MultiAdd("Ar:Battle")
+        MultiAdd("Vx:Chamber Of Crystals Adv/P:TRUS T - Battle AUTO")
+--        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
+--        MultiAdd("Vx:The Auracite Chosen Elt/P:L IMIT", "98")
         MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next", "99")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
-        MultiAdd("Vx:March on Ifrit Pro - Battle AUTO", "99")
-        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+--        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
+--        MultiAdd("Vx:The Auracite Chosen Elt/P:L IMIT", "98")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
         MultiAdd("Items  Materials  Sell Items")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
-        MultiAdd("Wait 600")
+--        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
     MultiAdd("Summon  Once a Day Limited Summon (250)")

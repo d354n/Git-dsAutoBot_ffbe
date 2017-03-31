@@ -24,6 +24,7 @@ for i=1, 9 do
     BattleNewRoundExec(varActionExecuteDoSwipeLocation)
     BattleNewRoundExecVar(locBattleParty2Center)
     BattleNewRoundExecVar(locBattleParty2Right)
+
     BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
     BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
     BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
@@ -40,6 +41,7 @@ for i=1, 9 do
     BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
     BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
+
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(1)
     BattleNewRoundExec(varActionExecuteDoClickLocation)

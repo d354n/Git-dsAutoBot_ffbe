@@ -45,6 +45,7 @@ FormCreate(varFormNameMainBattleSelectLevel)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleCompletionHome)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMapVortex)
 FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientEnergy)
 FormAddCriteria2Do(varCriteriaNotExists, critUnitCapacityReachedMid)
 

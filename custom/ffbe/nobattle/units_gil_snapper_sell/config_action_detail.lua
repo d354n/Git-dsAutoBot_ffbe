@@ -22,24 +22,29 @@ ActionExecVar(picBtnMainUnitsViewSell)
 ActionExecWaitForm(varFormNameMainUnitsSellZero)
 
 ActionOnForm(varFormNameMainUnitsSellZero)
+ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 local sData = {}
 sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_units_gil_snapper.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_units_gil_snapper_king.png"):similar(0.98)
 sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_units_gil_snapper_mini.png"):similar(0.98)
-ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
-ActionExecVar(locXmidYfiveEights)  --  position start down
-ActionExecVar(locXmidYthreeEights)  --  position end down
+ActionExecVar(locXmidYfiveEights)
+ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYfiveEights)
-ActionExecVar(0)  --  delay between scroll
-ActionExecVar(false)  --  search from top?
-ActionExecVar(1)  --  how many scroll to bottom
+ActionExecVar(0)
+ActionExecVar(true)
+ActionExecVar(10)
+ActionExecVar(varFormNameMainUnitsSellZero)
+ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
+ActionExecVar(0.98)
+ActionExecVar(picBtnMainFriends)  --  if last not found then click here
 for iData, vData in pairs(sData) do
     ActionExecVar(vData)
-    if iData == table.getn(sData) then
-        ActionExecVar(picBtnMainFriends)
-    end
 end
+for iData, vData in pairs(sData) do
+    sData[iData] = nil
+end
+sData = nil
 ActionExecWaitForm(varFormNameMainUnitsSellNotZero)
 
 ActionOnForm(varFormNameMainUnitsSellNotZero)

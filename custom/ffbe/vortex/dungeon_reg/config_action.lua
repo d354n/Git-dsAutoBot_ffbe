@@ -22,8 +22,6 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 --dofile(scriptPath()..parentfolder.."config_exploration.lua")  --  path  --  no explore
 
 --  ## what battle config?
-dofile(scriptPath()..parentfolder.."config_battle.lua")
-dofile(scriptPath()..parentfolder.."config_battle_81.lua")
-dofile(scriptPath()..parentfolder.."config_battle_99.lua")
+dofile(folderffbescript.."config_battle_dungeon_defs_auto.lua")
 
 
