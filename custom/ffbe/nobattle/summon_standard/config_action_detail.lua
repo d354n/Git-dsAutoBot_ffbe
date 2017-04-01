@@ -53,6 +53,8 @@ ActionExecVar(0.1)  --  click delay
 ActionExecVar(picBtnMainSummonStandardUnitObtainedNext)  -- XXX = repeat until exists this
 ActionExecVar(critMainSummonStandardUnitObtainedTop)
 ActionExecVar(7)  --  start with how many click?
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainSummonStandardUnitObtainedNext)
 ActionExecWaitForm(varFormNameMainSummonStandard)
 
 

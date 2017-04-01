@@ -18,7 +18,7 @@ ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  2   )
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationRightMax    ,  900, 3)
 --ExploreNewRoundDoClickLocation(locExplorationDown    , 0,  1   )
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax, 1000, 3)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax ,  500, 3)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax ,  500, 2)
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax,  500, 2)  --  circle
 ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  1   )
 ExploreNewRoundDoClickLocation(locExplorationUpLeft  , 0,  3   )

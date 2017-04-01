@@ -13,9 +13,7 @@
 picBtnBattleLimitBurst                          = folderffbeimage.."magic/btn_battle_limit_burst.png"
 
 picBtnBattleMagicBarfira        		        = folderffbeimage.."magic/btn_battle_magic_barfira.png"
-
 picBtnBattleMagicBladeBash      		        = folderffbeimage.."magic/btn_battle_magic_blade_bash.png"
-
 picBtnBattleMagicBlizzaga       		        = folderffbeimage.."magic/btn_battle_magic_blizzaga.png"
 picBtnBattleMagicFiraga            		        = folderffbeimage.."magic/btn_battle_magic_firaga.png"
 picBtnBattleMagicMeteor          		        = folderffbeimage.."magic/btn_battle_magic_meteor.png"
@@ -46,10 +44,7 @@ picBtnBattleMagicBarrage         		        = folderffbeimage.."magic/btn_battle_
 picBtnBattleMagicHayate            		        = folderffbeimage.."magic/btn_battle_magic_hayate.png"
 picBtnBattleMagicPhantomShadow    		        = folderffbeimage.."magic/btn_battle_magic_phantom_shadow.png"
 
-picBtnBattleMagicGrapeShot        		        = folderffbeimage.."magic/btn_battle_magic_grapeshot.png"
 picBtnBattleMagicMaimingShot      		        = folderffbeimage.."magic/btn_battle_magic_maiming_shot.png"
-picBtnBattleMagicShatteringShot   		        = folderffbeimage.."magic/btn_battle_magic_shattering_shot.png"
-picBtnBattleMagicTrueShot         		        = folderffbeimage.."magic/btn_battle_magic_true_shot.png"
 
 picBtnBattleMagicJump             		        = folderffbeimage.."magic/btn_battle_magic_jump.png"
 picBtnBattleMagicHyperDrive       		        = folderffbeimage.."magic/btn_battle_magic_hyper_drive.png"
@@ -64,6 +59,7 @@ picBtnBattleMagicCheer                          = folderffbeimage.."magic/btn_ba
 picBtnBattleMagicAeroBlitz                      = folderffbeimage.."magic/btn_battle_magic_aero_blitz.png"
 picBtnBattleMagicAreaBlast                      = folderffbeimage.."magic/btn_battle_magic_area_blast.png"
 picBtnBattleMagicCrushingBlow                   = folderffbeimage.."magic/btn_battle_magic_crushing_blow.png"
+picBtnBattleMagicDeprotect2                     = folderffbeimage.."magic/btn_battle_magic_deprotect2.png"
 picBtnBattleMagicElectricBlitz                  = folderffbeimage.."magic/btn_battle_magic_electric_blitz.png"
 picBtnBattleMagicHeatBlitz                      = folderffbeimage.."magic/btn_battle_magic_heat_blitz.png"
 picBtnBattleMagicIceBlitz                       = folderffbeimage.."magic/btn_battle_magic_ice_blitz.png"
@@ -78,10 +74,19 @@ picBtnBattleMagicDualBlackMagic    		        = picBtnBattleAbilityDualBlackMagic
 picBtnBattleAbilityFinBriar                     = folderffbeimage.."magic/btn_battle_ability_fin_briar.png"
 picBtnBattleAbilityFlameGuard1                  = folderffbeimage.."magic/btn_battle_ability_flame_guard1.png"
 picBtnBattleAbilityFlameGuard2                  = folderffbeimage.."magic/btn_battle_ability_flame_guard2.png"
-picBtnBattleAbilityFrozenGuard2                 = folderffbeimage.."magic/btn_battle_ability_frozen_guard2.png"
 picBtnBattleAbilityFlashOfBrilliance            = folderffbeimage.."magic/btn_battle_ability_flash_of_brilliance.png"
+picBtnBattleAbilityFrozenGuard2                 = folderffbeimage.."magic/btn_battle_ability_frozen_guard2.png"
+picBtnBattleAbilityGrapeshot1       		    = folderffbeimage.."magic/btn_battle_ability_grapeshot1.png"
+picBtnBattleAbilityGrapeshot2       		    = folderffbeimage.."magic/btn_battle_ability_grapeshot2.png"
+picBtnBattleMagicGrapeshot        		        = picBtnBattleAbilityGrapeshot1
 picBtnBattleAbilitySchwertDance1                = folderffbeimage.."magic/btn_battle_ability_schwert_dance1.png"
+picBtnBattleAbilityShatteringShot1  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot1.png"
+picBtnBattleAbilityShatteringShot2  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot2.png"
+picBtnBattleMagicShatteringShot   		        = picBtnBattleAbilityShatteringShot1
 picBtnBattleAbilityStaticGuard1                 = folderffbeimage.."magic/btn_battle_ability_static_guard1.png"
+picBtnBattleAbilityTrueShot1        		    = folderffbeimage.."magic/btn_battle_ability_true_shot1.png"
+picBtnBattleAbilityTrueShot2        		    = folderffbeimage.."magic/btn_battle_ability_true_shot2.png"
+picBtnBattleMagicTrueShot         		        = picBtnBattleAbilityTrueShot1
 picBtnBattleAbilityWickedLight       		    = folderffbeimage.."magic/btn_battle_ability_wicked_light.png"
 picBtnBattleMagicWickedLight       		        = picBtnBattleAbilityWickedLight
 

@@ -37,9 +37,10 @@ for i=1, 9 do
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
     BattleNewRoundExecVar(picBtnBattleLimitBurst)
-    BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
-    BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
-    BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
+    BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
+    BattleNewRoundExecVar(picBtnBattleAbilityTrueShot2)
+    BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
+    BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
 
     BattleNewRoundExec(varActionExecuteDoWait)

@@ -137,9 +137,9 @@ BattleNewRoundExecVar(5)  --7.max_scroll
 BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
 BattleNewRoundExecVar(boxBattleMagic)  --9.box
 BattleNewRoundExecVar(0.97)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
+BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
@@ -173,9 +173,9 @@ BattleNewRoundExecVar(5)  --7.max_scroll
 BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
 BattleNewRoundExecVar(boxBattleMagic)  --9.box
 BattleNewRoundExecVar(0.97)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
+BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
@@ -209,9 +209,9 @@ BattleNewRoundExecVar(5)  --7.max_scroll
 BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
 BattleNewRoundExecVar(boxBattleMagic)  --9.box
 BattleNewRoundExecVar(0.97)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicShatteringShot)
-BattleNewRoundExecVar(picBtnBattleMagicTrueShot)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
+BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
+BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
 BattleNewRoundExecVar(picBtnBattleEngagedBack)
 BattleNewRoundExec(varActionExecuteDoWait)
 BattleNewRoundExecVar(1)
