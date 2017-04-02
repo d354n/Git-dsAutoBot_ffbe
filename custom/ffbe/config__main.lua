@@ -48,6 +48,14 @@ dofile(folderffbescript.."config_action.lua")       --  3rd
 dofile(folderffbescript.."config_battle.lua")       --  4th
 --  dont change end  --
 
+--  Menu:CheckImage
+--  Menu:CheckImage
+--  Menu:CheckImage
+CheckImageFilename = picBtnStdDepart
+--  Menu:CheckImage
+--  Menu:CheckImage
+--  Menu:CheckImage
+
 --  Menu: varActionDoCheck Start
 varFormToCheck = varFormNameMainFriendsReceiveNotEmpty
 --  Menu: varActionDoCheck End
