@@ -9,6 +9,7 @@
 --  Parameteres
 Settings:set("MinSimilarity", 0.90)
 varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
+optPNGnotFoundSave  = true
 folderImgParams = "nox1/"
 
 --  dont change start  --
