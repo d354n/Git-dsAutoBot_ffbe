@@ -6,6 +6,7 @@ amain.lua
 amain.luac
 main/debug/log_battle_results/lo*.*
 main/debug/lo*.*
+main/debug/new_image/lo*.*
 main/debug/st*.*
 main/temp/*.*
 .idea/*.*
