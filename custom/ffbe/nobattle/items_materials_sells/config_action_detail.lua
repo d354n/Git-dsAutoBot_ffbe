@@ -29,19 +29,26 @@ ActionExecWaitForm(varFormNameMainItemsMaterialsSellMulti)
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOff)
 ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 local sData = {}
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_aqua_pearl_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_aqua_pearl_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199a.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199b.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_demon_tail_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_cryst_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_golden_egg_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_life_orb_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_demon_tail_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_cryst_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_golden_egg_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_golden_egg_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_life_orb_199a.png"
 --sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_litrock_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_luminous_horn_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_raptor_feather_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_luminous_horn_199a.png"
+--sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_rainbow_needle_199a.png"
+--sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_rainbow_needle_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_raptor_feather_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_raptor_feather_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199a.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199b.png"
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)

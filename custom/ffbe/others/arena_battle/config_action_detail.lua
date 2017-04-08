@@ -33,8 +33,8 @@ ActionExecVar(locMainHomeArenaRulesSelectOppSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
 ActionExecVar(4)  --  how many scroll to bottom
-ActionExecVar(picBtnMainHomeArenaRulesSelectOppGold)  --itemtofind priority 1
-ActionExecVar(picBtnMainHomeArenaRulesSelectOppBlue)  --itemtofind priority 2
+ActionExecVar(picBtnMainHomeArenaRulesSelectOppGold)    --itemtofind priority 1
+ActionExecVar(picBtnMainHomeArenaRulesSelectOppBlue)    --itemtofind priority 2
 ActionExecVar(picBtnMainHomeArenaRulesSelectOppPurple)  --itemtofind priority 3
 ActionExecWaitForm(varFormNameMainArenaRulesSelectOppConf)
 

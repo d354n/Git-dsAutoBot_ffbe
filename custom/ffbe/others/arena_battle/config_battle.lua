@@ -10,7 +10,7 @@ BattleCreate(varActionName)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critBattleResultArenaWonTop)
 
-for i=1, 3 do
+for i=1, 5 do
     BattleNewRound()
     if i == 1 then
         BattleNewRoundExec(varActionExecuteDoIncBattleCount)
