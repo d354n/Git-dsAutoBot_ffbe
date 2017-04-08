@@ -9,8 +9,10 @@ main/debug/lo*.*
 main/debug/new_image/lo*.*
 main/debug/st*.*
 main/temp/*.*
+_manual/
 .idea/*.*
 .sync/
+old/
 
 
 #################
