@@ -4,10 +4,9 @@
 *.bat
 amain.lua
 amain.luac
-main/debug/log_battle_results/lo*.*
-main/debug/lo*.*
-main/debug/new_image/lo*.*
-main/debug/st*.*
+main/debug/*.*
+main/debug/new_image/*.*
+main/debug/log_battle_results/*.*
 main/temp/*.*
 _manual/
 .idea/*.*

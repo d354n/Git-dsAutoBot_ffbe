@@ -62,7 +62,79 @@ varFormToCheck = varFormNameMainFriendsReceiveNotEmpty
 --  Menu: varActionDoCheck End
 
 
+--  Dungeons
+parentfolder = "../custom/ffbe/dungeons/level/"
+
+eventfolder  = "story_mode/"
+selectlevel  = "btn_select_level_do.png"
+varActionName = "Dg:Story Mode/NE:Next/Start from Select Level"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "snow_plains/"
+selectlevel  = "btn_select_level_beast.png"
+varActionName = "Dg:Snow Plains Beast/NE:Next/Start from Select Level"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
+parentfolder = "../custom/ffbe/dungeons/trust/"
+
+eventfolder  = "earth_shrine/"
+selectlevel  = "btn_select_level_entrance.png"
+varActionName = "Dg:Earth Shrine Entrance/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
+dofile(scriptPath()..parentfolder.."config_action_10.lua")
+varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
+dofile(scriptPath()..parentfolder.."config_action_35.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis"
+dofile(scriptPath()..parentfolder.."config_action_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
+dofile(scriptPath()..parentfolder.."config_action_35_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next"
+dofile(scriptPath()..parentfolder.."config_action_60_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
+dofile(scriptPath()..parentfolder.."config_action_100_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B120:Next"
+dofile(scriptPath()..parentfolder.."config_action_120_use_lapis.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B200:Next"
+dofile(scriptPath()..parentfolder.."config_action_200_use_lapis.lua")
+
+selectlevel  = "btn_select_level_exit.png"
+varActionName = "Dg:Earth Shrine Exit/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "LapisWarning Dg:Earth Shrine Exit/NE:Lapis"
+dofile(scriptPath()..parentfolder.."config_action_use_lapis.lua")
+
+--  ]===]
+
+
+
 --  Exploration
+parentfolder = "../custom/ffbe/explorations/trust/"
+eventfolder  = "earth_shrine/"
+
+varActionName = "Ex:Earth Shrine/P:TRUS T"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
+--parentfolder = "../custom/ffbe/explorations/level/"
+
+--varActionName = "Ex:Aquatic Cove/Start from Select Level"
+--eventfolder  = "aquatic_cove/"
+--dofile(scriptPath()..parentfolder.."config_action.lua")
+
+--varActionName = "Ex:Dwarves Forge/Start from Select Level"
+--eventfolder  = "dwarves_forge/"
+--dofile(scriptPath()..parentfolder.."config_action.lua")
+
+--varActionName = "Ex:Lake Dorr/Start from Select Level"
+--eventfolder  = "lake_dorr/"
+--dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+--[===[
 varActionName = "Ex:Aquatic Cove/Start from Select Level"
 foldername = "../custom/ffbe/explorations/aquatic_cove/"
 parentfolder = foldername
@@ -83,31 +155,6 @@ foldername = "../custom/ffbe/explorations/lake_dorr/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
---  ]===]
-
-
-
---  Dungeons
-varActionName = "Dg:Earth Shrine Entrance"
-foldername = "../custom/ffbe/dungeons/earth_shrine_entrance/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
-dofile(scriptPath()..foldername.."config_action_10.lua")
-varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
-dofile(scriptPath()..foldername.."config_action_35.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
-dofile(scriptPath()..foldername.."config_action_35_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next"
-dofile(scriptPath()..foldername.."config_action_60_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
-dofile(scriptPath()..foldername.."config_action_100_use_lapis.lua")
-
-varActionName = "Dg:Earth Shrine Exit"
-foldername = "../custom/ffbe/dungeons/earth_shrine_exit/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
 --  ]===]
 
 
@@ -154,28 +201,36 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 --  Vortex  Dungeon  Events  --
 parentfolder = "../custom/ffbe/vortex/dungeon_eve/"
-
 eventfolder  = "20170325_the_auracite_chosen/"
+
 varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+
 varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
 selectlevel  = "btn_select_level_elt.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+
+varActionName = "Vx:The Auracite Chosen Elt/Spc:Wait5/P:L IMIT"
+selectlevel  = "btn_select_level_elt.png"
+dofile(scriptPath()..parentfolder.."config_action_spc_wait.lua")
 --    End    --
 
 --  Vortex  Dungeon  Regular  --
 parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
-
 eventfolder  = "cactuar_dunes/"
+
 varActionName = "Vx:Catuar Dunes/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
+parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
 eventfolder  = "chamber_of_crystals/"
+
 varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+
 varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
@@ -267,28 +322,22 @@ MultiCreate()
 for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for j=1, 2 do
---        MultiAdd("Ar:Battle")
---        MultiAdd("LapisWarning Vx:Chamber Of Crystals Adv/NE:Lapis/B10:Next/P:TRUS T/Battle AUTO")
---        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
-        MultiAdd("Vx:The Auracite Chosen Elt/P:L IMIT", "98")
-        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
---        MultiAdd("Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next", "99")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next", "99")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next", "99")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
---        MultiAdd("Vx:The Auracite Chosen Pro/P:L IMIT", "99")
-        MultiAdd("Vx:The Auracite Chosen Elt/P:L IMIT", "98")
-        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+    for j=1, 1 do
+        MultiAdd("Ar:Battle", "99")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+        MultiAdd("Ar:Battle", "99")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+
         MultiAdd("Items  Materials  Sell Items")
         MultiAdd("Craft  Get All Completed")
         MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
         MultiAdd("Craft  Farm Abilities  White Magic  Cure")
         MultiAdd("Craft  Farm Items  Recovery  Potion")
-        MultiAdd("Wait 600")
+--        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
-    MultiAdd("Summon  Once a Day Limited Summon (250)")
+--    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")
 --MultiAdd("Ex:Earth Shrine/P:TRUS T")
