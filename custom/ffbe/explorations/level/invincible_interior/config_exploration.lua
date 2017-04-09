@@ -14,68 +14,75 @@ ExploreCreate(varActionName)
 local varForm1 = varFormNameMainExploration
 local varReg1  = varRegionXthreeEightsYthreeEightsWtwoEightsHtwoEights
 
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
-ExploreNewRoundDoClickLocation(locExplorationDownLeft, 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationRightMax    ,  350, 2)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  circle  1
+ExploreNewRoundDoClickLocation(locExplorationLeft        , 0,  1   )
+ExploreNewRoundDoClickLocation(locExplorationDownLeft    , 0,  2   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)  --  door
+ExploreNewRoundDoClickLocation(locExplorationDown        , 0,  1   )  -- up 1 move
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)  --  circle  2
+for i=1, 5 do
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)
+end
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  circle
-ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  1   )
-ExploreNewRoundDoClickLocation(locExplorationUpLeft  , 0,  3   )
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)  --  door
+ExploreNewRoundDoClickLocation(locExplorationRight       , 0,  1   )
+ExploreNewRoundDoClickLocation(locExplorationUp          , 7,  1   )  --  Elevator Up then Wait 7 seconds
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)  --  circle
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)
-ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  2   )
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)  --  Enemy Presence. Onwards?
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)  --  circle
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)  --  Abandon
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)  --  Extra
+for i=1, 5 do
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
+end
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  door
+ExploreNewRoundDoClickLocation(locExplorationRight2Down1     , 0,  1   )
+ExploreNewRoundDoClickLocation(locExplorationRightDown       , 0,  1   )
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownMax     ,  300, 3)  --  circle  3
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
-ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)  --  door
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationRightMax    ,  300, 3)  --  circle  4
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)  --  Round 35
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 4)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   ,  700, 3)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   ,  600, 4)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  door
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationDown3Right1 , 0,  1   )
+ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDown        ,   10, 1)  --  door
+ExploreNewRoundDoClickLocation(locExplorationDownRight   , 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationUpLeft      , 0,  1   )
+ExploreNewRoundDoClickLocation(locExplorationUp          , 0,  1   )  --  portal
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)  --  portal
+ExploreNewRoundDoClickLocation(locExplorationDown        , 0,  2   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationUp          , 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)  --  portal
+ExploreNewRoundDoClickLocation(locExplorationUp          , 0,  3   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)  --  circle  5
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationDownLeft    , 0,  2   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)  --  portal
 
 
 
--- old
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpMax       , 1000, 3)
-ExploreNewRoundDoClickLocation(locExplorationDownLeft, 0,  1   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1500, 3)
-ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  2   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationRightMax    ,  900, 3)
---ExploreNewRoundDoClickLocation(locExplorationDown    , 0,  1   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax, 1000, 3)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax ,  500, 2)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax,  500, 2)  --  circle
-ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  1   )
-ExploreNewRoundDoClickLocation(locExplorationUpLeft  , 0,  3   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpMax       , 2000, 3)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  ,  800, 2)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   ,  700, 2)
-ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpMax       ,  600, 3)  --  circle
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownMax     ,  700, 3)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownRightMax, 1000, 2)
-ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  2   )
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 2000, 3)  --  Enemy Presence. Onwards?
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationDownLeftMax , 1000, 2)  --  circle
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)  --  Abandon
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)  --  Extra
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpRightMax  , 1000, 1)
-ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpLeftMax   , 1000, 1)
+for i=1, 50 do  --  extra
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+end
+
 

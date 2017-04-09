@@ -24,6 +24,25 @@ locMapsDownLeftMax                              = Location( 50, 750)
 locMapsDownRightMax                             = Location(550, 750)
 
 
+boxMaps                                         = varRegionX0YfiveEightsWmaxHthreeEights
+
+
+varFormNameMainWorld                            = "MainFormWorld"
+varFormNameMapWorld                             = "MapMainWorld"
+locMapsSwipeSrollDn01         	                = locXthreeQuartersYmid
+locMapsSwipeSrollDn02         	                = locXoneQuartersYmid
+locMapsSwipeSrollUp01         	                = locMapsSwipeSrollDn02
+locMapsSwipeSrollUp02         	                = locMapsSwipeSrollDn01
+picBtnMapBack                                   = folderffbeimage.."maps/btn_back.png"
+picBtnMapVortex                                 = folderffbeimage.."maps/btn_vortex.png"
+
+
+
+picBtnMapHome                                   = folderffbeimage.."maps/btn_home.png"
+picBtnMainWorldHome                             = picBtnMapHome
+
+
+
 varFormNameMapMainOlderion                      = "MapMainOlderion"
 varFormNameMapMainDirnadoOlderion               = "MapMainDirnadoOlderion"
 varFormNameMapMainDirnado                       = "MapMainDirnado"
@@ -31,9 +50,10 @@ varFormNameMapMainDirnadoGrandshelt             = "MapMainDirnadoGrandshelt"
 varFormNameMapMainGrandshelt                    = "MapMainGrandshelt"
 picBtnMapGrandshelt                             = folderffbeimage.."maps/btn_maps_grandshelt.png"
 picBtnMapDirnado                                = folderffbeimage.."maps/btn_maps_dirnado.png"
+picBtnMapMysidia                                = folderffbeimage.."maps/btn_maps_mysidia.png"
 picBtnMapOlderion                               = folderffbeimage.."maps/btn_maps_olderion.png"
-picBtnMapVortex                                 = folderffbeimage.."maps/btn_vortex.png"
-picBtnMapBack                                   = folderffbeimage.."maps/btn_back.png"
+picBtnMapZoldaad                                = folderffbeimage.."maps/btn_maps_zoldaad.png"
+
 
 varFormNameMapGrandshelt                        = "MapGrandshelt"
 picBtnMapGrandGrandsheltIsles                   = folderffbeimage.."maps/btn_maps_grandshelt_grandshelt_isles.png"
@@ -59,6 +79,11 @@ critMapDirnadoTop                               = folderffbeimage.."maps/crit_ma
 
 varFormNameMapOlderion                          = "MapOlderion"
 critMapOlderionTop                              = folderffbeimage.."maps/crit_maps_olderion_top.png"
+
+varFormNameMapZoldaad                           = "MapZoldaad"
+critMapZoldaadTop                               = folderffbeimage.."maps/crit_maps_zoldaad_top.png"
+picBtnMapZoldaadInvincibleInterior              = folderffbeimage.."maps/btn_maps_zoldaad_invincible_interior.png"
+
 
 varFormNameMapOlderionCtrAquaticCove            = "MapOlderionCtrAquaticCove"
 picBtnMapOlderionAquaticCove                    = folderffbeimage.."maps/btn_maps_olderion_aquatic_cove.png"

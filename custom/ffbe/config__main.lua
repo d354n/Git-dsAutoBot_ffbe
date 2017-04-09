@@ -112,14 +112,20 @@ dofile(scriptPath()..parentfolder.."config_action_use_lapis.lua")
 
 --  Exploration
 parentfolder = "../custom/ffbe/explorations/trust/"
-eventfolder  = "earth_shrine/"
 
+eventfolder  = "earth_shrine/"
 varActionName = "Ex:Earth Shrine/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
---parentfolder = "../custom/ffbe/explorations/level/"
+parentfolder = "../custom/ffbe/explorations/level/"
+
+eventfolder  = "invincible_interior/"
+varActionName = "Ex:Invincible Interior/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next"
+dofile(scriptPath()..parentfolder.."config_action_3.lua")
 
 --varActionName = "Ex:Aquatic Cove/Start from Select Level"
 --eventfolder  = "aquatic_cove/"
@@ -142,11 +148,6 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 varActionName = "Ex:Dwarves Forge/Start from Select Level"
 foldername = "../custom/ffbe/explorations/dwarves_forge/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Ex:Earth Shrine/P:TRUS T"
-foldername = "../custom/ffbe/explorations/earth_shrine/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
@@ -325,7 +326,9 @@ for i=1, 3 do
     for j=1, 1 do
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+        MultiAdd("Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:Next", "99")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
 

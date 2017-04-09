@@ -28,7 +28,12 @@ local sPrivBattle = scriptPath()..parentfolder.."private/config_battle.lua"
 if file_exists(sPrivBattle) then
     dofile(sPrivBattle)
 else
-    dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
+    sPrivBattle = scriptPath()..parentfolder.."config_battle.lua"
+    if file_exists(sPrivBattle) then
+        dofile(sPrivBattle)
+    else
+        dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
+    end
 end
 
 

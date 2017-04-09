@@ -20,10 +20,6 @@ picBtnStdSkip                                   = folderffbeimage.."standard/btn
 --  Main Home Farplane
 varFormNameMainFarplane                         = "MainFormFarplane"
 
---  Main World
-varFormNameMainWorld                            = "MainFormWorld"
-picBtnMainWorldHome                             = folderffbeimage.."maps/btn_home.png"
-
 --  ## Pictures  ##
 --  Pictures Main Page
 critMainUnitsUnitMenu			                = folderffbeimage.."crit_main_units_unit_menu.png"

@@ -8,7 +8,7 @@
 
 -- Variable
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
-picUnitsParty                           = picTxtMainBattleUnitPartyTrust
+picUnitsParty                           = picTxtMainBattleUnitPartyLevel
 
 
 dofile(scriptPath()..parentfolder..eventfolder.."config_action_detail.lua")

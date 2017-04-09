@@ -9,6 +9,10 @@ main/debug/new_image/*.*
 main/debug/log_battle_results/*.*
 main/temp/*.*
 _manual/
+custom/ffbe/dungeons/level/private/*.*
+custom/ffbe/dungeons/trust/private/*.*
+custom/ffbe/explorations/level/private/*.*
+custom/ffbe/explorations/trust/private/*.*
 .idea/*.*
 .sync/
 old/

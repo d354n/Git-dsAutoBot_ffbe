@@ -90,6 +90,7 @@ picBtnBattleAbilityTrueShot1        		    = folderffbeimage.."magic/btn_battle_a
 picBtnBattleAbilityTrueShot2        		    = folderffbeimage.."magic/btn_battle_ability_true_shot2.png"
 picBtnBattleMagicTrueShot         		        = picBtnBattleAbilityTrueShot1
 picBtnBattleAbilityWaylay1                      = folderffbeimage.."magic/btn_battle_ability_waylay1.png"
+picBtnBattleAbilityWaylay2                      = folderffbeimage.."magic/btn_battle_ability_waylay2.png"
 picBtnBattleAbilityWickedLight       		    = folderffbeimage.."magic/btn_battle_ability_wicked_light.png"
 picBtnBattleMagicWickedLight       		        = picBtnBattleAbilityWickedLight
 
