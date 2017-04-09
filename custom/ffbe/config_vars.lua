@@ -20,12 +20,27 @@ picBtnStdSkip                                   = folderffbeimage.."standard/btn
 --  Main Home Farplane
 varFormNameMainFarplane                         = "MainFormFarplane"
 
---  Main World
-varFormNameMainWorld                            = "MainFormWorld"
-picBtnMainWorldHome                             = folderffbeimage.."maps/btn_home.png"
-
 --  ## Pictures  ##
 --  Pictures Main Page
 critMainUnitsUnitMenu			                = folderffbeimage.."crit_main_units_unit_menu.png"
+
+
+critItemsCornerUpLeft1                          = folderffbeimage.."items/crit_items_corner_upleft1.png"
+critItemsCornerUpLeft2                          = folderffbeimage.."items/crit_items_corner_upleft2.png"
+critItemsCornerUpLeft3                          = folderffbeimage.."items/crit_items_corner_upleft3.png"
+
+
+
+picNumStart                                     = folderffbeimage.."numbers/num_start.png"
+picNum0                                         = folderffbeimage.."numbers/num0.png"
+picNum1                                         = folderffbeimage.."numbers/num1.png"
+picNum2                                         = folderffbeimage.."numbers/num2.png"
+picNum3                                         = folderffbeimage.."numbers/num3.png"
+picNum4                                         = folderffbeimage.."numbers/num4.png"
+picNum5                                         = folderffbeimage.."numbers/num5.png"
+picNum6                                         = folderffbeimage.."numbers/num6.png"
+picNum7                                         = folderffbeimage.."numbers/num7.png"
+picNum8                                         = folderffbeimage.."numbers/num8.png"
+picNum9                                         = folderffbeimage.."numbers/num9.png"
 
 

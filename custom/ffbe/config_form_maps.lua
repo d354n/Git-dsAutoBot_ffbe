@@ -6,6 +6,46 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+FormCreate(varFormNameMapWorld)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMapHome)
+FormAddCriteria2Do(varCriteriaExists, picBtnMapVortex)
+
+FormCreate(varFormNameMapGrandshelt)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapGrandsheltTop)
+
+FormCreate(varFormNameMapGrandGrand)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapGrandGrandIslesTop)
+
+FormCreate(varFormNameMapDirnado)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapDirnadoTop)
+
+FormCreate(varFormNameMapOlderion)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapOlderionTop)
+
+FormCreate(varFormNameMapZoldaad)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapZoldaadTop)
+
+
+
+FormCreate(varFormNameMapCompanionUpdate)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMapCompanionUpdateMid)
+
+
+
+--
+--
+--
+
+
+
 FormCreate(varFormNameMapMainOlderion)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnMapBack)
@@ -48,9 +88,11 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMapGrandshelt)
 
 
 
-FormCreate(varFormNameMapGrandshelt)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMapGrandsheltTop)
+--
+--
+--
+
+
 
 FormCreate(varFormNameMapGrandGrandArdOrdolPort)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
@@ -90,14 +132,6 @@ FormAddCriteria2Do(varCriteriaExists, critMapGrandGrandIslesTop)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandGrandIslesEarthShrine)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMapGrandGrandIslesOrdolPort)
 
-FormCreate(varFormNameMapDirnado)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMapDirnadoTop)
-
-FormCreate(varFormNameMapOlderion)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMapOlderionTop)
-
 FormCreate(varFormNameMapOlderionCtrAquaticCove)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMapOlderionTop)
@@ -105,9 +139,5 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMapOlderionAquaticCove)
 FormAddCriteria2Do(varCriteriaRegionExists)
 FormAddCriteria2Var(picBtnMapOlderionAquaticCove)
 FormAddCriteria2Var(Region(locMapTownCenterX1, locMapTownCenterY1, locMapTownCenterW1, locMapTownCenterY1))
-
-FormCreate(varFormNameMapCompanionUpdate)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
-FormAddCriteria2Do(varCriteriaExists, critMapCompanionUpdateMid)
 
 

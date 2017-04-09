@@ -11,25 +11,41 @@ varFormNameMainExploration                      = "MainFormExploration"
 picBtnExplorationMap                            = folderffbeimage.."exploration/btn_exploration_map.png"
 picBtnExplorationMenu                           = folderffbeimage.."exploration/btn_exploration_menu.png"
 
-locExplorationCenter                            = Location(300, 350)
+locExpCenX                                      = 300
+locExpCenY                                      = 350
+locExpMove                                      =  50
+locExplorationCenter                            = Location(locExpCenX, locExpCenY)
 
-locExplorationUp                                = Location(300, 300)
-locExplorationDown                              = Location(300, 400)
-locExplorationLeft                              = Location(250, 350)
-locExplorationRight                             = Location(350, 350)
+locExplorationUp                                = Location(locExpCenX             , locExpCenY-locExpMove*1)
+locExplorationDown                              = Location(locExpCenX             , locExpCenY+locExpMove*1)
+locExplorationLeft                              = Location(locExpCenX-locExpMove*1, locExpCenY             )
+locExplorationRight                             = Location(locExpCenX+locExpMove*1, locExpCenY             )
 
-locExplorationUp2                               = Location(300, 200)
-locExplorationUp3                               = Location(300, 150)
+locExplorationUp2                               = Location(locExpCenX             , 200)
+locExplorationUp3                               = Location(locExpCenX             , 150)
+locExplorationDown2                             = Location(locExpCenX             , 450)
 
-locExplorationUpMax                             = Location(300,  50)
-locExplorationDownMax                           = Location(300, 750)
-locExplorationLeftMax                           = Location( 50, 350)
-locExplorationRightMax                          = Location(550, 350)
+locExplorationUpMax                             = Location(locExpCenX             ,  50)
+locExplorationDownMax                           = Location(locExpCenX             , 750)
+locExplorationLeftMax                           = Location(                     50, locExpCenY             )
+locExplorationRightMax                          = Location(                    550, locExpCenY             )
 
-locExplorationUpLeft                            = Location(250, 300)
-locExplorationUpRight                           = Location(350, 300)
-locExplorationDownLeft                          = Location(250, 400)
-locExplorationDownRight                         = Location(350, 400)
+locExplorationRightDown                         = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*1)
+
+locExplorationUpLeft                            = Location(locExpCenX-locExpMove*1, locExpCenY-locExpMove*1)
+locExplorationUpRight                           = Location(locExpCenX+locExpMove*1, locExpCenY-locExpMove*1)
+locExplorationDownLeft                          = Location(locExpCenX-locExpMove*1, locExpCenY+locExpMove*1)
+locExplorationDownRight                         = locExplorationRightDown
+
+locExplorationRight1Down1                       = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*1)
+locExplorationRight2Down1                       = Location(locExpCenX+locExpMove*2, locExpCenY+locExpMove*1)
+locExplorationRight1Down2                       = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*2)
+locExplorationRight1Down3                       = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*3)
+locExplorationRight1Down4                       = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*4)
+locExplorationRight1Down5                       = Location(locExpCenX+locExpMove*1, locExpCenY+locExpMove*5)
+
+locExplorationDown2Right1                       = locExplorationRight1Down2
+locExplorationDown3Right1                       = locExplorationRight1Down3
 
 locExplorationUpLeft5                           = Location( 50, 100)
 locExplorationUpRight5                          = Location(550, 100)

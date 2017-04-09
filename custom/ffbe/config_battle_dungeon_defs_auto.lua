@@ -7,26 +7,21 @@
 --
 
 BattleCreate(varActionName)
+BattleEngageForm(varFormNameMainBattleEngaged)
+BattleEngageForm(varFormNameMainBattleEngagedDoAction)
+BattleEngageForm(varFormNameMainBattleEngagedInAction)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critMainBattleResultsGil)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoIncBattleCount)
-BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedAuto)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
-
+for i=1, 20 do
+    BattleNewRound()
+    if (i==1) then
+        BattleNewRoundExec(varActionExecuteDoIncBattleCount)
+        BattleNewRoundExecVar(1)
+    end
+    BattleNewRoundExec(varActionExecuteDoClickButton)
+    BattleNewRoundExecVar(picBtnBattleEngagedAuto)
+end
 
 
