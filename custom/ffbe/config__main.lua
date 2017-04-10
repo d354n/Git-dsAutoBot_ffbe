@@ -72,7 +72,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "snow_plains/"
 selectlevel  = "btn_select_level_beast.png"
-varActionName = "Dg:Snow Plains Beast/NE:Next/Start from Select Level"
+varActionName = "Dg:Snow Plains Beast/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
@@ -127,36 +127,17 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 varActionName = "Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next"
 dofile(scriptPath()..parentfolder.."config_action_3.lua")
 
---varActionName = "Ex:Aquatic Cove/Start from Select Level"
+eventfolder  = "lake_dorr/"
+varActionName = "Ex:Lake Dorr/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
 --eventfolder  = "aquatic_cove/"
+--varActionName = "Ex:Aquatic Cove/P:LE VEL/Start from Select Level"
 --dofile(scriptPath()..parentfolder.."config_action.lua")
 
---varActionName = "Ex:Dwarves Forge/Start from Select Level"
 --eventfolder  = "dwarves_forge/"
+--varActionName = "Ex:Dwarves Forge/P:LE VEL/Start from Select Level"
 --dofile(scriptPath()..parentfolder.."config_action.lua")
-
---varActionName = "Ex:Lake Dorr/Start from Select Level"
---eventfolder  = "lake_dorr/"
---dofile(scriptPath()..parentfolder.."config_action.lua")
-
-
---[===[
-varActionName = "Ex:Aquatic Cove/Start from Select Level"
-foldername = "../custom/ffbe/explorations/aquatic_cove/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Ex:Dwarves Forge/Start from Select Level"
-foldername = "../custom/ffbe/explorations/dwarves_forge/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Ex:Lake Dorr/Start from Select Level"
-foldername = "../custom/ffbe/explorations/lake_dorr/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
---  ]===]
 
 
 
@@ -188,9 +169,10 @@ dofile(scriptPath()..foldername.."config_action.lua")
 --  ]===]
 
 
---[===[ Vortex  Raid  --
+-- Vortex  Raid  --
 parentfolder = "../custom/ffbe/vortex/raid/"
 
+--[===[
 eventfolder  = "march_on_ifrit/"
 varActionName = "Vx:March on Ifrit Adv/Battle AUTO"
 selectlevel  = "btn_select_level_adv.png"
@@ -202,40 +184,37 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 --  Vortex  Dungeon  Events  --
 parentfolder = "../custom/ffbe/vortex/dungeon_eve/"
-eventfolder  = "20170325_the_auracite_chosen/"
 
+--[===[
+eventfolder  = "20170325_the_auracite_chosen/"
 varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-
 varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
 selectlevel  = "btn_select_level_elt.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-
 varActionName = "Vx:The Auracite Chosen Elt/Spc:Wait5/P:L IMIT"
 selectlevel  = "btn_select_level_elt.png"
 dofile(scriptPath()..parentfolder.."config_action_spc_wait.lua")
---    End    --
+--    End    --]===]
 
 --  Vortex  Dungeon  Regular  --
 parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
-eventfolder  = "cactuar_dunes/"
 
+--[===[
+eventfolder  = "cactuar_dunes/"
 varActionName = "Vx:Catuar Dunes/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
-parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
 eventfolder  = "chamber_of_crystals/"
-
 varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-
 varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS T/Battle AUTO"
 selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
---    End    --
+--    End    --]===]
 
 
 
@@ -290,6 +269,14 @@ varActionName = "Summon  Standard/5x"
 parentfolder = "../custom/ffbe/nobattle/summon_standard/"
 dofile(scriptPath()..parentfolder.."config_action_5.lua")
 
+varActionName = "Summon  Egg Seekers/5x"
+parentfolder = "../custom/ffbe/nobattle/summon_egg/"
+dofile(scriptPath()..parentfolder.."config_action_5.lua")
+
+varActionName = "Summon  Egg Seekers/10x"
+parentfolder = "../custom/ffbe/nobattle/summon_egg/"
+dofile(scriptPath()..parentfolder.."config_action_5.lua")
+
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
 parentfolder = foldername
@@ -326,9 +313,9 @@ for i=1, 3 do
     for j=1, 1 do
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next")
+--        MultiAdd("Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next", "99")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next", "99")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
 

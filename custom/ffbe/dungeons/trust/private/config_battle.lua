@@ -8,7 +8,7 @@
 
 --  Blazing Fast Battle
 
-BattleCreate(varActionName.."99")
+BattleCreate(varActionName)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critMainBattleResultsGil)
 

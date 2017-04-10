@@ -21,6 +21,35 @@ ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  circle
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)  --  circle
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownMax     , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  2   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)  --  Enemy Presence. Onwards?
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)  --  circle
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)  --  Abandon
+
+--  Extra
+for i=1,5 do
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
+    ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
+end
+
+
+
+-- new v1
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationDownLeft, 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
+ExploreNewRoundDoClickLocation(locExplorationUpRight , 0,  1   )
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax    , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)
+ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  circle
 ExploreNewRoundDoClickLocation(locExplorationLeft    , 0,  1   )
 ExploreNewRoundDoClickLocation(locExplorationUpLeft  , 0,  3   )
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
@@ -43,9 +72,6 @@ ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax 
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpLeftMax   , varForm1, varReg1)
-
-
-
 -- old
 ExploreNewRoundDoDragDropLocation(locExplorationCenter, locExplorationUpMax       , 1000, 3)
 ExploreNewRoundDoClickLocation(locExplorationDownLeft, 0,  1   )

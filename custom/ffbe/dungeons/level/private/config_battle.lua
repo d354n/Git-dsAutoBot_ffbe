@@ -6,7 +6,7 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-BattleCreate(varActionName.."99")
+BattleCreate(varActionName)
 BattleEngageForm(varFormNameMainBattleEngaged)
 BattleEngageForm(varFormNameMainBattleEngagedDoAction)
 BattleEngageForm(varFormNameMainBattleEngagedInAction)

@@ -11,7 +11,15 @@ dofile(scriptPath().."mylib-1.0.lua")
 varDirectoryCustomImage = "../"..parentfolder..eventfolder..""
 
 --  ## New Form / Page?
---dofile(scriptPath()..foldername.."config_form.lua")
+local sEventForm  = scriptPath()..parentfolder..eventfolder.."config_form.lua"
+if file_exists(sEventForm) then
+    dofile(sEventForm)
+else
+    sEventForm = scriptPath()..parentfolder.."config_form.lua"
+    if file_exists(sEventForm) then
+        dofile(sEventForm)
+    end
+end
 
 --  ## Init Start
 MenuCreate(varActionName)
@@ -46,8 +54,6 @@ ActionExecVar("")
 ActionExecVar(varActionExecuteDoSetActionNextAction)  --  if counter
 ActionExecVar("")
 ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
-
-
 
 dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 

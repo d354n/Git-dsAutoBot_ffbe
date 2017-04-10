@@ -6,6 +6,8 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+dofile(scriptPath().."mylib-1.0.lua")
+
 varDirectoryCustomImage = "../"..parentfolder..eventfolder..""
 
 --  ## New Form / Page?
@@ -22,7 +24,16 @@ dofile(scriptPath()..parentfolder.."config_action_detail.lua")
 --dofile(scriptPath()..parentfolder.."config_exploration.lua")  --  path  --  no explore
 
 --  ## what battle config?
-dofile(folderffbescript.."config_battle_dungeon_defs_auto.lua")
-dofile(scriptPath()..parentfolder.."config_battle_99.lua")
+local sPrivBattle = scriptPath()..parentfolder.."private/config_battle.lua"
+if file_exists(sPrivBattle) then
+    dofile(sPrivBattle)
+else
+    sPrivBattle = scriptPath()..parentfolder.."config_battle.lua"
+    if file_exists(sPrivBattle) then
+        dofile(sPrivBattle)
+    else
+        dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
+    end
+end
 
 
