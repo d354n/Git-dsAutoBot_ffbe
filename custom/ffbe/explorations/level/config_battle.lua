@@ -39,7 +39,7 @@ for i=1, 10 do
         elseif (i == 2) then
             BattleNewRoundExecVar(picBtnBattleMagicOsmose)
         else
-            BattleNewRoundExecVar(picBtnBattleMagicOsmose)
+            BattleNewRoundExecVar(picBtnBattleEvokeJudgmentBolt)
         end
         BattleNewRoundExecVar(picBtnBattleEngagedBack)
         BattleNewRoundExec(varActionExecuteDoWait)

@@ -150,7 +150,7 @@ for i=1, 5 do
     BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz1)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(0.5)
+    BattleNewRoundExecVar(1)
 
     BattleNewRoundExec(varActionExecuteDoClickLocation)
     BattleNewRoundExecVar(locBattleParty2Center)
@@ -167,12 +167,14 @@ for i=1, 5 do
     BattleNewRoundExecVar(3)
 end
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedAuto)
-
-for i=1, 5 do
+for i=1, 20 do
     BattleNewRound()
+    BattleNewRoundExec(varActionExecuteDoClickButton)
+    BattleNewRoundExecVar(picBtnBattleEngagedAuto)
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(5)
+    BattleNewRoundExecVar(2)
+    BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
+    BattleNewRoundExecVar("")
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(3)
 end
