@@ -146,17 +146,14 @@ varActionName = "Ar:Colosseum/TopLevel/TopRound"
 foldername = "../custom/ffbe/others/arena_colosseum/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Ar:Colosseum/TopLevel/2ndRound"
 foldername = "../custom/ffbe/others/arena_colosseum_toplevel_secondround/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Ar:Colosseum/TopLevel/3rdRound"
 foldername = "../custom/ffbe/others/arena_colosseum_toplevel_thirdround/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Ar:Colosseum/TopLevel/4thRound"
 foldername = "../custom/ffbe/others/arena_colosseum_toplevel_fourthround/"
 parentfolder = foldername
@@ -272,10 +269,9 @@ dofile(scriptPath()..parentfolder.."config_action_5.lua")
 varActionName = "Summon  Egg Seekers/5x"
 parentfolder = "../custom/ffbe/nobattle/summon_egg/"
 dofile(scriptPath()..parentfolder.."config_action_5.lua")
-
 varActionName = "Summon  Egg Seekers/10x"
 parentfolder = "../custom/ffbe/nobattle/summon_egg/"
-dofile(scriptPath()..parentfolder.."config_action_5.lua")
+dofile(scriptPath()..parentfolder.."config_action_10.lua")
 
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
@@ -291,7 +287,6 @@ varActionName = "Wait 600"
 foldername = "../custom/ffbe/nobattle/wait_600/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Wait 2000"
 foldername = "../custom/ffbe/nobattle/wait_2000/"
 parentfolder = foldername
