@@ -11,7 +11,7 @@ picSelectLevelDo                 		= varDirectoryCustomImage .. selectlevel
 picUnitsParty                           = picTxtMainBattleUnitPartyTrust
 
 
-dofile(scriptPath()..parentfolder..eventfolder.."config_action_detail.lua")
+dofile(scriptPath()..parentfolder..parentsubfol..eventfolder.."config_action_detail.lua")
 
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")

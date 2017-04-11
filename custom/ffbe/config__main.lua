@@ -63,71 +63,92 @@ varFormToCheck = varFormNameMainFriendsReceiveNotEmpty
 
 
 --  Dungeons
-parentfolder = "../custom/ffbe/dungeons/level/"
+parentfolder = "../custom/ffbe/dungeons/"
+parentsubfol = "level/"
 
 eventfolder  = "story_mode/"
 selectlevel  = "btn_select_level_do.png"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Dg:Story Mode/NE:Next/Start from Select Level"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "snow_plains/"
 selectlevel  = "btn_select_level_beast.png"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Dg:Snow Plains Beast/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
-parentfolder = "../custom/ffbe/dungeons/trust/"
+parentfolder = "../custom/ffbe/dungeons/"
+parentsubfol = "trust/"
 
 eventfolder  = "earth_shrine/"
 selectlevel  = "btn_select_level_entrance.png"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Dg:Earth Shrine Entrance/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B10:Next"
-dofile(scriptPath()..parentfolder.."config_action_10.lua")
+ActXcnt = 35
 varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
-dofile(scriptPath()..parentfolder.."config_action_35.lua")
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
 varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis"
-dofile(scriptPath()..parentfolder.."config_action_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B35:Next"
-dofile(scriptPath()..parentfolder.."config_action_35_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B60:Next"
-dofile(scriptPath()..parentfolder.."config_action_60_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next"
-dofile(scriptPath()..parentfolder.."config_action_100_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B120:Next"
-dofile(scriptPath()..parentfolder.."config_action_120_use_lapis.lua")
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B200:Next"
-dofile(scriptPath()..parentfolder.."config_action_200_use_lapis.lua")
-
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 35
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 100
+varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 0
+ActXcnt = 0
 selectlevel  = "btn_select_level_exit.png"
 varActionName = "Dg:Earth Shrine Exit/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
 varActionName = "LapisWarning Dg:Earth Shrine Exit/NE:Lapis"
-dofile(scriptPath()..parentfolder.."config_action_use_lapis.lua")
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 35
+varActionName = "LapisWarning Dg:Earth Shrine Exit/NE:Lapis:B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 --  ]===]
 
 
 
 --  Exploration
-parentfolder = "../custom/ffbe/explorations/trust/"
+parentfolder = "../custom/ffbe/explorations/"
+parentsubfol = "trust/"
 
 eventfolder  = "earth_shrine/"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Ex:Earth Shrine/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
-parentfolder = "../custom/ffbe/explorations/level/"
+parentfolder = "../custom/ffbe/explorations/"
+parentsubfol = "level/"
 
 eventfolder  = "invincible_interior/"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Ex:Invincible Interior/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next"
-dofile(scriptPath()..parentfolder.."config_action_3.lua")
+ActUseLapis  = 0
+ActXcnt = 3
+varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "lake_dorr/"
+ActUseLapis  = 0
+ActXcnt = 0
 varActionName = "Ex:Lake Dorr/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -197,19 +218,16 @@ dofile(scriptPath()..parentfolder.."config_action_spc_wait.lua")
 
 --  Vortex  Dungeon  Regular  --
 parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
+selectlevel  = "btn_select_level.png"
 
---[===[
 eventfolder  = "cactuar_dunes/"
 varActionName = "Vx:Catuar Dunes/P:TRUS T/Battle AUTO"
-selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "chamber_of_crystals/"
 varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T/Battle AUTO"
-selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS T/Battle AUTO"
-selectlevel  = "btn_select_level.png"
 dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
 --    End    --]===]
 
@@ -220,22 +238,18 @@ varActionName = "Craft  Get All Completed"
 foldername = "../custom/ffbe/nobattle/craft__get_all_completed/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Craft  Farm Abilities  White Magic  Cure"
 foldername = "../custom/ffbe/nobattle/craft_abilities_white_cure/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Craft  Farm Abilities  White Magic  Cura"
 foldername = "../custom/ffbe/nobattle/craft_abilities_white_cura/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Craft  Farm Equipment  Armor  Leather Shield"
 foldername = "../custom/ffbe/nobattle/craft_equipment_armor_leather_shield/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Craft  Farm Items  Recovery  Potion"
 foldername = "../custom/ffbe/nobattle/craft_items_recovery_potion/"
 parentfolder = foldername
@@ -243,11 +257,6 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 varActionName = "Friends  Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-
-varActionName = "Items  Materials  Sell Items"
-foldername = "../custom/ffbe/nobattle/items_materials_sells/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
@@ -261,11 +270,9 @@ varActionName = "Summon  Once a Day Limited Summon (250)"
 foldername = "../custom/ffbe/nobattle/summon_250/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
-
 varActionName = "Summon  Standard/5x"
 parentfolder = "../custom/ffbe/nobattle/summon_standard/"
 dofile(scriptPath()..parentfolder.."config_action_5.lua")
-
 varActionName = "Summon  Egg Seekers/5x"
 parentfolder = "../custom/ffbe/nobattle/summon_egg/"
 dofile(scriptPath()..parentfolder.."config_action_5.lua")
@@ -273,6 +280,10 @@ varActionName = "Summon  Egg Seekers/10x"
 parentfolder = "../custom/ffbe/nobattle/summon_egg/"
 dofile(scriptPath()..parentfolder.."config_action_10.lua")
 
+varActionName = "Items  Materials  Sell Items"
+foldername = "../custom/ffbe/nobattle/items_materials_sells/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
 parentfolder = foldername
@@ -309,7 +320,7 @@ for i=1, 3 do
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
         MultiAdd("Ex:Invincible Interior/P:LE VEL/NE:w1500-Next/B3:Next")
---        MultiAdd("Dg:Earth Shrine Entrance/NE:Next", "99")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
