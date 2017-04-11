@@ -57,6 +57,7 @@ picBtnBattleMagicCheer                          = folderffbeimage.."magic/btn_ba
 
 picBtnBattleAbilityAssaultOrder                 = folderffbeimage.."magic/btn_battle_ability_assault_order.png"
 picBtnBattleAbilityBladeblitz1                  = folderffbeimage.."magic/btn_battle_ability_bladeblitz1.png"
+picBtnBattleAbilityBladeblitz2                  = folderffbeimage.."magic/btn_battle_ability_bladeblitz2.png"
 picBtnBattleAbilityBoost                        = folderffbeimage.."magic/btn_battle_ability_boost.png"
 picBtnBattleAbilityCallToAttack                 = folderffbeimage.."magic/btn_battle_ability_call_to_attack.png"
 picBtnBattleAbilityDualBlackMagic    		    = folderffbeimage.."magic/btn_battle_ability_dual_black_magic.png"

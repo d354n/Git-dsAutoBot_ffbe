@@ -147,7 +147,7 @@ for i=1, 5 do
     BattleNewRoundExecVar(0.97)
     BattleNewRoundExecVar(picBtnBattleLimitBurst)
     BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz1)
-    BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz1)
+    BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz2)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(1)
