@@ -77,8 +77,7 @@ ExploreNewRoundDoClickLocation(locExplorationUp          , 0,  3   )
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationLeftMax     , varForm1, varReg1)  --  circle  5
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)
-ExploreNewRoundDoClickLocation(locExplorationDownLeft    , 0,  1   )
-ExploreNewRoundDoClickLocation(locExplorationLeft        , 0,  1   )
+ExploreNewRoundDoClickLocation(locExplorationDownLeft    , 0,  2   )
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpMax       , varForm1, varReg1)  --  portal
 
 
