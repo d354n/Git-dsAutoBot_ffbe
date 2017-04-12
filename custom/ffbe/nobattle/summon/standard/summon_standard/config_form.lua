@@ -7,6 +7,7 @@
 --
 
 varFormNameMainSummonStandard                   = "MainFormSummonStandard"
+varFormNameMainSummonStandardNoMulti            = "MainFormSummonStandardNoMulti"
 critMainSummonStandardTop   			        = varDirectoryCustomImage.."crit_std_top.png"
 picBtnMainSummonStandardMultiSummon             = varDirectoryCustomImage.."btn_std_multi_summon.png"
 
@@ -28,6 +29,14 @@ FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainSummonStandardTop)
 FormAddCriteria2Do(varCriteriaNotExists, critMainSummonStandardConfMid)
 FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainSummonStandardMultiSummon)
+
+FormCreate(varFormNameMainSummonStandardNoMulti)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonStandardTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainSummonStandardConfMid)
+FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainSummonStandardMultiSummon)
 
 FormCreate(varFormNameMainSummonStandardConf)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)

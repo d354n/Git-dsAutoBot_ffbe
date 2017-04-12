@@ -8,6 +8,26 @@
 
 picSelectLevelDo                        = varDirectoryCustomImage.."btn_select_level_do.png"
 
+if (ActXcnt > 0) then
+    ActionOnForm(varFormNameMainSummonEgg)
+    ActionExec(varActionExecuteDoCounterInc)
+    ActionExecVar(1)  --  Counter Number
+    ActionExec(varActionExecuteDoIsCounterDo)
+    ActionExecVar(1)  --  Check Counter Number
+    ActionExecVar(ActXcnt)  --  Number Is
+    ActionExecVar(varActionExecuteDoCounterReset)         --  if counter
+    ActionExecVar(1)
+    ActionExecVar(varActionExecuteDoClickButton)          --  if not counter
+    ActionExecVar(picBtnMainSummonEggMultiSummon)
+    ActionExecVar(varActionExecuteDoSetActionNextAction)  --  if counter
+    ActionExecVar("")
+    ActionExecVar("")                                     --  if not counter
+    ActionExecVar("")
+    ActionExecVar(varActionExecuteDoClickButton)          --  if counter
+    ActionExecVar(picBtnMainHome)
+    ActionExecWaitForm(varFormNameMainSummonStandardConf)
+end
+
 ActionOnForm(varFormNameMainHome)
 ActionExec(varActionExecuteDoCounterReset)
 ActionExecVar(1)
@@ -16,18 +36,17 @@ ActionExecVar(picBtnMainSummon)
 ActionExecWaitForm(varFormNameMainSummon)
 
 ActionOnForm(varFormNameMainSummon)
-ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
+ActionExec(varActionExecuteDoBoxFindAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(0)
-ActionExecVar(false)
-ActionExecVar(30)
+ActionExecVar(true)
+ActionExecVar(5)
 ActionExecVar(varFormNameMainSummon)
 ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
 ActionExecVar(0.98)
-ActionExecVar(varFormNameMainSummon)  --  if last not found then click here
 ActionExecVar(picSelectLevelDo)
 ActionExecWaitForm(varFormNameMainSummonEgg)
 
@@ -35,6 +54,15 @@ ActionOnForm(varFormNameMainSummonEgg)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainSummonEggMultiSummon)
 ActionExecWaitForm(varFormNameMainSummonEggConf)
+
+ActionOnForm(varFormNameMainSummonEggNo5000)
+ActionExec(varActionExecuteDoCounterReset)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHome)
+ActionExecWaitForm(varFormNameMainHome)
 
 ActionOnForm(varFormNameMainSummonEggConf)
 ActionExec(varActionExecuteDoClickButton)

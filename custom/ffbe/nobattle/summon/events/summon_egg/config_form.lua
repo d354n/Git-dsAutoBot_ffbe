@@ -7,8 +7,10 @@
 --
 
 varFormNameMainSummonEgg                        = "MainFormSummonEgg"
+varFormNameMainSummonEggNo5000                  = "MainFormSummonEggNo5000"
 critMainSummonEggTop   			                = varDirectoryCustomImage.."crit_std_top.png"
 picBtnMainSummonEggMultiSummon                  = varDirectoryCustomImage.."btn_std_multi_summon.png"
+picBtnMainSummonEggSummon100                    = varDirectoryCustomImage.."btn_std_summon_100.png"
 
 varFormNameMainSummonEggConf                    = "MainFormSummonEggConf"
 critMainSummonEggConfMid  			            = varDirectoryCustomImage.."crit_std_conf_mid.png"
@@ -31,6 +33,16 @@ FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainSummonEggTop)
 FormAddCriteria2Do(varCriteriaNotExists, critMainSummonEggConfMid)
 FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainSummonEggSummon100)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainSummonEggMultiSummon)
+
+FormCreate(varFormNameMainSummonEggNo5000)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainSummonEggTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainSummonEggConfMid)
+FormAddCriteria2Do(varCriteriaNotExists, critQuestDailyCompleted)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainSummonEggSummon100)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainSummonEggMultiSummon)
 
 FormCreate(varFormNameMainSummonEggConf)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)

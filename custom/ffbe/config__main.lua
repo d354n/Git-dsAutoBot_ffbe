@@ -266,19 +266,33 @@ parentfolder = foldername
 dofile(scriptPath()..foldername.."config_form_messages.lua")   --  use custom message form
 dofile(scriptPath()..foldername.."config_action.lua")
 
+
+
+parentfolder = "../custom/ffbe/nobattle/summon/"
+parentsubfol = "standard/"
+ActUseLapis  = 0
+
+eventfolder  = "summon_250/"
+ActXcnt = 0
 varActionName = "Summon  Once a Day Limited Summon (250)"
-foldername = "../custom/ffbe/nobattle/summon_250/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-varActionName = "Summon  Standard/5x"
-parentfolder = "../custom/ffbe/nobattle/summon_standard/"
-dofile(scriptPath()..parentfolder.."config_action_5.lua")
-varActionName = "Summon  Egg Seekers/5x"
-parentfolder = "../custom/ffbe/nobattle/summon_egg/"
-dofile(scriptPath()..parentfolder.."config_action_5.lua")
-varActionName = "Summon  Egg Seekers/10x"
-parentfolder = "../custom/ffbe/nobattle/summon_egg/"
-dofile(scriptPath()..parentfolder.."config_action_10.lua")
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "summon_standard/"
+ActXcnt = 10
+varActionName = "Summon  Standard/"..ActXcnt.."x"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
+parentsubfol = "events/"
+ActUseLapis  = 0
+
+eventfolder  = "summon_egg/"
+ActXcnt = 10
+varActionName = "Summon  Egg Seekers/"..ActXcnt.."x"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
 
 varActionName = "Items  Materials  Sell Items"
 foldername = "../custom/ffbe/nobattle/items_materials_sells/"
