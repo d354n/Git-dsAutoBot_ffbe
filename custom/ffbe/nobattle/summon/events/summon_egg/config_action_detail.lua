@@ -67,7 +67,13 @@ ActionExecWaitForm(varFormNameMainHome)
 ActionOnForm(varFormNameMainSummonEggConf)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainSummonEggConfMultiSummon)
-ActionExecWaitForm(varFormNameMainSummonEggTap)
+for i=1, 13 do
+    ActionExec(varActionExecuteDoClickLocation)
+    ActionExecVar(locXmidYoneQuarters)
+    ActionExec(varActionExecuteDoWait)
+    ActionExecVar(0.3)
+end
+ActionExecWaitForm(varFormNameMainSummonEggUnitObtained)
 
 ActionOnForm(varFormNameMainSummonEggTap)
 ActionExec(varActionExecuteDoClickButton)

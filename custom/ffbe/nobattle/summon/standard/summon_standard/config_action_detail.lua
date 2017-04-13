@@ -71,7 +71,7 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainSummonStandardConfMultiSummon)
 for i=1, 13 do
     ActionExec(varActionExecuteDoClickLocation)
-    ActionExecVar(locXmidYmid)
+    ActionExecVar(locXmidYoneQuarters)
     ActionExec(varActionExecuteDoWait)
     ActionExecVar(0.3)
 end
