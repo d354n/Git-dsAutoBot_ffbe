@@ -80,6 +80,13 @@ ActXcnt = 0
 varActionName = "Dg:Snow Plains Beast/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
+eventfolder  = "fina_psyche_frontlines/"
+selectlevel  = "btn_select_level_power.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Dg:Fina Psyche Power/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
 
 
 parentfolder = "../custom/ffbe/dungeons/"
@@ -333,7 +340,8 @@ for i=1, 3 do
     for j=1, 1 do
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
+--        MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
+        MultiAdd("Dg:Fina Psyche Power/NE:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
         MultiAdd("Ar:Battle", "99")

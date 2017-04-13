@@ -66,6 +66,11 @@ varFormNameMapMysidiaMagi                       = "MapMysidiaMagi"
 critMapMysidiaMagiTop                           = folderffbeimage.."maps/crit_maps_mysidia_magi_top.png"
 picBtnMapMysidiaMagiSnowPlains                  = folderffbeimage.."maps/btn_maps_mysidia_magi_snow_plains.png"
 picBtnMapMysidiaMagiMagicLibrary                = folderffbeimage.."maps/btn_maps_mysidia_magi_magic_library.png"
+varFormNameMapMysidiaMagi                       = "MapMysidiaFina"
+critMapMysidiaMagiTop                           = folderffbeimage.."maps/crit_maps_mysidia_fina_top.png"
+picBtnMapMysidiaFinaFinaPsycheFrontlines        = folderffbeimage.."maps/btn_maps_mysidia_fina_fina_psyche_frontlines.png"
+
+
 
 varFormNameMapOlderion                          = "MapOlderion"
 critMapOlderionTop                              = folderffbeimage.."maps/crit_maps_olderion_top.png"

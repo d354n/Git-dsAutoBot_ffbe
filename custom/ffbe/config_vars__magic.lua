@@ -69,6 +69,7 @@ picBtnBattleAbilityFrozenGuard2                 = folderffbeimage.."magic/btn_ba
 picBtnBattleAbilityGrapeshot1       		    = folderffbeimage.."magic/btn_battle_ability_grapeshot1.png"
 picBtnBattleAbilityGrapeshot2       		    = folderffbeimage.."magic/btn_battle_ability_grapeshot2.png"
 picBtnBattleMagicGrapeshot        		        = picBtnBattleAbilityGrapeshot1
+picBtnBattleAbilityRashImpulse1                 = folderffbeimage.."magic/btn_battle_ability_rash_impulse1.png"
 picBtnBattleAbilitySchwertDance1                = folderffbeimage.."magic/btn_battle_ability_schwert_dance1.png"
 picBtnBattleAbilityShatteringShot1  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot1.png"
 picBtnBattleAbilityShatteringShot2  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot2.png"
