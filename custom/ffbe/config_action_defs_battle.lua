@@ -40,11 +40,11 @@ ActionExecWaitForm(varFormNameMainBattleEngaged)
 
 ActionOnForm(varFormNameMainBattleReviveAll)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnBattleContinueNo)
+ActionExecVar(picBtnBattleEngagedContinueNo)
 
 ActionOnForm(varFormNameMainBattleGiveUp)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnBattleContinueYes)
+ActionExecVar(picBtnBattleEngagedContinueYes)
 
 ActionOnForm(varFormNameMainBattleResultGil)
 ActionExec(varActionExecuteDoClickRepeatButton)

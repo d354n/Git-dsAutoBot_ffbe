@@ -162,11 +162,11 @@ for i=1, 5 do
     BattleNewRoundExec(varActionExecuteDoClickButton)
     BattleNewRoundExecVar(picBtnBattleEngagedAuto)
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(2)
+    BattleNewRoundExecVar(1)
     BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
     BattleNewRoundExecVar("")
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(3)
+    BattleNewRoundExecVar(2)
 end
 
 for i=1, 20 do
@@ -174,9 +174,9 @@ for i=1, 20 do
     BattleNewRoundExec(varActionExecuteDoClickButton)
     BattleNewRoundExecVar(picBtnBattleEngagedAuto)
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(2)
+    BattleNewRoundExecVar(1)
     BattleNewRoundExec(varActionExecuteDoClickLastButton)  --  use this to turn off auto
     BattleNewRoundExecVar("")
     BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(3)
+    BattleNewRoundExecVar(2)
 end

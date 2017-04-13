@@ -137,14 +137,11 @@ FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
 FormCreate(varFormNameMainBattleGiveUp)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueGiveUp)
-FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedContinueYes)
 
---  ##  Main Form Battle - Revive All  ##
 FormCreate(varFormNameMainBattleReviveAll)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueReviveAll)
 
---  ##  Main Form Battle - Friend Request  ##
 FormCreate(varFormNameMainBattleRequest)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critBattleRequestMid)
