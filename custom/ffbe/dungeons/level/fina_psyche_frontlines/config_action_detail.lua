@@ -22,10 +22,10 @@ ActionExecWaitForm(varFormNameMapMysidia)
 
 ActionOnForm(varFormNameMapMysidia)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMapMysidiaMagi)
-ActionExecWaitForm(varFormNameMapMysidiaMagi)
+ActionExecVar(picBtnMapMysidiaFina)
+ActionExecWaitForm(varFormNameMapMysidiaFina)
 
-ActionOnForm(varFormNameMapMysidiaMagi)
+ActionOnForm(varFormNameMapMysidiaFina)
 ActionExec(varActionExecuteDoBoxFindHvAndClickWithScroll)
 ActionExecVar(locXoneQuartersYmid)    --1  left01
 ActionExecVar(locXthreeQuartersYmid)  --2
@@ -39,10 +39,10 @@ ActionExecVar(0)                      -- 9.delay between scroll
 ActionExecVar(true)                   --10.go top, search from top, set always true for better result
 ActionExecVar(9)                      --11.max_scroll up   dn
 ActionExecVar(9)                      --12.max_scroll left right
-ActionExecVar(varFormNameMapMysidiaMagi)  --13.action if on form
+ActionExecVar(varFormNameMapMysidiaFina)  --13.action if on form
 ActionExecVar(boxMaps)                --14.box
 ActionExecVar(0.97)                   --15
-ActionExecVar(picBtnMapMysidiaMagiSnowPlains)
+ActionExecVar(picBtnMapMysidiaFinaFinaPsycheFrontlines)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
 

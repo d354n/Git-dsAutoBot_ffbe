@@ -127,6 +127,8 @@ for i=1, 5 do
     BattleNewRoundExecVar(0.97)
     BattleNewRoundExecVar(picBtnBattleLimitBurst)
     BattleNewRoundExecVar(picBtnBattleMagicBiora1)
+    BattleNewRoundExecVar(picBtnBattleMagicCuraja)
+    BattleNewRoundExecVar(picBtnBattleMagicCuraja2)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)

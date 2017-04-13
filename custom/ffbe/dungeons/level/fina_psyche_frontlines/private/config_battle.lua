@@ -34,10 +34,10 @@ for i=1, 6 do
     BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
-    if i == 1 or i == 3 or i == 5 then
+    if i == 1 or i == 3 then
         BattleNewRoundExecVar(picBtnBattleAbilityWaylay1)
         BattleNewRoundExecVar(picBtnBattleAbilityWaylay2)
-    elseif i == 2 or i == 4 or i == 6 then
+    elseif i == 2 or i >= 4 then
         BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
         BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
     end
