@@ -7,7 +7,7 @@
 --
 
 --  Parameteres
-Settings:set("MinSimilarity", 0.90)
+Settings:set("MinSimilarity", 0.80)
 varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
 optPNGnotFoundSave  = true
 folderImgParams = "nox1/"
@@ -23,6 +23,8 @@ dofile(folderffbescript.."config_vars.lua")         --  1st
 dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
 dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
+dofile(folderffbescript.."config_vars_form_battle_dungeon.lua")
+dofile(folderffbescript.."config_vars_form_battle_exploration.lua")
 dofile(folderffbescript.."config_vars_form_home.lua")
 dofile(folderffbescript.."config_vars_form_maps.lua")
 
@@ -86,6 +88,14 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Dg:Fina Psyche Power/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 0
+ActXcnt = 3
+varActionName = "Dg:Fina Psyche Power/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 0
+ActXcnt = 5
+varActionName = "Dg:Fina Psyche Power/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
@@ -147,6 +157,10 @@ eventfolder  = "invincible_interior/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ex:Invincible Interior/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 0
+ActXcnt = 1
+varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 ActUseLapis  = 0
 ActXcnt = 3
@@ -262,6 +276,78 @@ foldername = "../custom/ffbe/nobattle/craft_items_recovery_potion/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+
+
+parentfolder = "../custom/ffbe/nobattle/craft_0s/"
+parentsubfol = "accessory/"
+ActUseLapis  = 0
+
+eventfolder  = "easter_egg_01_great_egg/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Great Egg"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 6
+varActionName = "Craft  Accessory  Great Egg/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_01_chocolate_egg/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Chocolate Egg"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 6
+varActionName = "Craft  Accessory  Chocolate Egg/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_01_magical_egg/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Magical Egg"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 2
+varActionName = "Craft  Accessory  Magical Egg/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_01_radiant_egg/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Radiant Egg"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 2
+varActionName = "Craft  Accessory  Radiant Egg/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_02_black_bandana/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Black Bandana"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Craft  Accessory  Black Bandana/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_02_crown_of_justice/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Crown of Justice"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Craft  Accessory  Crown of Justice/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_02_staff_of_wrath/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Staff of Wrath"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Craft  Accessory  Staff of Wrath/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "easter_egg_03_icy_veins/"
+ActXcnt = 0
+varActionName = "Craft  Accessory  Icy Veins"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Craft  Accessory  Icy Veins/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
 varActionName = "Friends  Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
@@ -340,18 +426,20 @@ for i=1, 3 do
     for j=1, 1 do
         MultiAdd("Ar:Battle", "99")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
---        MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
-        MultiAdd("Dg:Fina Psyche Power/NE:Next")
+        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
+        MultiAdd("Ar:Battle", "99")
+        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
-        MultiAdd("Ar:Battle", "99")
+--        MultiAdd("Ar:Battle", "99")
+--        MultiAdd("Dg:Fina Psyche Power/NE:Next/B3:Next")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
 
-        MultiAdd("Items  Materials  Sell Items")
-        MultiAdd("Craft  Get All Completed")
-        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
-        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
-        MultiAdd("Craft  Farm Items  Recovery  Potion")
+--        MultiAdd("Items  Materials  Sell Items")
+--        MultiAdd("Craft  Get All Completed")
+--        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
+--        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
+--        MultiAdd("Craft  Farm Items  Recovery  Potion")
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
