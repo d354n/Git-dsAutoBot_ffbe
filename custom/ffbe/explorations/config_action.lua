@@ -39,19 +39,17 @@ if (ActUseLapis == 1) then
 end
 if (ActXcnt > 0) then
     ActionOnForm(varFormNameMainBattleCompletion)
-    ActionExec(varActionExecuteDoCounterInc)
-    ActionExecVar(1)  --  Counter Number
     ActionExec(varActionExecuteDoIsCounterDo)
     ActionExecVar(1)  --  Check Counter Number
-    ActionExecVar(200)  --  Number Is
+    ActionExecVar(ActXcnt)  --  Number Is
     ActionExecVar(varActionExecuteDoClickButton)    --  if counter
     ActionExecVar(picBtnBattleCompletionHome)       --  if counter
+    ActionExecVar(varActionExecuteDoCounterInc)     --  if not counter
+    ActionExecVar(1)                                --  if not counter
+    ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+    ActionExecVar(1)                                --  if counter
     ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
     ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-    ActionExecVar(varActionExecuteDoCounterReset)
-    ActionExecVar(1)
-    ActionExecVar("")                               --  if not counter
-    ActionExecVar("")                               --  if not counter
     ActionExecVar(varActionExecuteDoSetActionNextAction)
     ActionExecVar("")
     ActionExecWaitForm(varFormNameMainBattleSelectCompanion)

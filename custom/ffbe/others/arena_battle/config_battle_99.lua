@@ -13,7 +13,7 @@ BattleEngageForm(varFormNameMainBattleEngagedInAction)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critBattleResultArenaWonTop)
 
-for i=1, 5 do
+for i=1, 1 do
     BattleNewRound()
     if i == 1 then
         BattleNewRoundExec(varActionExecuteDoIncBattleCount)
@@ -35,8 +35,7 @@ for i=1, 5 do
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
     BattleNewRoundExecVar(picBtnBattleLimitBurst)
-    BattleNewRoundExecVar(picBtnBattleMagicThundaga)
-    BattleNewRoundExecVar(picBtnBattleMagicGlacialWave)
+    BattleNewRoundExecVar(picBtnBattleMagicThundara1)
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)
@@ -62,54 +61,52 @@ for i=1, 5 do
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)
 
-    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-    BattleNewRoundExecVar(locBattleParty3Center)
-    BattleNewRoundExecVar(locBattleParty3Right)
---    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
---    BattleNewRoundExecVar(0)  --5.delay between scroll
---    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
---    BattleNewRoundExecVar(5)  --7.max_scroll
---    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
---    BattleNewRoundExecVar(boxBattleMagic)  --9.box
---    BattleNewRoundExecVar(0.97)
---    BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
---    BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
---    BattleNewRoundExecVar(picBtnBattleEngagedBack)
---    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
---    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
---    BattleNewRoundExecVar(0)  --5.delay between scroll
---    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
---    BattleNewRoundExecVar(5)  --7.max_scroll
---    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
---    BattleNewRoundExecVar(boxBattleMagic)  --9.box
---    BattleNewRoundExecVar(0.97)
---    BattleNewRoundExecVar(picBtnBattleMagicThundaga)
---    BattleNewRoundExecVar(picBtnBattleMagicMeteor)
---    BattleNewRoundExecVar(picBtnBattleEngagedBack)
-    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
-    BattleNewRoundExecVar(0)  --5.delay between scroll
-    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
-    BattleNewRoundExecVar(5)  --7.max_scroll
-    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
-    BattleNewRoundExecVar(boxBattleMagic)  --9.box
-    BattleNewRoundExecVar(0.97)
-    BattleNewRoundExecVar(picBtnBattleMagicThundaga)
-    BattleNewRoundExecVar(picBtnBattleMagicMeteor)
-    BattleNewRoundExecVar(picBtnBattleAbilityWickedLight)
-    BattleNewRoundExecVar(picBtnBattleEngagedBack)
-    BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(0.5)
+    for j=1, 2 do
+        BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+        if j ==1 then
+            BattleNewRoundExecVar(locBattleParty3Center)
+            BattleNewRoundExecVar(locBattleParty3Right)
+        else
+            BattleNewRoundExecVar(locBattleParty5Center)
+            BattleNewRoundExecVar(locBattleParty5Right)
+        end
+
+        BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
+        BattleNewRoundExecVar(0)  --5.delay between scroll
+        BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
+        BattleNewRoundExecVar(5)  --7.max_scroll
+        BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
+        BattleNewRoundExecVar(boxBattleMagic)  --9.box
+        BattleNewRoundExecVar(0.97)
+        if j ==1 then
+            BattleNewRoundExecVar(picBtnBattleAbilityDualBlackMagic)
+        else
+            BattleNewRoundExecVar(picBtnBattleAbilityDualCast1)
+        end
+        BattleNewRoundExecVar(picBtnBattleEngagedBack)
+
+        for k=1, 2 do
+            BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
+            BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
+            BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
+            BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
+            BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
+            BattleNewRoundExecVar(0)  --5.delay between scroll
+            BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
+            BattleNewRoundExecVar(5)  --7.max_scroll
+            BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
+            BattleNewRoundExecVar(boxBattleMagic)  --9.box
+            BattleNewRoundExecVar(0.97)
+            BattleNewRoundExecVar(picBtnBattleMagicThundaga)
+            BattleNewRoundExecVar(picBtnBattleEngagedBack)
+        end
+        BattleNewRoundExec(varActionExecuteDoWait)
+        BattleNewRoundExecVar(0.5)
+    end
 
     BattleNewRoundExec(varActionExecuteDoSwipeLocation)
     BattleNewRoundExecVar(locBattleParty4Center)
@@ -126,33 +123,9 @@ for i=1, 5 do
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
     BattleNewRoundExecVar(picBtnBattleLimitBurst)
-    BattleNewRoundExecVar(picBtnBattleMagicBiora1)
-    BattleNewRoundExecVar(picBtnBattleMagicCuraja)
-    BattleNewRoundExecVar(picBtnBattleMagicCuraja2)
-    BattleNewRoundExecVar(picBtnBattleEngagedBack)
+    BattleNewRoundExecVar(picBtnBattleAbilitySnowpetal1)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)
-
-    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
-    BattleNewRoundExecVar(locBattleParty5Center)
-    BattleNewRoundExecVar(locBattleParty5Right)
-    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
-    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
-    BattleNewRoundExecVar(0)  --5.delay between scroll
-    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
-    BattleNewRoundExecVar(5)  --7.max_scroll
-    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
-    BattleNewRoundExecVar(boxBattleMagic)  --9.box
-    BattleNewRoundExecVar(0.97)
-    BattleNewRoundExecVar(picBtnBattleLimitBurst)
-    BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz1)
-    BattleNewRoundExecVar(picBtnBattleAbilityBladeblitz2)
-    BattleNewRoundExecVar(picBtnBattleEngagedBack)
-    BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(1)
 
     BattleNewRoundExec(varActionExecuteDoClickLocation)
     BattleNewRoundExecVar(locBattleParty2Center)
@@ -167,6 +140,40 @@ for i=1, 5 do
     BattleNewRoundExecVar("")
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(2)
+end
+for i=1, 10 do
+    BattleNewRound()
+
+    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+    BattleNewRoundExecVar(locBattleParty2Center)
+    BattleNewRoundExecVar(locBattleParty2Right)
+    BattleNewRoundExec(varActionExecuteDoBoxFindAndClickWithScroll)
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
+    BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
+    BattleNewRoundExecVar(0)  --5.delay between scroll
+    BattleNewRoundExecVar(true)  --6.go top, search from top, set always true for better result
+    BattleNewRoundExecVar(5)  --7.max_scroll
+    BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
+    BattleNewRoundExecVar(boxBattleMagic)  --9.box
+    BattleNewRoundExecVar(0.97)
+    BattleNewRoundExecVar(picBtnBattleLimitBurst)
+    BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot1)
+    BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot2)
+    BattleNewRoundExecVar(picBtnBattleEngagedBack)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(0.5)
+
+    BattleNewRoundExec(varActionExecuteDoClickLocation)
+    BattleNewRoundExecVar(locBattleParty2Center)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(1)
+
+    BattleNewRoundExec(varActionExecuteDoClickButton)
+    BattleNewRoundExecVar(picBtnBattleEngagedRepeat)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(3)
 end
 
 for i=1, 20 do

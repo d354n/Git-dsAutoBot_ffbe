@@ -10,7 +10,6 @@ ActionOnForm(varFormNameMainHome)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeWorld)
 ActionExecVar(picBtnMainHomeWorld2)
-ActionExecWaitForm(varFormNameMapMainOlderion)
 
 ActionOnForm(varFormNameMainBattleSelectLevel)
 ActionExec(varActionExecuteDoClickButton)
@@ -48,4 +47,5 @@ ActionExecVar("")
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(3)
 ActionExecWaitForm(varFormNameMainBattleEngaged)
+
 

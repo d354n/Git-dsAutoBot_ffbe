@@ -30,6 +30,8 @@ varFormNameMainHomeCraftEquipOnEmptySlot        = "MainFormHomeCraftEquipOnEmpty
 varFormNameMainHomeCraftEquipOnNoEmptySlot      = "MainFormHomeCraftEquipOnNoEmptySlot"
 varFormNameMainHomeCraftEquipOnCompleted        = "MainFormHomeCraftEquipOnCompleted"
 varFormNameMainHomeCraftEquipOnNoCompleted      = "MainFormHomeCraftEquipOnNoCompleted"
+varFormNameMainHomeCraftEquipOnNoCompEmpty      = "MainFormHomeCraftEquipOnNoCompEmpty"
+varFormNameMainHomeCraftEquipOnNoCompNoEmpty    = "MainFormHomeCraftEquipOnNoCompNoEmpty"
 --
 varFormNameMainHomeCraftItemsOnEmptySlot        = "MainFormHomeCraftItemsOnEmptySlot"
 varFormNameMainHomeCraftItemsOnNoEmptySlot      = "MainFormHomeCraftItemsOnNoEmptySlot"
@@ -47,16 +49,20 @@ picBtnMainHomeCraftAbilityWhiteOff              = folderffbeimage.."craft/btn_ho
 picBtnMainHomeCraftAbilityWhiteCure             = Pattern(folderffbeimage.."craft/btn_home_craft_ability_white_cure.png"):similar(0.97)
 picBtnMainHomeCraftAbilityWhiteCura             = Pattern(folderffbeimage.."craft/btn_home_craft_ability_white_cura.png"):similar(0.97)
 
-varFormNameMainHomeCraftForgeArmorOn            = "MainFormHomeCraftForgeArmorOn"
-varFormNameMainHomeCraftForgeArmorOff           = "MainFormHomeCraftForgeArmorOff"
 varFormNameMainHomeCraftForgeAccessoryOn        = "MainFormHomeCraftForgeAccessoryOn"
 varFormNameMainHomeCraftForgeAccessoryOff       = "MainFormHomeCraftForgeAccessoryOff"
+varFormNameMainHomeCraftForgeArmorOn            = "MainFormHomeCraftForgeArmorOn"
+varFormNameMainHomeCraftForgeArmorOff           = "MainFormHomeCraftForgeArmorOff"
+varFormNameMainHomeCraftForgeWeaponOn           = "MainFormHomeCraftForgeWeaponOn"
+varFormNameMainHomeCraftForgeWeaponOff          = "MainFormHomeCraftForgeWeaponOff"
 critMainHomeCraftForgeTop                       = folderffbeimage.."craft/crit_home_craft_forge_top.png"
-picBtnMainHomeCraftForgeArmorOn                 = folderffbeimage.."craft/btn_home_craft_forge_armor_on.png"
-picBtnMainHomeCraftForgeArmorOff                = folderffbeimage.."craft/btn_home_craft_forge_armor_off.png"
 picBtnMainHomeCraftForgeAccessoryOn             = folderffbeimage.."craft/btn_home_craft_forge_accessory_on.png"
 picBtnMainHomeCraftForgeAccessoryOff            = folderffbeimage.."craft/btn_home_craft_forge_accessory_off.png"
+picBtnMainHomeCraftForgeArmorOn                 = folderffbeimage.."craft/btn_home_craft_forge_armor_on.png"
+picBtnMainHomeCraftForgeArmorOff                = folderffbeimage.."craft/btn_home_craft_forge_armor_off.png"
 picBtnMainHomeCraftForgeArmorLeatherShield      = Pattern(folderffbeimage.."craft/btn_home_craft_forge_armor_leather_shield.png"):similar(0.97)
+picBtnMainHomeCraftForgeWeaponOn                = folderffbeimage.."craft/btn_home_craft_forge_weapon_on.png"
+picBtnMainHomeCraftForgeWeaponOff               = folderffbeimage.."craft/btn_home_craft_forge_weapon_off.png"
 
 varFormNameMainHomeCraftSyntRecoveryOn          = "MainFormHomeCraftSyntRecoveryOn"
 varFormNameMainHomeCraftSyntRecoveryOff         = "MainFormHomeCraftSyntRecoveryOff"
@@ -83,7 +89,7 @@ critMainHomeCraftCompletedMid1                  = folderffbeimage.."craft/crit_h
 critMainHomeCraftCompletedMid2                  = folderffbeimage.."craft/crit_home_craft_completed_mid2.png"
 picBtnMainHomeCraftCompletedOk                  = folderffbeimage.."craft/btn_home_craft_completed_ok.png"
 
-varFormNameMainHomeCraftObtained                = "MainFormHomeCraftObtained"
+varFormNameMainHomeCraftObtained                = "MainFormHomeCraftObtained"  --  alcrytt
 critMainHomeCraftObtainedMid1                   = folderffbeimage.."craft/crit_home_craft_obtained_mid1.png"
 picBtnMainHomeCraftObtainedOk                   = folderffbeimage.."craft/btn_home_craft_obtained_ok.png"
 
@@ -126,6 +132,24 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid2)
+
+FormCreate(varFormNameMainHomeCraftEquipOnNoCompEmpty)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEmptySlot)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid2)
+
+FormCreate(varFormNameMainHomeCraftEquipOnNoCompNoEmpty)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftObtainedMid1)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftEquipOn)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftCompletedSlot)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeCraftEmptySlot)
 FormAddCriteria2Do(varCriteriaNotExists, critMainHomeCraftCompletedMid2)
 
 
@@ -226,6 +250,16 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftAbilityWhiteOff)
 
 
 
+FormCreate(varFormNameMainHomeCraftForgeAccessoryOn)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOn)
+
+FormCreate(varFormNameMainHomeCraftForgeAccessoryOff)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOff)
+
 FormCreate(varFormNameMainHomeCraftForgeArmorOn)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
@@ -236,15 +270,15 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeArmorOff)
 
-FormCreate(varFormNameMainHomeCraftForgeAccessoryOn)
+FormCreate(varFormNameMainHomeCraftForgeWeaponOn)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
-FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOn)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeWeaponOn)
 
-FormCreate(varFormNameMainHomeCraftForgeAccessoryOff)
+FormCreate(varFormNameMainHomeCraftForgeWeaponOff)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeCraftForgeTop)
-FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeAccessoryOff)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeCraftForgeWeaponOff)
 
 
 

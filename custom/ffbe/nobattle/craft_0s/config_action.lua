@@ -28,35 +28,30 @@ MenuCreate(varActionName)
 ActionCreate(varActionName)
 
 --  ## action detail?
-if (ActUseLapis == 1) then
-    ActionOnForm(varFormNameMainRechargeEnergy)
-    ActionExec(varActionExecuteDoClickButton)
-    ActionExecVar(picBtnMainRechargeEnergyUseLapis)
-    ActionExec(varActionExecuteDoWait)
-    ActionExecVar(1)
-    ActionExec(varActionExecuteDoClickButton)
-    ActionExecVar(picBtnMainRechargeEnergyYes)
-end
 if (ActXcnt > 0) then
-    ActionOnForm(varFormNameMainBattleCompletion)
-    ActionExec(varActionExecuteDoCounterInc)
-    ActionExecVar(1)  --  Counter Number
+    ActionOnForm(varFormNameMainHomeCraftEquipOnNoCompEmpty)
     ActionExec(varActionExecuteDoIsCounterDo)
     ActionExecVar(1)  --  Check Counter Number
     ActionExecVar(ActXcnt)  --  Number Is
     ActionExecVar(varActionExecuteDoClickButton)    --  if counter
-    ActionExecVar(picBtnBattleCompletionHome)       --  if counter
+    ActionExecVar(picBtnStdBack)                    --  if counter
     ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-    ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-    ActionExecVar(varActionExecuteDoCounterReset)
-    ActionExecVar(1)
-    ActionExecVar("")                               --  if not counter
-    ActionExecVar("")                               --  if not counter
+    ActionExecVar(picBtnMainHomeCraftEmptySlot)     --  if not counter
+    ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+    ActionExecVar(1)                                --  if counter
+    ActionExecVar("")
+    ActionExecVar("")
     ActionExecVar(varActionExecuteDoSetActionNextAction)
     ActionExecVar("")
-    ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
+    ActionExec(varActionExecuteDoWait)
+    ActionExecVar(1)
 end
+picCraftDo                       		= varDirectoryCustomImage .. "btn_craft_do.png"
 local sConfig = "config_action_detail.lua"
+local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
+if file_exists(sFilename) then
+    dofile(sFilename)
+end
 local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig
 if file_exists(sFilename) then
     dofile(sFilename)

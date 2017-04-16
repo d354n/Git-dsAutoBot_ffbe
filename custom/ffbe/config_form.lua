@@ -22,6 +22,8 @@ critFFBEStoppedMid   					        = folderffbeimage.."start/crit_error_stopped_m
 picBtnFFBEStoppedOk   					        = folderffbeimage.."start/btn_error_stopped_ok.png"
 
 picBtnMainHome							        = folderffbeimage.."main/btn_home.png"
+picBtnMainHome2                                 = folderffbeimage.."main/btn_home2.png"  --  768
+picBtnMainHome3                                 = folderffbeimage.."main/btn_home3.png"  --  768
 picBtnMainUnits							        = folderffbeimage.."main/btn_units.png"
 picBtnMainItems							        = folderffbeimage.."main/btn_items.png"
 picBtnMainShop							        = folderffbeimage.."main/btn_shop.png"
