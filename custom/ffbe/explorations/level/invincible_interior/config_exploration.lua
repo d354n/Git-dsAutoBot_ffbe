@@ -39,7 +39,7 @@ ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationRightMax   
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationUpRightMax  , varForm1, varReg1)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  23
 ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationLeftMax     ,  600, varForm1, varReg1, 1)
-ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationUpLeftMax   , 1000, varForm1, varReg1, 3)
+ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationUpLeftMax   , 2000, varForm1, varReg1, 2)
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  door
 ExploreNewRoundDoClickLocation(locExplorationRight2Down1 , 0,  1   )
 ExploreNewRoundDoClickLocation(locExplorationRightDown   , 0,  1   )
@@ -61,13 +61,14 @@ ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationUpLeftMax  
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownRightMax, varForm1, varReg1)  --  door
 --  End Round X + 1x4 = 59
 
-for i=1, 5 do
+for i=1, 1 do
     ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationUpMax       ,  600, varForm1, varReg1, 1)
     ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationLeftMax     ,  800, varForm1, varReg1, 1)
     ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationDownMax     ,  600, varForm1, varReg1, 1)
     ExploreNewRoundDoDragDropLocMax (locExplorationCenter, locExplorationRightMax    ,  800, varForm1, varReg1, 1)
 end
---  End Round X + 1x4 + 1x4 = 79
+--  End Round X + 1x4 + 1x4 = 63
+--  End Round X + 1x4 + 5x4 = 82
 
 ExploreNewRoundDoDragDropLocFast(locExplorationCenter, locExplorationDownLeftMax , varForm1, varReg1)
 ExploreNewRoundDoClickLocation(locExplorationDown3Right1 , 0,  1   )

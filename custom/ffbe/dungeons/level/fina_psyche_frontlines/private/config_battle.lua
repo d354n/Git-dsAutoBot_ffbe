@@ -13,7 +13,7 @@ BattleEngageForm(varFormNameMainBattleEngagedInAction)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critBattleResultArenaWonTop)
 
-for i=1, 6 do
+for i=1, 10 do
     BattleNewRound()
     if i == 1 then
         BattleNewRoundExec(varActionExecuteDoIncBattleCount)
@@ -34,10 +34,26 @@ for i=1, 6 do
     BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
     BattleNewRoundExecVar(boxBattleMagic)  --9.box
     BattleNewRoundExecVar(0.97)
-    if i == 1 or i == 3 then
+    if i == 1 then
         BattleNewRoundExecVar(picBtnBattleAbilityWaylay1)
         BattleNewRoundExecVar(picBtnBattleAbilityWaylay2)
-    elseif i == 2 or i >= 4 then
+    elseif i == 2 then
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+    elseif i == 3 then
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+    elseif i == 4 then
+        BattleNewRoundExecVar(picBtnBattleAbilityWaylay1)
+        BattleNewRoundExecVar(picBtnBattleAbilityWaylay2)
+    elseif i == 5 then
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+        BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
+    elseif i == 6 then
+        BattleNewRoundExecVar(picBtnBattleAbilityWaylay1)
+        BattleNewRoundExecVar(picBtnBattleAbilityWaylay2)
+    elseif i >= 7 then
+        BattleNewRoundExecVar(picBtnBattleLimitBurst)
         BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
         BattleNewRoundExecVar(picBtnBattleAbilityRashImpulse1)
     end
@@ -62,13 +78,23 @@ for i=1, 6 do
     if i == 1 then
         BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot1)
         BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot2)
-    elseif i == 2 or i == 4 then
+    elseif i == 2 then
+        BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot1)
+        BattleNewRoundExecVar(picBtnBattleAbilityGrapeshot2)
+    elseif i == 3 then
         BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
         BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
-    elseif i == 3 then
+    elseif i == 4 then
         BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
         BattleNewRoundExecVar(picBtnBattleAbilityTrueShot2)
-    elseif i == 5 or i == 6 then
+    elseif i == 5 then
+        BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot1)
+        BattleNewRoundExecVar(picBtnBattleAbilityShatteringShot2)
+    elseif i == 6 or i == 7 then
+        BattleNewRoundExecVar(picBtnBattleLimitBurst)
+        BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
+        BattleNewRoundExecVar(picBtnBattleAbilityTrueShot2)
+    elseif i >= 8 then
         BattleNewRoundExecVar(picBtnBattleLimitBurst)
         BattleNewRoundExecVar(picBtnBattleAbilityTrueShot1)
         BattleNewRoundExecVar(picBtnBattleAbilityTrueShot2)
@@ -76,6 +102,11 @@ for i=1, 6 do
     BattleNewRoundExecVar(picBtnBattleEngagedBack)
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)
+
+    BattleNewRoundExec(varActionExecuteDoClickLocation)
+    BattleNewRoundExecVar(locBattleParty2Center)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(1)
 
     BattleNewRoundExec(varActionExecuteDoClickButton)
     BattleNewRoundExecVar(picBtnBattleEngagedAuto)

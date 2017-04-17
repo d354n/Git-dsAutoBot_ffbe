@@ -1,8 +1,8 @@
 --
 -- Created by IntelliJ IDEA.
 -- User: denny
--- Date: 2/11/2017
--- Time: 2:39 AM
+-- Date: 4/17/2017
+-- Time: 11:11 PM
 -- To change this template use File | Settings | File Templates.
 --
 
@@ -90,11 +90,5 @@ ActionOnForm(varFormNameMainBattleResultArenaLostRewards)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleResultArenaRewardsOk)
 ActionExecWaitForm(varFormNameMainArena)
-
-
-
-dofile(folderffbescript.."config_action_defs.lua")
-dofile(folderffbescript.."config_action_defs_arena.lua")
-dofile(folderffbescript.."config_action_defs_battle.lua")
 
 

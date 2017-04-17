@@ -12,6 +12,7 @@ picBtnBattleSelectCompanionBonusStd          	= folderffbeimage.."select_compani
 picBtnBattleSelectCompanionExdeathSixMax 		= folderffbeimage.."select_companion/btn_exdeath_six_max.png"
 picBtnBattleSelectCompanionStdFriend   	        = folderffbeimage.."select_companion/btn_std_friend.png"
 picBtnBattleSelectCompanionStdOther    	        = folderffbeimage.."select_companion/btn_std_other.png"
+picBtnBattleSelectCompanionStdOther2   	        = folderffbeimage.."select_companion/btn_std_other2.png"
 picBtnBattleSelectCompanionDepartWoComp  		= folderffbeimage.."select_companion/btn_depart_without_companion.png"
 locMainBattleSelectCompanionSwipeScrollDn01     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 400)
 locMainBattleSelectCompanionSwipeScrollDn02     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 100)

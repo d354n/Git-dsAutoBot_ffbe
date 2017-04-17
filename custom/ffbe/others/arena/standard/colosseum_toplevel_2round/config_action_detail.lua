@@ -1,8 +1,8 @@
 --
 -- Created by IntelliJ IDEA.
 -- User: denny
--- Date: 2/11/2017
--- Time: 2:40 AM
+-- Date: 4/17/2017
+-- Time: 11:11 PM
 -- To change this template use File | Settings | File Templates.
 --
 
@@ -53,10 +53,6 @@ ActionExecWaitForm(varFormNameMainArenaColosseumBgn)
 
 
 
-dofile(folderffbescript.."config_action_defs.lua")
-dofile(folderffbescript.."config_action_defs_arena.lua")
 dofile(folderffbescript.."config_action_defs_arena_colosseum.lua")
-dofile(folderffbescript.."config_action_defs_battle.lua")
-
 
 

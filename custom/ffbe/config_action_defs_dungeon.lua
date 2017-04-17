@@ -28,7 +28,8 @@ ActionExecVar(false)  --  search from top?
 ActionExecVar(0)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionStdFriend)  --itemtofind priority 1
 ActionExecVar(picBtnBattleSelectCompanionStdOther)  --itemtofind priority 2
-ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)  --itemtofind priority 3
+ActionExecVar(picBtnBattleSelectCompanionStdOther2)  --itemtofind priority 3
+ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)  --itemtofind priority 4
 ActionExecWaitForm(varFormNameMainBattleSelectUnit)
 
 ActionOnForm(varFormNameMainBattleSelectUnit)

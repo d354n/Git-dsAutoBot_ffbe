@@ -184,27 +184,38 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 --  Arena
-varActionName = "Ar:Colosseum/TopLevel/TopRound"
-foldername = "../custom/ffbe/others/arena_colosseum/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-varActionName = "Ar:Colosseum/TopLevel/2ndRound"
-foldername = "../custom/ffbe/others/arena_colosseum_toplevel_secondround/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-varActionName = "Ar:Colosseum/TopLevel/3rdRound"
-foldername = "../custom/ffbe/others/arena_colosseum_toplevel_thirdround/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
-varActionName = "Ar:Colosseum/TopLevel/4thRound"
-foldername = "../custom/ffbe/others/arena_colosseum_toplevel_fourthround/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
+parentfolder = "../custom/ffbe/others/arena/"
+parentsubfol = "standard/"
 
-varActionName = "Ar:Battle"
-foldername = "../custom/ffbe/others/arena_battle/"
-parentfolder = foldername
-dofile(scriptPath()..foldername.."config_action.lua")
+eventfolder  = "battle/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Ar:Battle/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "colosseum_toplevel_1round/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Ar:Colosseum/TopLevel/TopRound/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "colosseum_toplevel_2round/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Ar:Colosseum/TopLevel/2ndRound/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "colosseum_toplevel_3round/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Ar:Colosseum/TopLevel/3rdRound/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "colosseum_toplevel_4round/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 --  ]===]
 
 
@@ -424,16 +435,16 @@ for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 1 do
-        MultiAdd("Ar:Battle", "99")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
-        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
-        MultiAdd("Ar:Battle", "99")
-        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
+        MultiAdd("Ar:Battle")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
+--        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
+--        MultiAdd("Ar:Battle")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
---        MultiAdd("Ar:Battle", "99")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
+        MultiAdd("Ar:Battle")
+        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
 --        MultiAdd("Dg:Fina Psyche Power/NE:Next/B3:Next")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound", "99")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
 
 --        MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Craft  Get All Completed")
@@ -443,6 +454,7 @@ for i=1, 3 do
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
+    MultiAdd("Ar:Colosseum/TopLevel/4thRound")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")
