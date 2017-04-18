@@ -2,9 +2,11 @@
 -- Created by IntelliJ IDEA.
 -- User: denny
 -- Date: 4/17/2017
--- Time: 11:11 PM
+-- Time: 11:09 PM
 -- To change this template use File | Settings | File Templates.
 --
+
+dofile(scriptPath()..parentfolder..parentsubfol..eventfolder.."config_action_detail.lua")
 
 ActionOnForm(varFormNameMainArenaPvpRechargeEnergy)
 ActionExec(varActionExecuteDoClickButton)
@@ -30,26 +32,14 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeArenaRulesOk)
 ActionExecWaitForm(varFormNameMainArenaRulesSelectOpp)
 
-ActionOnForm(varFormNameMainArenaRulesSelectOpp)
-ActionExec(varActionExecuteDoFindAndClickWithScroll)
-ActionExecVar(locMainHomeArenaRulesSelectOppSwipeScrollDn01)  --  position start down
-ActionExecVar(locMainHomeArenaRulesSelectOppSwipeScrollDn02)  --  position end down
-ActionExecVar(locMainHomeArenaRulesSelectOppSwipeScrollUp01)
-ActionExecVar(locMainHomeArenaRulesSelectOppSwipeScrollUp02)
-ActionExecVar(0)  --  delay between scroll
-ActionExecVar(false)  --  search from top?
-ActionExecVar(4)  --  how many scroll to bottom
-ActionExecVar(picBtnMainHomeArenaRulesSelectOppGold)    --itemtofind priority 1
-ActionExecVar(picBtnMainHomeArenaRulesSelectOppBlue)    --itemtofind priority 2
-ActionExecVar(picBtnMainHomeArenaRulesSelectOppPurple)  --itemtofind priority 3
-ActionExecWaitForm(varFormNameMainArenaRulesSelectOppConf)
-
 ActionOnForm(varFormNameMainArenaRulesSelectOppConf)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeArenaRulesSelectOppConfYes)
 ActionExecWaitForm(varFormNameMainArenaRulesSelectOppConfBegin)
 
 ActionOnForm(varFormNameMainArenaRulesSelectOppConfBegin)
+ActionExec(varActionExecuteDoCounterInc)
+ActionExecVar(1)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeArenaRulesSelectOppConfBeginBegin)
 ActionExec(varActionExecuteDoResetRoundExecute)
@@ -90,5 +80,11 @@ ActionOnForm(varFormNameMainBattleResultArenaLostRewards)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleResultArenaRewardsOk)
 ActionExecWaitForm(varFormNameMainArena)
+
+
+
+dofile(folderffbescript.."config_action_defs.lua")
+dofile(folderffbescript.."config_action_defs_arena.lua")
+dofile(folderffbescript.."config_action_defs_battle.lua")
 
 

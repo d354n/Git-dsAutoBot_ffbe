@@ -184,34 +184,45 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 --  Arena
-parentfolder = "../custom/ffbe/others/arena/"
+parentfolder = "../custom/ffbe/others/arena_battle/"
 parentsubfol = "standard/"
 
-eventfolder  = "battle/"
+eventfolder  = "gold_blue_purple/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Battle/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Ar:Battle/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 3
+varActionName = "Ar:Battle/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
-eventfolder  = "colosseum_toplevel_1round/"
+
+
+parentfolder = "../custom/ffbe/others/arena_colosseum/"
+parentsubfol = "standard/"
+
+eventfolder  = "toplevel_1round/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Colosseum/TopLevel/TopRound/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
-eventfolder  = "colosseum_toplevel_2round/"
+eventfolder  = "toplevel_2round/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Colosseum/TopLevel/2ndRound/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
-eventfolder  = "colosseum_toplevel_3round/"
+eventfolder  = "toplevel_3round/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Colosseum/TopLevel/3rdRound/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
-eventfolder  = "colosseum_toplevel_4round/"
+eventfolder  = "toplevel_4round/"
 ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next"
@@ -382,8 +393,8 @@ varActionName = "Summon  Once a Day Limited Summon (250)"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "summon_standard/"
-ActXcnt = 10
-varActionName = "Summon  Standard/"..ActXcnt.."x"
+ActXcnt = 0
+varActionName = "Summon  Standard  Multi Summon"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
@@ -435,14 +446,15 @@ for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 1 do
-        MultiAdd("Ar:Battle")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
---        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
 --        MultiAdd("Ar:Battle")
---        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
+        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
         MultiAdd("Ar:Battle")
-        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
+--        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
+--        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
+--        MultiAdd("Ar:Battle")
+--        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
+        MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
 --        MultiAdd("Dg:Fina Psyche Power/NE:Next/B3:Next")
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
 

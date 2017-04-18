@@ -6,6 +6,8 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+dofile(scriptPath()..parentfolder..parentsubfol..eventfolder.."config_action_detail.lua")
+
 ActionOnForm(varFormNameMainArenaColosseumRechargeEnergy)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainArenaColosseumRechargeEnergyNo)
@@ -24,17 +26,9 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeArenaColosseumEnter)
 ActionExecWaitForm(varFormNameMainArenaColosseumBgn)
 
-ActionOnForm(varFormNameMainArenaColosseumBgn)
-ActionExec(varActionExecuteDoClickLocation)
-ActionExecVar(locMainHomeArenaColosseumBgnRank01)
-ActionExecWaitForm(varFormNameMainArenaColosseumBgnRnd)
-
-ActionOnForm(varFormNameMainArenaColosseumBgnRnd)
-ActionExec(varActionExecuteDoClickLocation)
-ActionExecVar(locMainHomeArenaColosseumBgnRankRnd03)
-ActionExecWaitForm(varFormNameMainArenaColosseumBgnRndFight)
-
 ActionOnForm(varFormNameMainArenaColosseumBgnRndFight)
+ActionExec(varActionExecuteDoCounterInc)
+ActionExecVar(1)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeArenaColosseumBgnRndFightFight)
 ActionExec(varActionExecuteDoResetRoundExecute)
