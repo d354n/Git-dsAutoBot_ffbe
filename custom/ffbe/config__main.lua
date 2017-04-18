@@ -227,6 +227,9 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 --  ]===]
 
 
@@ -403,8 +406,8 @@ parentsubfol = "events/"
 ActUseLapis  = 0
 
 eventfolder  = "summon_egg/"
-ActXcnt = 10
-varActionName = "Summon  Egg Seekers/"..ActXcnt.."x"
+ActXcnt = 0
+varActionName = "Summon  Egg Seekers"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
@@ -445,18 +448,13 @@ MultiCreate()
 for i=1, 3 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for j=1, 1 do
---        MultiAdd("Ar:Battle")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
-        MultiAdd("Dg:Fina Psyche Power/NE:Next/B5:Next")
-        MultiAdd("Ar:Battle")
+    for j=1, 3 do
+        MultiAdd("Ar:Battle/NE:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
 --        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
---        MultiAdd("Ar:Battle")
 --        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
         MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
 --        MultiAdd("Dg:Fina Psyche Power/NE:Next/B3:Next")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound")
 
 --        MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Craft  Get All Completed")
@@ -466,7 +464,7 @@ for i=1, 3 do
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
-    MultiAdd("Ar:Colosseum/TopLevel/4thRound")
+    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")

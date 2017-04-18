@@ -31,25 +31,24 @@ ActionCreate(varActionName)
 if (ActUseLapis == 1) then
 end
 if (ActXcnt > 0) then
+    ActionOnForm(varFormNameMainArenaColosseumBgnRndFight)
+    ActionExec(varActionExecuteDoIsCounterDo)
+    ActionExecVar(1)  --  Check Counter Number
+    ActionExecVar(ActXcnt)  --  Number Is
+    ActionExecVar(varActionExecuteDoClickButton)    --  if counter
+    ActionExecVar(picBtnMainHome)                   --  if counter
+    ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
+    ActionExecVar(picBtnMainHomeArenaColosseumBgnRndFightFight)  --  if not counter
+    ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+    ActionExecVar(1)                                --  if counter
+    ActionExecVar(varActionExecuteDoResetRoundExecute)  --  if not counter
+    ActionExecVar("")                                   --  if not counter
+    ActionExecVar(varActionExecuteDoSetActionNextAction)
+    ActionExecVar("")
+    ActionExecVar(varActionExecuteDoCounterInc)     --  if not counter
+    ActionExecVar(1)                                --  if not counter
+    ActionExecWaitForm(varFormNameMainBattleEngaged)
 
-
---    ActionOnForm(varFormNameMainBattleCompletion)
---    ActionExec(varActionExecuteDoCounterInc)
---    ActionExecVar(1)  --  Counter Number
---    ActionExec(varActionExecuteDoIsCounterDo)
---    ActionExecVar(1)  --  Check Counter Number
---    ActionExecVar(ActXcnt)  --  Number Is
---    ActionExecVar(varActionExecuteDoClickButton)    --  if counter
---    ActionExecVar(picBtnBattleCompletionHome)       --  if counter
---    ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
---    ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
---    ActionExecVar(varActionExecuteDoCounterReset)
---    ActionExecVar(1)
---    ActionExecVar("")                               --  if not counter
---    ActionExecVar("")                               --  if not counter
---    ActionExecVar(varActionExecuteDoSetActionNextAction)
---    ActionExecVar("")
---    ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 end
 local sConfig = "config_action_detail.lua"
 local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig

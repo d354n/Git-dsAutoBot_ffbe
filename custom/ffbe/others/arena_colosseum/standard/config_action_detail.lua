@@ -47,6 +47,9 @@ ActionExecWaitForm(varFormNameMainArenaColosseumBgn)
 
 
 
+dofile(folderffbescript.."config_action_defs.lua")
+dofile(folderffbescript.."config_action_defs_arena.lua")
 dofile(folderffbescript.."config_action_defs_arena_colosseum.lua")
+dofile(folderffbescript.."config_action_defs_battle.lua")
 
 
