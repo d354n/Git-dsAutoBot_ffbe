@@ -60,6 +60,7 @@ FormCreate(varFormNameMainArenaRulesSelectOpp)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaNotExists, critMainHomeArenaRulesSelectOppConfMid)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesSelectOppTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainArenaColosseumRechargeEnergyMid)
 
 --  ##  Main Form Arena Rules Select Opponent Confirmation  ##
 FormCreate(varFormNameMainArenaRulesSelectOppConf)
