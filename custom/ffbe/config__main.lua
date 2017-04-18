@@ -23,6 +23,7 @@ dofile(folderffbescript.."config_vars.lua")         --  1st
 dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
 dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
+dofile(folderffbescript.."config_vars_form_arena_pvp.lua")
 dofile(folderffbescript.."config_vars_form_battle_dungeon.lua")
 dofile(folderffbescript.."config_vars_form_battle_exploration.lua")
 dofile(folderffbescript.."config_vars_form_home.lua")

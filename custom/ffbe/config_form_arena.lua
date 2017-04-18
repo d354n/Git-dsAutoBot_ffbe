@@ -13,5 +13,6 @@ FormAddCriteria2Do(varCriteriaExists, critMainHomeArena)
 FormCreate(varFormNameMainArenaRules)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeArenaRulesTop)
+FormAddCriteria2Do(varCriteriaNotExists, critMainArenaColosseumRechargeEnergyMid)
 
 
