@@ -97,6 +97,10 @@ ActUseLapis  = 0
 ActXcnt = 5
 varActionName = "Dg:Fina Psyche Power/NE:Next/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 5
+varActionName = "LapisWarning Dg:Fina Psyche Power/NE:Lapis/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
@@ -148,6 +152,9 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ex:Earth Shrine/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 2
+varActionName = "Ex:Earth Shrine/P:TRUS T/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
@@ -159,11 +166,9 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Ex:Invincible Interior/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 0
 ActXcnt = 1
 varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 0
 ActXcnt = 3
 varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
@@ -235,32 +240,39 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 -- Vortex  Raid  --
-parentfolder = "../custom/ffbe/vortex/raid/"
+parentfolder = "../custom/ffbe/vortex/"
+parentsubfol = "raid/"
 
 --[===[
-eventfolder  = "march_on_ifrit/"
-varActionName = "Vx:March on Ifrit Adv/Battle AUTO"
-selectlevel  = "btn_select_level_adv.png"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:March on Ifrit Pro/Battle AUTO"
-selectlevel  = "btn_select_level_pro.png"
-dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
 --  Vortex  Dungeon  Events  --
-parentfolder = "../custom/ffbe/vortex/dungeon_eve/"
+parentsubfol = "dungeon_eve/"
 
---[===[
-eventfolder  = "20170325_the_auracite_chosen/"
-varActionName = "Vx:The Auracite Chosen Pro/P:L IMIT"
+eventfolder  = "20170420_the_floating_continent/"
+ActEnmSpcWait = 0
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:The Floating Continent Pro/P:EVE NT"
 selectlevel  = "btn_select_level_pro.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:The Auracite Chosen Elt/P:L IMIT"
+varActionName = "Vx:The Floating Continent Elt/P:EVE NT"
 selectlevel  = "btn_select_level_elt.png"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:The Auracite Chosen Elt/Spc:Wait5/P:L IMIT"
+
+ActEnmSpcWait = 1
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:The Floating Continent Pro/P:EVE NT/Spc:Wait"
+selectlevel  = "btn_select_level_pro.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+varActionName = "Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait"
 selectlevel  = "btn_select_level_elt.png"
-dofile(scriptPath()..parentfolder.."config_action_spc_wait.lua")
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 1
+varActionName = "Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait/B"..ActXcnt..":Next"
+selectlevel  = "btn_select_level_elt.png"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
 --  Vortex  Dungeon  Regular  --
@@ -312,7 +324,7 @@ eventfolder  = "easter_egg_01_great_egg/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Great Egg"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 6
+ActXcnt = 12
 varActionName = "Craft  Accessory  Great Egg/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -320,7 +332,7 @@ eventfolder  = "easter_egg_01_chocolate_egg/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Chocolate Egg"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 6
+ActXcnt = 12
 varActionName = "Craft  Accessory  Chocolate Egg/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -328,7 +340,7 @@ eventfolder  = "easter_egg_01_magical_egg/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Magical Egg"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 2
+ActXcnt = 4
 varActionName = "Craft  Accessory  Magical Egg/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -336,7 +348,7 @@ eventfolder  = "easter_egg_01_radiant_egg/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Radiant Egg"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 2
+ActXcnt = 4
 varActionName = "Craft  Accessory  Radiant Egg/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -352,7 +364,7 @@ eventfolder  = "easter_egg_02_crown_of_justice/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Crown of Justice"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
+ActXcnt = 2
 varActionName = "Craft  Accessory  Crown of Justice/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -360,7 +372,7 @@ eventfolder  = "easter_egg_02_staff_of_wrath/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Staff of Wrath"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
+ActXcnt = 2
 varActionName = "Craft  Accessory  Staff of Wrath/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -368,7 +380,7 @@ eventfolder  = "easter_egg_03_icy_veins/"
 ActXcnt = 0
 varActionName = "Craft  Accessory  Icy Veins"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
+ActXcnt = 2
 varActionName = "Craft  Accessory  Icy Veins/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
@@ -452,12 +464,11 @@ for i=1, 3 do
     for j=1, 3 do
         MultiAdd("Ar:Battle/NE:Next")
 --        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
---        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
---        MultiAdd("Ex:Invincible Interior/P:LE VEL/B1:Next")
-        MultiAdd("Ex:Invincible Interior/P:LE VEL/B3:Next")
---        MultiAdd("Dg:Fina Psyche Power/NE:Next/B3:Next")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
+--        MultiAdd("Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait/B1:Next")
+        MultiAdd("Ar:Battle/NE:Next")
 
---        MultiAdd("Items  Materials  Sell Items")
+        MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Craft  Get All Completed")
 --        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
 --        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
@@ -465,7 +476,7 @@ for i=1, 3 do
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
-    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
+--    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 --MultiAdd("Ar:Battle")

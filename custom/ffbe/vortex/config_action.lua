@@ -44,8 +44,8 @@ if (ActXcnt > 0) then
     ActionExecVar(ActXcnt)  --  Number Is
     ActionExecVar(varActionExecuteDoClickButton)    --  if counter
     ActionExecVar(picBtnBattleCompletionHome)       --  if counter
-    ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-    ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
+    ActionExecVar(varActionExecuteDoClickButton)    --  if not
+    ActionExecVar(picBtnBattleCompletionNext)       --  if not
     ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
     ActionExecVar(1)                                --  if counter
     ActionExecVar(varActionExecuteDoCounterInc)     --  if not
@@ -53,6 +53,19 @@ if (ActXcnt > 0) then
     ActionExecVar(varActionExecuteDoSetActionNextAction)
     ActionExecVar("")
     ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
+end
+if (ActEnmSpcWait == 1) then
+    ActionOnForm(varFormNameMainBattleEngaged)
+    ActionExec(varActionExecuteDoIfImageDo)
+    ActionExecVar(varDirectoryCustomImage.."crit_special_mid1.png")            --  If Image 1 Found
+    ActionExecVar(varDirectoryCustomImage.."crit_special_mid2.png")            --  Or If Image 2 Found
+    ActionExecVar(varDirectoryCustomImage.."crit_special_mid3.png")            --  Or If Image 3 Found
+    ActionExecVar(0.90)                             --  Similarity
+    ActionExecVar(varActionExecuteDoWait)           --  If Image Found
+    ActionExecVar(30)
+    ActionExecVar(varActionExecuteDoBattleEngage)   --  If Image Not Found
+    ActionExecVar(varActionName)
+    ActionExecWaitForm(varFormNameMainBattleEngagedInAction)
 end
 local sConfig = "config_action_detail.lua"
 local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig

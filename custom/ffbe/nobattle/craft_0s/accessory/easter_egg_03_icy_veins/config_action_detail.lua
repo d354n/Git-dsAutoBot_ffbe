@@ -14,8 +14,8 @@ ActionExecWaitForm(varFormNameMainHomeCraftForgeAccessoryOn)
 ActionOnForm(varFormNameMainHomeCraftForgeAccessoryOn)
 ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)  --  position start down
-ActionExecVar(locXmidYmid)  --  position end down
-ActionExecVar(locXmidYmid)
+ActionExecVar(locXmidYthreeEights)  --  position end down
+ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
