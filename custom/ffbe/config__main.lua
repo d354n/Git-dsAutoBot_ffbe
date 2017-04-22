@@ -249,29 +249,43 @@ parentsubfol = "raid/"
 --  Vortex  Dungeon  Events  --
 parentsubfol = "dungeon_eve/"
 
-eventfolder  = "20170420_the_floating_continent/"
-ActEnmSpcWait = 0
+eventfolder  = "1st_vortex_1st_level/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
 ActUseLapis  = 0
 ActXcnt = 0
-varActionName = "Vx:The Floating Continent Pro/P:EVE NT"
-selectlevel  = "btn_select_level_pro.png"
+varActionName = "Vx:1st Vortex 1st Level/P:EVE NT"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:The Floating Continent Elt/P:EVE NT"
-selectlevel  = "btn_select_level_elt.png"
+ActEnmSpcBattle = 0
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:1st Vortex 1st Level/P:EVE NT"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
-ActEnmSpcWait = 1
+eventfolder  = "1st_vortex_2nd_level/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
 ActUseLapis  = 0
 ActXcnt = 0
-varActionName = "Vx:The Floating Continent Pro/P:EVE NT/Spc:Wait"
-selectlevel  = "btn_select_level_pro.png"
+varActionName = "Vx:1st Vortex 2nd Level/P:EVE NT"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait"
-selectlevel  = "btn_select_level_elt.png"
+ActEnmSpcBattle = 0
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:1st Vortex 2nd Level/P:EVE NT"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
-varActionName = "Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait/B"..ActXcnt..":Next"
-selectlevel  = "btn_select_level_elt.png"
+
+eventfolder  = "1st_vortex_3rd_level/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:1st Vortex 3rd Level/P:EVE NT"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActEnmSpcBattle = 0
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:1st Vortex 3rd Level/P:EVE NT"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
@@ -458,14 +472,14 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MultiCreate()
-for i=1, 3 do
+for i=1, 5 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 3 do
         MultiAdd("Ar:Battle/NE:Next")
---        MultiAdd("Dg:Earth Shrine Entrance/NE:Next")
+        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
+        MultiAdd("Ar:Battle/NE:Next")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
---        MultiAdd("Vx:The Floating Continent Elt/P:EVE NT/Spc:Wait/B1:Next")
         MultiAdd("Ar:Battle/NE:Next")
 
         MultiAdd("Items  Materials  Sell Items")
@@ -479,8 +493,6 @@ for i=1, 3 do
 --    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
---MultiAdd("Ar:Battle")
---MultiAdd("Ex:Earth Shrine/P:TRUS T")
 MultiAdd(varActionDoGotoAction1)
 
 

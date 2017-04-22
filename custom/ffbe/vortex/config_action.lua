@@ -54,17 +54,26 @@ if (ActXcnt > 0) then
     ActionExecVar("")
     ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
 end
-if (ActEnmSpcWait == 1) then
+if (ActEnmSpcBattle == 1) then
     ActionOnForm(varFormNameMainBattleEngaged)
-    ActionExec(varActionExecuteDoIfImageDo)
-    ActionExecVar(varDirectoryCustomImage.."crit_special_mid1.png")            --  If Image 1 Found
-    ActionExecVar(varDirectoryCustomImage.."crit_special_mid2.png")            --  Or If Image 2 Found
-    ActionExecVar(varDirectoryCustomImage.."crit_special_mid3.png")            --  Or If Image 3 Found
-    ActionExecVar(0.90)                             --  Similarity
-    ActionExecVar(varActionExecuteDoWait)           --  If Image Found
-    ActionExecVar(30)
-    ActionExecVar(varActionExecuteDoBattleEngage)   --  If Image Not Found
+    ActionExec(varActionExecuteDoIfImage2Do)
+    ActionExecVar(7)
+    for i=1,7 do
+        if i <= 7 then
+            ActionExecVar(varDirectoryCustomImage .. "crit_enemy_name_mid"..i..".png")
+        else
+            ActionExecVar("")
+        end
+    end
+    ActionExecVar(0.90)
+    ActionExecVar(varActionExecuteDoBattleEngage)     --  If Image Found
     ActionExecVar(varActionName)
+    ActionExecVar(varActionExecuteDoBattleEngage)     --  If Image Not Found
+    ActionExecVar(varActionName.."01")
+    ActionExecVar("")                                 --  If Image Found
+    ActionExecVar("")
+    ActionExecVar(varActionExecuteDoBattleRoundDec)   --  If Image Not Found
+    ActionExecVar(1)
     ActionExecWaitForm(varFormNameMainBattleEngagedInAction)
 end
 local sConfig = "config_action_detail.lua"
@@ -80,6 +89,24 @@ if file_exists(sFilename) then
 end
 
 local sConfig = "config_battle.lua"
+local sPrivate = "private/"
+local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
+if file_exists(sFilename) then
+    dofile(sFilename)
+else
+    local sFilename = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
+    if file_exists(sFilename) then
+        dofile(sFilename)
+    else
+        local sFilename = scriptPath()..parentfolder..sPrivate..sConfig
+        if file_exists(sFilename) then
+            dofile(sFilename)
+        else
+            dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
+        end
+    end
+end
+local sConfig = "config_battle_01.lua"
 local sPrivate = "private/"
 local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
 if file_exists(sFilename) then

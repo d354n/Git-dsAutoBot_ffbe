@@ -6,10 +6,20 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+dofile(scriptPath().."mylib-1.0.lua")
+
 picUnitsParty                           = picTxtMainBattleUnitPartyEvent
 
 picBtnBattleVortexSelectVortex          = varDirectoryCustomImage .. "btn_select_vortex.png"
 picBtnBattleVortexSelectLevel    		= varDirectoryCustomImage .. selectlevel
+
+
+
+local sConfig = "config_action_detail.lua"
+local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
+if file_exists(sFilename) then
+    dofile(sFilename)
+end
 
 
 

@@ -6,36 +6,27 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+dofile(folderffbescript.."ffbelib-1.0.lua")
+
 --  Blazing Fast Battle
 
 BattleCreate(varActionName)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critMainBattleResultsGil)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoIncBattleCount)
-BattleNewRoundExecVar(1)
-BattleNewRoundExec(varActionExecuteDoClickLocation)
-BattleNewRoundExecVar(locBattleParty1Center)
-BattleNewRoundExec(varActionExecuteDoClickLocation)
-BattleNewRoundExecVar(locBattleParty3Center)
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
+for i=1, 5 do
+    BattleNewRound()
+    if i == 1 then
+        BattleNewRoundExec(varActionExecuteDoIncBattleCount)
+        BattleNewRoundExecVar(1)
+    end
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickLocation)
-BattleNewRoundExecVar(locBattleParty1Center)
-BattleNewRoundExec(varActionExecuteDoClickLocation)
-BattleNewRoundExecVar(locBattleParty3Center)
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(4)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoClickButton)
-BattleNewRoundExecVar(picBtnBattleEngagedAuto)
-
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoWait)
-BattleNewRoundExecVar(3)
+    ffbeBattleClickParty(1)
+    ffbeBattleClickParty(3, 3)
+end
+for i=1, 20 do
+    BattleNewRound()
+    ffbeBattleAutoOnOff()
+end
 
 
