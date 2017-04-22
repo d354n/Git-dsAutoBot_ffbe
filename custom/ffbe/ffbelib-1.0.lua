@@ -31,6 +31,11 @@ function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
                 BattleNewRoundExecVar(vMagic[i])
             end
         end
+        for i=1,6 do
+            if (vMagic[i] ~= nil) and (vMagic[i] ~= "") then
+                BattleNewRoundExecVar(vMagic[i])
+            end
+        end
         BattleNewRoundExecVar(picBtnBattleEngagedBack)
         BattleNewRoundExec(varActionExecuteDoWait)
         BattleNewRoundExecVar(0.5)
