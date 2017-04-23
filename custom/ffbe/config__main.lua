@@ -64,6 +64,20 @@ CheckImageFilename = picBtnStdDepart
 varFormToCheck = varFormNameMainFriendsReceiveNotEmpty
 --  Menu: varActionDoCheck End
 
+--  Menu: varActionDoSaveMaterials Start
+critItems[1] = folderffbeimage.."items/crit_items_corner_upleft1.png"
+critItems[2] = folderffbeimage.."items/crit_items_corner_upleft2.png"
+critItems[3] = folderffbeimage.."items/crit_items_corner_upleft3.png"
+--swipeItems[1] = ""
+--swipeItems[2] = ""
+--  Menu: varActionDoSaveMaterials End
+
+--  Menu: varActionDoSaveImage Start
+critMagic[1] = folderffbeimage.."items/crit_magic_corner_upleft1.png"
+swipeMagic[1] = locBattleMagicSwipeSrollDn01
+swipeMagic[2] = locBattleMagicSwipeSrollDn02
+--  Menu: varActionDoSaveImage End
+
 
 --  Dungeons
 parentfolder = "../custom/ffbe/dungeons/"

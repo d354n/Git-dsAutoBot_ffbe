@@ -25,7 +25,7 @@ function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
         BattleNewRoundExecVar(5)  --7.max_scroll
         BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
         BattleNewRoundExecVar(boxBattleMagic)  --9.box
-        BattleNewRoundExecVar(0.97)
+        BattleNewRoundExecVar(0.98)
         for i=1,6 do
             if (vMagic[i] ~= nil) and (vMagic[i] ~= "") then
                 BattleNewRoundExecVar(vMagic[i])
@@ -88,6 +88,13 @@ function ffbeBattleClickParty(vParty, vWait)
     end
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(vWait)
+end
+
+function ffbeBattleRepeat()
+    BattleNewRoundExec(varActionExecuteDoClickButton)
+    BattleNewRoundExecVar(picBtnBattleEngagedRepeat)
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(2)
 end
 
 function ffbeBattleAutoOnOff()

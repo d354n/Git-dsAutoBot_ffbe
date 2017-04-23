@@ -90,38 +90,34 @@ end
 
 local sConfig = "config_battle.lua"
 local sPrivate = "private/"
-local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
-else
-    local sFilename = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
-    if file_exists(sFilename) then
-        dofile(sFilename)
-    else
-        local sFilename = scriptPath()..parentfolder..sPrivate..sConfig
-        if file_exists(sFilename) then
-            dofile(sFilename)
-        else
-            dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
-        end
+local sFiles = {}
+sFiles[1] = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
+sFiles[2] = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
+sFiles[3] = scriptPath()..parentfolder..sPrivate..sConfig
+sFiles[4] = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
+sFiles[5] = scriptPath()..parentfolder..parentsubfol..sConfig
+sFiles[6] = scriptPath()..parentfolder..sConfig
+sFiles[7] = folderffbescript.."config_battle_exploration_defs_auto.lua"
+for i=1, 7 do
+    if file_exists(sFiles[i]) then
+        dofile(sFiles[i])
+        break
     end
 end
 local sConfig = "config_battle_01.lua"
 local sPrivate = "private/"
-local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
-else
-    local sFilename = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
-    if file_exists(sFilename) then
-        dofile(sFilename)
-    else
-        local sFilename = scriptPath()..parentfolder..sPrivate..sConfig
-        if file_exists(sFilename) then
-            dofile(sFilename)
-        else
-            dofile(folderffbescript.."config_battle_exploration_defs_auto.lua")
-        end
+local sFiles = {}
+sFiles[1] = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
+sFiles[2] = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
+sFiles[3] = scriptPath()..parentfolder..sPrivate..sConfig
+sFiles[4] = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
+sFiles[5] = scriptPath()..parentfolder..parentsubfol..sConfig
+sFiles[6] = scriptPath()..parentfolder..sConfig
+sFiles[7] = folderffbescript.."config_battle_exploration_defs_auto.lua"
+for i=1, 7 do
+    if file_exists(sFiles[i]) then
+        dofile(sFiles[i])
+        break
     end
 end
 

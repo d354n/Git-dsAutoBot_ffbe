@@ -35,9 +35,13 @@ ffbeBattleAutoOnOff()
 
 
 BattleNewRound()
+ffbeBattleRepeat()
 
-ffbeBattleSwipeMagicAdd(3, picBtnBattleAbilityDualBlackMagic, picBtnBattleMagicThundaga)
-ffbeBattleMagicAdd(picBtnBattleMagicThundaga)
-ffbeBattleMagicAdd(picBtnBattleMagicThundaga)
+BattleNewRound()
+ffbeBattleRepeat()
 
+BattleNewRound()
+ffbeBattleSwipeMagicAdd(3, picBtnBattleAbilityDualBlackMagic, picBtnBattleMagicThundaga2)
+ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
+ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
 ffbeBattleAutoOnOff()

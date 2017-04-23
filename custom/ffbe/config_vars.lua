@@ -25,12 +25,6 @@ varFormNameMainFarplane                         = "MainFormFarplane"
 critMainUnitsUnitMenu			                = folderffbeimage.."crit_main_units_unit_menu.png"
 
 
-critItemsCornerUpLeft1                          = folderffbeimage.."items/crit_items_corner_upleft1.png"
-critItemsCornerUpLeft2                          = folderffbeimage.."items/crit_items_corner_upleft2.png"
-critItemsCornerUpLeft3                          = folderffbeimage.."items/crit_items_corner_upleft3.png"
-
-
-
 picNumStart                                     = folderffbeimage.."numbers/num_start.png"
 picNum0                                         = folderffbeimage.."numbers/num0.png"
 picNum1                                         = folderffbeimage.."numbers/num1.png"
