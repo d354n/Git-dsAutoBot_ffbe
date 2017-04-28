@@ -45,7 +45,7 @@ ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityShatteringShot2, picBtnBattleAbili
 ffbeBattleSwipeMagicAdd(3, picBtnBattleAbilityDualcast2, picBtnBattleAbilityDualcast1)
 ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
 ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
-ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityCursedCard1)
+ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityCursedCard1)
 ffbeBattleClickParty(2, 1)
 ffbeBattleAutoOnOff()
 

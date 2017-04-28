@@ -318,6 +318,14 @@ varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS
 dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
 --    End    --]===]
 
+--  Vortex  Dungeon  Others  --
+eventfolder  = "../custom/ffbe/vortex/others/the_enchanted_maze/"
+parentfolder = eventfolder
+foldername   = eventfolder
+varActionName = "Vx:The Enchanted Maze"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
 
 
 --  Standard

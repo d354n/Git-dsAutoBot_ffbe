@@ -23,6 +23,7 @@ picBtnBattleAbilityBoost                        = folderffbeimage.."magic/btn_ba
 picBtnBattleAbilityBringItOn2      		        = folderffbeimage.."magic/btn_battle_ability_bring_it_on2.png"
 picBtnBattleAbilityCallToAttack                 = folderffbeimage.."magic/btn_battle_ability_call_to_attack.png"
 picBtnBattleAbilityCursedCard1                  = folderffbeimage.."magic/btn_battle_ability_cursed_card1.png"
+picBtnBattleAbilityCursedCard2                  = folderffbeimage.."magic/btn_battle_ability_cursed_card2.png"
 picBtnBattleAbilityDanceTune2                   = folderffbeimage.."magic/btn_battle_ability_dance_tune2.png"
 picBtnBattleAbilityDualBlackMagic1   		    = folderffbeimage.."magic/btn_battle_ability_dual_black_magic1.png"
 picBtnBattleAbilityDualcast1                    = folderffbeimage.."magic/btn_battle_ability_dualcast1.png"

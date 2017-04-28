@@ -75,6 +75,7 @@ FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnMainItemsMaterialsSellMultiSell
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffR)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffG)
 FormAddCriteria2Var(colBtnMainItemsMaterialsSellMultiSellOffB)
+FormAddCriteria2Var(3)
 
 FormCreate(varFormNameMainItemsMaterialsSellMultiSellOn)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)

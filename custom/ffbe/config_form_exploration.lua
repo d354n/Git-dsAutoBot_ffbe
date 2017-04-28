@@ -23,6 +23,7 @@ locExplorationRight                             = Location(locExpCenX+locExpMove
 
 locExplorationUp2                               = Location(locExpCenX             , 200)
 locExplorationUp3                               = Location(locExpCenX             , 150)
+locExplorationUp4                               = Location(locExpCenX             , 100)
 locExplorationDown2                             = Location(locExpCenX             , 450)
 
 locExplorationUpMax                             = Location(locExpCenX             ,  50)
