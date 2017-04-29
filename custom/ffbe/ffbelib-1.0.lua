@@ -25,7 +25,7 @@ function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
         BattleNewRoundExecVar(5)  --7.max_scroll
         BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --8.action if on form
         BattleNewRoundExecVar(boxBattleMagic)  --9.box
-        BattleNewRoundExecVar(0.98)
+        BattleNewRoundExecVar(0.95)
         for i=1,6 do
             if (vMagic[i] ~= nil) and (vMagic[i] ~= "") then
                 BattleNewRoundExecVar(vMagic[i])

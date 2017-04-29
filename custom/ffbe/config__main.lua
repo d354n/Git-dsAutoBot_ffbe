@@ -318,13 +318,33 @@ varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS
 dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
 --    End    --]===]
 
+--  Vortex Of Desires --
+parentfolder = "../custom/ffbe/vortex/"
+parentsubfol = "vortex_of_desires/"
+
+eventfolder  = "chamber_of_awakening/"
+selectlevel  = "btn_select_level_pro.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Chamber Of Awakening Pro/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+--eventfolder  = "snow_plains/"
+--selectlevel  = "btn_select_level_beast.png"
+--ActUseLapis  = 0
+--ActXcnt = 0
+--varActionName = "Dg:Snow Plains Beast/NE:Next"
+--dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
 --  Vortex  Dungeon  Others  --
 eventfolder  = "../custom/ffbe/vortex/others/the_enchanted_maze/"
 parentfolder = eventfolder
 foldername   = eventfolder
 varActionName = "Vx:The Enchanted Maze"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-
+--  Older Version Maze
 
 
 

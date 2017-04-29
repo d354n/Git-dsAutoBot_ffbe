@@ -81,7 +81,9 @@ critErrorLoadingMid                             = folderffbeimage.."crit_error_l
 picErrorLoadingOk                               = folderffbeimage.."btn_error_loading_ok.png"
 
 varFormNameMainVortex                           = "MainFormVortex"
-critMainDimensionalVortex				        = folderffbeimage.."crit_main_dimensional_vortex.png"
+varFormNameMainVortexDesires                    = "MainFormVortexDesires"
+critMainDimensionalVortex				        = folderffbeimage.."vortex/crit_main_dimensional_vortex.png"
+critMainDimensionalVortexDesires                = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires.png"
 locMainBattleSelectVortexSwipeScrollDn01       	= Pattern(critMainDimensionalVortex):targetOffset(0, 400)
 locMainBattleSelectVortexSwipeScrollDn02       	= Pattern(critMainDimensionalVortex):targetOffset(0, 100)
 locMainBattleSelectVortexSwipeScrollUp01       	= locMainBattleSelectVortexSwipeScrollDn02
@@ -157,6 +159,10 @@ FormAddCriteria2Do(varCriteriaExists, critErrorLoadingMid)
 FormCreate(varFormNameMainVortex)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+
+FormCreate(varFormNameMainVortexDesires)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesires)
 
 FormCreate(varFormNameUnitCapacityReached)
 FormAddCriteria2Do(varCriteriaExists, critUnitCapacityReachedMid)
