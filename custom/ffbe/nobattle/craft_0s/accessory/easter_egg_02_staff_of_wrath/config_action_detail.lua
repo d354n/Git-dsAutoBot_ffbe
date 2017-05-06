@@ -12,7 +12,7 @@ ActionExecVar(picBtnMainHomeCraftForgeWeaponOff)
 ActionExecWaitForm(varFormNameMainHomeCraftForgeWeaponOn)
 
 ActionOnForm(varFormNameMainHomeCraftForgeWeaponOn)
-ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)  --  position start down
 ActionExecVar(locXmidYthreeEights)  --  position end down
 ActionExecVar(locXmidYthreeEights)

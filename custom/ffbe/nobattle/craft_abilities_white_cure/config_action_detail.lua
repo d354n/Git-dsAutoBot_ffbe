@@ -31,7 +31,7 @@ ActionExecVar(picBtnMainHomeCraftAbilityWhiteOff)
 ActionExecWaitForm(varFormNameMainHomeCraftAbilityWhiteOn)
 
 ActionOnForm(varFormNameMainHomeCraftAbilityWhiteOn)
-ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)  --  position start down
 ActionExecVar(locXmidYmid)  --  position end down
 ActionExecVar(locXmidYmid)
