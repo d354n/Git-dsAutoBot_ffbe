@@ -33,9 +33,9 @@ ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(0)
 ActionExecVar(true)
-ActionExecVar(10)
+ActionExecVar(2)
 ActionExecVar(varFormNameMainUnitsSellZero)
-ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
+ActionExecVar(varRegionX0YthreeEightsWmaxHtwoEights)
 ActionExecVar(0.98)
 ActionExecVar(picBtnMainFriends)  --  if last not found then click here
 for iData, vData in pairs(sData) do

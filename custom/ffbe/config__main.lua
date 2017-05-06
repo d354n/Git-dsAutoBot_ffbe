@@ -304,18 +304,29 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
 --  Vortex  Dungeon  Regular  --
-parentfolder = "../custom/ffbe/vortex/dungeon_reg/"
-selectlevel  = "btn_select_level.png"
+parentsubfol = "dungeon_reg/"
 
 eventfolder  = "cactuar_dunes/"
-varActionName = "Vx:Catuar Dunes/P:TRUS T/Battle AUTO"
+selectlevel  = "btn_select_level.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Catuar Dunes/P:TRUS T"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:Catuar Dunes/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "chamber_of_crystals/"
-varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T/Battle AUTO"
+selectlevel  = "btn_select_level.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:LapisB10:Next/P:TRUS T/Battle AUTO"
-dofile(scriptPath()..parentfolder.."config_action_10_use_lapis.lua")
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:Lapis/P:TRUS T"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
 --  Vortex Of Desires --
@@ -328,13 +339,10 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Vx:Chamber Of Awakening Pro/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
-
---eventfolder  = "snow_plains/"
---selectlevel  = "btn_select_level_beast.png"
---ActUseLapis  = 0
---ActXcnt = 0
---varActionName = "Dg:Snow Plains Beast/NE:Next"
---dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:Chamber Of Awakening Pro/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
@@ -449,8 +457,8 @@ for i=1, 5 do
     MultiAdd("Quests  Daily Claim")
     for j=1, 3 do
         MultiAdd("Ar:Battle/NE:Next")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
-        MultiAdd("Ar:Battle/NE:Next")
+--        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
+--        MultiAdd("Ar:Battle/NE:Next")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
         MultiAdd("Ar:Battle/NE:Next")
 

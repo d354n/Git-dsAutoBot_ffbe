@@ -89,4 +89,12 @@ ActionOnForm(varFormNameMainBattleRequest)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleRequestDont)
 
+ActionOnForm(varFormNameUnitCapacityReached)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnUnitsCapacityUnits)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+
 

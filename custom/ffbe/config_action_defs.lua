@@ -8,15 +8,18 @@
 
 
 ActionOnForm(varDefault)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(Pattern(picBtnStdBack):similar(0.75))
-ActionExecVar(Pattern(picBtnStdXClose):similar(0.75))
-ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
-ActionExecVar(Pattern(picBtnMainHome):similar(0.75))
-ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.75))
-ActionExecVar(Pattern(picBtnStdNext):similar(0.75))
-ActionExecVar(Pattern(picBtnStdOk):similar(0.75))
-ActionExecWaitForm(varActionExecuteWaitFormWait003)
+ActionExec(varActionExecuteDoKeyEvent)
+ActionExecVar(varKeyEventBack)
+--ActionExec(varActionExecuteDoClickButton)
+--ActionExecVar(Pattern(picBtnStdBack):similar(0.75))
+--ActionExecVar(Pattern(picBtnStdXClose):similar(0.75))
+--ActionExecVar(Pattern(picBtnStdClose):similar(0.75))
+--ActionExecVar(Pattern(picBtnMainHome):similar(0.75))
+--ActionExecVar(Pattern(picBtnMainWorldHome):similar(0.75))
+--ActionExecVar(Pattern(picBtnStdNext):similar(0.75))
+--ActionExecVar(Pattern(picBtnStdOk):similar(0.75))
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(3)
 
 
 

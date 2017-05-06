@@ -29,11 +29,15 @@ ActionExecWaitForm(varFormNameMainItemsMaterialsSellMulti)
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOff)
 ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 local sData = {}
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_aqua_pearl_199b.png"
+--  Shop
+--  allure powder
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199a.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_beast_meat_199b.png"
-sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_demon_tail_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_cryst_199b.png"
+--  pearl of wisdom
+--  Others
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_aqua_pearl_199b.png"
+sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_demon_tail_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199a.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_esper_shard_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_golden_egg_199a.png"
@@ -49,6 +53,17 @@ sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199a.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199b.png"
+--  Awakening Materials
+--    Quality Parts
+--    Rainbow Needle
+--    Book of Ruin
+--    Farplane Dew
+--    Spiritsand
+--    Esper's Tear
+--    Talmonite of Life
+--
+--
+--
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)

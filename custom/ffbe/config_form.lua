@@ -91,6 +91,7 @@ locMainBattleSelectVortexSwipeScrollUp02       	= locMainBattleSelectVortexSwipe
 
 varFormNameUnitCapacityReached                  = "FormUnitCapacityReached"
 critUnitCapacityReachedMid                      = folderffbeimage.."crit_unit_capacity_reached_mid.png"
+picBtnUnitsCapacityUnits                        = folderffbeimage.."btn_units.png"
 
 
 
