@@ -29,7 +29,7 @@ ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
-ActionExecVar(10)  --  how many scroll to bottom
+ActionExecVar(7)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)
 ActionExecWaitForm(varFormNameMainBattleSelectUnit)
 

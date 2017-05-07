@@ -77,6 +77,10 @@ ActionOnForm(varFormNameApps)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnAppsFFexvius)
 
+ActionOnForm(varFormNameAppsExit)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdNo)
+
 ActionOnForm(varFormNameAppsFFBEStart)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(critFFBEStartTop)

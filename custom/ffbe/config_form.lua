@@ -13,6 +13,9 @@
 varFormNameApps                                 = "AppsHome"
 picBtnAppsFFexvius  					        = folderffbeimage.."apps/btn_ffexvius.png"
 
+varFormNameAppsExit                             = "AppsHomeExit"
+critAppsExitMid1    					        = folderffbeimage.."apps/crit_main_exit_game_mid1.png"
+
 varFormNameAppsFFBEStart                        = "AppsFFBEStart"
 critFFBEStartTop      					        = folderffbeimage.."start/crit_start_top.png"
 critFFBEStartBottom  					        = folderffbeimage.."start/crit_start_bottom.png"
@@ -148,6 +151,9 @@ FormAddCriteria2Do(varCriteriaExists, critFFBEStoppedMid)
 FormCreate(varFormNameApps)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnAppsFFexvius)
+
+FormCreate(varFormNameAppsExit)
+FormAddCriteria2Do(varCriteriaExists, critAppsExitMid1)
 
 FormCreate(varFormNameNewDataExists)
 FormAddCriteria2Do(varCriteriaExists, critNewDataExistsMid)

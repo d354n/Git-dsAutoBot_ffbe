@@ -6,29 +6,40 @@
 -- To change this template use File | Settings | File Templates.
 --
 
---  ##  Main Form Units  ##
 varFormNameMainUnits                            = "MainFormUnits"
 critMainUnitsTop				                = folderffbeimage.."units/crit_units_top.png"
 picBtnMainUnitsView                             = folderffbeimage.."units/btn_units_viewsell.png"
---  ##  Main Form Units - View  ##
+picBtnMainUnitsEnhance                          = folderffbeimage.."units/btn_units_enhance.png"
+locMainUnitSwipe01                              = Pattern(folderffbeimage.."units/btn_units_function.png"):targetOffset(-100, 200)
+locMainUnitSwipe02                              = Pattern(folderffbeimage.."units/btn_units_function.png"):targetOffset(-200, 200)
+
+varFormNameMainUnitsEnhanceTap                  = "MainFormUnitsEnhanceTap"
+varFormNameMainUnitsEnhanceNoTap                = "MainFormUnitsEnhanceNoTap"
+picBtnMainUnitsEnhanceTap                       = folderffbeimage.."units/btn_units_enhance_tap.png"
+picBtnMainUnitsEnhanceFuse                      = folderffbeimage.."units/btn_units_enhance_fuse.png"
+
+varFormNameMainUnitsStatLevelUp                 = "MainFormUnitsStatLevelUp"
+critMainUnitsStatLevelUpMid1                    = folderffbeimage.."units/crit_units_stats_levelup_mid1.png"
+critMainUnitsStatLevelUpMid2                    = folderffbeimage.."units/crit_units_stats_levelup_mid2.png"
+
 varFormNameMainUnitsView                        = "MainFormUnitsView"
 critMainUnitsViewTop        	                = folderffbeimage.."units/crit_units_view_top.png"
 picBtnMainUnitsViewSell                         = folderffbeimage.."units/btn_units_view_sell.png"
---  ##  Main Form Units - Sell  ##
+
 varFormNameMainUnitsSellZero                    = "MainFormUnitsSellZero"
 varFormNameMainUnitsSellNotZero                 = "MainFormUnitsSellNotZero"
 critMainUnitsSellTop        	                = folderffbeimage.."units/crit_units_sell_top.png"
 critMainUnitsSellZero       	                = folderffbeimage.."units/crit_units_sell_zero.png"
 picBtnMainUnitsSellSell                         = folderffbeimage.."units/btn_units_sell_sell.png"
---  ##  Main Form Units - Sell Detail  ##
+
 varFormNameMainUnitsSellDetail                  = "MainFormUnitsSellDetail"
 critMainUnitsSellDetailTop    	                = folderffbeimage.."units/crit_units_sell_detail_top.png"
 picBtnMainUnitsSellDetailYes                    = folderffbeimage.."units/btn_units_sell_detail_yes.png"
---  ##  Main Form Units - Sell Detail Conf  ##
+
 varFormNameMainUnitsSellDetailConf              = "MainFormUnitsSellDetailConf"
 critMainUnitsSellDetailConfTop    	            = folderffbeimage.."units/crit_units_sell_detail_conf_top.png"
 picBtnMainUnitsSellDetailConfYes                = folderffbeimage.."units/btn_units_sell_detail_conf_yes.png"
---  ##  Main Form Units - Sell Detail Conf Finish  ##
+
 varFormNameMainUnitsSellDetailConfFinish        = "MainFormUnitsSellDetailConfFinish"
 critMainUnitsSellDetailConfFinMid  	            = folderffbeimage.."units/crit_units_sell_detail_conf_fin_mid.png"
 picBtnMainUnitsSellDetailConfFinOk              = folderffbeimage.."units/btn_units_sell_detail_conf_fin_ok.png"
@@ -38,6 +49,21 @@ picBtnMainUnitsSellDetailConfFinOk              = folderffbeimage.."units/btn_un
 FormCreate(varFormNameMainUnits)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainUnitsTop)
+
+FormCreate(varFormNameMainUnitsEnhanceTap)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainUnitsEnhanceFuse)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainUnitsEnhanceTap)
+
+FormCreate(varFormNameMainUnitsEnhanceNoTap)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainUnitsEnhanceFuse)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainUnitsEnhanceTap)
+
+FormCreate(varFormNameMainUnitsStatLevelUp)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsStatLevelUpMid1)
+FormAddCriteria2Do(varCriteriaExists, critMainUnitsStatLevelUpMid2)
 
 FormCreate(varFormNameMainUnitsView)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)

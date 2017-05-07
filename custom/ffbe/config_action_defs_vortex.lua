@@ -64,7 +64,7 @@ ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
-ActionExecVar(10)  --  how many scroll to bottom
+ActionExecVar(7)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionBonusStd)  --itemtofind priority 1
 ActionExecVar(picBtnBattleSelectCompanionStdFriend)  --itemtofind priority 2
 ActionExecVar(picBtnBattleSelectCompanionStdOther)  --itemtofind priority 3

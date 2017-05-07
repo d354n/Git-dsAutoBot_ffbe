@@ -423,6 +423,17 @@ varActionName = "Items  Materials  Sell Items"
 foldername = "../custom/ffbe/nobattle/items_materials_sells/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+
+--  Units
+parentfolder = "../custom/ffbe/nobattle/units_level_up/"
+parentsubfol = "party_level/"
+
+eventfolder  = "leader/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Units  Level Up  /P:LE VEL/C:Leader"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
 parentfolder = foldername
