@@ -143,6 +143,7 @@ FormCreate(varFormNameAppsFFBEStart)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critFFBEStartTop)
 FormAddCriteria2Do(varCriteriaExists, critFFBEStartBottom)
+FormAddCriteria2Do(varCriteriaNotExists, critAppsExitMid1)
 
 FormCreate(varFormNameAppsFFBEStopped)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

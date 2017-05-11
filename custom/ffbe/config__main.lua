@@ -79,6 +79,7 @@ swipeMagic[2] = locBattleMagicSwipeSrollDn02
 --  Menu: varActionDoSaveImage End
 
 
+
 --  Dungeons
 parentfolder = "../custom/ffbe/dungeons/"
 parentsubfol = "level/"
@@ -90,6 +91,7 @@ ActXcnt = 0
 varActionName = "Dg:Story Mode/NE:Next/Start from Select Level"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
+MenuCreate("-----")
 eventfolder  = "snow_plains/"
 selectlevel  = "btn_select_level_beast.png"
 ActUseLapis  = 0
@@ -118,6 +120,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
+MenuCreate("-----")
 parentfolder = "../custom/ffbe/dungeons/"
 parentsubfol = "trust/"
 
@@ -158,6 +161,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 --  Exploration
+MenuCreate("-----")
 parentfolder = "../custom/ffbe/explorations/"
 parentsubfol = "trust/"
 
@@ -204,6 +208,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 --  Arena
+MenuCreate("-----")
 parentfolder = "../custom/ffbe/others/arena_battle/"
 parentsubfol = "standard/"
 
@@ -221,6 +226,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
+MenuCreate("-----")
 parentfolder = "../custom/ffbe/others/arena_colosseum/"
 parentsubfol = "standard/"
 
@@ -250,6 +256,9 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 ActXcnt = 1
 varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next/B"..ActXcnt..":Next"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActXcnt = 3
+varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next/B"..ActXcnt..":Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 --  ]===]
 
 
@@ -261,6 +270,7 @@ parentsubfol = "raid/"
 --    End    --]===]
 
 --  Vortex  Dungeon  Events  --
+MenuCreate("-----")
 parentsubfol = "dungeon_eve/"
 
 eventfolder  = "1st_vortex_1st_level/"
@@ -306,6 +316,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 --  Vortex  Dungeon  Regular  --
 parentsubfol = "dungeon_reg/"
 
+MenuCreate("-----")
 eventfolder  = "cactuar_dunes/"
 selectlevel  = "btn_select_level.png"
 ActUseLapis  = 0
@@ -317,6 +328,7 @@ ActXcnt = 0
 varActionName = "LapisWarning Vx:Catuar Dunes/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
+MenuCreate("-----")
 eventfolder  = "chamber_of_crystals/"
 selectlevel  = "btn_select_level.png"
 ActUseLapis  = 0
@@ -329,11 +341,42 @@ varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:Lapis/P:TRUS T"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 --    End    --]===]
 
+
+
+
+
+
 --  Vortex Of Desires --
 parentfolder = "../custom/ffbe/vortex/"
 parentsubfol = "vortex_of_desires/"
 
+
+
+MenuCreate("-----")
+eventfolder  = "1st_vortex_1st_level/"
+selectlevel  = "btn_select_level_do.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Desires: 1st Chamber  1st Level/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "1st_vortex_2nd_level/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Desires: 1st Chamber  2nd Level/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+eventfolder  = "1st_vortex_3rd_level/"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Desires: 1st Chamber  3rd Level/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
+
+
+MenuCreate("-----")
 eventfolder  = "chamber_of_awakening/"
+
 selectlevel  = "btn_select_level_pro.png"
 ActUseLapis  = 0
 ActXcnt = 0
@@ -343,10 +386,30 @@ ActUseLapis  = 1
 ActXcnt = 0
 varActionName = "LapisWarning Vx:Chamber Of Awakening Pro/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+selectlevel  = "btn_select_level_adv.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Chamber Of Awakening Adv/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:Chamber Of Awakening Adv/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+selectlevel  = "btn_select_level_int.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Vx:Chamber Of Awakening Int/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 0
+varActionName = "LapisWarning Vx:Chamber Of Awakening Int/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
 
 
 
 --  Vortex  Dungeon  Others  --
+MenuCreate("-----")
 eventfolder  = "../custom/ffbe/vortex/others/the_enchanted_maze/"
 parentfolder = eventfolder
 foldername   = eventfolder
@@ -357,6 +420,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 --  Standard
+MenuCreate("-----")
 varActionName = "Craft  Get All Completed"
 foldername = "../custom/ffbe/nobattle/craft__get_all_completed/"
 parentfolder = foldername
@@ -380,6 +444,7 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 
+MenuCreate("-----")
 varActionName = "Friends  Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
@@ -444,6 +509,8 @@ foldername = "../custom/ffbe/nobattle/quests_daily_claim/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 
+MenuCreate("-----")
+
 varActionName = "Wait 600"
 foldername = "../custom/ffbe/nobattle/wait_600/"
 parentfolder = foldername
@@ -460,6 +527,7 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 --  ]===]
 
+MenuCreate("-----")
 
 
 MultiCreate()

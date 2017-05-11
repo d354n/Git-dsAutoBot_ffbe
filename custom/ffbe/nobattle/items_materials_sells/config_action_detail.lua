@@ -61,9 +61,6 @@ sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thicken
 --    Spiritsand
 --    Esper's Tear
 --    Talmonite of Life
---
---
---
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)

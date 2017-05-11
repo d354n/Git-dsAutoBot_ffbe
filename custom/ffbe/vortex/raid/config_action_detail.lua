@@ -34,7 +34,7 @@ ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn02)  --  position end dow
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
-ActionExecVar(false)  --  search from top?
+ActionExecVar(true)  --  search from top?
 ActionExecVar(1)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleSelectCompanionStdFriend)
 ActionExecVar(picBtnBattleSelectCompanionStdOther)

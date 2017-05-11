@@ -96,6 +96,13 @@ critBattleRequestMid                            = folderffbeimage.."friend_reque
 picBtnBattleRequestDont                         = folderffbeimage.."friend_request/btn_request_dont.png"
 picBtnBattleRequestSend                         = folderffbeimage.."friend_request/btn_request_send.png"
 
+varFormNameMainRechargeEnergyRaid               = "MainFormRechargeEnergyRaid"
+critMainRechargeEnergyRaidMid                   = folderffbeimage.."raid/crit_insufficient_energy.png"
+picBtnMainRechargeEnergyRaidNo                  = folderffbeimage.."raid/btn_energy_no.png"
+
+varFormNameMainBattleResultRaid                 = "MainFormBattleResultRaid"
+critMainBattleResultsRaidMid                	= folderffbeimage.."raid/crit_raid_mid.png"
+picBtnMainBattleResultsRaidNext         	    = folderffbeimage.."raid/btn_raid_next.png"
 
 
 FormCreate(varFormNameMainBattleSelectCompanion)
@@ -148,5 +155,13 @@ FormAddCriteria2Do(varCriteriaExists, critBattleEngagedContinueReviveAll)
 FormCreate(varFormNameMainBattleRequest)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critBattleRequestMid)
+
+FormCreate(varFormNameMainRechargeEnergyRaid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainRechargeEnergyRaidMid)
+
+FormCreate(varFormNameMainBattleResultRaid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidMid)
 
 

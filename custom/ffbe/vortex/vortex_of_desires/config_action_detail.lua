@@ -22,6 +22,20 @@ if file_exists(sFilename) then
     dofile(sFilename)
 end
 
+ActionOnForm(varFormNameMainBattleSelectCompanion)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
+ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down
+ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn02)  --  position end down
+ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
+ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
+ActionExecVar(0)  --  delay between scroll
+ActionExecVar(false)  --  search from top?
+ActionExecVar(0)  --  how many scroll to bottom
+ActionExecVar(picBtnBattleSelectCompanionStdFriend)  --itemtofind priority 3
+ActionExecVar(picBtnBattleSelectCompanionStdOther)  --itemtofind priority 4
+ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)  --itemtofind priority 5
+ActionExecWaitForm(varFormNameMainBattleSelectUnit)
+
 
 
 dofile(folderffbescript.."config_action_defs.lua")

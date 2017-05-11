@@ -22,15 +22,15 @@ for i=1, 1 do
         BattleNewRoundExecVar(1)
     end
 
-    ffbeBattleSwipeMagicAdd(1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
+--    ffbeBattleSwipeMagicAdd(1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
     ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
     ffbeBattleSwipeMagicAdd(3, picBtnBattleAbilityDualBlackMagic, picBtnBattleMagicThundaga2)
     ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
     ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
     ffbeBattleSwipeMagicAdd(4, picBtnBattleAbilitySnowpetal1)
-    ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityDualCast1, picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
+--    ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityDualCast1, picBtnBattleMagicThundaga2)
+--    ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
+--    ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
     ffbeBattleClickParty(2, 1)
 
     ffbeBattleAutoOnOff()

@@ -21,16 +21,4 @@ ActionExecVar(picBtnBattleCompletionHome)
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 
-ActionOnForm(varFormNameMainBattleSelectCompanion)
-ActionExec(varActionExecuteDoFindAndClickWithScroll)
-ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down
-ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn02)  --  position end down
-ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp01)
-ActionExecVar(locMainBattleSelectCompanionSwipeScrollUp02)
-ActionExecVar(0)  --  delay between scroll
-ActionExecVar(false)  --  search from top?
-ActionExecVar(7)  --  how many scroll to bottom
-ActionExecVar(picBtnBattleSelectCompanionDepartWoComp)
-ActionExecWaitForm(varFormNameMainBattleSelectUnit)
-
 
