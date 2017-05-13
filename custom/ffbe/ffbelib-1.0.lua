@@ -151,6 +151,28 @@ function ffbeBattleClickParty(vParty, vWait)
     BattleNewRoundExecVar(vWait)
 end
 
+function ffbeBattleComboClickParty(vParty, vWait)
+    if vWait == nil then
+        vWait = 0.5
+    end
+    BattleNewRoundExec(varActionExecuteDoComboClickAdd)
+    if vParty == 1 then
+        BattleNewRoundExecVar(locBattleParty1Center)
+    elseif vParty == 2 then
+        BattleNewRoundExecVar(locBattleParty2Center)
+    elseif vParty == 3 then
+        BattleNewRoundExecVar(locBattleParty3Center)
+    elseif vParty == 4 then
+        BattleNewRoundExecVar(locBattleParty4Center)
+    elseif vParty == 5 then
+        BattleNewRoundExecVar(locBattleParty5Center)
+    else
+        BattleNewRoundExecVar(locBattleParty6Center)
+    end
+    BattleNewRoundExec(varActionExecuteDoComboWaitAdd)
+    BattleNewRoundExecVar(vWait)
+end
+
 function ffbeBattleRepeat()
     BattleNewRoundExec(varActionExecuteDoClickButton)
     BattleNewRoundExecVar(picBtnBattleEngagedRepeat)

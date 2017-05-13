@@ -19,6 +19,9 @@ picBtnStdSkip                                   = folderffbeimage.."standard/btn
 picBtnStdXClose                                 = folderffbeimage.."standard/btn_xclose.png"
 picBtnStdYes                                    = folderffbeimage.."standard/btn_yes.png"
 
+
+critStdBoxTextTopLeft1                          = folderffbeimage.."standard/crit_box_text_topleft1.png"
+
 --  Main Home Farplane
 varFormNameMainFarplane                         = "MainFormFarplane"
 

@@ -34,6 +34,7 @@ locMainBattleSelectUnitSwipe02                  = Pattern(folderffbeimage.."sele
 varFormNameMainBattleEngaged					= "MainFormBattleEngaged"
 varFormNameMainBattleEngagedDoAction            = "MainFormBattleEngageDoAction"
 varFormNameMainBattleEngagedInAction            = "MainFormBattleEngageInAction"
+varFormNameMainBattleEngagedInActionBox         = "MainFormBattleEngageInActionBox"
 picBtnBattleEngagedAuto			                = folderffbeimage.."battle/btn_auto.png"
 picBtnBattleEngagedBack			                = folderffbeimage.."battle/btn_back.png"
 picBtnBattleEngagedMenu                         = folderffbeimage.."battle/btn_menu.png"
@@ -138,11 +139,27 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
 FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaNotExists, critStdBoxTextTopLeft1)
 FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffR)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffG)
 FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
 FormAddCriteria2Var(3)
+
+FormCreate(varFormNameMainBattleEngagedInActionBox)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnBattleEngagedBack)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedReset)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleEngagedRepeat)
+FormAddCriteria2Do(varCriteriaExists, critStdBoxTextTopLeft1)
+FormAddCriteria2Do(varCriteriaGetColorRGB, picBtnBattleEngagedRepeat)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffR)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffG)
+FormAddCriteria2Var(colBtnBattleEngagedRepeatOffB)
+FormAddCriteria2Var(3)
+
+
+
 
 FormCreate(varFormNameMainBattleGiveUp)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

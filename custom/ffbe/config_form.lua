@@ -8,8 +8,6 @@
 
 --  Variables
 
-
-
 varFormNameApps                                 = "AppsHome"
 picBtnAppsFFexvius  					        = folderffbeimage.."apps/btn_ffexvius.png"
 

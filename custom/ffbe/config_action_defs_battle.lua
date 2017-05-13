@@ -38,6 +38,11 @@ ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleEngaged)
 
+ActionOnForm(varFormNameMainBattleEngagedInActionBox)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(critStdBoxTextTopLeft1)
+ActionExecWaitForm(varFormNameMainBattleEngaged)
+
 ActionOnForm(varFormNameMainBattleReviveAll)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleEngagedContinueNo)
@@ -96,5 +101,38 @@ ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
+
+ActionOnForm(varFormNameMainRechargeEnergyRaid)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainRechargeEnergyRaidNo)
+ActionExecVar(varActionExecuteDoWait)
+ActionExecVar(1)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnBattleCompletionHome)
+ActionExec(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+
+ActionOnForm(varFormNameMainBattleResultGil)
+ActionExec(varActionExecuteDoClickRepeatButton)
+ActionExecVar(critMainBattleResultsGil)
+ActionExecVar(0.1)  --  click delay
+ActionExecVar("")
+ActionExecVar(critMainBattleResultsGil)
+ActionExecVar(7)  --  start with how many click?
+ActionExecWaitForm(varFormNameMainBattleResultRaid)
+
+ActionOnForm(varFormNameMainBattleResultRaid)
+ActionExec(varActionExecuteDoClickRepeatButton)
+ActionExecVar(critMainBattleResultsRaidMid)
+ActionExecVar(0.1)  --  click delay
+ActionExecVar(picBtnMainBattleResultsRaidNext)
+ActionExecVar(critMainBattleResultsRaidMid)
+ActionExecVar(7)  --  start with how many click?
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__raid_")
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainBattleResultsRaidNext)
+ActionExecWaitForm(varFormNameMainBattleResultExp)
 
 
