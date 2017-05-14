@@ -53,7 +53,7 @@ sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_seed_of_life_199b.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199a.png"
 sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thickened_hide_199b.png"
---  Awakening Materials
+--  Awakening Materials around 100 pieces
 --    Quality Parts
 --    Rainbow Needle
 --    Book of Ruin

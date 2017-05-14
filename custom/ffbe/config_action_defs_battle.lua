@@ -102,6 +102,8 @@ ActionExecVar(1)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 
+
+
 ActionOnForm(varFormNameMainRechargeEnergyRaid)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainRechargeEnergyRaidNo)
@@ -112,14 +114,14 @@ ActionExecVar(picBtnBattleCompletionHome)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 
-ActionOnForm(varFormNameMainBattleResultGil)
-ActionExec(varActionExecuteDoClickRepeatButton)
-ActionExecVar(critMainBattleResultsGil)
-ActionExecVar(0.1)  --  click delay
-ActionExecVar("")
-ActionExecVar(critMainBattleResultsGil)
-ActionExecVar(7)  --  start with how many click?
-ActionExecWaitForm(varFormNameMainBattleResultRaid)
+--ActionOnForm(varFormNameMainBattleResultGil)
+--ActionExec(varActionExecuteDoClickRepeatButton)
+--ActionExecVar(critMainBattleResultsGil)
+--ActionExecVar(0.1)  --  click delay
+--ActionExecVar("")
+--ActionExecVar(critMainBattleResultsGil)
+--ActionExecVar(7)  --  start with how many click?
+--ActionExecWaitForm(varFormNameMainBattleResultRaid)
 
 ActionOnForm(varFormNameMainBattleResultRaid)
 ActionExec(varActionExecuteDoClickRepeatButton)
