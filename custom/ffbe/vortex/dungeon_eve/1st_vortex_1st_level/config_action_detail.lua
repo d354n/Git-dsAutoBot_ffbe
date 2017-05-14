@@ -17,4 +17,10 @@ ActionExecVar(picBtnBattleVortexSelectLevel)
 ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
+ActionOnForm(varFormNameMainBattleSelectLevelRaid)
+ActionExec(varActionExecuteDoClickButtonYtop)
+ActionExecVar(picBtnBattleVortexSelectLevel)
+ActionExecVar(1)
+ActionExecWaitForm(varFormNameMainBattleCompletion)
+
 
