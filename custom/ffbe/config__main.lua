@@ -365,6 +365,10 @@ ActUseLapis  = 0
 ActXcnt = 0
 varActionName = "Vx:Desires: 1st Chamber  2nd Level/P:LE VEL"
 dofile(scriptPath()..parentfolder.."config_action.lua")
+ActUseLapis  = 1
+ActXcnt = 10
+varActionName = "LapisWarning Vx:Desires: 1st Chamber  2nd Level/B"..ActXcnt..":Next/P:LE VEL"
+dofile(scriptPath()..parentfolder.."config_action.lua")
 
 eventfolder  = "1st_vortex_3rd_level/"
 ActUseLapis  = 0

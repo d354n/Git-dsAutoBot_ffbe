@@ -103,6 +103,7 @@ picBtnMainRechargeEnergyRaidNo                  = folderffbeimage.."raid/btn_ene
 
 varFormNameMainBattleResultRaid                 = "MainFormBattleResultRaid"
 critMainBattleResultsRaidMid                	= folderffbeimage.."raid/crit_raid_mid.png"
+critMainBattleResultsRaidMid2                	= folderffbeimage.."raid/crit_raid_mid2.png"
 picBtnMainBattleResultsRaidNext         	    = folderffbeimage.."raid/btn_raid_next.png"
 
 
@@ -180,5 +181,6 @@ FormAddCriteria2Do(varCriteriaExists, critMainRechargeEnergyRaidMid)
 FormCreate(varFormNameMainBattleResultRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidMid)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleResultsRaidMid2)
 
 
