@@ -128,36 +128,19 @@ parentsubfol = "trust/"
 
 eventfolder  = "earth_shrine/"
 selectlevel  = "btn_select_level_entrance.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Dg:Earth Shrine Entrance/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 35
-varActionName = "Dg:Earth Shrine Entrance/NE:w1500-Next/B35:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 35
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 100
-varActionName = "LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 0
-ActXcnt = 0
-selectlevel  = "btn_select_level_exit.png"
-varActionName = "Dg:Earth Shrine Exit/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Dg:Earth Shrine Exit/NE:Lapis"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 35
-varActionName = "LapisWarning Dg:Earth Shrine Exit/NE:Lapis:B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Dg:Earth Shrine Entrance"
+AddAction(0,  0, "/P:TRUS T")
+AddAction(0, 35, "/P:TRUS T")
+AddAction(1,  0, "/P:TRUS T")
+AddAction(1, 35, "/P:TRUS T")
+AddAction(1,100, "/P:TRUS T")
 
+
+selectlevel  = "btn_select_level_exit.png"
+title = "Dg:Earth Shrine Exit"
+AddAction(0,  0, "/P:TRUS T")
+AddAction(1,  0, "/P:TRUS T")
+AddAction(1, 35, "/P:TRUS T")
 --  ]===]
 
 
@@ -284,6 +267,39 @@ AddAction(0,  0, "/P:EVE NT")
 AddAction(1,  0, "/P:EVE NT")
 --    End    --]===]
 
+--  Vortex  Dungeon  Events  --
+MenuCreate("-----")
+parentsubfol = "dungeon_raid/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
+
+eventfolder  = "1st_vortex_1st_level/"
+title = "Vx:1st Raid 1st Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "1st_vortex_2nd_level/"
+title = "Vx:1st Raid 2nd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "1st_vortex_3rd_level/"
+title = "Vx:1st Raid 3rd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+
+eventfolder  = "2nd_vortex_1st_level/"
+title = "Vx:2nd Raid 1st Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "2nd_vortex_2nd_level/"
+title = "Vx:2nd Raid 2nd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "2nd_vortex_3rd_level/"
+title = "Vx:2nd Raid 3rd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+--    End    --]===]
+
 --  Vortex  Dungeon  Regular  --
 parentsubfol = "dungeon_reg/"
 selectlevel  = "btn_select_level.png"
@@ -329,33 +345,19 @@ MenuCreate("-----")
 eventfolder  = "chamber_of_awakening/"
 
 selectlevel  = "btn_select_level_pro.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Chamber Of Awakening Pro/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:Chamber Of Awakening Pro/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-selectlevel  = "btn_select_level_adv.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Chamber Of Awakening Adv/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:Chamber Of Awakening Adv/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-selectlevel  = "btn_select_level_int.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Chamber Of Awakening Int/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:Chamber Of Awakening Int/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Vx:Chamber Of Awakening Pro"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1,  0, "/P:LE VEL")
 
+selectlevel  = "btn_select_level_adv.png"
+title = "Vx:Chamber Of Awakening Adv"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1,  0, "/P:LE VEL")
+
+selectlevel  = "btn_select_level_int.png"
+title = "Vx:Chamber Of Awakening Int"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1,  0, "/P:LE VEL")
 
 
 
@@ -411,27 +413,21 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 parentfolder = "../custom/ffbe/nobattle/summon/"
 parentsubfol = "standard/"
-ActUseLapis  = 0
 
 eventfolder  = "summon_250/"
-ActXcnt = 0
-varActionName = "Summon  Once a Day Limited Summon (250)"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Summon  Once a Day Limited Summon (250)"
+AddAction(0,  0)
 eventfolder  = "summon_standard/"
-ActXcnt = 0
-varActionName = "Summon  Standard  Multi Summon"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Summon  Standard  Multi Summon"
+AddAction(0,  0)
 
 
 
 parentsubfol = "events/"
-ActUseLapis  = 0
 
-eventfolder  = "summon_egg/"
-ActXcnt = 0
-varActionName = "Summon  Egg Seekers"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+--eventfolder  = "summon_egg/"
+--title = "Summon  Egg Seekers"
+--AddAction(0,  0)
 
 
 
@@ -445,10 +441,8 @@ parentfolder = "../custom/ffbe/nobattle/units_level_up/"
 parentsubfol = "party_level/"
 
 eventfolder  = "leader/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Units  Level Up  /P:LE VEL/C:Leader"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Units  Level Up  /C:Leader"
+AddAction(0,  0, "/P:LE VEL")
 
 varActionName = "Units  Sell Gil Snapper"
 foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
@@ -486,13 +480,12 @@ for i=1, 5 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 3 do
-        MultiAdd("Ar:Battle/NE:Next")
-        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Ar:Battle/NE:Next")
---        MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
-        MultiAdd("Ar:Battle/NE:Next")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
+        MultiAdd("Ar:Battle")
+        MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
+        MultiAdd("Ar:Battle")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B100:Next/P:TRUS T")
+        MultiAdd("Ar:Battle")
+        MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Craft  Get All Completed")
