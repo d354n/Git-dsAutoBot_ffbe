@@ -19,6 +19,8 @@ folderLogBattleResult = "../debug/log_battle_results/"
 folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 
+dofile(folderffbescript.."ffbelib-1.0.lua")
+
 dofile(folderffbescript.."config_vars.lua")         --  1st
 dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
@@ -163,39 +165,27 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 --  Exploration
 MenuCreate("-----")
 parentfolder = "../custom/ffbe/explorations/"
+
 parentsubfol = "trust/"
 
 eventfolder  = "earth_shrine/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ex:Earth Shrine/P:TRUS T"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 2
-varActionName = "Ex:Earth Shrine/P:TRUS T/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Ex:Earth Shrine"
+AddAction(0,  0, "/P:TRUS T")
+AddAction(0,  2, "/P:TRUS T")
 
 
 
-parentfolder = "../custom/ffbe/explorations/"
 parentsubfol = "level/"
 
 eventfolder  = "invincible_interior/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ex:Invincible Interior/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
-varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 3
-varActionName = "Ex:Invincible Interior/P:LE VEL/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Ex:Invincible Interior"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(0,  1, "/P:LE VEL")
+AddAction(0,  3, "/P:LE VEL")
 
 eventfolder  = "lake_dorr/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ex:Lake Dorr/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Ex:Lake Dorr"
+AddAction(0,  0, "/P:LE VEL")
 
 --eventfolder  = "aquatic_cove/"
 --varActionName = "Ex:Aquatic Cove/P:LE VEL/Start from Select Level"
@@ -213,16 +203,10 @@ parentfolder = "../custom/ffbe/others/arena_battle/"
 parentsubfol = "standard/"
 
 eventfolder  = "gold_blue_purple/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ar:Battle/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
-varActionName = "Ar:Battle/NE:Next/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 3
-varActionName = "Ar:Battle/NE:Next/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Ar:Battle"
+AddAction(0,  0, "")
+AddAction(0,  1, "")
+AddAction(0,  3, "")
 
 
 
@@ -231,118 +215,91 @@ parentfolder = "../custom/ffbe/others/arena_colosseum/"
 parentsubfol = "standard/"
 
 eventfolder  = "toplevel_1round/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ar:Colosseum/TopLevel/TopRound/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Ar:Colosseum/TopLevel/1stRound"
+AddAction(0,  0, "")
 eventfolder  = "toplevel_2round/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ar:Colosseum/TopLevel/2ndRound/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Ar:Colosseum/TopLevel/2ndRound"
+AddAction(0,  0, "")
 eventfolder  = "toplevel_3round/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ar:Colosseum/TopLevel/3rdRound/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Ar:Colosseum/TopLevel/3rdRound"
+AddAction(0,  0, "")
 eventfolder  = "toplevel_4round/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 1
-varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActXcnt = 3
-varActionName = "Ar:Colosseum/TopLevel/4thRound/NE:Next/B"..ActXcnt..":Next"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Ar:Colosseum/TopLevel/4thRound"
+AddAction(0,  0, "")
+AddAction(0,  1, "")
+AddAction(0,  3, "")
 --  ]===]
 
 
 -- Vortex  Raid  --
+MenuCreate("-----")
 parentfolder = "../custom/ffbe/vortex/"
 parentsubfol = "raid/"
 
---[===[
 --    End    --]===]
 
 --  Vortex  Dungeon  Events  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
 
 eventfolder  = "1st_vortex_1st_level/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:1st Vortex 1st Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActEnmSpcBattle = 0
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:1st Vortex 1st Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Vx:1st Vortex 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
 eventfolder  = "1st_vortex_2nd_level/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:1st Vortex 2nd Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActEnmSpcBattle = 0
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:1st Vortex 2nd Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Vx:1st Vortex 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
 eventfolder  = "1st_vortex_3rd_level/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:1st Vortex 3rd Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActEnmSpcBattle = 0
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:1st Vortex 3rd Level/P:EVE NT"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Vx:1st Vortex 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+
+eventfolder  = "2nd_vortex_1st_level/"
+title = "Vx:2nd Vortex 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "2nd_vortex_2nd_level/"
+title = "Vx:2nd Vortex 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "2nd_vortex_3rd_level/"
+title = "Vx:2nd Vortex 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+
+eventfolder  = "3rd_vortex_1st_level/"
+title = "Vx:3rd Vortex 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "3rd_vortex_2nd_level/"
+title = "Vx:3rd Vortex 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "3rd_vortex_3rd_level/"
+title = "Vx:3rd Vortex 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
 --    End    --]===]
 
 --  Vortex  Dungeon  Regular  --
 parentsubfol = "dungeon_reg/"
+selectlevel  = "btn_select_level.png"
 
 MenuCreate("-----")
 eventfolder  = "cactuar_dunes/"
-selectlevel  = "btn_select_level.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Catuar Dunes/P:TRUS T"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:Catuar Dunes/P:TRUS T"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Vx:Catuar Dunes"
+AddAction(0,  0, "/P:TRUS T")
+AddAction(1,  0, "/P:TRUS T")
 
 MenuCreate("-----")
 eventfolder  = "chamber_of_crystals/"
-selectlevel  = "btn_select_level.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Chamber Of Crystals Adv/P:TRUS T"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 0
-varActionName = "LapisWarning Vx:Chamber Of Crystals Adv/NE:Lapis/P:TRUS T"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Vx:Chamber Of Crystals Adv"
+AddAction(0,  0, "/P:TRUS T")
+AddAction(1,  0, "/P:TRUS T")
 --    End    --]===]
-
-
-
 
 
 
@@ -350,31 +307,21 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 parentfolder = "../custom/ffbe/vortex/"
 parentsubfol = "vortex_of_desires/"
 
-
-
 MenuCreate("-----")
-eventfolder  = "1st_vortex_1st_level/"
 selectlevel  = "btn_select_level_do.png"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Desires: 1st Chamber  1st Level/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
 
+eventfolder  = "1st_vortex_1st_level/"
+title = "Vx:Desires: 1st Chamber  1st Level"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1, 10, "/P:LE VEL")
 eventfolder  = "1st_vortex_2nd_level/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Desires: 1st Chamber  2nd Level/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-ActUseLapis  = 1
-ActXcnt = 10
-varActionName = "LapisWarning Vx:Desires: 1st Chamber  2nd Level/B"..ActXcnt..":Next/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
-
+title = "Vx:Desires: 1st Chamber  2nd Level"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1, 10, "/P:LE VEL")
 eventfolder  = "1st_vortex_3rd_level/"
-ActUseLapis  = 0
-ActXcnt = 0
-varActionName = "Vx:Desires: 1st Chamber  3rd Level/P:LE VEL"
-dofile(scriptPath()..parentfolder.."config_action.lua")
+title = "Vx:Desires: 1st Chamber  3rd Level"
+AddAction(0,  0, "/P:LE VEL")
+AddAction(1, 10, "/P:LE VEL")
 
 
 
@@ -540,8 +487,9 @@ for i=1, 5 do
     MultiAdd("Quests  Daily Claim")
     for j=1, 3 do
         MultiAdd("Ar:Battle/NE:Next")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
+        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
         MultiAdd("Ar:Battle/NE:Next")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/NE:Lapis/B100:Next")
         MultiAdd("Ar:Battle/NE:Next")
         MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
@@ -556,6 +504,7 @@ for i=1, 5 do
     end
 --    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
+    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
 end
 MultiAdd(varActionDoGotoAction1)
 

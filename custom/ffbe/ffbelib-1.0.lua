@@ -6,6 +6,30 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+function AddAction(iLapis, iCount, sPartyName)
+    ActUseLapis  = iLapis
+    ActXcnt = iCount
+    local sLapis
+    if iLapis == 0 then
+        sLapis = ""
+    else
+        sLapis = "LapisWarning "
+    end
+    local sCount
+    if iCount == 0 then
+        sCount = ""
+    else
+        sCount = "/B"..ActXcnt..":Next"
+    end
+    if sPartyName == nil then
+        sPartyName = ""
+    end
+    --    varActionName = title.."/P:LE VEL"
+    --    varActionName = "LapisWarning "..title.."/B"..ActXcnt..":Next/P:LE VEL"
+    varActionName = sLapis..title..sCount..sPartyName
+    dofile(scriptPath()..parentfolder.."config_action.lua")
+end
+
 function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
     if (vMag1 ~= nil) and (vMag1 ~= "") then
         local vMagic = {}
