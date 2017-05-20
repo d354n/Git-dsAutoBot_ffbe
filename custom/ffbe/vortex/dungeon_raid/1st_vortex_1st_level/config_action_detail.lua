@@ -6,8 +6,6 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-picUnitsParty                           = picTxtMainBattleUnitPartyLimit
-
 ActionOnForm(varFormNameMainVortex)
 ActionExec(varActionExecuteDoClickLocation)
 ActionExecVar(locXmidYoneQuarters)

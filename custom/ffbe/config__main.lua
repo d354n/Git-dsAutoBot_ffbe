@@ -481,10 +481,13 @@ for i=1, 5 do
     MultiAdd("Quests  Daily Claim")
     for j=1, 3 do
         MultiAdd("Ar:Battle")
+        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
         MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
         MultiAdd("Ar:Battle")
+        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B100:Next/P:TRUS T")
         MultiAdd("Ar:Battle")
+        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
         MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")

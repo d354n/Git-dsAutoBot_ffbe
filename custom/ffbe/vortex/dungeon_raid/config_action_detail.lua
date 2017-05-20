@@ -8,7 +8,7 @@
 
 dofile(scriptPath().."mylib-1.0.lua")
 
-picUnitsParty                           = picTxtMainBattleUnitPartyEvent
+picUnitsParty                           = picTxtMainBattleUnitPartyLimit
 
 picBtnBattleVortexSelectVortex          = varDirectoryCustomImage .. "btn_select_vortex.png"
 picBtnBattleVortexSelectLevel    		= varDirectoryCustomImage .. selectlevel
