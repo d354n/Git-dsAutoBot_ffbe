@@ -75,7 +75,7 @@ critItems[3] = folderffbeimage.."items/crit_items_corner_upleft3.png"
 --  Menu: varActionDoSaveMaterials End
 
 --  Menu: varActionDoSaveImage Start
-critMagic[1] = folderffbeimage.."items/crit_magic_corner_upleft1.png"
+critMagic[1] = folderffbeimage.."magic/crit_magic_corner_upleft1.png"
 swipeMagic[1] = locBattleMagicSwipeSrollDn01
 swipeMagic[2] = locBattleMagicSwipeSrollDn02
 --  Menu: varActionDoSaveImage End
@@ -428,6 +428,10 @@ parentsubfol = "events/"
 --eventfolder  = "summon_egg/"
 --title = "Summon  Egg Seekers"
 --AddAction(0,  0)
+
+eventfolder  = "summon_raid/"
+title = "Summon  Raid"
+AddAction(0,  0)
 
 
 
