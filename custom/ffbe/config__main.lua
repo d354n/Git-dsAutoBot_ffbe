@@ -483,7 +483,7 @@ MultiCreate()
 for i=1, 5 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for j=1, 3 do
+    for j=1, 2 do
         MultiAdd("Ar:Battle")
         MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
         MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
@@ -498,12 +498,12 @@ for i=1, 5 do
 --        MultiAdd("Craft  Get All Completed")
 --        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
 --        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
---        MultiAdd("Craft  Farm Items  Recovery  Potion")
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
 --    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
+    MultiAdd("Craft  Farm Items  Recovery  Potion")
     MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
 end
 MultiAdd(varActionDoGotoAction1)
