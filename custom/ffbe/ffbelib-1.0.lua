@@ -30,6 +30,31 @@ function AddAction(iLapis, iCount, sPartyName)
     dofile(scriptPath()..parentfolder.."config_action.lua")
 end
 
+function GetStrNumber(sNumber)
+    if sNumber==1 then
+        return "1st"
+    elseif sNumber==2 then
+        return "2nd"
+    elseif sNumber==3 then
+        return "3rd"
+    else
+        return ""
+    end
+end
+
+function AddVortex(sTitle, sPartyName)
+    for i=1,3 do
+        local si = GetStrNumber(i)
+        for j=1,3 do
+            local sj = GetStrNumber(j)
+            eventfolder  = si.."_vortex_"..sj.."_level/"
+            title        = "Vx:"..si.." "..sTitle.." "..sj.." Level"
+            AddAction(0,  0, sPartyName)
+            AddAction(1,  0, sPartyName)
+        end
+    end
+end
+
 function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
     if (vMag1 ~= nil) and (vMag1 ~= "") then
         local vMagic = {}
