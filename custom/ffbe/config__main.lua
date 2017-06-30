@@ -267,7 +267,7 @@ AddAction(0,  0, "/P:EVE NT")
 AddAction(1,  0, "/P:EVE NT")
 --    End    --]===]
 
---  Vortex  Dungeon  Events  --
+--  Vortex  Raid  Events  --
 MenuCreate("-----")
 parentsubfol = "dungeon_raid/"
 selectlevel  = "btn_select_level_do.png"
@@ -296,6 +296,20 @@ AddAction(0,  0, "/P:L IMIT")
 AddAction(1,  0, "/P:L IMIT")
 eventfolder  = "2nd_vortex_3rd_level/"
 title = "Vx:2nd Raid 3rd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+--    End    --]===]
+
+eventfolder  = "3rd_vortex_1st_level/"
+title = "Vx:3rd Raid 1st Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "3rd_vortex_2nd_level/"
+title = "Vx:3rd Raid 2nd Level"
+AddAction(0,  0, "/P:L IMIT")
+AddAction(1,  0, "/P:L IMIT")
+eventfolder  = "3rd_vortex_3rd_level/"
+title = "Vx:3rd Raid 3rd Level"
 AddAction(0,  0, "/P:L IMIT")
 AddAction(1,  0, "/P:L IMIT")
 --    End    --]===]
