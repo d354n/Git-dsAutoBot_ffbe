@@ -7,8 +7,9 @@
 --
 
 ActionOnForm(varFormNameMainVortex)
-ActionExec(varActionExecuteDoClickLocation)
-ActionExecVar(locXmidYoneQuarters)
+ActionExec(varActionExecuteDoClickButtonYtop)
+ActionExecVar(picBtnBattleVortexSelectVortex)
+ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
 ActionOnForm(varFormNameMainBattleSelectLevel)

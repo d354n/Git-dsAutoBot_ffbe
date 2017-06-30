@@ -7,27 +7,26 @@
 --
 
 ActionOnForm(varFormNameMainVortex)
-ActionExec(varActionExecuteDoClickButtonYtop)
-ActionExecVar(picBtnBattleVortexSelectVortex)
-ActionExecVar(3)
+ActionExec(varActionExecuteDoClickLocation)
+ActionExecVar(locXmidYoneQuarters)
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 
 ActionOnForm(varFormNameMainBattleSelectLevel)
 ActionExec(varActionExecuteDoClickButtonYtop)
 ActionExecVar(picBtnBattleVortexSelectLevel)
-ActionExecVar(2)
+ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 ActionOnForm(varFormNameMainBattleSelectLevelVortex)
 ActionExec(varActionExecuteDoClickButtonYtop)
 ActionExecVar(picBtnBattleVortexSelectLevel)
-ActionExecVar(2)
+ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 ActionOnForm(varFormNameMainBattleSelectLevelRaid)
 ActionExec(varActionExecuteDoClickButtonYtop)
 ActionExecVar(picBtnBattleVortexSelectLevel)
-ActionExecVar(2)
+ActionExecVar(1)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
 

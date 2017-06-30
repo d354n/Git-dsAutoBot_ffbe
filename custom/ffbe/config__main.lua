@@ -221,9 +221,9 @@ parentsubfol = "raid/"
 
 --    End    --]===]
 
---  Vortex  Dungeon  Events  --
+--  Vortex  Dungeon  All  --
 MenuCreate("-----")
-parentsubfol = "dungeon_eve/"
+parentsubfol = "dungeon_vor/"
 selectlevel  = "btn_select_level_do.png"
 ActEnmSpcBattle = 0
 
@@ -263,6 +263,52 @@ AddAction(0,  0, "/P:EVE NT")
 AddAction(1,  0, "/P:EVE NT")
 eventfolder  = "3rd_vortex_3rd_level/"
 title = "Vx:3rd Vortex 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+--    End    --]===]
+
+--  Vortex  Events  --
+MenuCreate("-----")
+parentsubfol = "dungeon_eve/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
+
+eventfolder  = "1st_vortex_1st_level/"
+title = "Vx:1st Event 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "1st_vortex_2nd_level/"
+title = "Vx:1st Event 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "1st_vortex_3rd_level/"
+title = "Vx:1st Event 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+
+eventfolder  = "2nd_vortex_1st_level/"
+title = "Vx:2nd Event 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "2nd_vortex_2nd_level/"
+title = "Vx:2nd Event 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "2nd_vortex_3rd_level/"
+title = "Vx:2nd Event 3rd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+
+eventfolder  = "3rd_vortex_1st_level/"
+title = "Vx:3rd Event 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "3rd_vortex_2nd_level/"
+title = "Vx:3rd Event 2nd Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+eventfolder  = "3rd_vortex_3rd_level/"
+title = "Vx:3rd Event 3rd Level"
 AddAction(0,  0, "/P:EVE NT")
 AddAction(1,  0, "/P:EVE NT")
 --    End    --]===]
