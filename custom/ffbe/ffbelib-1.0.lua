@@ -81,7 +81,7 @@ function ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
         BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
         BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
         BattleNewRoundExecVar(0)  --5.delay between scroll
-        BattleNewRoundExecVar(5)  --6.max_scroll
+        BattleNewRoundExecVar(7)  --6.max_scroll
         BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --7.action if on form
         BattleNewRoundExecVar(boxBattleMagic)  --8.box
         BattleNewRoundExecVar(0.80)
@@ -97,7 +97,7 @@ function ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
         end
         BattleNewRoundExecVar(picBtnBattleEngagedBack)
         BattleNewRoundExec(varActionExecuteDoWait)
-        BattleNewRoundExecVar(0.5)
+        BattleNewRoundExecVar(1)
     end
 end
 
@@ -151,6 +151,29 @@ function ffbeBattleSwipeMagicAdd2(vParty, vMag1, vMag2, vMag3, vMag4, vMag5, vMa
     BattleNewRoundExec(varActionExecuteDoWait)
     BattleNewRoundExecVar(0.5)
     ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
+end
+
+function ffbeBattleSwipeDefend(vParty)
+    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+    if vParty == 1 then
+        BattleNewRoundExecVar(locBattleParty1Center)
+        BattleNewRoundExecVar(locBattleParty1Down)
+    elseif vParty == 2 then
+        BattleNewRoundExecVar(locBattleParty2Center)
+        BattleNewRoundExecVar(locBattleParty2Down)
+    elseif vParty == 3 then
+        BattleNewRoundExecVar(locBattleParty3Center)
+        BattleNewRoundExecVar(locBattleParty3Down)
+    elseif vParty == 4 then
+        BattleNewRoundExecVar(locBattleParty4Center)
+        BattleNewRoundExecVar(locBattleParty4Down)
+    elseif vParty == 5 then
+        BattleNewRoundExecVar(locBattleParty5Center)
+        BattleNewRoundExecVar(locBattleParty5Down)
+    else
+        BattleNewRoundExecVar(locBattleParty6Center)
+        BattleNewRoundExecVar(locBattleParty6Down)
+    end
 end
 
 function ffbeBattleClickParty(vParty, vWait)

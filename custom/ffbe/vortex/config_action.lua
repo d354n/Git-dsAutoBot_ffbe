@@ -29,6 +29,14 @@ ActionCreate(varActionName)
 
 --  ## action detail?
 if (ActUseLapis == 1) then
+    ActionOnForm(varFormNameMainRechargeEnergy)
+    ActionExec(varActionExecuteDoClickButton)
+    ActionExecVar(picBtnMainRechargeEnergyUseLapis)
+    ActionExec(varActionExecuteDoWait)
+    ActionExecVar(1)
+    ActionExec(varActionExecuteDoClickButton)
+    ActionExecVar(picBtnMainRechargeEnergyYes)
+
     ActionOnForm(varFormNameMainRechargeEnergyRaid)
     ActionExec(varActionExecuteDoClickButton)
     ActionExecVar(picBtnMainRechargeEnergyUseLapis)

@@ -7,7 +7,7 @@
 --
 
 --  Parameteres
-Settings:set("MinSimilarity", 0.80)
+Settings:set("MinSimilarity", 0.85)
 varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
 optPNGnotFoundSave  = true
 folderImgParams = "nox1/"
@@ -483,16 +483,17 @@ MultiCreate()
 for i=1, 5 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
-    for j=1, 2 do
+    for j=1, 10 do
         MultiAdd("Ar:Battle")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
+--        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
+        MultiAdd("Vx:2nd Raid 2nd Level/P:L IMIT")
         MultiAdd("Ar:Battle")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
+--        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
+        MultiAdd("Vx:2nd Raid 2nd Level/P:L IMIT")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B100:Next/P:TRUS T")
         MultiAdd("Ar:Battle")
-        MultiAdd("Vx:1st Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Raid 1st Level/P:L IMIT")
+--        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
+        MultiAdd("Vx:2nd Raid 2nd Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Craft  Get All Completed")
@@ -503,7 +504,7 @@ for i=1, 5 do
     end
 --    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
-    MultiAdd("Craft  Farm Items  Recovery  Potion")
+--    MultiAdd("Craft  Farm Items  Recovery  Potion")
     MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
 end
 MultiAdd(varActionDoGotoAction1)

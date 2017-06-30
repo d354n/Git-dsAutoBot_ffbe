@@ -30,6 +30,10 @@ ActionOnForm(varFormNameMainConnecting)
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 
+ActionOnForm(varFormNameMainPlayMission)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdYes)
+
 ActionOnForm(varFormNameMainConnectionError)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnConnectionErrorOk)

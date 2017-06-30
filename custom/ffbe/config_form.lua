@@ -65,6 +65,9 @@ picBtnConnectionErrorOk                         = folderffbeimage.."btn_connecti
 varFormNameMainConnecting                       = "MainFormConnecting"
 critConnectionConnecting                        = folderffbeimage.."crit_connection_connecting.png"
 
+varFormNameMainPlayMission                      = "MainFormPlayMission"
+critPlayMission                                 = folderffbeimage.."crit_play_mission.png"
+
 varFormNameMainInfoAutomaticProtection          = "MainFormInfoAutomaticProtection"
 critInfoAutomaticProtection                     = folderffbeimage.."others/crit_info_auto_prot_mid.png"
 picBtnInfoAutomaticProtection                   = folderffbeimage.."others/btn_info_auto_prot_no.png"
@@ -123,6 +126,10 @@ FormAddGotoIfStuck(varFormNameMainHome)
 FormCreate(varFormNameMainConnecting)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critConnectionConnecting)
+
+FormCreate(varFormNameMainPlayMission)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critPlayMission)
 
 FormCreate(varFormNameMainRechargeEnergy)
 FormAddCriteria2Do(varCriteriaExists, critMainRechargeInsufficientEnergy)

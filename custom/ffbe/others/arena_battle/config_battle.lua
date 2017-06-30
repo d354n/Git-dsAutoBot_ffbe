@@ -22,24 +22,29 @@ for i=1, 1 do
         BattleNewRoundExecVar(1)
     end
 
-    ffbeBattleSwipeMagicAdd2(1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
-    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
-    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd2(picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd2(picBtnBattleMagicThundaga2)
-    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilitySnowpetal1)
-    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityDualcast1, picBtnBattleAbilityDualcast2, picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd2(picBtnBattleMagicThundaga2)
-    ffbeBattleMagicAdd2(picBtnBattleMagicThundaga2)
-    ffbeBattleClickParty(2, 1)
-
+    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
+    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilitySnowpetal1)
+    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2)
+    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2)
+    ffbeBattleClickParty(5)
+    ffbeBattleClickParty(1)
+    ffbeBattleClickParty(3)
+    ffbeBattleClickParty(2)
+    ffbeBattleClickParty(4)
     ffbeBattleAutoOnOff()
 end
-for i=1, 5 do
+
+
+
+for i=1, 10 do
     BattleNewRound()
     ffbeBattleRepeat()
 end
-for i=1, 10 do
+
+for i=1, 50 do
     BattleNewRound()
     ffbeBattleAutoOnOff()
 end

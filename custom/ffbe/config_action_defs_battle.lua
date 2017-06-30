@@ -48,6 +48,9 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleEngagedContinueNo)
 
 ActionOnForm(varFormNameMainBattleGiveUp)
+ActionExec(varActionExecuteDoSaveSnapshot)
+ActionExecVar(dateNowYYMMDDHM)
+ActionExecVar(folderLogBattleResult.."log__giveup_")
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnBattleEngagedContinueYes)
 
