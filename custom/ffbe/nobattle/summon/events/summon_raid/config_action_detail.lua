@@ -35,7 +35,12 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainSummon)
 ActionExecWaitForm(varFormNameMainSummon)
 
-ActionOnForm(varFormNameMainSummon)
+ActionOnForm(varFormNameMainSummonRare)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnSummonStdOff)
+ActionExecWaitForm(varFormNameMainSummonStandard)
+
+ActionOnForm(varFormNameMainSummonStandard)
 ActionExec(varActionExecuteDoBoxFindAndClickWithScroll)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
@@ -44,18 +49,18 @@ ActionExecVar(locXmidYfiveEights)
 ActionExecVar(0)
 ActionExecVar(true)
 ActionExecVar(5)
-ActionExecVar(varFormNameMainSummon)
+ActionExecVar(varFormNameMainSummonStandard)
 ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
 ActionExecVar(0.98)
 ActionExecVar(picSelectLevelDo)
-ActionExecWaitForm(varFormNameMainSummonEgg)
+ActionExecWaitForm(varFormNameMainSummonStandardRaid)
 
-ActionOnForm(varFormNameMainSummonEgg)
+ActionOnForm(varFormNameMainSummonStandardRaid)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonEggMultiSummon)
-ActionExecWaitForm(varFormNameMainSummonEggConf)
+ActionExecVar(picBtnSummonStdRaidMultiSummon)
+ActionExecWaitForm(varFormNameMainSummonStandardRaidConf)
 
-ActionOnForm(varFormNameMainSummonEggNo5000)
+ActionOnForm(varFormNameMainSummonStandardRaidNoMulti)
 ActionExec(varActionExecuteDoCounterReset)
 ActionExecVar(1)
 ActionExec(varActionExecuteDoSetActionNextAction)
@@ -64,43 +69,45 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHome)
 ActionExecWaitForm(varFormNameMainHome)
 
-ActionOnForm(varFormNameMainSummonEggConf)
+ActionOnForm(varFormNameMainSummonStandardRaidConf)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonEggConfMultiSummon)
+ActionExecVar(picBtnSummonStdRaidConfMultiSummon)
 for i=1, 13 do
     ActionExec(varActionExecuteDoClickLocation)
     ActionExecVar(locXmidYoneQuarters)
     ActionExec(varActionExecuteDoWait)
     ActionExecVar(0.3)
 end
-ActionExecWaitForm(varFormNameMainSummonEggUnitObtained)
+ActionExecWaitForm(varFormNameMainSummonStandardRaidUnitObtained)
 
-ActionOnForm(varFormNameMainSummonEggTap)
+ActionOnForm(varFormNameMainSummonStandardRaidTap)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(critMainSummonEggTapTop)
-ActionExecWaitForm(varFormNameMainSummonEggUnitObtained)
+ActionExecVar(critMainSummonStdRaidTapTop)
+ActionExecWaitForm(varFormNameMainSummonStandardRaidUnitsObtained)
 
-ActionOnForm(varFormNameMainSummonEggUnitObtained)
+ActionOnForm(varFormNameMainSummonStandardRaidUnitsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
-ActionExecVar(critMainSummonEggUnitObtainedTop)  -- click this until exists XXX
+ActionExecVar(critMainSummonStdRaidUnitsObtTop)  -- click this until exists XXX
 ActionExecVar(0.1)  --  click delay
-ActionExecVar(picBtnMainSummonEggUnitObtainedNext)  -- XXX = repeat until exists this
-ActionExecVar(critMainSummonEggUnitObtainedTop)
+ActionExecVar(picBtnSummonStdRaidNext)  -- XXX = repeat until exists this
+ActionExecVar(critMainSummonStdRaidUnitsObtTop)
 ActionExecVar(7)  --  start with how many click?
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonEggUnitObtainedNext)
-ActionExecWaitForm(varFormNameMainSummonEggItemsObtained)
+ActionExecVar(picBtnSummonStdRaidNext)
+ActionExecWaitForm(varFormNameMainSummonStandardRaidItemsObtained)
 
-ActionOnForm(varFormNameMainSummonEggItemsObtained)
+ActionOnForm(varFormNameMainSummonStandardRaidItemsObtained)
 ActionExec(varActionExecuteDoClickRepeatButton)
-ActionExecVar(critMainSummonEggItemsObtainedTop)  -- click this until exists XXX
+ActionExecVar(critMainSummonStdRaidItemsObtTop)  -- click this until exists XXX
 ActionExecVar(0.1)  --  click delay
-ActionExecVar(picBtnMainSummonEggUnitObtainedNext)  -- XXX = repeat until exists this
-ActionExecVar(critMainSummonEggItemsObtainedTop)
+ActionExecVar(picBtnSummonStdRaidNext)  -- XXX = repeat until exists this
+ActionExecVar(critMainSummonStdRaidItemsObtTop)
 ActionExecVar(7)  --  start with how many click?
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainSummonEggUnitObtainedNext)
-ActionExecWaitForm(varFormNameMainSummonEgg)
+ActionExecVar(picBtnSummonStdRaidNext)
+ActionExecWaitForm(varFormNameMainSummonStandardRaid)
+
+
 
 
 

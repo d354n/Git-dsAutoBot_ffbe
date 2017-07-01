@@ -94,6 +94,13 @@ varActionName = "Dg:Story Mode/NE:Next/Start from Select Level"
 dofile(scriptPath()..parentfolder.."config_action.lua")
 
 MenuCreate("-----")
+eventfolder  = "lanzelt_lanzelt_snowfields_4th_level/"
+selectlevel  = "btn_select_level_do.png"
+ActUseLapis  = 0
+ActXcnt = 0
+varActionName = "Dg:Lanzelt Snowfields 4th Level/NE:Next"
+dofile(scriptPath()..parentfolder.."config_action.lua")
+
 eventfolder  = "snow_plains/"
 selectlevel  = "btn_select_level_beast.png"
 ActUseLapis  = 0
@@ -367,12 +374,12 @@ dofile(scriptPath()..foldername.."config_action.lua")
 parentfolder = "../custom/ffbe/nobattle/summon/"
 parentsubfol = "standard/"
 
-eventfolder  = "summon_250/"
-title = "Summon  Once a Day Limited Summon (250)"
-AddAction(0,  0)
-eventfolder  = "summon_standard/"
-title = "Summon  Standard  Multi Summon"
-AddAction(0,  0)
+--eventfolder  = "summon_250/"
+--title = "Summon  Once a Day Limited Summon (250)"
+--AddAction(0,  0)
+--eventfolder  = "summon_standard/"
+--title = "Summon  Standard  Multi Summon"
+--AddAction(0,  0)
 
 
 
@@ -433,6 +440,7 @@ MenuCreate("-----")
 
 
 MultiCreate()
+MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")

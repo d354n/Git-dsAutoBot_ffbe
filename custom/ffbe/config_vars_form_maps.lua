@@ -31,6 +31,15 @@ picBtnMapHome                                   = folderffbeimage.."maps/btn_hom
 picBtnMainWorldHome                             = picBtnMapHome
 
 
+
+varFormNameMapMainOlderion                      = "MapMainOlderion"
+varFormNameMapMainDirnadoOlderion               = "MapMainDirnadoOlderion"
+varFormNameMapMainDirnado                       = "MapMainDirnado"
+varFormNameMapMainDirnadoGrandshelt             = "MapMainDirnadoGrandshelt"
+varFormNameMapMainGrandshelt                    = "MapMainGrandshelt"
+
+
+
 varFormNameMapWorld                             = "MapMainWorld"
 locMapsSwipeSrollDn01         	                = locXthreeQuartersYmid
 locMapsSwipeSrollDn02         	                = locXoneQuartersYmid
@@ -54,6 +63,9 @@ critMapGrandGrandIslesTop                       = folderffbeimage.."maps/crit_ma
 picBtnMapGrandGrandIslesEarthShrine             = folderffbeimage.."maps/btn_maps_grandshelt_grandshelt_isles_earth_shrine.png"
 picBtnMapGrandGrandIslesLatiusWoods             = folderffbeimage.."maps/btn_maps_grandshelt_grandshelt_isles_latius_woods.png"
 picBtnMapGrandGrandIslesOrdolPort               = folderffbeimage.."maps/btn_maps_grandshelt_grandshelt_isles_ordol_port.png"
+varFormNameMapGrandLanzelt                      = "MapGrandsheltLanzelt"
+picBtnMapGrandLanzeltLanzeltSnowfields          = folderffbeimage.."maps/btn_maps_grandshelt_lanzelt_lanzelt_snowfields.png"
+critMapGrandLanzeltTop                          = folderffbeimage.."maps/crit_maps_grandshelt_lanzelt_top.png"
 
 varFormNameMapDirnado                           = "MapDirnado"
 critMapDirnadoTop                               = folderffbeimage.."maps/crit_maps_dirnado_top.png"
@@ -88,17 +100,6 @@ critMapCompanionUpdateMid                       = folderffbeimage.."maps/crit_ma
 
 
 
-varFormNameMapMainOlderion                      = "MapMainOlderion"
-varFormNameMapMainDirnadoOlderion               = "MapMainDirnadoOlderion"
-varFormNameMapMainDirnado                       = "MapMainDirnado"
-varFormNameMapMainDirnadoGrandshelt             = "MapMainDirnadoGrandshelt"
-varFormNameMapMainGrandshelt                    = "MapMainGrandshelt"
-
-varFormNameMapGrandGrandArdOrdolPort            = "MapGrandsheltGrandsheltIslesAroundOrdolPort"
-varFormNameMapGrandGrandCtrOrdolPort            = "MapGrandsheltGrandsheltIslesCenterOrdolPort"
-varFormNameMapGrandGrandArdEarthShrine          = "MapGrandsheltGrandsheltIslesAroundEarthShrine"
-varFormNameMapGrandGrandCtrEarthShrine          = "MapGrandsheltGrandsheltIslesCenterEarthShrine"
-varFormNameMapGrandGrandNoEarthOrdol            = "MapGrandsheltGrandsheltIslesNoEarthOrdol"
 
 varFormNameMapOlderionCtrAquaticCove            = "MapOlderionCtrAquaticCove"
 picBtnMapOlderionAquaticCove                    = folderffbeimage.."maps/btn_maps_olderion_aquatic_cove.png"

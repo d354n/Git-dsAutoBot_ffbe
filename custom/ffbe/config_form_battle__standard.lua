@@ -9,11 +9,15 @@
 varFormNameMainBattleSelectCompanion            = "MainFormBattleSelectCompanion"
 critMainBattleSelectCompanion                   = folderffbeimage.."select_companion/crit_select_companion_top.png"
 picBtnBattleSelectCompanionBonusStd          	= folderffbeimage.."select_companion/btn_bonus__std.png"
-picBtnBattleSelectCompanionExdeathSixMax 		= folderffbeimage.."select_companion/btn_exdeath_six_max.png"
 picBtnBattleSelectCompanionStdFriend   	        = folderffbeimage.."select_companion/btn_std_friend.png"
 picBtnBattleSelectCompanionStdOther    	        = folderffbeimage.."select_companion/btn_std_other.png"
 picBtnBattleSelectCompanionStdOther2   	        = folderffbeimage.."select_companion/btn_std_other2.png"
 picBtnBattleSelectCompanionDepartWoComp  		= folderffbeimage.."select_companion/btn_depart_without_companion.png"
+picBtnBattleSelectCompanionCharExdeath6         = folderffbeimage.."select_companion/btn_char_exdeath_6.png"
+picBtnBattleSelectCompanionCharNoctis6          = folderffbeimage.."select_companion/btn_char_noctis_6.png"
+picBtnBattleSelectCompanionCharOlive6           = folderffbeimage.."select_companion/btn_char_olive_6.png"
+picBtnBattleSelectCompanionCharOrlandeau6       = folderffbeimage.."select_companion/btn_char_orlandeau_6.png"
+picBtnBattleSelectCompanionCharTransTerra6      = folderffbeimage.."select_companion/btn_char_trans_terra_6.png"
 locMainBattleSelectCompanionSwipeScrollDn01     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 400)
 locMainBattleSelectCompanionSwipeScrollDn02     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 100)
 locMainBattleSelectCompanionSwipeScrollUp01     = Pattern(critMainBattleSelectCompanion):targetOffset(0, 100)
