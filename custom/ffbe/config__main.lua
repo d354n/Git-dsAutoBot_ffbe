@@ -140,6 +140,7 @@ AddAction(0,  0, "/P:TRUS T")
 AddAction(0, 35, "/P:TRUS T")
 AddAction(1,  0, "/P:TRUS T")
 AddAction(1, 35, "/P:TRUS T")
+AddAction(1, 60, "/P:TRUS T")
 AddAction(1,100, "/P:TRUS T")
 
 
@@ -266,7 +267,7 @@ selectlevel  = "btn_select_level.png"
 
 MenuCreate("-----")
 eventfolder  = "cactuar_dunes/"
-title = "Vx:Catuar Dunes"
+title = "Vx:Cactuar Dunes"
 AddAction(0,  0, "/P:TRUS T")
 AddAction(1,  0, "/P:TRUS T")
 
@@ -332,7 +333,7 @@ dofile(scriptPath()..parentfolder.."config_action.lua")
 
 
 
---  Standard
+--[===[  Standard
 MenuCreate("-----")
 varActionName = "Craft  Get All Completed"
 foldername = "../custom/ffbe/nobattle/craft__get_all_completed/"
@@ -354,6 +355,7 @@ varActionName = "Craft  Farm Items  Recovery  Potion"
 foldername = "../custom/ffbe/nobattle/craft_items_recovery_potion/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
+--    End    --]===]
 
 
 
@@ -434,11 +436,13 @@ dofile(scriptPath()..foldername.."config_action.lua")
 --parentfolder = foldername
 --dofile(scriptPath()..foldername.."config_action.lua")
 
---  ]===]
+--]===]
 
 MenuCreate("-----")
 
 
+
+-- [===[  Multi 01
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
@@ -447,19 +451,19 @@ for i=1, 5 do
     for j=1, 10 do
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 2nd Level/P:L IMIT")
+        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
+        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 2nd Level/P:L IMIT")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B100:Next/P:TRUS T")
+        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
+        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 2nd Level/P:L IMIT")
+        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
+        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")
---        MultiAdd("Craft  Get All Completed")
---        MultiAdd("Craft  Farm Equipment  Armor  Leather Shield")
---        MultiAdd("Craft  Farm Abilities  White Magic  Cure")
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
@@ -469,5 +473,19 @@ for i=1, 5 do
     MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
 end
 MultiAdd(varActionDoGotoAction1)
+--    End    --]===]
+
+
+
+-- [===[  Multi 02
+MultiCreate()
+for i=1, 1 do
+    MultiAdd("LapisWarning Vx:Cactuar Dunes/P:TRUS T")
+    MultiAdd("Units  Level Up  /C:Leader/P:LE VEL")
+end
+MultiAdd(varActionDoGotoAction1)
+--    End    --]===]
+
+
 
 

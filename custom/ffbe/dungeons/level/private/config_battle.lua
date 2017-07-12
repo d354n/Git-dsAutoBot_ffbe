@@ -22,9 +22,12 @@ for i=1, 10 do
         BattleNewRoundExecVar(1)
     end
 
-    ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
+--    ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
     ffbeBattleAutoOnOff()
 end
+
+
+
 for i=1, 20 do
     BattleNewRound()
     ffbeBattleAutoOnOff()
