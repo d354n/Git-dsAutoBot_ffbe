@@ -451,26 +451,23 @@ for i=1, 5 do
     for j=1, 10 do
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
-        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
-        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
-        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")
 --        MultiAdd("Wait 600")
 --        MultiAdd("Wait 2000")
     end
---    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next")
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
---    MultiAdd("Craft  Farm Items  Recovery  Potion")
-    MultiAdd("Ar:Colosseum/TopLevel/4thRound/NE:Next/B1:Next")
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]

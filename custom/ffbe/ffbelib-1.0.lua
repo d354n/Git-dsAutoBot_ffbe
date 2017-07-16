@@ -42,15 +42,18 @@ function GetStrNumber(sNumber)
     end
 end
 
-function AddVortex(sTitle, sPartyName)
+function AddVortex(sTitle, sPartyName, iCount)
+    if iCount == nil then
+        iCount = 0
+    end
     for i=1,3 do
         local si = GetStrNumber(i)
         for j=1,3 do
             local sj = GetStrNumber(j)
             eventfolder  = si.."_vortex_"..sj.."_level/"
             title        = "Vx:"..si.." "..sTitle.." "..sj.." Level"
-            AddAction(0,  0, sPartyName)
-            AddAction(1,  0, sPartyName)
+            AddAction(0,  iCount, sPartyName)
+            AddAction(1,  iCount, sPartyName)
         end
     end
 end
