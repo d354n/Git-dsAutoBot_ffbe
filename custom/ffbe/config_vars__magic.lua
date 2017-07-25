@@ -15,6 +15,7 @@ picBtnBattleLimitBurst                          = folderffbeimage.."magic/btn_ba
 
 
 picBtnBattleAbilityAffectionateAura1            = folderffbeimage.."magic/btn_battle_ability_affectionate_aura1.png"
+picBtnBattleAbilityArchadianLight1              = folderffbeimage.."magic/btn_battle_ability_archadian_light1.png"
 picBtnBattleAbilityArmorBreak2                  = folderffbeimage.."magic/btn_battle_ability_armor_break2.png"
 picBtnBattleAbilityArmorEraser1                 = folderffbeimage.."magic/btn_battle_ability_armor_eraser1.png"
 picBtnBattleAbilityArmsEraser2                  = folderffbeimage.."magic/btn_battle_ability_arms_eraser2.png"
@@ -67,10 +68,12 @@ picBtnBattleAbilityGroundWork1       		    = folderffbeimage.."magic/btn_battle_
 picBtnBattleAbilityHeatedRounds2    		    = folderffbeimage.."magic/btn_battle_ability_heated_rounds2.png"
 picBtnBattleAbilityHeartblaze2      		    = folderffbeimage.."magic/btn_battle_ability_heart_blaze2.png"
 picBtnBattleAbilityHeavensFury2     		    = folderffbeimage.."magic/btn_battle_ability_heavens_fury2.png"
+picBtnBattleAbilityHeroCrest1       		    = folderffbeimage.."magic/btn_battle_ability_hero_crest1.png"
 picBtnBattleAbilityHyperdrive2      		    = folderffbeimage.."magic/btn_battle_ability_hyperdrive2.png"
 picBtnBattleAbilityImperil1         		    = folderffbeimage.."magic/btn_battle_ability_imperil1.png"
 picBtnBattleAbilityImperil2         		    = folderffbeimage.."magic/btn_battle_ability_imperil2.png"
 picBtnBattleAbilityImpenetrableStance1          = folderffbeimage.."magic/btn_battle_ability_impenetrable_stance1.png"
+picBtnBattleAbilityJudgmentBlade2               = folderffbeimage.."magic/btn_battle_ability_judgment_blade2.png"
 picBtnBattleAbilityLastFootstep1    		    = folderffbeimage.."magic/btn_battle_ability_last_footstep1.png"
 picBtnBattleAbilityLeadership1      		    = folderffbeimage.."magic/btn_battle_ability_leadership1.png"
 picBtnBattleAbilityLiberatingFlash2 		    = folderffbeimage.."magic/btn_battle_ability_liberating_flash2.png"
@@ -99,10 +102,12 @@ picBtnBattleAbilityRapidFire2                   = folderffbeimage.."magic/btn_ba
 picBtnBattleAbilityRecoveryOil1                 = folderffbeimage.."magic/btn_battle_ability_recovery_oil1.png"
 picBtnBattleAbilityRedCard2                     = folderffbeimage.."magic/btn_battle_ability_red_card2.png"
 picBtnBattleAbilityRefreshingTool2              = folderffbeimage.."magic/btn_battle_ability_refreshing_tool2.png"
+picBtnBattleAbilityRejuvenate1                  = folderffbeimage.."magic/btn_battle_ability_rejuvenate1.png"
 picBtnBattleAbilityResistStop1                  = folderffbeimage.."magic/btn_battle_ability_resist_stop1.png"
 picBtnBattleAbilityRoyalObligation1             = folderffbeimage.."magic/btn_battle_ability_royal_obligation1.png"
 picBtnBattleAbilityRune1                        = folderffbeimage.."magic/btn_battle_ability_rune1.png"
 picBtnBattleAbilityRuinousCleave1               = folderffbeimage.."magic/btn_battle_ability_ruinous_cleave1.png"
+picBtnBattleAbilitySacredStrike2                = folderffbeimage.."magic/btn_battle_ability_sacred_strike2.png"
 picBtnBattleAbilitySchwertDance1                = folderffbeimage.."magic/btn_battle_ability_schwert_dance1.png"
 picBtnBattleAbilityShatteringShot1  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot1.png"
 picBtnBattleAbilityShatteringShot2  		    = folderffbeimage.."magic/btn_battle_ability_shattering_shot2.png"
@@ -115,6 +120,7 @@ picBtnBattleAbilityUndermine1       		    = folderffbeimage.."magic/btn_battle_a
 picBtnBattleAbilityWaylay1                      = folderffbeimage.."magic/btn_battle_ability_waylay1.png"
 picBtnBattleAbilityWaylay2                      = folderffbeimage.."magic/btn_battle_ability_waylay2.png"
 picBtnBattleAbilityWickedLight2      		    = folderffbeimage.."magic/btn_battle_ability_wicked_light2.png"
+picBtnBattleAbilityWordOfLaw1        		    = folderffbeimage.."magic/btn_battle_ability_word_of_law1.png"
 
 
 

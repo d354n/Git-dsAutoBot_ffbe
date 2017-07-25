@@ -39,6 +39,7 @@ dofile(folderffbescript.."config_form_battle__standard.lua")
 dofile(folderffbescript.."config_form_battle_dungeon.lua")
 dofile(folderffbescript.."config_form_battle_exploration.lua")
 dofile(folderffbescript.."config_form_craft.lua")
+dofile(folderffbescript.."config_form_expedition.lua")
 dofile(folderffbescript.."config_form_exploration.lua")
 dofile(folderffbescript.."config_form_friends.lua")
 dofile(folderffbescript.."config_form_home.lua")
@@ -360,6 +361,12 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MenuCreate("-----")
+varActionName = "Expeditions  Get All Completed"
+foldername = "../custom/ffbe/nobattle/expedition_get_all_completed/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+MenuCreate("-----")
 varActionName = "Friends  Receive Send All"
 foldername = "../custom/ffbe/nobattle/friends_send_receive_all/"
 parentfolder = foldername
@@ -446,26 +453,25 @@ MenuCreate("-----")
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
-    MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
     for j=1, 10 do
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
 --        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
-        MultiAdd("Ar:Battle")
+--        MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
 --        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
         MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
         MultiAdd("Ar:Battle")
 --        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
+--        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
 --        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
 
         MultiAdd("Items  Materials  Sell Items")
---        MultiAdd("Wait 600")
---        MultiAdd("Wait 2000")
+        MultiAdd("Friends  Receive Send All")
+        MultiAdd("Expeditions  Get All Completed")
     end
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end

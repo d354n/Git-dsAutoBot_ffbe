@@ -6,6 +6,8 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+
+
 varFormNameMainHomeQuest                        = "MainFormHomeQuest"
 picBtnMainHomeQuestDailyQuests                  = folderffbeimage.."home/btn_daily_quests.png"
 critMainHomeQuestTop					        = folderffbeimage.."home/crit_quest_top.png"

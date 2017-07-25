@@ -48,6 +48,9 @@ picBtnMainHomeQuestReport          	            = folderffbeimage.."home/btn_que
 critMainHomeMid							        = folderffbeimage.."home/crit_home_mid.png"
 critMainHomeMid2						        = folderffbeimage.."home/crit_home_mid2.png"
 critMainHomeMid3						        = folderffbeimage.."home/crit_home_mid3.png"
+locHomeMenuSelectLeft                           = locXoneQuartersYthreeQuarters
+locHomeMenuSelectMid                            = locXmidYthreeQuarters
+
 
 varFormNameMainShop                             = "MainFormShop"
 critMainShop							        = folderffbeimage.."shop/crit_shop_top.png"

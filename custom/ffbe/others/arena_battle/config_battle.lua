@@ -15,21 +15,40 @@ BattleEngageForm(varFormNameMainBattleEngagedInAction)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critBattleResultArenaWonTop)
 
+BattleNewRound()
+BattleNewRoundExec(varActionExecuteDoIncBattleCount)
+BattleNewRoundExecVar(1)
+ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
+ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilitySnowpetal1)
+--    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityWickedLight2)
+ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+for j=4,5 do
+    ffbeBattleSwipeMagicAdd2(j, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
+end
+ffbeBattleClickParty(5)
+ffbeBattleClickParty(2)
+ffbeBattleClickParty(1)
+ffbeBattleClickParty(3)
+ffbeBattleClickParty(4)
+ffbeBattleAutoOnOff()
+
+for i=1, 2 do
+    BattleNewRound()
+    ffbeBattleRepeat()
+end
+
 for i=1, 1 do
     BattleNewRound()
-    if i == 1 then
-        BattleNewRoundExec(varActionExecuteDoIncBattleCount)
-        BattleNewRoundExecVar(1)
-    end
-
     ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
     ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilitySnowpetal1)
-    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityWickedLight2)
---    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
---    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
---    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+--    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityWickedLight2)
+    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+    ffbeBattleMagicAdd2(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
     for j=4,5 do
-        ffbeBattleSwipeMagicAdd2(j, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
+        ffbeBattleSwipeMagicAdd2(j, picBtnBattleAbilityRedCard2, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2)
     end
     ffbeBattleClickParty(5)
     ffbeBattleClickParty(2)
@@ -38,6 +57,7 @@ for i=1, 1 do
     ffbeBattleClickParty(4)
     ffbeBattleAutoOnOff()
 end
+
 
 
 
