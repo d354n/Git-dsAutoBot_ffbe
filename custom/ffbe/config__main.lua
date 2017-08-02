@@ -367,6 +367,11 @@ dofile(scriptPath()..foldername.."config_action.lua")
 
 
 MenuCreate("-----")
+varActionName = "Expeditions  Do D C B A Free S"
+foldername = "../custom/ffbe/nobattle/expedition_do_d_c_b_a_auto/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
 varActionName = "Expeditions  Get All Completed"
 foldername = "../custom/ffbe/nobattle/expedition_get_all_completed/"
 parentfolder = foldername
