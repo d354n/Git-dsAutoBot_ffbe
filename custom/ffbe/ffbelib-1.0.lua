@@ -94,6 +94,11 @@ function ffbeBattleMagicAdd(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
     end
 end
 
+function ffbeBattleMagicAdd2Dual(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
+    ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
+    ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
+end
+
 function ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
     if (vMag1 ~= nil) and (vMag1 ~= "") then
         local vMagic = {}

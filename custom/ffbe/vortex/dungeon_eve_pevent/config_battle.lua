@@ -20,51 +20,31 @@ BattleEndRoundCriteria(critMainBattleResultsGil)
 BattleNewRound()
 BattleNewRoundExec(varActionExecuteDoIncBattleCount)
 BattleNewRoundExecVar(1)
-ffbeBattleSwipeMagicAdd(1, picBtnBattleAbilityPrismaticFlash1, picBtnBattleAbilityPrismaticFlash2)
-ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
+ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGrapeshot1, picBtnBattleAbilityGrapeshot2)
+for i=2, 5 do
+    ffbeBattleSwipeMagicAdd2(i, picBtnBattleAbilityBladeblitz1, picBtnBattleAbilityBladeblitz2)
+end
 --ffbeBattleSwipeMagicAdd(3, picBtnBattleAbilityDualcast1, picBtnBattleAbilityDualcast2)
---ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
---ffbeBattleMagicAdd(picBtnBattleMagicThundaga2)
+--ffbeBattleMagicAddDual(picBtnBattleMagicThundaga2)
 --ffbeBattleSwipeMagicAdd(4, picBtnBattleAbilityDualBlackMagic1)
---ffbeBattleMagicAdd(picBtnBattleMagicThundara1, picBtnBattleMagicThundara2)
---ffbeBattleMagicAdd(picBtnBattleMagicThundara1, picBtnBattleMagicThundara2)
-ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityPrismaticFlash1, picBtnBattleAbilityPrismaticFlash2)
-ffbeBattleClickParty(2, 1)
+--ffbeBattleMagicAddDual(picBtnBattleMagicThundara1, picBtnBattleMagicThundara2)
+--ffbeBattleClickParty(2, 1)
 ffbeBattleAutoOnOff()
 
-BattleNewRound()
-ffbeBattleRepeat()
+for i=1, 4 do
+    BattleNewRound()
+    ffbeBattleRepeat()
+end
 
 BattleNewRound()
-ffbeBattleRepeat()
-
-BattleNewRound()
-ffbeBattleRepeat()
-
-BattleNewRound()
-ffbeBattleSwipeMagicAdd(1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityCursedCard1)
-ffbeBattleSwipeMagicAdd(2, picBtnBattleAbilityShatteringShot2, picBtnBattleAbilityShatteringShot1)
-ffbeBattleSwipeMagicAdd(5, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityCursedCard1)
+ffbeBattleSwipeMagicAdd(1, picBtnBattleLimitBurst, picBtnBattleAbilityTrueShot1, picBtnBattleAbilityTrueShot2)
 ffbeBattleClickParty(1)
-ffbeBattleClickParty(5)
-ffbeBattleClickParty(2, 1)
 ffbeBattleRepeat()
 ffbeBattleAutoOnOff()
 
-BattleNewRound()
-ffbeBattleRepeat()
 
-BattleNewRound()
-ffbeBattleRepeat()
 
-BattleNewRound()
-ffbeBattleRepeat()
 
-BattleNewRound()
-ffbeBattleSwipeMagicAdd(2, picBtnBattleLimitBurst, picBtnBattleAbilityTrueShot1, picBtnBattleAbilityTrueShot2)
-ffbeBattleClickParty(2, 1)
-ffbeBattleRepeat()
-ffbeBattleAutoOnOff()
 
 for i=1, 10 do
     BattleNewRound()

@@ -18,7 +18,7 @@ BattleEndRoundCriteria(critBattleResultArenaWonTop)
 BattleNewRound()
 BattleNewRoundExec(varActionExecuteDoIncBattleCount)
 BattleNewRoundExecVar(1)
-ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
+ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicAeroga2)
 ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilitySnowpetal1)
 --    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityWickedLight2)
 ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
@@ -41,7 +41,7 @@ end
 
 for i=1, 1 do
     BattleNewRound()
-    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundara2, picBtnBattleMagicThundara1)
+    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicAeroga2)
     ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilitySnowpetal1)
 --    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityWickedLight2)
     ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)

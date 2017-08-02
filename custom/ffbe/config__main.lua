@@ -195,7 +195,13 @@ parentfolder = "../custom/ffbe/others/arena_battle/"
 parentsubfol = "standard/"
 
 eventfolder  = "gold_blue_purple/"
-title = "Ar:Battle"
+title = "Ar:Battle  Gold Blue Purple"
+AddAction(0,  0, "")
+AddAction(0,  1, "")
+AddAction(0,  3, "")
+
+eventfolder  = "first_row/"
+title = "Ar:Battle  First Row"
 AddAction(0,  0, "")
 AddAction(0,  1, "")
 AddAction(0,  3, "")
@@ -451,27 +457,26 @@ MenuCreate("-----")
 
 -- [===[  Multi 01
 MultiCreate()
-MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
+--MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
-    MultiAdd("Quests  Daily Claim")
-    for j=1, 10 do
-        MultiAdd("Ar:Battle")
---        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
---        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
---        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
---        MultiAdd("Ar:Battle")
---        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
---        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
---        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
-        MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
-        MultiAdd("Ar:Battle")
---        MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
---        MultiAdd("Vx:2nd Event 1st Level/P:EVE NT")
---        MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+    for j=1, 3 do
+        MultiAdd("Ar:Colosseum/TopLevel/4thRound/B1:Next")
+        MultiAdd("Quests  Daily Claim")
+        for j=1, 3 do
+            MultiAdd("Ar:Battle  Gold Blue Purple")
+--            MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
+            MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
+--            MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+--            MultiAdd("Ar:Battle  Gold Blue Purple")
+--            MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
+--            MultiAdd("Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
+            MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
+            MultiAdd("Ar:Battle  Gold Blue Purple")
 
-        MultiAdd("Items  Materials  Sell Items")
-        MultiAdd("Friends  Receive Send All")
-        MultiAdd("Expeditions  Get All Completed")
+            MultiAdd("Items  Materials  Sell Items")
+            MultiAdd("Friends  Receive Send All")
+            MultiAdd("Expeditions  Get All Completed")
+        end
     end
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
