@@ -17,13 +17,20 @@ picBtnSummonRareOn                              = folderffbeimage.."summon/btn_s
 picBtnSummonStdOff                              = folderffbeimage.."summon/btn_summon_std_off.png"
 picBtnSummonStdOn                               = folderffbeimage.."summon/btn_summon_std_on.png"
 
+varFormNameMainSummonStandardStandard           = "MainFormMainSummonStandardStandard"
+varFormNameMainSummonStandardStandardNoMulti    = "MainFormMainSummonStandardStandardNoMulti"
+picBtnSummonStdStdSummon                        = folderffbeimage.."summon/btn_summon_std_std_summon.png"
+picBtnSummonStdStdMultiSummon                   = folderffbeimage.."summon/btn_summon_std_std_multi_summon.png"
+
+varFormNameMainSummonStandardStandardConf       = "MainFormMainSummonStandardStandardConf"
+picBtnSummonStdStdConfMultiSummon               = folderffbeimage.."summon/btn_summon_std_std_conf_multi_summon.png"
+
 varFormNameMainSummonStandardRaid               = "MainFormMainSummonStandardRaid"
 varFormNameMainSummonStandardRaidNoMulti        = "MainFormMainSummonStandardRaidNoMulti"
 picBtnSummonStdRaidSummon                       = folderffbeimage.."summon/btn_summon_std_raid_summon.png"
 picBtnSummonStdRaidMultiSummon                  = folderffbeimage.."summon/btn_summon_std_raid_multi_summon.png"
 
 varFormNameMainSummonStandardRaidConf           = "MainFormMainSummonStandardRaidConf"
-critMainSummonStdRaidConfTop                    = folderffbeimage.."summon/crit_summon_std_raid_top.png"
 picBtnSummonStdRaidConfMultiSummon              = folderffbeimage.."summon/btn_summon_std_raid_conf_multi_summon.png"
 
 varFormNameMainSummonStandardRaidTap            = "MainFormMainSummonStandardRaidTap"
@@ -47,6 +54,19 @@ FormCreate(varFormNameMainSummonStandard)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainSummonTop)
 FormAddCriteria2Do(varCriteriaExists, picBtnSummonStdOn)
+
+FormCreate(varFormNameMainSummonStandardStandard)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnSummonStdStdMultiSummon)
+
+FormCreate(varFormNameMainSummonStandardStandardNoMulti)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnSummonStdStdMultiSummon)
+FormAddCriteria2Do(varCriteriaExists, picBtnSummonStdStdSummon)
+
+FormCreate(varFormNameMainSummonStandardStandardConf)
+FormAddCriteria2Do(varCriteriaExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, picBtnSummonStdStdConfMultiSummon)
 
 FormCreate(varFormNameMainSummonStandardRaid)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)

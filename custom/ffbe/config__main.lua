@@ -397,9 +397,9 @@ parentsubfol = "standard/"
 --eventfolder  = "summon_250/"
 --title = "Summon  Once a Day Limited Summon (250)"
 --AddAction(0,  0)
---eventfolder  = "summon_standard/"
---title = "Summon  Standard  Multi Summon"
---AddAction(0,  0)
+eventfolder  = "summon_standard/"
+title = "Summon  Standard  Multi Summon"
+AddAction(0,  0)
 
 
 
@@ -410,7 +410,7 @@ parentsubfol = "events/"
 --AddAction(0,  0)
 
 eventfolder  = "summon_raid/"
-title = "Summon  Raid"
+title = "Summon  Raid  Multi Summon"
 AddAction(0,  0)
 
 
@@ -465,9 +465,13 @@ MultiCreate()
 --MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
     for j=1, 3 do
-        MultiAdd("Ar:Colosseum/TopLevel/4thRound/B1:Next")
+--        MultiAdd("Ar:Colosseum/TopLevel/4thRound/B1:Next")
         MultiAdd("Quests  Daily Claim")
         for j=1, 3 do
+            MultiAdd("Friends  Receive Send All")
+            MultiAdd("Expeditions  Get All Completed")
+            MultiAdd("Expeditions  Do D C B A Free S")
+
             MultiAdd("Ar:Battle  Gold Blue Purple")
 --            MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
             MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
@@ -479,8 +483,6 @@ for i=1, 5 do
             MultiAdd("Ar:Battle  Gold Blue Purple")
 
             MultiAdd("Items  Materials  Sell Items")
-            MultiAdd("Friends  Receive Send All")
-            MultiAdd("Expeditions  Get All Completed")
         end
     end
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
