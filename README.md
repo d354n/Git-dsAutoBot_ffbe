@@ -17,6 +17,7 @@ Warning:
 * Dont forget to move PLAY button to TOP RIGHT of the screen
 
 First Setup:
+* Set Nox Resolution W 600 H 800 DPI 160
 * set All Effects OFF
 * set party name to:
   * "EVE NT" for Event, Vortex
@@ -38,29 +39,16 @@ First Setup:
     * Action3: Wait 2000
     * Action4: Goto 1
 * standard battle config:
-  * Position: Char1 Char2 Char3 Char4 Char5 (in units)
+  * Position: Char1 Char2 Char3 Char4 Char5 (in Page units)
   * Arena Colosseum:
-    * Party Setup in Options
-    * Char 3 - ExDeath - Cast Dual Magic (Meteor + Meteor)
-    * Other Battle AUTO
+    * see Battle config in folder /custom/ffbe/others/arena_colosseum/config_battle.lua
   * TMR:
     * Party name "TRUS T"
-    * Battle AUTO
-    * Battle 99 (Blazing Fast): 
+    * Battle Blazing Fast: 
       * Char1 Attack 
       * Char3 Attack 
   * Arena PVP:
-    * Char 1 - White Knight Noel - Aeroga / Blizzaga 
-    * Char 2 - Olive - GrapeShot / TrueShot 
-    * Char 3 - ExDeath - Dual Magic - Meteor - Meteor
-    * Char 4 - Cecil - Focus / Curaja 
-    * Char 5 - Refia - Embolden / Curaja 
-  * Vortex Event
-    * Party name "EVE NT"
-    * Battle Char 3 - ExDeath - Dual Magic - Meteor - Meteor
-  * Vortex Regular
-    * Party name "TRUS T"
-    * Battle AUTO
+    * see Battle config in folder /custom/ffbe/others/arena_battle/config_battle.lua
 
 Files description:
 * amain.luae (main program)
