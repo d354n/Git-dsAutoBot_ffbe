@@ -461,8 +461,16 @@ MenuCreate("-----")
 
 
 -- [===[  Multi 01
+local varEvent  = "Vx:2nd Event 1st Level/P:EVE NT"
+--local varBattle = "Ar:Battle  Gold Blue Purple"
+local varBattle = "Ar:Battle  First Row"
+--            "Vx:2nd Vortex 1st Level/P:EVE NT"
+--            "Vx:3rd Event 2nd Level/P:L IMIT"
+--            "Vx:1st Event 1st Level/P:EVE NT"
+
+
 MultiCreate()
---MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
+MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
 for i=1, 5 do
     for j=1, 3 do
 --        MultiAdd("Ar:Colosseum/TopLevel/4thRound/B1:Next")
@@ -472,15 +480,12 @@ for i=1, 5 do
             MultiAdd("Expeditions  Get All Completed")
             MultiAdd("Expeditions  Do D C B A Free S")
 
-            MultiAdd("Ar:Battle  Gold Blue Purple")
---            MultiAdd("Vx:2nd Vortex 1st Level/P:EVE NT")
-            MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
---            MultiAdd("Vx:3rd Event 2nd Level/P:L IMIT")
+            MultiAdd(varBattle)
+            MultiAdd(varEvent)
 --            MultiAdd("Ar:Battle  Gold Blue Purple")
---            MultiAdd("Vx:1st Event 1st Level/P:EVE NT")
 --            MultiAdd("Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
             MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
-            MultiAdd("Ar:Battle  Gold Blue Purple")
+            MultiAdd(varBattle)
 
             MultiAdd("Items  Materials  Sell Items")
         end
