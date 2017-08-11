@@ -20,11 +20,15 @@ BattleNewRoundExec(varActionExecuteDoIncBattleCount)
 BattleNewRoundExecVar(1)
 ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicAeroga2)
 ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityRicochet2)
-ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityHeavensFury2)
-for j=4,5 do
-    ffbeBattleSwipeMagicAdd2(j, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
-end
+ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
+ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
+ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityBlizzardFlask1, picBtnBattleMagicBiora1)
 ffbeBattleAutoOnOff()
+
+for i=1, 10 do
+    BattleNewRound()
+    ffbeBattleRepeat()
+end
 
 
 

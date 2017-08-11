@@ -16,8 +16,20 @@ ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
 ActionExecVar(3)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleVortexSelectVortex2)
-ActionExecVar(picBtnBattleVortexSelectVortex2)
+ActionExecVar(varDirectoryCustomImage .. "btn_select_vortex3.png")
 ActionExecVar(picBtnBattleCompletionHome)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+
+ActionOnForm(varFormNameMainVortexDesiresUnlockLapis)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdNo)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(1)
+
+ActionOnForm(varFormNameMainVortexDesiresUnlockFree)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnStdYes)
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
 

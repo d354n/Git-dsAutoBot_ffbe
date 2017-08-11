@@ -52,3 +52,4 @@ varFormNameMainArenaColosseumRechargeEnergy     = "MainFormArenaColosseumRecharg
 critMainArenaColosseumRechargeEnergyMid         = folderffbeimage.."colosseum/crit_insufficient_colosseum_orbs_mid.png"
 picBtnMainArenaColosseumRechargeEnergyNo        = folderffbeimage.."colosseum/btn_insufficient_colosseum_orbs_no.png"
 picBtnMainArenaColosseumRechargeEnergyYes       = folderffbeimage.."colosseum/btn_insufficient_colosseum_orbs_yes.png"
+picBtnMainArenaColosseumRechargeEnergyBack      = folderffbeimage.."colosseum/btn_insufficient_colosseum_orbs_back.png"

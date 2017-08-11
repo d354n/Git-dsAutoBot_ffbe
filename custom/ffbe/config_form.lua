@@ -91,8 +91,14 @@ picErrorLoadingOk                               = folderffbeimage.."btn_error_lo
 
 varFormNameMainVortex                           = "MainFormVortex"
 varFormNameMainVortexDesires                    = "MainFormVortexDesires"
+varFormNameMainVortexDesiresUnlockFree          = "MainFormVortexDesiresUnlockFree"
+varFormNameMainVortexDesiresUnlockLapis         = "MainFormVortexDesiresUnlockLapis"
 critMainDimensionalVortex				        = folderffbeimage.."vortex/crit_main_dimensional_vortex.png"
 critMainDimensionalVortexDesires                = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires.png"
+critMainDimensionalVortexDesiresUnlockMid       = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires_unlock_mid.png"
+critMainDimensionalVortexDesiresUnlockLapisMid  = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires_unlock_lapis_mid.png"
+picBtnDimensionalVortexExchange                 = folderffbeimage.."vortex/btn_vortex_exchange.png"
+picBtnDimensionalVortexWorld                    = folderffbeimage.."vortex/btn_vortex_world.png"
 locMainBattleSelectVortexSwipeScrollDn01       	= Pattern(critMainDimensionalVortex):targetOffset(0, 400)
 locMainBattleSelectVortexSwipeScrollDn02       	= Pattern(critMainDimensionalVortex):targetOffset(0, 100)
 locMainBattleSelectVortexSwipeScrollUp01       	= locMainBattleSelectVortexSwipeScrollDn02
@@ -182,6 +188,18 @@ FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
 FormCreate(varFormNameMainVortexDesires)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesires)
+FormAddCriteria2Do(varCriteriaNotExists, critMainDimensionalVortexDesiresUnlockMid)
+FormAddCriteria2Do(varCriteriaNotExists, critMainDimensionalVortexDesiresUnlockLapisMid)
+
+FormCreate(varFormNameMainVortexDesiresUnlockFree)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesires)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesiresUnlockMid)
+
+FormCreate(varFormNameMainVortexDesiresUnlockLapis)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesires)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortexDesiresUnlockLapisMid)
 
 FormCreate(varFormNameUnitCapacityReached)
 FormAddCriteria2Do(varCriteriaExists, critUnitCapacityReachedMid)

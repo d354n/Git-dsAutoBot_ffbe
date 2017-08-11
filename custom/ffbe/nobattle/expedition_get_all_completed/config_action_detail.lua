@@ -34,7 +34,7 @@ ActionExecWaitForm(varFormNameMainHome)
 ActionOnForm(varFormNameMainHomeExpeditionsOngoingComp)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeExpedOngoingComplete)
-for i=1, 13 do
+for i=1, 18 do
     ActionExec(varActionExecuteDoClickLocation)
     ActionExecVar(locXmidYmid)
     ActionExec(varActionExecuteDoWait)

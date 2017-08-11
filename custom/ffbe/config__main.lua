@@ -238,7 +238,7 @@ parentsubfol = "raid/"
 
 --  Vortex  Dungeon  All  --
 MenuCreate("-----")
-parentsubfol = "dungeon_vor/"
+parentsubfol = "dungeon_vor_pevent/"
 selectlevel  = "btn_select_level_do.png"
 ActEnmSpcBattle = 0
 AddVortex("Vortex", "/P:EVE NT")
@@ -252,6 +252,17 @@ ActEnmSpcBattle = 0
 AddVortex("Event", "/P:EVE NT")
 --    End    --]===]
 
+--  Vortex  Events Current  P:Event  --
+MenuCreate("-----")
+parentsubfol = "dungeon_eve_pevent/"
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
+eventfolder  = "eve_current_1st_level/"
+title        = "Vx:Cur Event 1st Level"
+AddAction(0,  0, "/P:EVE NT")
+AddAction(1,  0, "/P:EVE NT")
+--    End    --]===]
+
 --  Vortex  Events  P:LIMIT  --  "Vx:1st Event 1st Level/P:L IMIT"
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_plimit/"
@@ -262,7 +273,7 @@ AddVortex("Event", "/P:L IMIT")
 
 --  Vortex  Raid  Events  --
 MenuCreate("-----")
-parentsubfol = "dungeon_raid/"
+parentsubfol = "dungeon_raid_plimit/"
 selectlevel  = "btn_select_level_do.png"
 ActEnmSpcBattle = 0
 AddVortex("Raid", "/P:L IMIT")
@@ -461,13 +472,14 @@ MenuCreate("-----")
 
 
 -- [===[  Multi 01
-local varEvent  = "Vx:2nd Event 1st Level/P:EVE NT"
---local varBattle = "Ar:Battle  Gold Blue Purple"
-local varBattle = "Ar:Battle  First Row"
+local varEvent    = "Vx:2nd Event 1st Level/P:EVE NT"
+local varCurEvent = "Vx:Cur Event 1st Level/P:EVE NT"
+--local varBattle   = "Ar:Battle  Gold Blue Purple"
+local varBattle   = "Ar:Battle  First Row"
+local varLapis    = "LapisWarning "
 --            "Vx:2nd Vortex 1st Level/P:EVE NT"
 --            "Vx:3rd Event 2nd Level/P:L IMIT"
 --            "Vx:1st Event 1st Level/P:EVE NT"
-
 
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
@@ -481,10 +493,11 @@ for i=1, 5 do
             MultiAdd("Expeditions  Do D C B A Free S")
 
             MultiAdd(varBattle)
-            MultiAdd(varEvent)
+--            MultiAdd(varEvent)
+            MultiAdd(varCurEvent)
 --            MultiAdd("Ar:Battle  Gold Blue Purple")
 --            MultiAdd("Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
-            MultiAdd("LapisWarning Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
+            MultiAdd(varLapis.."Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
             MultiAdd(varBattle)
 
             MultiAdd("Items  Materials  Sell Items")
@@ -500,12 +513,21 @@ MultiAdd(varActionDoGotoAction1)
 -- [===[  Multi 02
 MultiCreate()
 for i=1, 1 do
-    MultiAdd("LapisWarning Vx:Cactuar Dunes/P:TRUS T")
+    MultiAdd(varLapis.."Vx:Cactuar Dunes/P:TRUS T")
     MultiAdd("Units  Level Up  /C:Leader/P:LE VEL")
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
 
+
+
+-- [===[  Multi 03
+MultiCreate()
+for i=1, 1 do
+    MultiAdd(varLapis.."Vx:Chamber Of Awakening Int/P:LE VEL")
+end
+MultiAdd(varActionDoGotoAction1)
+--    End    --]===]
 
 
 
