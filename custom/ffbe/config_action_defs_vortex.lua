@@ -20,7 +20,7 @@ ActionExecVar(locMainBattleSelectVortexSwipeScrollUp01)
 ActionExecVar(locMainBattleSelectVortexSwipeScrollUp02)
 ActionExecVar(0)  --  delay between scroll
 ActionExecVar(false)  --  search from top?
-ActionExecVar(2)  --  how many scroll to bottom
+ActionExecVar(4)  --  how many scroll to bottom
 ActionExecVar(picBtnBattleVortexSelectVortex)  --itemtofind priority 1
 ActionExecWaitForm(varFormNameMainBattleSelectLevel)
 

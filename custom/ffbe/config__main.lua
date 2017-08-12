@@ -77,6 +77,7 @@ critItems[3] = folderffbeimage.."items/crit_items_corner_upleft3.png"
 
 --  Menu: varActionDoSaveImage Start
 critMagic[1] = folderffbeimage.."magic/crit_magic_corner_upleft1.png"
+--critMagic[2] = folderffbeimage.."magic/crit_magic_corner_upleft2.png"
 swipeMagic[1] = locBattleMagicSwipeSrollDn01
 swipeMagic[2] = locBattleMagicSwipeSrollDn02
 --  Menu: varActionDoSaveImage End
@@ -472,14 +473,17 @@ MenuCreate("-----")
 
 
 -- [===[  Multi 01
+local varLapis    = "LapisWarning "
+
+local varBattle   = "Ar:Battle  First Row"
+--local varBattle   = "Ar:Battle  Gold Blue Purple"
+
 local varEvent    = "Vx:2nd Event 1st Level/P:EVE NT"
 local varCurEvent = "Vx:Cur Event 1st Level/P:EVE NT"
---local varBattle   = "Ar:Battle  Gold Blue Purple"
-local varBattle   = "Ar:Battle  First Row"
-local varLapis    = "LapisWarning "
---            "Vx:2nd Vortex 1st Level/P:EVE NT"
---            "Vx:3rd Event 2nd Level/P:L IMIT"
---            "Vx:1st Event 1st Level/P:EVE NT"
+
+local varRaid     = "Vx:1st Raid 1st Level/P:L IMIT"
+
+
 
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/B3:Next")
@@ -494,9 +498,10 @@ for i=1, 5 do
 
             MultiAdd(varBattle)
 --            MultiAdd(varEvent)
+            MultiAdd(varRaid)
             MultiAdd(varCurEvent)
---            MultiAdd("Ar:Battle  Gold Blue Purple")
---            MultiAdd("Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
+            MultiAdd(varBattle)
+            MultiAdd(varRaid)
             MultiAdd(varLapis.."Dg:Earth Shrine Entrance/B60:Next/P:TRUS T")
             MultiAdd(varBattle)
 
