@@ -42,6 +42,11 @@ for i=1, 2 do
     ffbeBattleClickParty(5)
     ffbeBattleClickParty(6, 3)
 end
+
+
+
+
+
 for i=1, 100 do
     BattleNewRound()
     ffbeBattleAutoOnOff()

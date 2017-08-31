@@ -37,23 +37,23 @@ if (ActUseLapis == 1) then
     ActionExec(varActionExecuteDoClickButton)
     ActionExecVar(picBtnMainRechargeEnergyYes)
 end
-if (ActXcnt > 0) then
-    ActionOnForm(varFormNameMainBattleCompletion)
-    ActionExec(varActionExecuteDoIsCounterDo)
-    ActionExecVar(1)  --  Check Counter Number
-    ActionExecVar(ActXcnt)  --  Number Is
-    ActionExecVar(varActionExecuteDoClickButton)    --  if counter
-    ActionExecVar(picBtnBattleCompletionHome)       --  if counter
-    ActionExecVar(varActionExecuteDoCounterInc)     --  if not counter
-    ActionExecVar(1)                                --  if not counter
-    ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
-    ActionExecVar(1)                                --  if counter
-    ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-    ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-    ActionExecVar(varActionExecuteDoSetActionNextAction)
-    ActionExecVar("")
-    ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
-end
+
+ActionOnForm(varFormNameMainBattleCompletion)
+ActionExec(varActionExecuteDoIsCounterDo)
+ActionExecVar(1)  --  Check Counter Number
+ActionExecVar(varActionGetVarX)  --  Number Is
+ActionExecVar(varActionExecuteDoClickButton)    --  if counter
+ActionExecVar(picBtnBattleCompletionHome)       --  if counter
+ActionExecVar(varActionExecuteDoCounterInc)     --  if not counter
+ActionExecVar(1)                                --  if not counter
+ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+ActionExecVar(1)                                --  if counter
+ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
+ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
+ActionExecVar(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
+
 local sConfig = "config_action_detail.lua"
 local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig
 if file_exists(sFilename) then

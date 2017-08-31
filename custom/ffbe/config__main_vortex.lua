@@ -16,7 +16,7 @@ parentsubfol = "raid/"
 
 
 
---  Vortex  Dungeon  All  --
+--  Vortex  Dungeon  --
 MenuCreate("-----")
 parentsubfol = "dungeon_vor_pevent/"
 selectlevel  = "btn_select_level_do.png"
@@ -26,43 +26,33 @@ AddVortex("Vortex", "/P:EVE NT/Cnt=X")
 
 
 
---  Vortex  Events  P:Event  --
+--  Vortex  Events  P:EVE NT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_pevent/"
-selectlevel  = "btn_select_level_do.png"
 ActEnmSpcBattle = 0
 AddVortex("Event", "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
-
-
---  Vortex  Events Current  P:Event  --
+--  Vortex  Events Current  P:EVE NT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_pevent/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
 eventfolder  = "eve_current_1st_level/"
 title        = "Vx:Cur Event 1st Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
-
-
---  Vortex  Events  P:LIMIT  --  "Vx:1st Event 1st Level/P:L IMIT"
+--  Vortex  Events  P:L IMIT  --  "Vx:1st Event 1st Level/P:L IMIT"
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_plimit/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
 AddVortex("Event", "/P:L IMIT/Cnt=X")
 --    End    --]===]
 
 
 
---  Vortex  Raid  Events  --
+--  Vortex  Raid  P:L IMIT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_raid_plimit/"
-selectlevel  = "btn_select_level_do.png"
 ActEnmSpcBattle = 0
 AddVortex("Raid", "/P:L IMIT/Cnt=X")
 --    End    --]===]

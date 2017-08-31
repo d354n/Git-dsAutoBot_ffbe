@@ -36,26 +36,24 @@ if (ActUseLapis == 1) then
     ActionExecVar(1)
     ActionExec(varActionExecuteDoClickButton)
     ActionExecVar(picBtnMainRechargeEnergyYes)
-else
+end
 
-end
-if (ActXcnt > 0) then
-    ActionOnForm(varFormNameMainBattleCompletion)
-    ActionExec(varActionExecuteDoIsCounterDo)
-    ActionExecVar(1)  --  Check Counter Number
-    ActionExecVar(ActXcnt)  --  Number Is
-    ActionExecVar(varActionExecuteDoClickButton)    --  if counter
-    ActionExecVar(picBtnBattleCompletionHome)       --  if counter
-    ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-    ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-    ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
-    ActionExecVar(1)                                --  if counter
-    ActionExecVar(varActionExecuteDoCounterInc)     --  if not
-    ActionExecVar(1)                                --  if not
-    ActionExecVar(varActionExecuteDoSetActionNextAction)
-    ActionExecVar("")
-    ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
-end
+ActionOnForm(varFormNameMainBattleCompletion)
+ActionExec(varActionExecuteDoIsCounterDo)
+ActionExecVar(1)  --  Check Counter Number
+ActionExecVar(varActionGetVarX)  --  Number Is
+ActionExecVar(varActionExecuteDoClickButton)    --  if counter
+ActionExecVar(picBtnBattleCompletionHome)       --  if counter
+ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
+ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
+ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+ActionExecVar(1)                                --  if counter
+ActionExecVar(varActionExecuteDoCounterInc)     --  if not
+ActionExecVar(1)                                --  if not
+ActionExecVar(varActionExecuteDoSetActionNextAction)
+ActionExecVar("")
+ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
+
 local sConfig = "config_action_detail.lua"
 local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig
 if file_exists(sFilename) then
