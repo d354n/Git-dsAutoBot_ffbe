@@ -1,0 +1,58 @@
+--
+-- Created by IntelliJ IDEA.
+-- User: denny
+-- Date: 2/11/2017
+-- Time: 2:37 AM
+-- To change this template use File | Settings | File Templates.
+--
+
+ActionOnForm(varFormNameMainHomeExpeditionsNew)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedAchievementStatus)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwd01)
+
+ActionOnForm(varFormNameMainHomeExpeditionsNewOngDis)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedAchievementStatus)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwd01)
+
+ActionOnForm(varFormNameMainHomeExpeditionsOngoingComp)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedAchievementStatus)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwd01)
+
+ActionOnForm(varFormNameMainHomeExpeditionsOngoingNoComp)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedAchievementStatus)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwd01)
+
+ActionOnForm(varFormNameMainHomeExpeditionsAchieveRwd01)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedRewards01)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwdClaim)
+
+ActionOnForm(varFormNameMainHomeExpeditionsAchieveRwd02)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedRewards02)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwdClaim)
+
+ActionOnForm(varFormNameMainHomeExpeditionsAchieveRwd03)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedRewards03)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwdClaim)
+
+ActionOnForm(varFormNameMainHomeExpeditionsAchieveRwd04)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedRewards04)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsAchieveRwdClaim)
+
+ActionOnForm(varFormNameMainHomeExpeditionsAchieveRwdClaim)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedAchieveRewardClaim)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsNew)
+
+
+
+dofile(folderffbescript.."config_action_defs.lua")
+
+

@@ -15,22 +15,26 @@ BattleEngageForm(varFormNameMainBattleEngagedInAction)
 BattleNextRoundWaitForm(varFormNameMainBattleEngaged)
 BattleEndRoundCriteria(critBattleResultArenaWonTop)
 
-BattleNewRound()
-BattleNewRoundExec(varActionExecuteDoIncBattleCount)
-BattleNewRoundExecVar(1)
-ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicAeroga2)
-ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityRicochet2)
-ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
-ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
-ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityBlizzardFlask1, picBtnBattleMagicBiora1)
+for j=1, 5 do
+    BattleNewRound()
+    if j==1 then
+        BattleNewRoundExec(varActionExecuteDoIncBattleCount)
+        BattleNewRoundExecVar(1)
+    end
+    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicAeroga2)
+    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityRicochet2)
+    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
+    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard1, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
+    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityBlizzardFlask1, picBtnBattleMagicBiora1)
 --    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
 --    ffbeBattleMagicAdd2Dual(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
 --    ffbeBattleClickParty(5)
-ffbeBattleAutoOnOff()
+    ffbeBattleAutoOnOff()
 
-for i=1, 10 do
-    BattleNewRound()
-    ffbeBattleRepeat()
+    for i=1, 2 do
+        BattleNewRound()
+        ffbeBattleRepeat()
+    end
 end
 
 

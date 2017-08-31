@@ -36,6 +36,8 @@ if (ActUseLapis == 1) then
     ActionExecVar(1)
     ActionExec(varActionExecuteDoClickButton)
     ActionExecVar(picBtnMainRechargeEnergyYes)
+else
+
 end
 if (ActXcnt > 0) then
     ActionOnForm(varFormNameMainBattleCompletion)

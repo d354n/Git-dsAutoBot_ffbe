@@ -6,6 +6,11 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+function AddActionExecVar2(vValue1, vValue2)
+    ActionExecVar(vValue1)
+    ActionExecVar(vValue2)
+end
+
 function AddAction(iLapis, iCount, sPartyName)
     ActUseLapis  = iLapis
     ActXcnt = iCount
