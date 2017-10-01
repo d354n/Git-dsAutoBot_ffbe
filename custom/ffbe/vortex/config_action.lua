@@ -9,26 +9,30 @@
 dofile(scriptPath().."mylib-1.0.lua")
 varDirectoryCustomImage = "../"..parentfolder..parentsubfol..eventfolder..""
 
+
+
 local sConfig = "config_form.lua"
-local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
+local sFiles = {}
+sFiles[1] = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
+sFiles[2] = scriptPath()..parentfolder..parentsubfol..sConfig
+sFiles[3] = scriptPath()..parentfolder..sConfig
+for i=1, 3 do
+    if file_exists(sFiles[i]) then
+        dofile(sFiles[i])
+    end
+    sFiles[i] = nil
 end
-local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
-end
-local sFilename = scriptPath()..parentfolder..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
-end
+
+
 
 --  ## Init Start
 MenuCreate(varActionName)
 ActionCreate(varActionName)
 
-local sConfig = "config_battle.lua"
+
+
 local sPrivate = "private/"
+local sConfig = "config_battle.lua"
 local sFiles = {}
 sFiles[1] = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
 sFiles[2] = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
@@ -43,8 +47,11 @@ for i=1, 7 do
         break
     end
 end
+for i=1, 7 do
+    sFiles[i] = nil
+end
 
---  ## action detail?
+
 if (ActUseLapis == 1) then
     ActionOnForm(varFormNameMainRechargeEnergy)
     ActionExec(varActionExecuteDoClickButton)
@@ -101,11 +108,20 @@ if (ActEnmSpcBattle == 1) then
     ActionExecVar(1)
     ActionExecWaitForm(varFormNameMainBattleEngagedInAction)
 end
+
 local sConfig = "config_action_detail.lua"
-local sFilename = scriptPath()..parentfolder..parentsubfol..sConfig
-if file_exists(sFilename) then
-    dofile(sFilename)
+local sFiles = {}
+sFiles[1] = scriptPath()..parentfolder..parentsubfol..sConfig
+sFiles[2] = scriptPath()..parentfolder..sConfig
+--sFiles[3] = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig  --  tidak dipakai karena sudah ada di File1
+for i=1, 2 do
+    if file_exists(sFiles[i]) then
+        dofile(sFiles[i])
+    end
+    sFiles[i] = nil
 end
+
+
 
 local sConfig = "config_exploration.lua"
 local sFilename = scriptPath()..parentfolder..parentsubfol..eventfolder..sConfig
@@ -113,8 +129,8 @@ if file_exists(sFilename) then
     dofile(sFilename)
 end
 
-local sConfig = "config_battle_01.lua"
 local sPrivate = "private/"
+local sConfig = "config_battle_01.lua"
 local sFiles = {}
 sFiles[1] = scriptPath()..parentfolder..parentsubfol..eventfolder..sPrivate..sConfig
 sFiles[2] = scriptPath()..parentfolder..parentsubfol..sPrivate..sConfig
@@ -128,6 +144,9 @@ for i=1, 7 do
         dofile(sFiles[i])
         break
     end
+end
+for i=1, 7 do
+    sFiles[i] = nil
 end
 
 

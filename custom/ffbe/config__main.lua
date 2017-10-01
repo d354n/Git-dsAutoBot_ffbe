@@ -82,7 +82,7 @@ critItems[3] = folderffbeimage.."items/crit_items_corner_upleft3.png"
 
 --  Menu: varActionDoSaveImage  Start
 critMagic[1] = folderffbeimage.."magic/crit_magic_corner_upleft1.png"
---critMagic[2] = folderffbeimage.."magic/crit_magic_corner_upleft2.png"
+critMagic[2] = folderffbeimage.."magic/crit_magic_corner_upleft2.png"
 swipeMagic[1] = locBattleMagicSwipeSrollDn01
 swipeMagic[2] = locBattleMagicSwipeSrollDn02
 --  Menu: varActionDoSaveImage  End

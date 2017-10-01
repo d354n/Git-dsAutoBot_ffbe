@@ -13,6 +13,23 @@ picBtnBattleVortexSelectLevel    		= varDirectoryCustomImage .. selectlevel
 
 
 
+ActionOnForm(varFormNameMainVortexEvent)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnDimensionalVortexEnhanceOff)
+ActionExecWaitForm(varFormNameMainVortexEnhance)
+
+ActionOnForm(varFormNameMainVortexEnhance)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn01)  --  position start down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn02)  --  position end down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp01)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp02)
+ActionExecVar(0)  --  delay between scroll
+ActionExecVar(false)  --  search from top?
+ActionExecVar(4)  --  how many scroll to bottom
+ActionExecVar(picBtnBattleVortexSelectVortex)  --itemtofind priority 1
+ActionExecWaitForm(varFormNameMainBattleSelectLevelVortex)
+
 ActionOnForm(varFormNameMainBattleResultItemsObtain)
 ActionExec(varActionExecuteDoClickRepeatButton)
 ActionExecVar(critMainBattleResultsItemsObtained)  -- click this until exists XXX

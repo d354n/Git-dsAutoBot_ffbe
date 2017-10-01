@@ -8,20 +8,29 @@
 
 
 
--- Vortex  Raid  --
-MenuCreate("-----")
 parentfolder = "../custom/ffbe/vortex/"
-parentsubfol = "raid/"
---    End    --]===]
+selectlevel  = "btn_select_level_do.png"
+ActEnmSpcBattle = 0
 
 
 
 --  Vortex  Dungeon  --
 MenuCreate("-----")
 parentsubfol = "dungeon_vor_pevent/"
-selectlevel  = "btn_select_level_do.png"
-ActEnmSpcBattle = 0
-AddVortex("Vortex", "/P:EVE NT/Cnt=X")
+eventfolder  = "1st_vortex_z_level/"
+title = "Vx:1st Vortex (Z) Level"
+AddAction(0,  0, "/P:EVE NT/Cnt=X")
+AddAction(1,  0, "/P:EVE NT/Cnt=X")
+
+eventfolder  = "2nd_vortex_z_level/"
+title = "Vx:2nd Vortex (Z) Level"
+AddAction(0,  0, "/P:EVE NT/Cnt=X")
+AddAction(1,  0, "/P:EVE NT/Cnt=X")
+
+eventfolder  = "3rd_vortex_z_level/"
+title = "Vx:3rd Vortex (Z) Level"
+AddAction(0,  0, "/P:EVE NT/Cnt=X")
+AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
 
@@ -29,23 +38,26 @@ AddVortex("Vortex", "/P:EVE NT/Cnt=X")
 --  Vortex  Events  P:EVE NT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_pevent/"
-ActEnmSpcBattle = 0
-AddVortex("Event", "/P:EVE NT/Cnt=X")
---    End    --]===]
+eventfolder  = "y_vortex_z_level/"
+title = "Vx:(Y) Event (Z) Level"
+AddAction(0,  0, "/P:EVE NT/Cnt=X")
+AddAction(1,  0, "/P:EVE NT/Cnt=X")
 
---  Vortex  Events Current  P:EVE NT  --
-MenuCreate("-----")
-parentsubfol = "dungeon_eve_pevent/"
-eventfolder  = "eve_current_1st_level/"
-title        = "Vx:Cur Event 1st Level"
+eventfolder  = "cur_vortex_z_level/"
+title        = "Vx:Cur Event (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
---  Vortex  Events  P:L IMIT  --  "Vx:1st Event 1st Level/P:L IMIT"
+
+
+--  Vortex  Events  P:L IMIT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_plimit/"
-AddVortex("Event", "/P:L IMIT/Cnt=X")
+eventfolder  = "y_vortex_z_level/"
+title = "Vx:(Y) Event (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
 --    End    --]===]
 
 
@@ -53,8 +65,20 @@ AddVortex("Event", "/P:L IMIT/Cnt=X")
 --  Vortex  Raid  P:L IMIT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_raid_plimit/"
-ActEnmSpcBattle = 0
-AddVortex("Raid", "/P:L IMIT/Cnt=X")
+eventfolder  = "1st_vortex_z_level/"
+title = "Vx:1st Raid (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
+
+eventfolder  = "2nd_vortex_z_level/"
+title = "Vx:2nd Raid (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
+
+eventfolder  = "3rd_vortex_z_level/"
+title = "Vx:3rd Raid (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
 --    End    --]===]
 
 
@@ -79,10 +103,9 @@ AddAction(1,  0, "/P:TRUS T/Cnt=X")
 
 
 --  Vortex  Dungeon  Others  --
-parentfolder = "../custom/ffbe/vortex/"
+MenuCreate("-----")
 parentsubfol = "exploration_reg/"
 
-MenuCreate("-----")
 eventfolder  = "the_enchanted_maze_bgn/"
 title = "Vx:The Enchanted Maze  Bgn"
 AddAction(0,  0, "/P:TRUS T/Cnt=X")
@@ -92,30 +115,24 @@ AddAction(1,  0, "/P:TRUS T/Cnt=X")
 
 
 --  Vortex Of Desires --
-parentfolder = "../custom/ffbe/vortex/"
-parentsubfol = "vortex_of_desires/"
-
 MenuCreate("-----")
+parentsubfol = "vortex_of_desires/"
 selectlevel  = "btn_select_level_do.png"
 
-eventfolder  = "1st_vortex_1st_level/"
-title = "Vx:Desires: 1st Chamber  1st Level"
-AddAction(0,  0, "/P:LE VEL/Cnt=X")
-AddAction(1,  0, "/P:LE VEL/Cnt=X")
-eventfolder  = "1st_vortex_2nd_level/"
-title = "Vx:Desires: 1st Chamber  2nd Level"
-AddAction(0,  0, "/P:LE VEL/Cnt=X")
-AddAction(1,  0, "/P:LE VEL/Cnt=X")
-eventfolder  = "1st_vortex_3rd_level/"
-title = "Vx:Desires: 1st Chamber  3rd Level"
+eventfolder  = "1st_vortex_z_level/"
+title = "Vx:Desires: 1st Chamber (Z) Level"
 AddAction(0,  0, "/P:LE VEL/Cnt=X")
 AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
 
 
---  Vortex Of Desires - Chamber of Awakening  --
 MenuCreate("-----")
 eventfolder  = "chamber_of_awakening/"
+
+eventfolder  = "1st_vortex_z_level/"
+title = "Vx:Desires: Awakening (Z) Level"
+AddAction(0,  0, "/P:LE VEL/Cnt=X")
+AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
 selectlevel  = "btn_select_level_pro.png"
 title = "Vx:Chamber Of Awakening Pro"

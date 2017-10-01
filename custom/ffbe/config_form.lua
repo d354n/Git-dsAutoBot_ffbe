@@ -89,7 +89,10 @@ varFormNameErrorLoading                         = "FormErrorLoading"
 critErrorLoadingMid                             = folderffbeimage.."crit_error_loading_mid.png"
 picErrorLoadingOk                               = folderffbeimage.."btn_error_loading_ok.png"
 
-varFormNameMainVortex                           = "MainFormVortex"
+--varFormNameMainVortex                           = "MainFormVortex"
+varFormNameMainVortexEvent                      = "MainFormVortexEvent"
+varFormNameMainVortexEnhance                    = "MainFormVortexEnhance"
+varFormNameMainVortexNemeses                    = "MainFormVortexNemeses"
 varFormNameMainVortexDesires                    = "MainFormVortexDesires"
 varFormNameMainVortexDesiresUnlockFree          = "MainFormVortexDesiresUnlockFree"
 varFormNameMainVortexDesiresUnlockLapis         = "MainFormVortexDesiresUnlockLapis"
@@ -97,6 +100,12 @@ critMainDimensionalVortex				        = folderffbeimage.."vortex/crit_main_dimens
 critMainDimensionalVortexDesires                = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires.png"
 critMainDimensionalVortexDesiresUnlockMid       = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires_unlock_mid.png"
 critMainDimensionalVortexDesiresUnlockLapisMid  = folderffbeimage.."vortex/crit_main_dimensional_vortex_desires_unlock_lapis_mid.png"
+picBtnDimensionalVortexEventOff                 = folderffbeimage.."vortex/btn_vortex_event_off.png"
+picBtnDimensionalVortexEventOn                  = folderffbeimage.."vortex/btn_vortex_event_on.png"
+picBtnDimensionalVortexEnhanceOff               = folderffbeimage.."vortex/btn_vortex_enhance_off.png"
+picBtnDimensionalVortexEnhanceOn                = folderffbeimage.."vortex/btn_vortex_enhance_on.png"
+picBtnDimensionalVortexNemesesOff               = folderffbeimage.."vortex/btn_vortex_nemeses_off.png"
+picBtnDimensionalVortexNemesesOn                = folderffbeimage.."vortex/btn_vortex_nemeses_on.png"
 picBtnDimensionalVortexExchange                 = folderffbeimage.."vortex/btn_vortex_exchange.png"
 picBtnDimensionalVortexWorld                    = folderffbeimage.."vortex/btn_vortex_world.png"
 locMainBattleSelectVortexSwipeScrollDn01       	= Pattern(critMainDimensionalVortex):targetOffset(0, 400)
@@ -181,9 +190,24 @@ FormCreate(varFormNameErrorLoading)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critErrorLoadingMid)
 
-FormCreate(varFormNameMainVortex)
+--FormCreate(varFormNameMainVortex)
+--FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+--FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+
+FormCreate(varFormNameMainVortexEvent)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+FormAddCriteria2Do(varCriteriaExists, picBtnDimensionalVortexEventOn)
+
+FormCreate(varFormNameMainVortexEnhance)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+FormAddCriteria2Do(varCriteriaExists, picBtnDimensionalVortexEnhanceOn)
+
+FormCreate(varFormNameMainVortexNemeses)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainDimensionalVortex)
+FormAddCriteria2Do(varCriteriaExists, picBtnDimensionalVortexNemesesOn)
 
 FormCreate(varFormNameMainVortexDesires)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

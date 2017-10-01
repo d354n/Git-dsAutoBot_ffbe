@@ -216,7 +216,7 @@ end
 
 function ffbeBattleClickParty(vParty, vWait)
     if vWait == nil then
-        vWait = 0.5
+        vWait = 0
     end
     BattleNewRoundExec(varActionExecuteDoClickLocation)
     if vParty == 1 then
@@ -232,13 +232,15 @@ function ffbeBattleClickParty(vParty, vWait)
     else
         BattleNewRoundExecVar(locBattleParty6Center)
     end
-    BattleNewRoundExec(varActionExecuteDoWait)
-    BattleNewRoundExecVar(vWait)
+    if vWait > 0 then
+        BattleNewRoundExec(varActionExecuteDoWait)
+        BattleNewRoundExecVar(vWait)
+    end
 end
 
 function ffbeBattleComboClickParty(vParty, vWait)
     if vWait == nil then
-        vWait = 0.5
+        vWait = 0
     end
     BattleNewRoundExec(varActionExecuteDoComboClickAdd)
     if vParty == 1 then
@@ -254,8 +256,20 @@ function ffbeBattleComboClickParty(vParty, vWait)
     else
         BattleNewRoundExecVar(locBattleParty6Center)
     end
-    BattleNewRoundExec(varActionExecuteDoComboWaitAdd)
-    BattleNewRoundExecVar(vWait)
+    if vWait > 0 then
+        BattleNewRoundExec(varActionExecuteDoComboWaitAdd)
+        BattleNewRoundExecVar(vWait)
+    end
+end
+
+function ffbeBattleComboClear()
+    BattleNewRoundExec(varActionExecuteDoComboClear)
+    BattleNewRoundExecVar("")
+end
+
+function ffbeBattleComboExecute()
+    BattleNewRoundExec(varActionExecuteDoComboExecute)
+    BattleNewRoundExecVar("")
 end
 
 function ffbeBattleRepeat()

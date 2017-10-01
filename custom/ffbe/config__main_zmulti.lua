@@ -11,33 +11,35 @@
 -- [===[  Multi 01
 local varLapis    = "LapisWarning "
 local varBattle   = "Ar:Battle  First Row/Cnt=X"
-local varEvent    = "Vx:2nd Event 1st Level/P:EVE NT/Cnt=X"
-local varCurEvent = "Vx:Cur Event 1st Level/P:EVE NT/Cnt=X"
-local varRaid     = "Vx:2nd Raid 1st Level/P:L IMIT/Cnt=X"
+local varEvent    = "Vx:(Y) Event (Z) Level/P:EVE NT/Cnt=X"
+local varCurEvent = "Vx:Cur Event (Z) Level/P:EVE NT/Cnt=X"
+local varRaid     = "Vx:1st Raid (Z) Level/P:L IMIT/Cnt=X"
 local varTMR      = "Dg:Earth Shrine  Entrance/P:TRUS T/Cnt=X"
 
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/Cnt=X", "", 3)
-for i=1, 5 do
-    for j=1, 3 do
-        MultiAdd("Quests  Daily Claim")
-        for j=1, 3 do
-            MultiAdd("Friends  Receive Send All")
+for i=1, 2 do
+--    MultiAdd("Expeditions  Get All Achievements")
+    MultiAdd("Items  Materials  Sell Items")
+    MultiAdd("Friends  Receive Send All")
+--    MultiAdd("Quests  Daily Claim")
+    for j=1, 2 do
+        for k=1, 3 do
             MultiAdd("Expeditions  Get All Completed")
             MultiAdd("Expeditions  Do D C B A Free S")
-
-            MultiAdd(varBattle)
-            --            MultiAdd(varEvent)
-            --            MultiAdd(varCurEvent)
-            --            MultiAdd(varRaid)
-            MultiAdd(varLapis..varTMR, "", 60)
-            MultiAdd(varBattle)
-            --            MultiAdd(varRaid)
-
-            MultiAdd("Items  Materials  Sell Items")
+            for l=1,2 do
+                MultiAdd(varBattle)
+--                MultiAdd(varEvent, "", 0, 1, 1)
+--                MultiAdd(varCurEvent, "", 3, 0, 1)
+--                MultiAdd(varRaid, "", 0, 0, 1)
+--                MultiAdd(varBattle)
+                MultiAdd(varLapis..varTMR, "", 60)
+--                MultiAdd(varBattle)
+--                MultiAdd(varRaid)
+            end
         end
     end
-    --    MultiAdd("Summon  Once a Day Limited Summon (250)")
+--    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
@@ -46,11 +48,10 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 02
 MultiCreate()
-for i=1, 1 do
+for i=1, 3 do
     MultiAdd(varLapis.."Vx:Cactuar Dunes/P:TRUS T/Cnt=X")
-    MultiAdd(varLapis.."Vx:Cactuar Dunes/P:TRUS T/Cnt=X")
-    MultiAdd("Units  Level Up  /C:Leader/P:LE VEL")
 end
+MultiAdd("Units  Level Up  /C:Leader/P:LE VEL")
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
 
@@ -58,10 +59,8 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 03
 MultiCreate()
-for i=1, 1 do
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Int/P:LE VEL/Cnt=X")
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Int/P:LE VEL/Cnt=X")
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Int/P:LE VEL/Cnt=X")
+for i=1, 5 do
+    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 1)
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
@@ -70,22 +69,22 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 04
 MultiCreate()
-for i=1, 1 do
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Adv/P:LE VEL/Cnt=X")
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Adv/P:LE VEL/Cnt=X")
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Adv/P:LE VEL/Cnt=X")
+for i=1, 5 do
+    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 2)
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
 
 
 
--- [===[  Multi 05
+-- [===[  Multi 05   --   1  Black  Green  White   2  Guard  Power  Tech   3  Healing  Support
 MultiCreate()
-for i=1, 1 do
-    MultiAdd(varLapis.."Vx:Chamber Of Awakening Int/P:LE VEL/Cnt=X")
+for i=1, 5 do
+    MultiAdd(varLapis.."Vx:Desires: 1st Chamber (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 3)
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
+
+
 
 

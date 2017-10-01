@@ -24,8 +24,6 @@ ActionExecVar(3)
 
 
 --  FFBE Error or Loading Start
---  FFBE Error or Loading Start
---  FFBE Error or Loading Start
 ActionOnForm(varFormNameMainConnecting)
 ActionExec(varActionExecuteDoWait)
 ActionExecVar(1)
@@ -50,13 +48,9 @@ ActionOnForm(varFormNameMapCompanionUpdate)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMapCompanionUpdateOk)
 --  FFBE Error or Loading End
---  FFBE Error or Loading End
---  FFBE Error or Loading End
 
 
 
---  FFBE General Form Start
---  FFBE General Form Start
 --  FFBE General Form Start
 ActionOnForm(varFormNameMainDailyRewards)
 ActionExec(varActionExecuteDoSaveSnapshot)
@@ -69,13 +63,9 @@ ActionOnForm(varFormNameMainDailyQuestCompleted)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnQuestDailyClose)
 --  FFBE General Form End
---  FFBE General Form End
---  FFBE General Form End
 
 
 
---  Android Apps Start
---  Android Apps Start
 --  Android Apps Start
 ActionOnForm(varFormNameApps)
 ActionExec(varActionExecuteDoClickButton)
@@ -92,8 +82,6 @@ ActionExecVar(critFFBEStartTop)
 ActionOnForm(varFormNameAppsFFBEStopped)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnFFBEStoppedOk)
---  Android Apps End
---  Android Apps End
 --  Android Apps End
 
 
