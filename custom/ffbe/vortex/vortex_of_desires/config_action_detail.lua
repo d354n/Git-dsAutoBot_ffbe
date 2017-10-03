@@ -22,6 +22,11 @@ if file_exists(sFilename) then
     dofile(sFilename)
 end
 
+ActionOnForm(varFormNameMainVortexEvent)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnDimensionalVortexEnhanceOff)
+ActionExecWaitForm(varFormNameMainVortexEnhance)
+
 ActionOnForm(varFormNameMainBattleSelectCompanion)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down

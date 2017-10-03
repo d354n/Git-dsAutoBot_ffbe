@@ -6,6 +6,31 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+ActionOnForm(varFormNameMainVortexEnhance)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn01)  --  position start down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn02)  --  position end down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp01)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp02)
+ActionExecVar(0)  --  delay between scroll
+ActionExecVar(false)  --  search from top?
+ActionExecVar(3)  --  how many scroll to bottom
+ActionExecVar(picBtnBattleVortexSelectVortex2)
+ActionExecVar(varDirectoryCustomImage .. "btn_select_vortex3.png")
+--ActionExecVar(picBtnBattleCompletionHome)
+ActionExec(varActionExecuteDoWait)
+ActionExecVar(2)
+ActionExec(varActionExecuteDoFindAndClickWithScroll)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn01)  --  position start down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollDn02)  --  position end down
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp01)
+ActionExecVar(locMainBattleSelectVortexSwipeScrollUp02)
+ActionExecVar(0)  --  delay between scroll
+ActionExecVar(false)  --  search from top?
+ActionExecVar(3)  --  how many scroll to bottom
+ActionExecVar(picBtnBattleVortexSelectVortex2)
+ActionExecVar(varDirectoryCustomImage .. "btn_select_vortex3.png")
+
 ActionOnForm(varFormNameMainVortexDesires)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectLevelSwipeScrollDn01)  --  position start down

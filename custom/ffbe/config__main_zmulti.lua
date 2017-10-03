@@ -49,6 +49,9 @@ MultiAdd(varActionDoGotoAction1)
 -- [===[  Multi 02
 MultiCreate()
 for i=1, 3 do
+    MultiAdd(varBattle)
+end
+for i=1, 3 do
     MultiAdd(varLapis.."Vx:Cactuar Dunes/P:TRUS T/Cnt=X")
 end
 MultiAdd("Units  Level Up  /C:Leader/P:LE VEL")
@@ -59,16 +62,9 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 03
 MultiCreate()
-for i=1, 5 do
-    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 1)
-end
-MultiAdd(varActionDoGotoAction1)
---    End    --]===]
-
-
-
--- [===[  Multi 04
-MultiCreate()
+--for i=1, 3 do
+--    MultiAdd(varBattle)
+--end
 for i=1, 5 do
     MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 2)
 end
@@ -77,8 +73,24 @@ MultiAdd(varActionDoGotoAction1)
 
 
 
+-- [===[  Multi 04
+MultiCreate()
+--for i=1, 3 do
+--    MultiAdd(varBattle)
+--end
+for i=1, 5 do
+    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 3)
+end
+MultiAdd(varActionDoGotoAction1)
+--    End    --]===]
+
+
+
 -- [===[  Multi 05   --   1  Black  Green  White   2  Guard  Power  Tech   3  Healing  Support
 MultiCreate()
+for i=1, 3 do
+    MultiAdd(varBattle)
+end
 for i=1, 5 do
     MultiAdd(varLapis.."Vx:Desires: 1st Chamber (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 3)
 end

@@ -127,25 +127,8 @@ AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
 
 MenuCreate("-----")
-eventfolder  = "chamber_of_awakening/"
-
-eventfolder  = "1st_vortex_z_level/"
+eventfolder  = "chamber_of_awakening_z_level/"
 title = "Vx:Desires: Awakening (Z) Level"
-AddAction(0,  0, "/P:LE VEL/Cnt=X")
-AddAction(1,  0, "/P:LE VEL/Cnt=X")
-
-selectlevel  = "btn_select_level_pro.png"
-title = "Vx:Chamber Of Awakening Pro"
-AddAction(0,  0, "/P:LE VEL/Cnt=X")
-AddAction(1,  0, "/P:LE VEL/Cnt=X")
-
-selectlevel  = "btn_select_level_adv.png"
-title = "Vx:Chamber Of Awakening Adv"
-AddAction(0,  0, "/P:LE VEL/Cnt=X")
-AddAction(1,  0, "/P:LE VEL/Cnt=X")
-
-selectlevel  = "btn_select_level_int.png"
-title = "Vx:Chamber Of Awakening Int"
 AddAction(0,  0, "/P:LE VEL/Cnt=X")
 AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
