@@ -33,6 +33,7 @@ dofile(folderffbescript.."config_vars_form_battle_dungeon.lua")
 dofile(folderffbescript.."config_vars_form_battle_exploration.lua")
 dofile(folderffbescript.."config_vars_form_home.lua")
 dofile(folderffbescript.."config_vars_form_maps.lua")
+dofile(folderffbescript.."config_vars_form_quests_daily.lua")
 
 dofile(folderffbescript.."config_form.lua")         --  2nd
 dofile(folderffbescript.."config_form_arena.lua")

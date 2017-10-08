@@ -9,39 +9,26 @@
 ActionOnForm(varFormNameMainHome)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeQuestReport)
-ActionExecWaitForm(varFormNameMainHomeQuest)
+ActionExecWaitForm(varFormNameMainHomeQuestDailyClaimAllOn)
 
-ActionOnForm(varFormNameMainHomeQuest)
+ActionOnForm(varFormNameMainHomeQuestDailyClaimAllOn)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeQuestDailyQuests)
-ActionExecWaitForm(varFormNameMainHomeDailyQuest)
+ActionExecVar(picBtnMainHomeQuestDailyClaimAllOn)
+ActionExecWaitForm(varFormNameMainHomeQuestDailyClaimReward)
 
-ActionOnForm(varFormNameMainHomeDailyQuestReward)
+ActionOnForm(varFormNameMainHomeQuestDailyClaimReward)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeDailyQuestClaimAll)  --  picBtnMainHomeDailyQuestReward
-ActionExecWaitForm(varFormNameMainHomeDailyQuestClaim)
+ActionExecVar(picBtnStdYes)
+ActionExecWaitForm(varFormNameMainHomeQuestDailyClaimAllOff)
 
-ActionOnForm(varFormNameMainHomeDailyQuestClaimReward)
+ActionOnForm(varFormNameMainHomeQuestDailyClaimAllOff)
 ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeDailyQuestClaimClaim)
-ActionExecWaitForm(varFormNameMainDailyQuestCompletedClaimed)
-
-ActionOnForm(varFormNameMainDailyQuestCompletedClaimed)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnQuestDailyOk)
-ActionExecWaitForm(varFormNameMainHomeDailyQuestClaimComplete)
-
-ActionOnForm(varFormNameMainHomeDailyQuestClaimComplete)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeDailyQuestClaimBack)
-ActionExecWaitForm(varFormNameMainHomeDailyQuestReward)
-
-ActionOnForm(varFormNameMainHomeDailyQuestNoReward)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnMainHomeDailyQuestClose)
+ActionExecVar(picBtnStdBack)
 ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 ActionExecWaitForm(varFormNameMainHome)
+
+
 
 
 

@@ -73,98 +73,98 @@ critMazeMid0501Mid           			        = varDirectoryCustomImage.."image/crit_m
 
 --  ##  Main Form Vortex Map Start  ##
 FormCreate(varFormNameMazeStart)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeStartTopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeStartMid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map End  ##
 FormCreate(varFormNameMazeEnd)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeEndTopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeEndMid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid01)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid01TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid01Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid0101)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0101TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0101Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid02)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid02TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid02Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid0201)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0201TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0201Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid03)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid03TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid03Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid0301)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0301TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0301Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid04)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid04TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid04Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid0401)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0401TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0401Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid05)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid05TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid05Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 --  ##  Main Form Vortex Map Mid  ##
 FormCreate(varFormNameMazeMid0501)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMap)
 FormAddCriteria2Do(varCriteriaExists, picBtnExplorationMenu)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0501TopLeft)
 FormAddCriteria2Do(varCriteriaExists, critMazeMid0501Mid)
-FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 
 

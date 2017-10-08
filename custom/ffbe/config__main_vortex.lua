@@ -47,6 +47,11 @@ eventfolder  = "cur_vortex_z_level/"
 title        = "Vx:Cur Event (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
+
+eventfolder  = "insearchoftruestrength_y_vortex_z_level/"
+title        = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level"
+AddAction(0,  0, "/P:EVE NT/Cnt=X")
+AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
 
@@ -98,6 +103,19 @@ eventfolder  = "chamber_of_crystals/"
 title = "Vx:Chamber Of Crystals Adv"
 AddAction(0,  0, "/P:TRUS T/Cnt=X")
 AddAction(1,  0, "/P:TRUS T/Cnt=X")
+--    End    --]===]
+
+
+
+--  Vortex  Exploration  Event  --
+--parentsubfol = "exploration_eve_pevent/"
+--selectlevel  = "btn_select_level_do.png"
+--
+--MenuCreate("-----")
+--eventfolder  = "the_misty_bamboo_forest__y_vortex_z_level/"
+--title = "Vx:The Misty Bamboo Forest (Y) Vortex (Z) Level"
+--AddAction(0,  0, "/P:EVE NT/Cnt=X")
+--AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
 
