@@ -9,6 +9,7 @@
 varFormNameMainBattleSelectLevel                = "MainFormBattleSelectLevel"
 varFormNameMainBattleSelectLevelRaid            = "MainFormBattleSelectLevelRaid"
 varFormNameMainBattleSelectLevelVortex          = "MainFormBattleSelectLevelVortex"
+picBtnMainBattleSelectVortex                    = folderffbeimage.."select_level/btn_select_vortex2.png"
 critMainBattleVortexSelectLevelTop	            = folderffbeimage.."select_level/crit_main_battle_dungeon_select_level_top.png"
 critMainBattleVortexSelectLevelRaidTop	        = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_raid_top.png"
 critMainBattleVortexSelectLevelVortexTop	    = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_top.png"

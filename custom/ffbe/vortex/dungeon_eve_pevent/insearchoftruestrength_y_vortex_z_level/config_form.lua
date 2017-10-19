@@ -14,5 +14,6 @@ critMainVortexISoTSTop                          = varDirectoryCustomImage.."crit
 FormCreate(varFormNameMainVortexISoTS)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainVortexISoTSTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainBattleSelectVortex)
 
 

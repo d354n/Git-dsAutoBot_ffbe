@@ -12,6 +12,7 @@
 local varLapis    = "LapisWarning "
 local varBattle   = "Ar:Battle  First Row/Cnt=X"
 local varEvent1   = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level/P:EVE NT/Cnt=X"
+local varEvent2   = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level/P:EVE NT/Cnt=X"
 local varCurEvent = "Vx:Cur Event (Z) Level/P:EVE NT/Cnt=X"
 local varRaid     = "Vx:1st Raid (Z) Level/P:L IMIT/Cnt=X"
 local varTMR      = "Dg:Earth Shrine  Entrance/P:TRUS T/Cnt=X"
@@ -29,13 +30,16 @@ for i=1, 2 do
             MultiAdd("Expeditions  Do D C B A Free S")
             for l=1,2 do
                 MultiAdd(varBattle)
---                MultiAdd(varLapis..varEvent1, "", 10, 2, 2)
---                MultiAdd(varLapis..varEvent1, "", 10, 2, 3)
+--                MultiAdd(varLapis..varEvent1, "", 5, 2, 1)  -- Ayaka
+--                MultiAdd(varLapis..varEvent1, "", 5, 3, 1)  -- Goken
+--                MultiAdd(varEvent1, "", 3, 0, 1)
 --                MultiAdd(varBattle)
---                MultiAdd(varCurEvent, "", 3, 0, 1)
+--                MultiAdd(varCurEvent, "", 0, 0, 1)
+                MultiAdd(varLapis..varCurEvent, "", 3, 0, 1)
 --                MultiAdd(varRaid, "", 0, 0, 1)
---                MultiAdd(varBattle)
+                MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
+--                MultiAdd(varTMR, "", 60)
 --                MultiAdd(varBattle)
 --                MultiAdd(varRaid)
             end

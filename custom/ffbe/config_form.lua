@@ -45,9 +45,6 @@ picBtnMainHomeVortex2					        = folderffbeimage.."home/btn_vortex2.png"
 picBtnMainHomeWorld 					        = folderffbeimage.."home/btn_world.png"
 picBtnMainHomeWorld2 					        = folderffbeimage.."home/btn_world2.png"
 picBtnMainHomeQuestReport          	            = folderffbeimage.."home/btn_quest_report.png"
-critMainHomeMid							        = folderffbeimage.."home/crit_home_mid.png"
-critMainHomeMid2						        = folderffbeimage.."home/crit_home_mid2.png"
-critMainHomeMid3						        = folderffbeimage.."home/crit_home_mid3.png"
 locHomeMenuSelectLeft                           = locXoneQuartersYthreeQuarters
 locHomeMenuSelectMid                            = locXmidYthreeQuarters
 

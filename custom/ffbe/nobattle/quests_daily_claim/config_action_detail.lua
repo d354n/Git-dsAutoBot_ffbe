@@ -28,6 +28,11 @@ ActionExec(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 ActionExecWaitForm(varFormNameMainHome)
 
+ActionOnForm(varFormNameMainHomeQuestRookie)
+ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeQuestDailyOff)
+ActionExecWaitForm(varFormNameMainHomeQuestDailyClaimAllOn)
+
 
 
 

@@ -24,8 +24,6 @@ for i=1, 3 do
     ffbeBattleComboClickParty(1)
     ffbeBattleComboClickParty(3, 3)
     ffbeBattleComboExecute()
---    ffbeBattleClickParty(1)
---    ffbeBattleClickParty(3, 3)
 end
 for i=1, 2 do
     BattleNewRound()
@@ -34,9 +32,6 @@ for i=1, 2 do
     ffbeBattleComboClickParty(5)
     ffbeBattleComboClickParty(6, 3)
     ffbeBattleComboExecute()
---    ffbeBattleClickParty(4)
---    ffbeBattleClickParty(5)
---    ffbeBattleClickParty(6, 3)
 end
 
 

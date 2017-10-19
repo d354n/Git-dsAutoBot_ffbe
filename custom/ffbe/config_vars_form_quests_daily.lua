@@ -8,11 +8,15 @@
 
 varFormNameMainHomeQuestDailyClaimAllOn         = "MainFormHomeQuestDailyClaimAllOn"
 varFormNameMainHomeQuestDailyClaimAllOff        = "MainFormHomeQuestDailyClaimAllOff"
+varFormNameMainHomeQuestDailyClaimReward        = "MainFormHomeQuestDailyClaimReward"
+varFormNameMainHomeQuestRookie                  = "MainFormHomeQuestRookie"
+picBtnMainHomeQuestDailyOn                      = folderffbeimage.."quests/btn_quest_daily_on.png"
+picBtnMainHomeQuestDailyOff                     = folderffbeimage.."quests/btn_quest_daily_off.png"
+picBtnMainHomeQuestRookieOn                     = folderffbeimage.."quests/btn_quest_rookie_on.png"
+picBtnMainHomeQuestRookieOff                    = folderffbeimage.."quests/btn_quest_rookie_off.png"
 picBtnMainHomeQuestDailyClaim                   = folderffbeimage.."quests/btn_claim.png"
 picBtnMainHomeQuestDailyClaimAllOn              = folderffbeimage.."quests/btn_claim_all_on.png"
-critMainHomeQuestDailyTop                       = folderffbeimage.."quests/crit_quest_daily_top.png"
-
-varFormNameMainHomeQuestDailyClaimReward        = "MainFormHomeQuestDailyClaimReward"
+critMainHomeQuestDailyMid                       = folderffbeimage.."quests/crit_quest_daily_mid.png"
 critMainHomeQuestDailyClaimRewardMid            = folderffbeimage.."quests/crit_quest_daily_claim_reward_mid.png"
 
 
