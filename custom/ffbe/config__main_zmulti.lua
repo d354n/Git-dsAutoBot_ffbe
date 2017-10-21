@@ -35,7 +35,7 @@ for i=1, 2 do
 --                MultiAdd(varEvent1, "", 3, 0, 1)
 --                MultiAdd(varBattle)
 --                MultiAdd(varCurEvent, "", 0, 0, 1)
-                MultiAdd(varLapis..varCurEvent, "", 3, 0, 1)
+                MultiAdd(varLapis..varCurEvent, "", 6, 0, 1)
 --                MultiAdd(varRaid, "", 0, 0, 1)
                 MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
