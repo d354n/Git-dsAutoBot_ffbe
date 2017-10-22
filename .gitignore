@@ -4,9 +4,11 @@
 *.bat
 amain.lua
 amain.luac
-main/debug/*.*
-main/debug/new_image/*.*
-main/debug/log_battle_results/*.*
+main/debug/stat_*.*
+main/debug/log_*.*
+main/debug/new_image/log_*.*
+main/debug/new_image/*.lnk
+main/debug/log_battle_results/log_*.*
 main/temp/*.*
 _manual/
 custom/ffbe/dungeons/level/private/*.*

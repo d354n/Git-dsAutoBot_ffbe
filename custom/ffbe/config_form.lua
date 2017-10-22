@@ -36,6 +36,7 @@ varFormNameMainHome                             = "MainFormHome"
 picBtnMainHomeArena                             = folderffbeimage.."home/btn_arena.png"
 picBtnMainHomeArena2                            = folderffbeimage.."home/btn_arena2.png"
 picBtnMainHomeCraft                             = folderffbeimage.."home/btn_craft.png"
+picBtnMainHomeDailyClaim                        = folderffbeimage.."home/btn_daily_claim.png"
 picBtnMainHomeExpedition                        = folderffbeimage.."home/btn_expedition.png"
 picBtnMainHomeExpedition2                       = folderffbeimage.."home/btn_expedition2.png"
 picBtnMainHomeMessage                           = folderffbeimage.."home/btn_messages.png"
@@ -119,8 +120,8 @@ picBtnUnitsCapacityUnits                        = folderffbeimage.."btn_units.pn
 FormCreate(varFormNameMainHome)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeVortex)
-FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeQuestReport)
 FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeMenu)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeDailyClaim)
 FormAddCriteria2Do(varCriteriaNotExists, critInfoAutomaticProtection)
 FormAddGoto(varFormNameMainHome   , picBtnMainHome)
 FormAddGoto(varFormNameMainUnits  , picBtnMainUnits)
