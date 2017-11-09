@@ -26,7 +26,7 @@ ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeExpedInfoAutoFill)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnMainHomeExpedInfoDepart)
-ActionExecWaitForm(varFormNameMainHomeExpeditionsNew)
+ActionExecWaitForm(varFormNameMainHomeExpeditionsInfoConf)
 
 ActionOnForm(varFormNameMainHomeExpeditionsInfoConf)
 ActionExec(varActionExecuteDoClickButton)

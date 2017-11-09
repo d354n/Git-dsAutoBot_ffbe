@@ -47,9 +47,12 @@ AddAction(0,  0)
 parentsubfol = "do_expeditions/"
 
 eventfolder  = "do_d_c_b_a_auto_s/"
-title = "Expeditions  Do D C B A Free S"
+title = "Expeditions  Do D C B A Free S  Auto Fill"
 AddAction(0,  0)
 
+eventfolder  = "do_d_c_b_a_auto_s_opt/"
+title = "Expeditions  Do D C B A Free S  Optimize"
+AddAction(0,  0)
 
 
 parentsubfol = "get_all_completed/"

@@ -17,6 +17,13 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainRechargeInsufficientEnergy)
 FormAddCriteria2Do(varCriteriaNotExists, critUnitCapacityReachedMid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBattleCompletionAchi)
 FormAddCriteria2Do(varCriteriaNotExists, picBtnMainBattleSelectVortex)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBattleVortexSelectLevelSkelHeldMid)
+
+FormCreate(varFormNameMainBattleSelectLevelSkelHeld)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+--FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelTop)
+FormAddCriteria2Do(varCriteriaExists, picBtnBattleCompletionHome)
+FormAddCriteria2Do(varCriteriaExists, critMainBattleVortexSelectLevelSkelHeldMid)
 
 FormCreate(varFormNameMainBattleSelectLevelRaid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

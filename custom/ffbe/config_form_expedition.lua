@@ -47,9 +47,16 @@ picBtnMainHomeExpedAchieveRewardClaim           = folderffbeimage.."expeditions/
 critMainHomeExpedAchieveRewardClaimMid          = folderffbeimage.."expeditions/crit_exp_achieve_reward_claim_mid.png"
 
 varFormNameMainHomeExpeditionsInfo              = "MainFormHomeExpeditionsInfo"
+varFormNameMainHomeExpeditionsInfoNoTap         = "MainFormHomeExpeditionsInfoNoTap"
 picBtnMainHomeExpedInfoAutoFill                 = folderffbeimage.."expeditions/btn_auto_fill.png"
 picBtnMainHomeExpedInfoDepart                   = folderffbeimage.."expeditions/btn_info_depart.png"
+picBtnMainHomeExpedInfoCharEmpty                = folderffbeimage.."expeditions/btn_char_empty.png"
 critMainHomeExpedInfoMid                        = folderffbeimage.."expeditions/crit_exp_info_mid.png"
+
+varFormNameMainHomeExpeditionsSelectParty       = "MainFormHomeExpeditionsSelectParty"
+critMainHomeExpedSelParSuccessRate              = folderffbeimage.."expeditions/crit_exp_party_success_rate.png"
+critMainHomeExpedSelParTop                      = folderffbeimage.."expeditions/crit_exp_party_top.png"
+
 
 varFormNameMainHomeExpeditionsInfoConf          = "MainFormHomeExpeditionsInfoConf"
 picBtnMainHomeExpedInfoConfDepart               = folderffbeimage.."expeditions/btn_info_conf_depart.png"
@@ -140,6 +147,17 @@ FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeExpedAchieveRewardClaim)
 FormCreate(varFormNameMainHomeExpeditionsInfo)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainHomeExpedInfoMid)
+FormAddCriteria2Do(varCriteriaExists, picBtnMainHomeExpedInfoCharEmpty)
+
+FormCreate(varFormNameMainHomeExpeditionsInfoNoTap)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeExpedInfoMid)
+FormAddCriteria2Do(varCriteriaNotExists, picBtnMainHomeExpedInfoCharEmpty)
+
+FormCreate(varFormNameMainHomeExpeditionsSelectParty)
+FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeExpedSelParSuccessRate)
+FormAddCriteria2Do(varCriteriaExists, critMainHomeExpedSelParTop)
 
 FormCreate(varFormNameMainHomeExpeditionsInfoConf)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

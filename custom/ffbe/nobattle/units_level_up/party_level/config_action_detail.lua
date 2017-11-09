@@ -49,6 +49,10 @@ ActionExecVar(1)
 for iData, vData in pairs(sData) do
     ActionExecVar(vData)
 end
+for iData, vData in pairs(sData) do
+    sData[iData] = nil
+end
+sData = nil
 ActionExecVar(picBtnMainFriends)
 ActionExec(varActionExecuteDoClickButton)
 ActionExecVar(picBtnStdOk)

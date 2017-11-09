@@ -21,9 +21,9 @@ for j=1, 5 do
         BattleNewRoundExec(varActionExecuteDoIncBattleCount)
         BattleNewRoundExecVar(1)
     end
-    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1)
-    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityRicochet2, picBtnBattleAbilityDisorder1)
-    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
+    ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
+    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1)
+    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityRicochet2, picBtnBattleAbilityDisorder1)
     ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityPrismaticFlash2, picBtnBattleAbilityRedCard2)
     ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityBlizzardFlask1, picBtnBattleAbilityFireFlask2, picBtnBattleAbilityThunderFlask2, picBtnBattleMagicBiora1)
 --    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)

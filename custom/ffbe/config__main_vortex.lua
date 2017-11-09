@@ -17,18 +17,9 @@ ActEnmSpcBattle = 0
 --  Vortex  Dungeon  --
 MenuCreate("-----")
 parentsubfol = "dungeon_vor_pevent/"
-eventfolder  = "1st_vortex_z_level/"
-title = "Vx:1st Vortex (Z) Level"
-AddAction(0,  0, "/P:EVE NT/Cnt=X")
-AddAction(1,  0, "/P:EVE NT/Cnt=X")
 
-eventfolder  = "2nd_vortex_z_level/"
-title = "Vx:2nd Vortex (Z) Level"
-AddAction(0,  0, "/P:EVE NT/Cnt=X")
-AddAction(1,  0, "/P:EVE NT/Cnt=X")
-
-eventfolder  = "3rd_vortex_z_level/"
-title = "Vx:3rd Vortex (Z) Level"
+eventfolder  = "y_vortex_z_level/"
+title = "Vx:(Y) Vortex (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
@@ -38,6 +29,7 @@ AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --  Vortex  Events  P:EVE NT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_pevent/"
+
 eventfolder  = "y_vortex_z_level/"
 title = "Vx:(Y) Event (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
@@ -47,11 +39,6 @@ eventfolder  = "cur_vortex_z_level/"
 title        = "Vx:Cur Event (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
-
-eventfolder  = "insearchoftruestrength_y_vortex_z_level/"
-title        = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level"
-AddAction(0,  0, "/P:EVE NT/Cnt=X")
-AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
 
 
@@ -59,6 +46,7 @@ AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --  Vortex  Events  P:L IMIT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_eve_plimit/"
+
 eventfolder  = "y_vortex_z_level/"
 title = "Vx:(Y) Event (Z) Level"
 AddAction(0,  0, "/P:L IMIT/Cnt=X")
@@ -70,6 +58,7 @@ AddAction(1,  0, "/P:L IMIT/Cnt=X")
 --  Vortex  Raid  P:L IMIT  --
 MenuCreate("-----")
 parentsubfol = "dungeon_raid_plimit/"
+
 eventfolder  = "1st_vortex_z_level/"
 title = "Vx:1st Raid (Z) Level"
 AddAction(0,  0, "/P:L IMIT/Cnt=X")
