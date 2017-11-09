@@ -18,9 +18,6 @@ locMainBattleSelectLevelSwipeScrollDn02       	= Pattern(critMainBattleVortexSel
 locMainBattleSelectLevelSwipeScrollUp01       	= locMainBattleSelectLevelSwipeScrollDn02
 locMainBattleSelectLevelSwipeScrollUp02       	= locMainBattleSelectLevelSwipeScrollDn01
 
-varFormNameMainBattleSelectLevelSkelHeld        = "MainFormBattleSelectLevelSkelHeld"
-critMainBattleVortexSelectLevelSkelHeldMid      = folderffbeimage.."select_level/crit_main_battle_vortex_select_level_skel_held_mid.png"
-
 varFormNameMainBattleCompletion					= "MainFormBattleCompletion"
 critMainBattleCompletionAchi	                = folderffbeimage.."battle_completion/crit_completion_achievement.png"
 critMainBattleCompletionInit	                = folderffbeimage.."battle_completion/crit_completion_initial.png"

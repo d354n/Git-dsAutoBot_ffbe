@@ -30,14 +30,6 @@ ActionExecVar(picBtnBattleVortexSelectLevel)
 ActionExecVar(varActionGetVarZ)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
 
-
---  Temporary
-
-ActionOnForm(varFormNameMainBattleSelectLevelSkelHeld)
-ActionExec(varActionExecuteDoClickButton)
-ActionExecVar(picBtnStdYes)
-ActionExecWaitForm(varFormNameMainBattleCompletion)
-
 ActionOnForm(varFormNameMainBattleSelectCompanion)
 ActionExec(varActionExecuteDoFindAndClickWithScroll)
 ActionExecVar(locMainBattleSelectCompanionSwipeScrollDn01)  --  position start down
