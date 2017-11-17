@@ -27,7 +27,6 @@ ActionExecVar(picBtnMainItemsMaterialsSellMulti)
 ActionExecWaitForm(varFormNameMainItemsMaterialsSellMulti)
 
 ActionOnForm(varFormNameMainItemsMaterialsSellMultiSellOff)
-ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 local sData = {}
 --  Shop
 --  allure powder
@@ -61,6 +60,7 @@ sData[table.getn(sData)+1] = folderffbeimage.."items/btn_items_materials_thicken
 --    Spiritsand
 --    Esper's Tear
 --    Talmonite of Life
+ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
 ActionExecVar(locXmidYfiveEights)
 ActionExecVar(locXmidYthreeEights)
 ActionExecVar(locXmidYthreeEights)

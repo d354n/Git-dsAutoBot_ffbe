@@ -32,56 +32,59 @@ ActionExecVar(picBtnMainHomeExpedInfoCharEmpty)
 ActionExecWaitForm(varFormNameMainHomeExpeditionsSelectParty)
 
 ActionOnForm(varFormNameMainHomeExpeditionsSelectParty)
-for i=11,15 do
-    ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
-    local sData = {}
-    sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..i..".png"):similar(0.98)
-    ActionExecVar(locXmidYfiveEights)
-    ActionExecVar(locXmidYthreeEights)
-    ActionExecVar(locXmidYthreeEights)
-    ActionExecVar(locXmidYfiveEights)
-    ActionExecVar(0)
-    ActionExecVar(true)
-    ActionExecVar(3)
-    for iData, vData in pairs(sData) do
-        ActionExecVar(vData)
-    end
-    for iData, vData in pairs(sData) do
-        sData[iData] = nil
-    end
-    sData = nil
-end
 for i=1,5 do
-    ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
+    -- init
     local sData = {}
     sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_gold.png"):similar(0.98)
     sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_blue.png"):similar(0.98)
-    ActionExecVar(locXmidYfiveEights)
-    ActionExecVar(locXmidYthreeEights)
-    ActionExecVar(locXmidYthreeEights)
-    ActionExecVar(locXmidYfiveEights)
+    for j=801,803 do
+        sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
+    end
+    for j=901,913 do
+        sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
+    end
+
+--    ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
+--    ActionExecVar(locXmidYfiveEights)
+--    ActionExecVar(locXmidYthreeEights)
+--    ActionExecVar(locXmidYthreeEights)
+--    ActionExecVar(locXmidYfiveEights)
+--    ActionExecVar(0)
+--    ActionExecVar(true)
+--    ActionExecVar(3)
+    ActionExec(varActionExecuteDoBoxFindAndClickThenScroll)
+    ActionExecVar(locXmidYthreeQuarters)
+    ActionExecVar(locXmidYoneQuarters)
+    ActionExecVar(locXmidYoneQuarters)
+    ActionExecVar(locXmidYthreeQuarters)
     ActionExecVar(0)
     ActionExecVar(true)
-    ActionExecVar(5)
+    ActionExecVar(3)
+    ActionExecVar(varFormNameMainHomeExpeditionsSelectParty)
+    ActionExecVar(varRegionX0YtwoEightsWmaxHfourEights)
+    ActionExecVar(0.98)
+    ActionExecVar("")  --  if last not found then click here
     for iData, vData in pairs(sData) do
         ActionExecVar(vData)
     end
+
+    -- finalize
     for iData, vData in pairs(sData) do
         sData[iData] = nil
     end
     sData = nil
 end
-for i=1,1 do
+for i=1,3 do
     ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
-    local sData = {}
-    sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_purple.png"):similar(0.98)
     ActionExecVar(locXmidYfiveEights)
     ActionExecVar(locXmidYthreeEights)
     ActionExecVar(locXmidYthreeEights)
     ActionExecVar(locXmidYfiveEights)
     ActionExecVar(0)
     ActionExecVar(true)
-    ActionExecVar(3)
+    ActionExecVar(2)
+    local sData = {}
+    sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_purple.png"):similar(0.98)
     for iData, vData in pairs(sData) do
         ActionExecVar(vData)
     end
