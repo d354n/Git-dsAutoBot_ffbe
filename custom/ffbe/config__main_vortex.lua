@@ -36,7 +36,7 @@ AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
 
 eventfolder  = "cur_vortex_z_level/"
-title        = "Vx:Cur Event (Z) Level"
+title = "Vx:Cur Event (Z) Level"
 AddAction(0,  0, "/P:EVE NT/Cnt=X")
 AddAction(1,  0, "/P:EVE NT/Cnt=X")
 --    End    --]===]
@@ -71,6 +71,16 @@ AddAction(1,  0, "/P:L IMIT/Cnt=X")
 
 eventfolder  = "3rd_vortex_z_level/"
 title = "Vx:3rd Raid (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
+
+eventfolder  = "y_vortex_z_level/"
+title = "Vx:(Y) Raid (Z) Level"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
+
+eventfolder  = "cur_vortex_z_level/"
+title = "Vx:Cur Raid (Z) Level"
 AddAction(0,  0, "/P:L IMIT/Cnt=X")
 AddAction(1,  0, "/P:L IMIT/Cnt=X")
 --    End    --]===]

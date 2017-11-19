@@ -15,7 +15,8 @@ local varEvent1   = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level/P:EVE 
 local varEvent2   = "Vx:InSearchOfThrueStrenth Event (Y) Vortex (Z) Level/P:EVE NT/Cnt=X"
 local varCurEvent = "Vx:Cur Event (Z) Level/P:EVE NT/Cnt=X"
 local varVortex1  = "Vx:(Y) Vortex (Z) Level/P:EVE NT/Cnt=X"
-local varRaid     = "Vx:1st Raid (Z) Level/P:L IMIT/Cnt=X"
+local varCurRaid  = "Vx:Cur Raid (Z) Level/P:L IMIT/Cnt=X"
+local varRaid1    = "Vx:(Y) Raid (Z) Level/P:L IMIT/Cnt=X"
 local varTMR      = "Dg:Earth Shrine  Entrance/P:TRUS T/Cnt=X"
 
 MultiCreate()
@@ -40,7 +41,8 @@ for i=1, 2 do
 --                MultiAdd(varCurEvent, "", 0, 0, 1)
 --                MultiAdd(varLapis..varCurEvent, "", 9, 0, 1)
 --                MultiAdd(varVortex1, "",  0, 2, 1)
-                MultiAdd(varRaid, "", 0, 0, 1)
+                MultiAdd(varCurRaid, "", 0, 0, 1)
+--                MultiAdd(varRaid1, "", 0, 2, 1)
                 MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
 --                MultiAdd(varTMR, "", 60)
