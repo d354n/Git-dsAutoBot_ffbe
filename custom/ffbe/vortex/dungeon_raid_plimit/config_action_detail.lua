@@ -23,6 +23,7 @@ end
 
 
 
+dofile(folderffbescript.."config_action_defs_vortex_raid.lua")
 dofile(folderffbescript.."config_action_defs.lua")
 dofile(folderffbescript.."config_action_defs_battle.lua")
 dofile(folderffbescript.."config_action_defs_vortex.lua")

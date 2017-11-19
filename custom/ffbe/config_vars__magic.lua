@@ -212,6 +212,7 @@ picBtnBattleMagicFaith2           	            = folderffbeimage.."magic/btn_bat
 picBtnBattleMagicFira2            	            = folderffbeimage.."magic/btn_battle_magic_fira2.png"
 picBtnBattleMagicFiraga2           		        = folderffbeimage.."magic/btn_battle_magic_firaga2.png"
 picBtnBattleMagicFiraja1           		        = folderffbeimage.."magic/btn_battle_magic_firaja1.png"
+picBtnBattleMagicFlare1            		        = folderffbeimage.."magic/btn_battle_magic_flare1.png"
 picBtnBattleMagicFlare2            		        = folderffbeimage.."magic/btn_battle_magic_flare2.png"
 picBtnBattleMagicHeatBlitz                      = folderffbeimage.."magic/btn_battle_magic_heat_blitz.png"
 picBtnBattleMagicIceBlitz                       = folderffbeimage.."magic/btn_battle_magic_ice_blitz.png"

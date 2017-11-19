@@ -6,8 +6,6 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-picUnitsParty                           = picTxtMainBattleUnitPartyLimit
-
 ActionOnForm(varFormNameMainVortexEvent)
 ActionExec(varActionExecuteDoClickLocation)
 ActionExecVar(locXmidYthreeQuarters)
@@ -24,9 +22,5 @@ ActionExec(varActionExecuteDoClickButtonYtop)
 ActionExecVar(picBtnBattleVortexSelectLevel)
 ActionExecVar(varActionGetVarZ)
 ActionExecWaitForm(varFormNameMainBattleCompletion)
-
-
-
-dofile(folderffbescript.."config_action_defs_vortex_raid.lua")
 
 

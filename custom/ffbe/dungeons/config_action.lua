@@ -44,12 +44,12 @@ ActionExecVar(1)  --  Check Counter Number
 ActionExecVar(varActionGetVarX)  --  Number Is
 ActionExecVar(varActionExecuteDoClickButton)    --  if counter
 ActionExecVar(picBtnBattleCompletionHome)       --  if counter
-ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
-ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
-ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
-ActionExecVar(1)                                --  if counter
 ActionExecVar(varActionExecuteDoCounterInc)     --  if not
 ActionExecVar(1)                                --  if not
+ActionExecVar(varActionExecuteDoCounterReset)   --  if counter
+ActionExecVar(1)                                --  if counter
+ActionExecVar(varActionExecuteDoClickButton)    --  if not counter
+ActionExecVar(picBtnBattleCompletionNext)       --  if not counter
 ActionExecVar(varActionExecuteDoSetActionNextAction)
 ActionExecVar("")
 ActionExecWaitForm(varFormNameMainBattleSelectCompanion)
