@@ -135,8 +135,39 @@ function ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
 end
 
 function ffbeBattleMagicAdd2Dual(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
-    ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
-    ffbeBattleMagicAdd2(vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)
+    if (vMag1 ~= nil) and (vMag1 ~= "") then
+        local vMagic = {}
+        vMagic[1] = vMag1
+        vMagic[2] = vMag2
+        vMagic[3] = vMag3
+        vMagic[4] = vMag4
+        vMagic[5] = vMag5
+        vMagic[6] = vMag6
+        BattleNewRoundExec(varActionExecuteDoBoxFindAndDualClickWithScrollAll)
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollDn01)  --1.dn01
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollDn02)  --2.dn02
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollUp01)  --3.up01
+        BattleNewRoundExecVar(locBattleMagicSwipeSrollUp02)  --4.up02
+        BattleNewRoundExecVar(0)  --5.delay between scroll
+        BattleNewRoundExecVar(7)  --6.max_scroll
+        BattleNewRoundExecVar(0.2)  --delay between click
+        BattleNewRoundExecVar(varFormNameMainBattleEngagedDoAction)  --action if on form
+        BattleNewRoundExecVar(boxBattleMagic)  --box
+        BattleNewRoundExecVar(0.80)
+        for i=1,6 do
+            if (vMagic[i] ~= nil) and (vMagic[i] ~= "") then
+                BattleNewRoundExecVar(vMagic[i])
+            end
+        end
+        for i=1,6 do
+            if (vMagic[i] ~= nil) and (vMagic[i] ~= "") then
+                BattleNewRoundExecVar(vMagic[i])
+            end
+        end
+        BattleNewRoundExecVar(picBtnBattleEngagedBack)
+        BattleNewRoundExec(varActionExecuteDoWait)
+        BattleNewRoundExecVar(1)
+    end
 end
 
 function ffbeBattleSwipeMagicAdd(vParty, vMag1, vMag2, vMag3, vMag4, vMag5, vMag6)

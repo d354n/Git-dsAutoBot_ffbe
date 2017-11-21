@@ -70,6 +70,7 @@ picBtnBattleAbilityDisorder1          		    = folderffbeimage.."magic/btn_battle
 picBtnBattleAbilityDivineRuination1   		    = folderffbeimage.."magic/btn_battle_ability_divine_ruination1.png"
 picBtnBattleAbilityDivingStrike2      		    = folderffbeimage.."magic/btn_battle_ability_diving_strike2.png"
 picBtnBattleAbilityDualBlackMagic1              = folderffbeimage.."magic/btn_battle_ability_dual_black_magic1.png"
+picBtnBattleAbilityDualBlackMagic2              = folderffbeimage.."magic/btn_battle_ability_dual_black_magic2.png"
 picBtnBattleAbilityDualcast1                    = folderffbeimage.."magic/btn_battle_ability_dualcast1.png"
 picBtnBattleAbilityDualcast2                    = folderffbeimage.."magic/btn_battle_ability_dualcast2.png"
 picBtnBattleAbilityEccentrick2                  = folderffbeimage.."magic/btn_battle_ability_eccentrick2.png"
