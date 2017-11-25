@@ -24,23 +24,23 @@ for j=1, 5 do
     ffbeBattleSwipeMagicAdd2(1, picBtnBattleAbilityHeavensFury2, picBtnBattleMagicThundaja1)
 --    ffbeBattleSwipeMagicAdd2(1, picBtnBattleMagicThundaja1, picBtnBattleAbilityHeavensFury2)
 
---    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1)
-    ffbeBattleSwipeMagicAdd2(2, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1, picBtnBattleAbilityGlacialWave1)
+    ffbeBattleSwipeMagicAdd2(2, picBtnBattleAbilityGlacialWave1, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1)
+--    ffbeBattleSwipeMagicAdd2(2, picBtnBattleMagicAeroga2, picBtnBattleMagicBlizzaga1, picBtnBattleAbilityGlacialWave1)
 
---    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityRicochet2, picBtnBattleAbilityDisorder1)
-    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDisorder1, picBtnBattleAbilityRicochet2)
+    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityRicochet2, picBtnBattleAbilityDisorder1)
+--    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDisorder1, picBtnBattleAbilityRicochet2)
 
---    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityPrismaticFlash2, picBtnBattleAbilityRedCard2)
-    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityPrismaticFlash2, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
+    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityPrismaticFlash2, picBtnBattleAbilityRedCard2)
+--    ffbeBattleSwipeMagicAdd2(4, picBtnBattleAbilityPrismaticFlash2, picBtnBattleAbilityCursedCard2, picBtnBattleAbilityRedCard2)
 
---    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityFireFlask2, picBtnBattleAbilityBlizzardFlask1, picBtnBattleAbilityThunderFlask2, picBtnBattleMagicBiora1)
-    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityLink1, picBtnBattleAbilityFireFlask2, picBtnBattleAbilityThunderFlask2, picBtnBattleMagicBiora1)
+    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityFireFlask2, picBtnBattleAbilityBlizzardFlask1, picBtnBattleAbilityThunderFlask2, picBtnBattleMagicBiora1)
+--    ffbeBattleSwipeMagicAdd2(5, picBtnBattleAbilityLink1, picBtnBattleAbilityFireFlask2, picBtnBattleAbilityThunderFlask2, picBtnBattleMagicBiora1)
 
     ffbeBattleAutoOnOff()
 
-    --    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
-    --    ffbeBattleMagicAdd2Dual(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
-    --    ffbeBattleClickParty(5)
+--    ffbeBattleSwipeMagicAdd2(3, picBtnBattleAbilityDualBlackMagic1, picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+--    ffbeBattleMagicAdd2Dual(picBtnBattleMagicBlizzaga1, picBtnBattleMagicThundaga2)
+--    ffbeBattleClickParty(5)
 
     for i=1, 3 do
         BattleNewRound()
