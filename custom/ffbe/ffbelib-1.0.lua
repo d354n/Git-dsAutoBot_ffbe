@@ -245,6 +245,32 @@ function ffbeBattleSwipeDefend(vParty)
     end
 end
 
+function ffbeBattleSwipeItemAdd(vParty, vItem1, vItem2, vItem3, vItem4, vItem5)
+    BattleNewRoundExec(varActionExecuteDoSwipeLocation)
+    if vParty == 1 then
+        BattleNewRoundExecVar(locBattleParty1Center)
+        BattleNewRoundExecVar(locBattleParty1Left)
+    elseif vParty == 2 then
+        BattleNewRoundExecVar(locBattleParty2Center)
+        BattleNewRoundExecVar(locBattleParty2Left)
+    elseif vParty == 3 then
+        BattleNewRoundExecVar(locBattleParty3Center)
+        BattleNewRoundExecVar(locBattleParty3Left)
+    elseif vParty == 4 then
+        BattleNewRoundExecVar(locBattleParty4Center)
+        BattleNewRoundExecVar(locBattleParty4Left)
+    elseif vParty == 5 then
+        BattleNewRoundExecVar(locBattleParty5Center)
+        BattleNewRoundExecVar(locBattleParty5Left)
+    else
+        BattleNewRoundExecVar(locBattleParty6Center)
+        BattleNewRoundExecVar(locBattleParty6Left)
+    end
+    BattleNewRoundExec(varActionExecuteDoWait)
+    BattleNewRoundExecVar(0.5)
+    ffbeBattleMagicAdd2(vItem1, vItem2, vItem3, vItem4, vItem5)
+end
+
 function ffbeBattleClickParty(vParty, vWait)
     if vWait == nil then
         vWait = 0

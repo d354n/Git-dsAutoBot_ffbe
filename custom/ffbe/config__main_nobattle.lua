@@ -118,7 +118,12 @@ title = "Units  Level Up  /C:Leader"
 AddAction(0,  0, "/P:LE VEL")
 
 varActionName = "Units  Sell Gil Snapper"
-foldername = "../custom/ffbe/nobattle/units_gil_snapper_sell/"
+foldername = "../custom/ffbe/nobattle/units_sell_gil_snapper/"
+parentfolder = foldername
+dofile(scriptPath()..foldername.."config_action.lua")
+
+varActionName = "Units  Sell Standard Summon (Experimental)"
+foldername = "../custom/ffbe/nobattle/units_sell_standard_summon/"
 parentfolder = foldername
 dofile(scriptPath()..foldername.."config_action.lua")
 

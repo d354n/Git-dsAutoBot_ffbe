@@ -8,6 +8,8 @@
 
 ActionOnForm(varFormNameMainHomeExpeditionsNew)
 ActionExec(varActionExecuteDoClickButton)
+ActionExecVar(picBtnMainHomeExpedNewDoDuration3h)
+ActionExecVar(picBtnMainHomeExpedNewDoDuration8h)
 ActionExecVar(picBtnMainHomeExpedNewDoD)
 ActionExecVar(picBtnMainHomeExpedNewDoC)
 ActionExecVar(picBtnMainHomeExpedNewDoB)

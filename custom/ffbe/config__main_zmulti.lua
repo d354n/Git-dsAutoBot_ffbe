@@ -17,6 +17,7 @@ local varEvent1   = "Vx:(Y) Event (Z) Level/P:EVE NT/Cnt=X"
 local varCurRaid  = "Vx:Cur Raid (Z) Level/P:L IMIT/Cnt=X"
 local varRaid1    = "Vx:(Y) Raid (Z) Level/P:L IMIT/Cnt=X"
 local varTMR      = "Dg:Earth Shrine  Entrance/P:TRUS T/Cnt=X"
+local varSellStd  = "Units  Sell Standard Summon (Experimental)"
 
 MultiCreate()
 MultiAdd("Ar:Colosseum/TopLevel/4thRound/Cnt=X", "", 1)
@@ -25,25 +26,30 @@ for i=1, 2 do
     MultiAdd("Items  Materials  Sell Items")
     MultiAdd("Friends  Receive Send All")
     MultiAdd("Quests  Daily Claim")
+    MultiAdd("Expeditions  Get All Completed")
+    MultiAdd("Expeditions  Do D C B A Free S  Optimize")
     for j=1, 1 do
         for k=1, 3 do
-            for l=1,3 do
+            MultiAdd(varBattle)
+            MultiAdd(varCurRaid, "", 0, 0, 1)
+--            MultiAdd(varRaid1, "", 0, 2, 1)
+            for l=1,2 do
                 MultiAdd("Expeditions  Get All Completed")
                 MultiAdd("Expeditions  Do D C B A Free S  Optimize")
 
 --                MultiAdd(varBattle)
---                MultiAdd(varCurRaid, "", 0, 0, 1)
+--                MultiAdd(varCurRaid, "", 0, 0, 1)c
 --                MultiAdd(varRaid1, "", 0, 2, 1)
 
 --                MultiAdd(varBattle)
---                  MultiAdd(varVortex1, "",  0, 2, 1)
+--                MultiAdd(varVortex1, "",  0, 2, 1)
 
 --                MultiAdd(varBattle)
 --                MultiAdd(varCurEvent, "", 0, 0, 1)
 --                MultiAdd(varLapis..varCurEvent, "", 10, 0, 1)
---                MultiAdd(varLapis..varEvent1, "", 5, 1, 1)
+--                MultiAdd(varLapis..varEvent1, "", 20, 1, 1)
 
-                MultiAdd(varBattle)
+--                MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
 
             end

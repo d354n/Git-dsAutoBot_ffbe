@@ -7,9 +7,12 @@
 --
 
 varFormNameMainUnits                            = "MainFormUnits"
+varFormNameMainUnits                            = "MainFormUnits"
 critMainUnitsTop				                = folderffbeimage.."units/crit_units_top.png"
 picBtnMainUnitsView                             = folderffbeimage.."units/btn_units_viewsell.png"
 picBtnMainUnitsEnhance                          = folderffbeimage.."units/btn_units_enhance.png"
+picBtnMainUnitsMaxLevelBlue                     = folderffbeimage.."units/btn_btn_max_level_blue.png"
+picBtnMainUnitsMaxLevelGold                     = folderffbeimage.."units/btn_btn_max_level_gold.png"
 locMainUnitSwipe01                              = Pattern(folderffbeimage.."units/btn_units_function.png"):targetOffset(-100, 200)
 locMainUnitSwipe02                              = Pattern(folderffbeimage.."units/btn_units_function.png"):targetOffset(-200, 200)
 
@@ -78,8 +81,8 @@ FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellDetailConfFinMid)
 FormCreate(varFormNameMainUnitsSellNotZero)
 FormAddCriteria2Do(varCriteriaExists, critMainBottom)
 FormAddCriteria2Do(varCriteriaExists, critMainUnitsSellTop)
-FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellDetailConfFinMid)
 FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellZero)
+FormAddCriteria2Do(varCriteriaNotExists, critMainUnitsSellDetailConfFinMid)
 
 FormCreate(varFormNameMainUnitsSellDetail)
 FormAddCriteria2Do(varCriteriaNotExists, critMainBottom)

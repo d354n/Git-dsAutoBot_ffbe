@@ -25,6 +25,7 @@ folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 dofile(folderffbescript.."ffbelib-1.0.lua")
 
 dofile(folderffbescript.."config_vars.lua")         --  1st
+dofile(folderffbescript.."config_vars__item.lua")
 dofile(folderffbescript.."config_vars__magic.lua")
 dofile(folderffbescript.."config_vars_form_arena.lua")
 dofile(folderffbescript.."config_vars_form_arena_colosseum.lua")
