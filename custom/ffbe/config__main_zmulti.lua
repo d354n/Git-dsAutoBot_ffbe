@@ -31,14 +31,17 @@ for i=1, 2 do
     for j=1, 1 do
         for k=1, 3 do
             MultiAdd(varBattle)
-            MultiAdd(varCurRaid, "", 0, 0, 1)
+--            MultiAdd(varCurRaid, "", 5, 0, 1)
+            MultiAdd(varLapis..varCurRaid, "", 5, 0, 1)
 --            MultiAdd(varRaid1, "", 0, 2, 1)
+
+--            MultiAdd(varBattle)
             for l=1,2 do
                 MultiAdd("Expeditions  Get All Completed")
                 MultiAdd("Expeditions  Do D C B A Free S  Optimize")
 
 --                MultiAdd(varBattle)
---                MultiAdd(varCurRaid, "", 0, 0, 1)c
+--                MultiAdd(varCurRaid, "", 0, 0, 1)
 --                MultiAdd(varRaid1, "", 0, 2, 1)
 
 --                MultiAdd(varBattle)
@@ -49,8 +52,9 @@ for i=1, 2 do
 --                MultiAdd(varLapis..varCurEvent, "", 10, 0, 1)
 --                MultiAdd(varLapis..varEvent1, "", 20, 1, 1)
 
---                MultiAdd(varBattle)
+                MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
+--                MultiAdd(varLapis..varTMR, "", 60)
 
             end
 --            MultiAdd(varBattle)
