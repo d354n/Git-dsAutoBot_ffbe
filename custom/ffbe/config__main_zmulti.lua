@@ -13,6 +13,7 @@ local varLapis    = "LapisWarning "
 local varBattle   = "Ar:Battle  First Row/Cnt=X"
 local varVortex1  = "Vx:(Y) Vortex (Z) Level/P:EVE NT/Cnt=X"
 local varCurEvent = "Vx:Cur Event (Z) Level/P:EVE NT/Cnt=X"
+local varCurEveNB = "Vx:Cur Event (Z) Level No Bonus/P:L IMIT/Cnt=X"
 local varEvent1   = "Vx:(Y) Event (Z) Level/P:EVE NT/Cnt=X"
 local varCurRaid  = "Vx:Cur Raid (Z) Level/P:L IMIT/Cnt=X"
 local varRaid1    = "Vx:(Y) Raid (Z) Level/P:L IMIT/Cnt=X"
@@ -32,7 +33,7 @@ for i=1, 2 do
         for k=1, 3 do
             MultiAdd(varBattle)
 --            MultiAdd(varCurRaid, "", 5, 0, 1)
-            MultiAdd(varLapis..varCurRaid, "", 5, 0, 1)
+            MultiAdd(varLapis..varCurEveNB, "", 5, 0, 1)
 --            MultiAdd(varRaid1, "", 0, 2, 1)
 
 --            MultiAdd(varBattle)

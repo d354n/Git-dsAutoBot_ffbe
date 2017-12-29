@@ -51,6 +51,11 @@ eventfolder  = "y_vortex_z_level/"
 title = "Vx:(Y) Event (Z) Level"
 AddAction(0,  0, "/P:L IMIT/Cnt=X")
 AddAction(1,  0, "/P:L IMIT/Cnt=X")
+
+eventfolder  = "cur_vortex_z_level_nobonus/"
+title = "Vx:Cur Event (Z) Level No Bonus"
+AddAction(0,  0, "/P:L IMIT/Cnt=X")
+AddAction(1,  0, "/P:L IMIT/Cnt=X")
 --    End    --]===]
 
 
