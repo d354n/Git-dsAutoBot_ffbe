@@ -18,6 +18,9 @@ custom/ffbe/explorations/level/private/*.*
 custom/ffbe/explorations/trust/private/*.*
 custom/ffbe/nobattle/zold/
 custom/ffbe/vortex/zold/
+custom/_default_start_folder/
+custom/friendly_fire/
+custom/line_gundam_wars/
 
 .idea/*.*
 .sync/

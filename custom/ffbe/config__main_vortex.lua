@@ -154,6 +154,10 @@ title = "Vx:Desires: Awakening (Z) Level"
 AddAction(0,  0, "/P:LE VEL/Cnt=X")
 AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
+eventfolder  = "chamber_of_gems_z_level/"
+title = "Vx:Desires: Gems (Z) Level"
+AddAction(0,  0, "/P:LE VEL/Cnt=X")
+AddAction(1,  0, "/P:LE VEL/Cnt=X")
 
 
 --  Vortex  Dungeon  Others  --

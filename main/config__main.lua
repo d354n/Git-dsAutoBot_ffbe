@@ -8,3 +8,4 @@
 
 dofile(scriptPath().."../custom/ffbe/config__main.lua")
 
+

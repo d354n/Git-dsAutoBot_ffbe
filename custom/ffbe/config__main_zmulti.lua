@@ -29,14 +29,16 @@ for i=1, 2 do
     MultiAdd("Quests  Daily Claim")
     MultiAdd("Expeditions  Get All Completed")
     MultiAdd("Expeditions  Do D C B A Free S  Optimize")
-    for j=1, 1 do
+    for j=1, 2 do
+--        MultiAdd(varBattle)
+--        MultiAdd(varLapis..varCurEveNB, "",10, 0, 1)
         for k=1, 3 do
             MultiAdd(varBattle)
---            MultiAdd(varCurRaid, "", 5, 0, 1)
-            MultiAdd(varLapis..varCurEveNB, "", 5, 0, 1)
+            MultiAdd(varCurRaid, "", 5, 0, 1)
+--            MultiAdd(varLapis..varCurEveNB, "", 5, 0, 1)
 --            MultiAdd(varRaid1, "", 0, 2, 1)
 
---            MultiAdd(varBattle)
+            MultiAdd(varBattle)
             for l=1,2 do
                 MultiAdd("Expeditions  Get All Completed")
                 MultiAdd("Expeditions  Do D C B A Free S  Optimize")
@@ -53,7 +55,7 @@ for i=1, 2 do
 --                MultiAdd(varLapis..varCurEvent, "", 10, 0, 1)
 --                MultiAdd(varLapis..varEvent1, "", 20, 1, 1)
 
-                MultiAdd(varBattle)
+--                MultiAdd(varBattle)
                 MultiAdd(varLapis..varTMR, "", 60)
 --                MultiAdd(varLapis..varTMR, "", 60)
 
@@ -71,7 +73,7 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 02
 MultiCreate()
-for i=1, 3 do
+for i=1, 2 do
     MultiAdd(varBattle)
 end
 for i=1, 3 do
@@ -85,11 +87,15 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 03
 MultiCreate()
-for i=1, 3 do
+for i=1, 2 do
     MultiAdd(varBattle)
 end
 for i=1, 5 do
-    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 2)
+--    MultiAdd(varLapis.."Vx:Desires: Awakening (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 2)
+    MultiAdd(varLapis.."Vx:Desires: Gems (Z) Level/P:LE VEL/Cnt=X", "", 0, 0, 1)
+--    1. Faeries - Black Green White
+--    2. Guard Power Tech
+--    3. Healing Support
 end
 MultiAdd(varActionDoGotoAction1)
 --    End    --]===]
@@ -98,7 +104,7 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 04
 MultiCreate()
-for i=1, 3 do
+for i=1, 2 do
     MultiAdd(varBattle)
 end
 for i=1, 5 do
@@ -111,7 +117,7 @@ MultiAdd(varActionDoGotoAction1)
 
 -- [===[  Multi 05   --   1  Black  Green  White   2  Guard  Power  Tech   3  Healing  Support
 MultiCreate()
-for i=1, 3 do
+for i=1, 2 do
     MultiAdd(varBattle)
 end
 for i=1, 5 do

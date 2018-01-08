@@ -39,10 +39,19 @@ for i=1,5 do
     local sData = {}
     sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_gold.png"):similar(0.98)
     sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_blue.png"):similar(0.98)
+    for j=601,609 do
+        sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
+    end
     for j=801,803 do
         sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
     end
-    for j=901,913 do
+    for j=851,855 do
+        sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
+    end
+    for j=901,904 do
+        sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
+    end
+    for j=951,952 do
         sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_char_"..j..".png"):similar(0.98)
     end
 
@@ -69,7 +78,6 @@ for i=1,5 do
     for iData, vData in pairs(sData) do
         ActionExecVar(vData)
     end
-
     -- finalize
     for iData, vData in pairs(sData) do
         sData[iData] = nil
@@ -77,6 +85,9 @@ for i=1,5 do
     sData = nil
 end
 for i=1,3 do
+    local sData = {}
+    sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_purple.png"):similar(0.98)
+
     ActionExec(varActionExecuteDoFindAllAndClickWithScroll)
     ActionExecVar(locXmidYfiveEights)
     ActionExecVar(locXmidYthreeEights)
@@ -85,11 +96,10 @@ for i=1,3 do
     ActionExecVar(0)
     ActionExecVar(true)
     ActionExecVar(2)
-    local sData = {}
-    sData[table.getn(sData)+1] = Pattern(varDirectoryCustomImage.."btn_purple.png"):similar(0.98)
     for iData, vData in pairs(sData) do
         ActionExecVar(vData)
     end
+    -- finalize
     for iData, vData in pairs(sData) do
         sData[iData] = nil
     end

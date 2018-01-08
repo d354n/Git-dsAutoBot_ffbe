@@ -16,9 +16,7 @@ optPNGnotFoundSave  = true
 folderImgParams = "nox1/"
 
 --  dont change start  --
-expFilename             = scriptPath().."../custom/ffbe/experience_data/".."exp_data.txt"
-folderLogBattleResult = "../debug/log_battle_results/"
-
+expFilename      = scriptPath().."../custom/ffbe/experience_data/".."exp_data.txt"
 folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
 
