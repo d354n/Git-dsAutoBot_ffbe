@@ -12,13 +12,18 @@
 --  Parameteres
 Settings:set("MinSimilarity", 0.85)
 varCountWaitTillFound = 3  --  how many counts to check Form Waiting before restart checking
-optPNGnotFoundSave  = true
+optPNGnotFoundSave  = false
 folderImgParams = "nox1/"
 
 --  dont change start  --
 expFilename      = scriptPath().."../custom/ffbe/experience_data/".."exp_data.txt"
 folderffbescript = scriptPath().."../custom/ffbe/"
 folderffbeimage  = "../../custom/ffbe/image/"..folderImgParams
+
+--folderffbescript = scriptPath().."../"
+--folderffbeimage  = "../../image/"..folderImgParams
+
+
 
 dofile(folderffbescript.."ffbelib-1.0.lua")
 
