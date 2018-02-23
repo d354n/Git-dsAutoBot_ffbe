@@ -102,8 +102,6 @@ dofile(folderffbescript.."config__main_nobattle.lua")
 
 MenuCreate("-----")
 
-
-
 dofile(folderffbescript.."config__main_zmulti.lua")
 
 

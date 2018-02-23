@@ -34,12 +34,16 @@ for i=1, 2 do
 --        MultiAdd(varLapis..varCurEveNB, "",10, 0, 1)
         for k=1, 3 do
             MultiAdd(varBattle)
-            MultiAdd(varCurRaid, "", 5, 0, 1)
+--            MultiAdd(varCurEvent, "", 5, 0, 2)
+--            MultiAdd(varLapis..varCurEvent, "", 5, 0, 2)
+            MultiAdd(varCurRaid, "", 0, 0, 1)
 --            MultiAdd(varLapis..varCurEveNB, "", 5, 0, 1)
 --            MultiAdd(varRaid1, "", 0, 2, 1)
 
-            MultiAdd(varBattle)
+--            MultiAdd(varBattle)
             for l=1,2 do
+--                MultiAdd("Friends  Receive Send All")
+--                MultiAdd("Quests  Daily Claim")
                 MultiAdd("Expeditions  Get All Completed")
                 MultiAdd("Expeditions  Do D C B A Free S  Optimize")
 
@@ -51,18 +55,21 @@ for i=1, 2 do
 --                MultiAdd(varVortex1, "",  0, 2, 1)
 
 --                MultiAdd(varBattle)
---                MultiAdd(varCurEvent, "", 0, 0, 1)
+--                MultiAdd(varCurEvent, "", 5, 0, 2)
 --                MultiAdd(varLapis..varCurEvent, "", 10, 0, 1)
 --                MultiAdd(varLapis..varEvent1, "", 20, 1, 1)
 
 --                MultiAdd(varBattle)
-                MultiAdd(varLapis..varTMR, "", 60)
+                MultiAdd(varTMR, "", 60)
 --                MultiAdd(varLapis..varTMR, "", 60)
 
             end
 --            MultiAdd(varBattle)
 --            MultiAdd(varLapis..varTMR, "", 60)
         end
+        MultiAdd(varBattle)
+--        MultiAdd(varCurRaid, "", 5, 0, 0)
+--        MultiAdd(varBattle)
     end
 --    MultiAdd("Summon  Once a Day Limited Summon (250)")
 end
